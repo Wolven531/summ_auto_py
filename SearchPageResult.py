@@ -15,8 +15,8 @@ class SearchPageResult():
             This function should grab all URLs from within a blob of text
         """
         tree = html.fromstring(target_str)
-        hrefs = tree.xpath('//a[@class="layer-link"]/@href')
-        return hrefs
+        urls = tree.xpath('//a[@class="layer-link"]/@href')
+        return urls
 
     def __init__(self, page, json):
         self.page_num = page
