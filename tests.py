@@ -196,6 +196,5 @@ class FuncTests(unittest.TestCase):
             '//summonerswar.co/light-amazon-lyn/',
             f'Inaccurate link for light')
 
-
 if __name__ == '__main__':
     unittest.main()
