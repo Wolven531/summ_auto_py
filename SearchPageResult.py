@@ -10,7 +10,8 @@ class SearchPageResult():
         page
     """
 
-    def parse_urls_from_response(self, target_str):
+    @staticmethod
+    def parse_urls_from_response(target_str):
         """
             This function should grab all URLs from within a blob of text
         """
@@ -23,5 +24,13 @@ class SearchPageResult():
         self.json = json
         self.json_pages = self.json['pages']
         self.json_content = self.json['content']
-        self.hrefs = self.parse_urls_from_response(self.json_content)
+        self.hrefs = SearchPageResult.parse_urls_from_response(self.json_content)
         print(f'Parsed {self.page_num}; resp.pages: {self.json_pages}')
+
+    def print_search_info(self):
+        """
+            This method prints out the basic information parsed from a search page
+        """
+        print(f'Page Num: {self.page_num}')
+        print(f'Href Count: {len(self.hrefs)}')
+        print(f'JSON Pages: {len(self.json_pages)}')
