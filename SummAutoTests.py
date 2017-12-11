@@ -10,7 +10,7 @@ from lxml import html
 
 class SummAutoTests(unittest.TestCase):
     """
-        Some class docstring
+        This class tests all of the functionality in the SummAuto application
     """
 
     TOTAL_MON_COUNT = 482
@@ -69,16 +69,25 @@ class SummAutoTests(unittest.TestCase):
         tree = html.fromstring(page.content)
         mon = MonsterPage(tree)
 
-        self.assertEqual(mon.sleepy_name, 'Dark Amazon', f'Expected monster sleepy name to equal "Dark Amazon"')
+        self.assertEqual(
+            mon.sleepy_name,
+            'Dark Amazon',
+            f'Expected monster sleepy name to equal "Dark Amazon"')
         self.assertEqual(mon.awaken_name, 'Mara', f'Expected monster awakened name to equal "Mara"')
 
         self.assertEqual(mon.element, 'Dark', f'Expected monster to be of type "Dark"')
 
         self.assertEqual(mon.grade, '★★★', f'Expect monster grade to be three stars')
-        self.assertEqual(mon.grade_num, 3, f'Expect numeric value of grade to match number of stars')
+        self.assertEqual(
+            mon.grade_num,
+            3,
+            f'Expect numeric value of grade to match number of stars')
 
         self.assertEqual(mon.mon_type, 'Attack', f'Expect monster type to be "Attack"')
-        self.assertEqual(mon.get_from, 'Scroll of Light & Darkness, Temple of Wishes', f'Expect monster get from to be "Scroll of Light & Darkness, Temple of Wishes"')
+        self.assertEqual(
+            mon.get_from,
+            'Scroll of Light & Darkness, Temple of Wishes',
+            f'Expect monster get from to be "Scroll of Light & Darkness, Temple of Wishes"')
         self.assertEqual(
             mon.when_awakened,
             'Leader Skill: The Attack Power of ally Monsters is increased by 21% in Guild Battles.',

@@ -37,7 +37,8 @@ class PageParser():
                       'AppleWebKit/605.1.12 (KHTML, like Gecko) Version/11.1 Safari/605.1.12'
     }
 
-    def parse_next_search_page(self, requested_page, num_requested=25):
+    @staticmethod
+    def parse_next_search_page(requested_page, num_requested=25):
         """
             This loads and parses a search page result
         """
@@ -45,7 +46,7 @@ class PageParser():
         response = requests.post(
             'https://summonerswar.co/wp-admin/admin-ajax.php',
             headers=PageParser.POST_HEADERS,
-            data=self.get_search_page_request(
+            data=PageParser.get_search_page_request(
                 page_num=requested_page,
                 opts={'articles_num': num_requested}
             )
@@ -57,7 +58,8 @@ class PageParser():
         json = response.json()
         return SearchPageResult(requested_page, json)
 
-    def get_search_page_request(self, page_num=1, opts=None):
+    @staticmethod
+    def get_search_page_request(page_num=1, opts=None):
         """
             This function provides the payload data for the next mon request
 
@@ -76,12 +78,36 @@ class PageParser():
                 }
         """
         opts = opts or {}
-        articles_num = opts['articles_num']     if 'articles_num' in opts else PageParser.DEFAULT_SEARCH['article_num']
-        cols = opts['cols']                     if 'cols' in opts else PageParser.DEFAULT_SEARCH['cols']
-        rating = opts['rating']                 if 'rating' in opts else PageParser.DEFAULT_SEARCH['rating']
-        sorter = opts['sorter']                 if 'sorter' in opts else PageParser.DEFAULT_SEARCH['sorter']
-        category_name = opts['category_name']   if 'category_name' in opts else PageParser.DEFAULT_SEARCH['category_name']
-        title = opts['title']                   if 'title' in opts else PageParser.DEFAULT_SEARCH['title']
+
+        if 'articles_num' in opts:
+            articles_num = opts['articles_num']
+        else:
+            articles_num = PageParser.DEFAULT_SEARCH['article_num']
+
+        if 'cols' in opts:
+            cols = opts['cols']
+        else:
+            cols = PageParser.DEFAULT_SEARCH['cols']
+
+        if 'rating' in opts:
+            rating = opts['rating']
+        else:
+            rating = PageParser.DEFAULT_SEARCH['rating']
+
+        if 'sorter' in opts:
+            sorter = opts['sorter']
+        else:
+            sorter = PageParser.DEFAULT_SEARCH['sorter']
+
+        if 'category_name' in opts:
+            category_name = opts['category_name']
+        else:
+            category_name = PageParser.DEFAULT_SEARCH['category_name']
+
+        if 'title' in opts:
+            title = opts['title']
+        else:
+            title = PageParser.DEFAULT_SEARCH['title']
 
         data_pieces = [
             'action=itajax-sort&view=grid&loop=main+loop',

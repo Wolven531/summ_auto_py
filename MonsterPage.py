@@ -9,6 +9,33 @@ class MonsterPage():
 
     OVERVIEW_XPATH = '//*[@id="overview-anchor"]/div[2]/div[2]'
 
+    @staticmethod
+    def get_next_element(element):
+        """
+            This method returns the next element in the sequence
+            Vinny saw in the code, o_O
+        """
+        if element == 'Dark':
+            return 'Fire'
+        if element == 'Fire':
+            return 'Water'
+        if element == 'Water':
+            return 'Wind'
+        if element == 'Wind':
+            return 'Light'
+        return 'Dark'
+
+    def __init__(self, tree):
+        self.parse_name(tree)
+        self.parse_grade(tree)
+        self.parse_type(tree)
+        self.parse_get_from(tree)
+        self.parse_when_awakened(tree)
+        self.parse_good_for(tree)
+        self.parse_skillup_info(tree)
+        self.parse_alts(tree)
+        self.print_mon_info()
+
     def print_mon_info(self):
         """
             This method prints out the basic information parsed from a MonsterPage
@@ -21,17 +48,6 @@ class MonsterPage():
         print(f'Awakened: {self.when_awakened}')
         print(f'Good For: {self.good_for}')
         print(f'Skill Up Info: {self.skillup_info}')
-
-    def __init__(self, tree):
-        self.parse_name(tree)
-        self.parse_grade(tree)
-        self.parse_type(tree)
-        self.parse_get_from(tree)
-        self.parse_when_awakened(tree)
-        self.parse_good_for(tree)
-        self.parse_skillup_info(tree)
-        self.parse_alts(tree)
-        self.print_mon_info()
 
     def parse_name(self, tree):
         """
@@ -93,21 +109,6 @@ class MonsterPage():
         xpath_selector = self.OVERVIEW_XPATH + '/div[6]/span[2]/p'
         raw_skillup_info = tree.xpath(xpath_selector)[0].text
         self.skillup_info = raw_skillup_info
-
-    def get_next_element(self, element):
-        """
-            This method returns the next element in the sequence
-            Vinny saw in the code, o_O
-        """
-        if element == 'Dark':
-            return 'Fire'
-        if element == 'Fire':
-            return 'Water'
-        if element == 'Water':
-            return 'Wind'
-        if element == 'Wind':
-            return 'Light'
-        return 'Dark'
 
     def parse_alts(self, tree):
         """
