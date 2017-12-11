@@ -5,96 +5,13 @@
 import unittest
 import requests
 from MonsterPage import MonsterPage
-from SearchPageResult import SearchPageResult
+from PageParser import PageParser
 from lxml import html
 
-def parse_next_search_page(requested_page, num_requested=25):
-    """
-        This loads and parses a search page result
-    """
-    print(f'Requesting page {requested_page}...')
-    response = requests.post(
-        'https://summonerswar.co/wp-admin/admin-ajax.php',
-        headers=FuncTests.POST_HEADERS,
-        data=get_search_page_request(
-            page_num=requested_page,
-            opts={'articles_num': num_requested}
-        )
-    )
-
-    if not response.ok:
-        raise Exception(f'Err on {requested_page}; status={response.status_code}')
-
-    json = response.json()
-    return SearchPageResult(requested_page, json)
-
-def get_search_page_request(page_num=1, opts=None):
-    """
-        This function provides the payload data for the next mon request
-
-        Returns:
-            string: The payload data with appropriate values substituted in
-
-        Args:
-            page_num = 1,
-            opts = {
-                articles_num = 16
-                cols = 1
-                rating = 1
-                sorter = 'title'
-                category_name = 'monsters'
-                title = 'Alphabetical+By+Title'
-            }
-    """
-    opts = opts or {}
-    articles_num = opts['articles_num']     if 'articles_num' in opts else FuncTests.DEFAULT_SEARCH['article_num']
-    cols = opts['cols']                     if 'cols' in opts else FuncTests.DEFAULT_SEARCH['cols']
-    rating = opts['rating']                 if 'rating' in opts else FuncTests.DEFAULT_SEARCH['rating']
-    sorter = opts['sorter']                 if 'sorter' in opts else FuncTests.DEFAULT_SEARCH['sorter']
-    category_name = opts['category_name']   if 'category_name' in opts else FuncTests.DEFAULT_SEARCH['category_name']
-    title = opts['title']                   if 'title' in opts else FuncTests.DEFAULT_SEARCH['title']
-
-    data_pieces = [
-        'action=itajax-sort&view=grid&loop=main+loop',
-        f'&location=&thumbnail=1&rating={rating}&meta=1&award=1&badge=1',
-        f'&authorship=1&icon=1&excerpt=1&sorter={sorter}&columns={cols}',
-        f'&layout=full&numarticles={articles_num}&paginated={page_num}&largefirst=',
-        f'&title={title}&timeperiod=',
-        f'&currentquery%5Bcategory_name%5D={category_name}'
-    ]
-    return ''.join(data_pieces)
-
-class FuncTests(unittest.TestCase):
+class SummAutoTests(unittest.TestCase):
     """
         Some class docstring
     """
-
-    DEFAULT_SEARCH = {
-        'articles_num': 16,
-        'cols': 1,
-        'rating': 1,
-        'sorter': 'title',
-        'category_name': 'monsters',
-        'title': 'Alphabetical+By+Title'
-    }
-
-    HEADERS = {
-        # 'Referer': 'https://summonerswar.co/',
-        # 'Host': 'summonerswar.co',
-        # 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        # 'Connection': 'keep-alive',
-        # 'Accept-Encoding': 'br, gzip, deflate',
-        # 'Accept-Language': 'en-us',
-        # 'DNT': '1',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) ' +
-                      'AppleWebKit/605.1.12 (KHTML, like Gecko) Version/11.1 Safari/605.1.12'
-    }
-
-    POST_HEADERS = {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) ' +
-                      'AppleWebKit/605.1.12 (KHTML, like Gecko) Version/11.1 Safari/605.1.12'
-    }
 
     TOTAL_MON_COUNT = 482
 
@@ -111,7 +28,7 @@ class FuncTests(unittest.TestCase):
     #     all_hrefs = list()
 
     #     while not end_of_list_parsed:
-    #         result = parse_next_search_page(requested_page)
+    #         result = PageParser.parse_next_search_page(requested_page)
 
     #         for href in result.hrefs:
     #             all_hrefs.append(href)
@@ -134,7 +51,7 @@ class FuncTests(unittest.TestCase):
             Make sure we can hit the landing page which contains
             all of the monster in default sorting
         """
-        page = requests.get('http://summonerswar.co/category/monsters/', headers=self.HEADERS)
+        page = requests.get('http://summonerswar.co/category/monsters/', headers=PageParser.HEADERS)
 
         self.assertTrue(page.ok, f'Non-proper page load. Got status code={page.status_code}')
 
@@ -147,7 +64,7 @@ class FuncTests(unittest.TestCase):
             Make sure we can load and parse information from
             a single monster page
         """
-        page = requests.get('https://summonerswar.co/dark-amazon-mara/', headers=self.HEADERS)
+        page = requests.get('https://summonerswar.co/dark-amazon-mara/', headers=PageParser.HEADERS)
         self.assertTrue(page.ok, f'Non-proper page load. Got status code={page.status_code}')
         tree = html.fromstring(page.content)
         mon = MonsterPage(tree)
