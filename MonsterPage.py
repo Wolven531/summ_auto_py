@@ -8,6 +8,8 @@ class MonsterPage():
     """
 
     OVERVIEW_XPATH = '//*[@id="overview-anchor"]/div[2]/div[2]'
+    SCORE_XPATH = '//*[@id="rating-anchor"]/div[3]/div/div/div[2]/div[1]'
+    ELEMENT_ALT_XPATH = '//*[@id="content-anchor-inner"]/p[1]'
 
     @staticmethod
     def get_next_element(element):
@@ -25,6 +27,17 @@ class MonsterPage():
             return 'Light'
         return 'Dark'
 
+    @staticmethod
+    def parse_alt_link(tree, target_xpath):
+        """
+            This method parses the URL of a particular element version of a monster
+            using xpath on a tree
+        """
+        href = tree.xpath(target_xpath)
+        href_exists = len(href) > 0
+        href = href[0] if href_exists else ''
+        return href
+
     def __init__(self, tree):
         self.parse_name(tree)
         self.parse_grade(tree)
@@ -34,6 +47,7 @@ class MonsterPage():
         self.parse_good_for(tree)
         self.parse_skillup_info(tree)
         self.parse_alts(tree)
+        self.parse_scores(tree)
         self.print_mon_info()
 
     def print_mon_info(self):
@@ -48,6 +62,8 @@ class MonsterPage():
         print(f'Awakened: {self.when_awakened}')
         print(f'Good For: {self.good_for}')
         print(f'Skill Up Info: {self.skillup_info}')
+        print(f'Total Score: {self.score_total}')
+        print(f'User Score: {self.score_user}')
 
     def parse_name(self, tree):
         """
@@ -65,7 +81,7 @@ class MonsterPage():
         """
             This method parses a grade and grade_num from a tree
         """
-        xpath_selector = self.OVERVIEW_XPATH + '/div[1]/span[2]/p'
+        xpath_selector = MonsterPage.OVERVIEW_XPATH + '/div[1]/span[2]/p'
         raw_grade = tree.xpath(xpath_selector)[0].text
         self.grade = raw_grade
         self.grade_num = len(self.grade)
@@ -110,20 +126,26 @@ class MonsterPage():
         raw_skillup_info = tree.xpath(xpath_selector)[0].text
         self.skillup_info = raw_skillup_info
 
+    def parse_scores(self, tree):
+        """
+            This method parses a total and user score from a tree
+        """
+        raw_score_total = tree.xpath(
+            MonsterPage.SCORE_XPATH + '/div[2]/div/div[1]/div/div/div/div[2]/div')[0].text
+        raw_score_user = tree.xpath(
+            MonsterPage.SCORE_XPATH + '/div[3]/div/div[1]/div/div/div/div[2]/div')[0].text
+        self.score_total = float(raw_score_total.strip())
+        self.score_user = float(raw_score_user.strip())
+
     def parse_alts(self, tree):
         """
             This method parses the URL of the fire version of a monster
             from a tree
         """
-        root_xpath = '//*[@id="content-anchor-inner"]/p[1]'
-        xpath_selector1 = root_xpath + '/a[1]/@href'
-        xpath_selector2 = root_xpath + '/a[2]/@href'
-        xpath_selector3 = root_xpath + '/a[3]/@href'
-        xpath_selector4 = root_xpath + '/a[4]/@href'
-        href1 = tree.xpath(xpath_selector1)[0]
-        href2 = tree.xpath(xpath_selector2)[0]
-        href3 = tree.xpath(xpath_selector3)[0]
-        href4 = tree.xpath(xpath_selector4)[0]
+        href1 = self.parse_alt_link(tree, MonsterPage.ELEMENT_ALT_XPATH + '/a[1]/@href')
+        href2 = self.parse_alt_link(tree, MonsterPage.ELEMENT_ALT_XPATH + '/a[2]/@href')
+        href3 = self.parse_alt_link(tree, MonsterPage.ELEMENT_ALT_XPATH + '/a[3]/@href')
+        href4 = self.parse_alt_link(tree, MonsterPage.ELEMENT_ALT_XPATH + '/a[4]/@href')
 
         if self.element == 'Dark':
             self.link_dark = None

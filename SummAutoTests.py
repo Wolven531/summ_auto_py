@@ -100,6 +100,8 @@ class SummAutoTests(unittest.TestCase):
             mon.skillup_info,
             'Worth fully skilling up, but use family skill ups instead of Devilmons',
             f'Inaccurate skillup info message')
+        self.assertAlmostEqual(mon.score_total, 7.7, 3, f'Inaccurate total score')
+        self.assertAlmostEqual(mon.score_user, 8.4, 3, f'Inaccurate user score')
 
         # self.assertEqual(
         #     mon.link_dark,
