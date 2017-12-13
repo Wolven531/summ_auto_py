@@ -1,6 +1,10 @@
 """
-    This is the Monster page module
+    This is the MonsterPage module
 """
+
+from Rating import Rating
+from MonsterType import MonsterType
+
 class MonsterPage():
     """
         This class represents the parsed result of a single monster
@@ -8,35 +12,33 @@ class MonsterPage():
     """
 
     OVERVIEW_XPATH = '//*[@id="overview-anchor"]/div[2]/div[2]'
-    SCORE_XPATH = '//*[@id="rating-anchor"]/div[3]/div/div/div[2]/div[1]'
-    ELEMENT_ALT_XPATH = '//*[@id="content-anchor-inner"]/p[1]'
 
     @staticmethod
-    def get_next_element(element):
+    def parse_alt_link_info(tree, target_xpath):
         """
-            This method returns the next element in the sequence
-            Vinny saw in the code, o_O
+            This method parses the URL and type of a particular element link
+            on a monster page using xpath on a tree
         """
-        if element == 'Dark':
-            return 'Fire'
-        if element == 'Fire':
-            return 'Water'
-        if element == 'Water':
-            return 'Wind'
-        if element == 'Wind':
-            return 'Light'
-        return 'Dark'
+        elem_xpath = '//*[@id="content-anchor-inner"]//p'
 
-    @staticmethod
-    def parse_alt_link(tree, target_xpath):
-        """
-            This method parses the URL of a particular element version of a monster
-            using xpath on a tree
-        """
-        href = tree.xpath(target_xpath)
+        href = tree.xpath(elem_xpath + target_xpath + '/@href')
         href_exists = len(href) > 0
-        href = href[0] if href_exists else ''
-        return href
+
+        alt_type = MonsterType.FIRE # default value
+
+        if href_exists:
+            href = href[0]
+            href_type = tree.xpath(elem_xpath + target_xpath + '/@title')[0]
+            href_type = href_type[0 : href_type.find(' ')].upper()
+            alt_type = MonsterType[href_type]
+        else:
+            href = ''
+
+        return {
+            'alt_link': href,
+            'alt_type': alt_type
+        }
+
 
     def __init__(self, tree):
         self.parse_name(tree)
@@ -48,6 +50,7 @@ class MonsterPage():
         self.parse_skillup_info(tree)
         self.parse_alts(tree)
         self.parse_scores(tree)
+        self.parse_ratings(tree)
         self.print_mon_info()
 
     def print_mon_info(self):
@@ -64,6 +67,8 @@ class MonsterPage():
         print(f'Skill Up Info: {self.skillup_info}')
         print(f'Total Score: {self.score_total}')
         print(f'User Score: {self.score_user}')
+        print(f'Ratings: {self.ratings}')
+        print(f'Links: {self.links}')
 
     def parse_name(self, tree):
         """
@@ -130,50 +135,64 @@ class MonsterPage():
         """
             This method parses a total and user score from a tree
         """
+        xpath_rating = '//*[@id="rating-anchor"]'
+        xpath_editor = '//*[contains(@class, "editor_rating")]'
+        xpath_user = '//*[contains(@class, "user_rating")]'
+
         raw_score_total = tree.xpath(
-            MonsterPage.SCORE_XPATH + '/div[2]/div/div[1]/div/div/div/div[2]/div')[0].text
+            xpath_rating + xpath_editor + '/*[contains(@class, "number")]')[0].text
         raw_score_user = tree.xpath(
-            MonsterPage.SCORE_XPATH + '/div[3]/div/div[1]/div/div/div/div[2]/div')[0].text
+            xpath_rating + xpath_user + '/*[contains(@class, "number")]')[0].text
+
         self.score_total = float(raw_score_total.strip())
         self.score_user = float(raw_score_user.strip())
+
+    def parse_ratings(self, tree):
+        """
+            This method parses the ratings for a given monster from a tree
+        """
+        reaction_xpath = '//div[contains(@class,"reaction-percentage")]'
+
+        raw_rating_keep = tree.xpath(reaction_xpath + "[contains(@class,'keep')]")[0].text
+        raw_rating_food = tree.xpath(reaction_xpath + "[contains(@class,'food')]")[0].text
+        raw_rating_best = tree.xpath(reaction_xpath + "[contains(@class,'best')]")[0].text
+        raw_rating_meh = tree.xpath(reaction_xpath + "[contains(@class,'meh')]")[0].text
+
+        no_percent_keep = raw_rating_keep.replace('%', '') # remove the '%' char
+        no_percent_food = raw_rating_food.replace('%', '')
+        no_percent_best = raw_rating_best.replace('%', '')
+        no_percent_meh = raw_rating_meh.replace('%', '')
+
+        self.ratings = {
+            Rating.KEEP_IT: float(no_percent_keep),
+            Rating.FOOD: float(no_percent_food),
+            Rating.THE_BEST: float(no_percent_best),
+            Rating.MEH: float(no_percent_meh),
+        }
 
     def parse_alts(self, tree):
         """
             This method parses the URL of the fire version of a monster
             from a tree
         """
-        href1 = self.parse_alt_link(tree, MonsterPage.ELEMENT_ALT_XPATH + '/a[1]/@href')
-        href2 = self.parse_alt_link(tree, MonsterPage.ELEMENT_ALT_XPATH + '/a[2]/@href')
-        href3 = self.parse_alt_link(tree, MonsterPage.ELEMENT_ALT_XPATH + '/a[3]/@href')
-        href4 = self.parse_alt_link(tree, MonsterPage.ELEMENT_ALT_XPATH + '/a[4]/@href')
+        elem_mapping = {
+            MonsterType.DARK: '',
+            MonsterType.FIRE: '',
+            MonsterType.WATER: '',
+            MonsterType.WIND: '',
+            MonsterType.LIGHT: '',
+        }
 
-        if self.element == 'Dark':
-            self.link_dark = None
-            self.link_fire = href1
-            self.link_water = href2
-            self.link_wind = href3
-            self.link_light = href4
-        elif self.element == 'Fire':
-            self.link_dark = href4
-            self.link_fire = None
-            self.link_water = href1
-            self.link_wind = href2
-            self.link_light = href3
-        elif self.element == 'Water':
-            self.link_dark = href3
-            self.link_fire = href4
-            self.link_water = None
-            self.link_wind = href1
-            self.link_light = href2
-        elif self.element == 'Wind':
-            self.link_dark = href2
-            self.link_fire = href3
-            self.link_water = href4
-            self.link_wind = None
-            self.link_light = href1
-        else:
-            self.link_dark = href1
-            self.link_fire = href2
-            self.link_water = href3
-            self.link_wind = href4
-            self.link_light = None
+        href1_info = self.parse_alt_link_info(tree, '//a[1]')
+        elem_mapping[href1_info['alt_type']] = href1_info['alt_link']
+
+        href2_info = self.parse_alt_link_info(tree, '//a[2]')
+        elem_mapping[href2_info['alt_type']] = href2_info['alt_link']
+
+        href3_info = self.parse_alt_link_info(tree, '//a[3]')
+        elem_mapping[href3_info['alt_type']] = href3_info['alt_link']
+
+        href4_info = self.parse_alt_link_info(tree, '//a[4]')
+        elem_mapping[href4_info['alt_type']] = href4_info['alt_link']
+
+        self.links = elem_mapping
