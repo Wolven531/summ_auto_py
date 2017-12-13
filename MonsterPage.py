@@ -187,10 +187,12 @@ class MonsterPage():
         href2_info = self.parse_alt_link_info(tree, '//a[2]')
         href3_info = self.parse_alt_link_info(tree, '//a[3]')
         href4_info = self.parse_alt_link_info(tree, '//a[4]')
+        href5_info = self.parse_alt_link_info(tree, '//a[5]')
 
         elem_mapping[href1_info['alt_type']] = href1_info['alt_link']
         elem_mapping[href2_info['alt_type']] = href2_info['alt_link']
         elem_mapping[href3_info['alt_type']] = href3_info['alt_link']
         elem_mapping[href4_info['alt_type']] = href4_info['alt_link']
+        elem_mapping[href5_info['alt_type']] = href5_info['alt_link']
 
         self.links = elem_mapping

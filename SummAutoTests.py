@@ -113,7 +113,7 @@ class SummAutoTests(unittest.TestCase):
 
         self.assertEqual(
             mon.links[MonsterType.DARK],
-            '',
+            '//summonerswar.co/dark-amazon-mara/',
             'Inaccurate link for dark')
         self.assertEqual(
             mon.links[MonsterType.FIRE],
