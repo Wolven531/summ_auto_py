@@ -48,7 +48,7 @@ class MonsterPage():
         self.parse_when_awakened(tree)
         self.parse_good_for(tree)
         self.parse_skillup_info(tree)
-        self.parse_alts(tree)
+        self.parse_alt_links(tree)
         self.parse_scores(tree)
         self.parse_ratings(tree)
         self.print_mon_info()
@@ -170,7 +170,7 @@ class MonsterPage():
             Rating.MEH: float(no_percent_meh),
         }
 
-    def parse_alts(self, tree):
+    def parse_alt_links(self, tree):
         """
             This method parses the URL of the fire version of a monster
             from a tree
@@ -184,15 +184,13 @@ class MonsterPage():
         }
 
         href1_info = self.parse_alt_link_info(tree, '//a[1]')
-        elem_mapping[href1_info['alt_type']] = href1_info['alt_link']
-
         href2_info = self.parse_alt_link_info(tree, '//a[2]')
-        elem_mapping[href2_info['alt_type']] = href2_info['alt_link']
-
         href3_info = self.parse_alt_link_info(tree, '//a[3]')
-        elem_mapping[href3_info['alt_type']] = href3_info['alt_link']
-
         href4_info = self.parse_alt_link_info(tree, '//a[4]')
+
+        elem_mapping[href1_info['alt_type']] = href1_info['alt_link']
+        elem_mapping[href2_info['alt_type']] = href2_info['alt_link']
+        elem_mapping[href3_info['alt_type']] = href3_info['alt_link']
         elem_mapping[href4_info['alt_type']] = href4_info['alt_link']
 
         self.links = elem_mapping
