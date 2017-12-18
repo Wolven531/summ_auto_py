@@ -70,7 +70,6 @@ class MonsterPage():
         self.parse_scores(tree)
         self.parse_ratings(tree)
         self.parse_image_links(tree)
-        self.print_mon_info()
 
     def print_mon_info(self):
         """
@@ -104,7 +103,7 @@ class MonsterPage():
         no_spaces = no_parens.replace(' ', '_').strip()
         lowered = no_spaces.lower()
 
-        return f'{cwd}/data/{lowered}.json'
+        return f'{cwd}/data/mons/{lowered}.json'
 
     def serialize(self, filepath=''):
         """

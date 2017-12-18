@@ -2,6 +2,8 @@
     This is the Page Parser module
 """
 
+import json
+import os
 import requests
 from SearchPageResult import SearchPageResult
 
@@ -31,11 +33,52 @@ class PageParser():
                       'AppleWebKit/605.1.12 (KHTML, like Gecko) Version/11.1 Safari/605.1.12'
     }
 
+    TOTAL_MON_COUNT = 482
+
+    PRINT_DETAILS = False
+
     POST_HEADERS = {
         'Content-Type': 'application/x-www-form-urlencoded',
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) ' +
                       'AppleWebKit/605.1.12 (KHTML, like Gecko) Version/11.1 Safari/605.1.12'
     }
+
+    @staticmethod
+    def parse_search_pages(write_to_disk=True):
+        """
+            This method will attempt to scrape the search API for
+            MonsterPage URLs; if called with no param, this method
+            will save the results of the scrape to disk; pass False
+            to prevent this
+            NOTE: this method takes time to complete
+        """
+        requested_page = 1
+        end_of_list_parsed = False
+        all_hrefs = list()
+
+        while not end_of_list_parsed:
+            result = PageParser.parse_next_search_page(requested_page)
+
+            for href in result.hrefs:
+                all_hrefs.append(href)
+
+            if result.json_pages == 0:
+                end_of_list_parsed = True
+            else:
+                requested_page += 1
+
+        if PageParser.PRINT_DETAILS:
+            print(f'Done running. Total hrefs: {len(all_hrefs)}')
+
+        data = {
+            'count': len(all_hrefs),
+            'searched_links': all_hrefs
+        }
+
+        if write_to_disk:
+            with open(os.getcwd() + '/data/searched_links.json', 'w') as outfile:
+                json.dump(data, outfile, sort_keys=True, indent=2)
+        return data
 
     @staticmethod
     def parse_next_search_page(requested_page, num_requested=25):
@@ -55,8 +98,8 @@ class PageParser():
         if not response.ok:
             raise Exception(f'Err on {requested_page}; status={response.status_code}')
 
-        json = response.json()
-        return SearchPageResult(requested_page, json)
+        json_resp = response.json()
+        return SearchPageResult(requested_page, json_resp)
 
     @staticmethod
     def get_search_page_request(page_num=1, opts=None):

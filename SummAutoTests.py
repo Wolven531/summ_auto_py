@@ -4,50 +4,57 @@
 
 import unittest
 import requests
+
+from lxml import html
+
+from LinkType import LinkType
 from MonsterPage import MonsterPage
+from MonsterType import MonsterType
 from PageParser import PageParser
 from Rating import Rating
-from LinkType import LinkType
-from MonsterType import MonsterType
-from lxml import html
+
+def ensure_mon_load(path, max_attempts=3):
+    """
+        This method attempts to ensure a monster page, provided
+        by URL, is successfully loaded by retrying up to a max
+        number of times (default=3)
+    """
+    parsed_mon = None
+    for attempt in range(1, max_attempts):
+        if parsed_mon != None:
+            continue
+        page = requests.get(path, headers=PageParser.HEADERS)
+        if not page.ok:
+            print(f'~~~Attempt {attempt} No page load, retrying...')
+            continue
+        tree = html.fromstring(page.content)
+        potential = MonsterPage(tree)
+        if potential.links[LinkType.DARK] == '':
+            print(f'~~~Attempt {attempt} No dark link, retrying...')
+            continue
+        if potential.links[LinkType.IMAGE_AWAKE] == '':
+            print(f'~~~Attempt {attempt} No image, retrying...')
+            continue
+        parsed_mon = potential
+
+    return parsed_mon
 
 class SummAutoTests(unittest.TestCase):
     """
         This class tests all of the functionality in the SummAuto application
     """
 
-    TOTAL_MON_COUNT = 482
-
-    PRINT_DETAILS = False
-
-    # def test_parse_next_search_page(self):
-    #     """
-    #         Make sure we can hit the landing page which contains
-    #         all of the monster in default sorting
-    #     """
-
-    #     requested_page = 1
-    #     end_of_list_parsed = False
-    #     all_hrefs = list()
-
-    #     while not end_of_list_parsed:
-    #         result = PageParser.parse_next_search_page(requested_page)
-
-    #         for href in result.hrefs:
-    #             all_hrefs.append(href)
-
-    #         if result.json_pages == 0:
-    #             end_of_list_parsed = True
-    #         else:
-    #             requested_page += 1
-
-    #     if self.PRINT_DETAILS:
-    #         print(f'Done running. Total hrefs: {len(all_hrefs)}')
-
-    #     self.assertEqual(
-    #         len(all_hrefs),
-    #         self.TOTAL_MON_COUNT,
-    #         f'Expected {self.TOTAL_MON_COUNT} hrefs...')
+    # @unittest.skip('Skipping searched_link load unless manually enabled...')
+    def test_parse_next_search_page(self):
+        """
+            Make sure we can hit the landing page which contains
+            all of the monster in default sorting
+        """
+        info = PageParser.parse_search_pages()
+        self.assertEqual(
+            info['count'],
+            PageParser.TOTAL_MON_COUNT,
+            f'Expected {PageParser.TOTAL_MON_COUNT} hrefs...')
 
     def test_load_monster_plural_page(self):
         """
@@ -66,10 +73,7 @@ class SummAutoTests(unittest.TestCase):
         """
             Make sure the filepath is safe and looks good
         """
-        page = requests.get('https://summonerswar.co/dark-amazon-mara/', headers=PageParser.HEADERS)
-        self.assertTrue(page.ok, f'Non-proper page load. Got status code={page.status_code}')
-        tree = html.fromstring(page.content)
-        mon = MonsterPage(tree)
+        mon = ensure_mon_load('https://summonerswar.co/dark-amazon-mara/')
         actual = mon.get_filepath()
         self.assertTrue(
             actual.endswith('dark_amazon_mara.json'),
@@ -80,21 +84,17 @@ class SummAutoTests(unittest.TestCase):
             Make sure we can write to disk so we do not need
             to scrape every time
         """
-        page = requests.get('https://summonerswar.co/dark-amazon-mara/', headers=PageParser.HEADERS)
-        self.assertTrue(page.ok, f'Non-proper page load. Got status code={page.status_code}')
-        tree = html.fromstring(page.content)
-        mon = MonsterPage(tree)
+        mon = ensure_mon_load('https://summonerswar.co/dark-amazon-mara/')
         mon.serialize()
+        # TODO test with self.assert to load back a serialized MonPage
 
     def test_parse_single_mon_page(self):
         """
             Make sure we can load and parse information from
             a single monster page
         """
-        page = requests.get('https://summonerswar.co/dark-amazon-mara/', headers=PageParser.HEADERS)
-        self.assertTrue(page.ok, f'Non-proper page load. Got status code={page.status_code}')
-        tree = html.fromstring(page.content)
-        mon = MonsterPage(tree)
+        mon = ensure_mon_load('https://summonerswar.co/dark-amazon-mara/')
+        # mon.print_mon_info()
 
         self.assertEqual(
             mon.sleepy_name,
