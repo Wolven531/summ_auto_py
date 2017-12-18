@@ -4,6 +4,7 @@
 
 from Rating import Rating
 from MonsterType import MonsterType
+from LinkType import LinkType
 
 class MonsterPage():
     """
@@ -12,6 +13,17 @@ class MonsterPage():
     """
 
     OVERVIEW_XPATH = '//*[@id="overview-anchor"]/div[2]/div[2]'
+    DEFAULT_ELEMENT = MonsterType.FIRE
+
+    @staticmethod
+    def convert_element_to_link_type(element):
+        """
+            This method is used to convert from a MonsterType to
+            a LinkType
+        """
+        if LinkType.has_value(element.value):
+            return LinkType[element.value]
+        return LinkType[MonsterPage.DEFAULT_ELEMENT.value]
 
     @staticmethod
     def parse_alt_link_info(tree, target_xpath):
@@ -24,24 +36,28 @@ class MonsterPage():
         href = tree.xpath(elem_xpath + target_xpath + '/@href')
         href_exists = len(href) > 0
 
-        alt_type = MonsterType.FIRE # default value
+        alt_type = MonsterPage.DEFAULT_ELEMENT
 
         if href_exists:
             href = href[0]
             href_type = tree.xpath(elem_xpath + target_xpath + '/@title')[0]
             href_type = href_type[0 : href_type.find(' ')].upper()
-            alt_type = MonsterType[href_type]
+
+            if MonsterType.has_value(href_type):
+                alt_type = MonsterType[href_type]
         else:
             href = ''
 
         return {
             'alt_link': href,
-            'alt_type': alt_type
+            'link_type': MonsterPage.convert_element_to_link_type(alt_type)
         }
 
 
     def __init__(self, tree):
+        self.links = LinkType.generate_link_dict()
         self.parse_name(tree)
+        self.parse_element(tree)
         self.parse_grade(tree)
         self.parse_type(tree)
         self.parse_get_from(tree)
@@ -57,6 +73,7 @@ class MonsterPage():
         """
             This method prints out the basic information parsed from a MonsterPage
         """
+        print('')
         print(f'Name: {self.full_name}')
         print(f'Element: {self.element}')
         print(f'Grade: {self.grade}')
@@ -70,6 +87,22 @@ class MonsterPage():
         print(f'Ratings: {self.ratings}')
         print(f'Links: {self.links}')
 
+    def parse_element(self, tree):
+        """
+            This method parses the element of the monster from a tree
+        """
+        raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text
+        raw_mon_name = raw_mon_name.strip()
+        first_space_ind = raw_mon_name.find(' ')
+        potential_element = raw_mon_name[0 : first_space_ind].upper()
+
+        self.element = MonsterPage.DEFAULT_ELEMENT
+
+        if MonsterType.has_value(potential_element):
+            self.element = MonsterType[potential_element]
+        else:
+            print(f'Error parsing element, got: "{potential_element}"')
+
     def parse_name(self, tree):
         """
             This method parses a name (and sleepy and awakened) from a tree
@@ -77,10 +110,8 @@ class MonsterPage():
         raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text
         self.full_name = raw_mon_name.strip()
         paren_ind = self.full_name.find('(')
-        first_space_ind = self.full_name.find(' ')
         self.sleepy_name = self.full_name[0 : paren_ind - 1] # -1 for the space
         self.awaken_name = self.full_name[paren_ind + 1 : -1]
-        self.element = self.full_name[0 : first_space_ind]
 
     def parse_grade(self, tree):
         """
@@ -170,29 +201,27 @@ class MonsterPage():
             Rating.MEH: float(no_percent_meh),
         }
 
+    def parse_image_links(self, tree):
+        """
+            This method parses the URLs of the images of a monster for
+            both sleepy and awakened from a tree
+        """
+        self.links[LinkType.IMAGE_SLEEPY] = ''
+        self.links[LinkType.IMAGE_AWAKE] = ''
+
+
     def parse_alt_links(self, tree):
         """
             This method parses the URL of the fire version of a monster
             from a tree
         """
-        elem_mapping = {
-            MonsterType.DARK: '',
-            MonsterType.FIRE: '',
-            MonsterType.WATER: '',
-            MonsterType.WIND: '',
-            MonsterType.LIGHT: '',
-        }
+        hrefs_infos = [
+            self.parse_alt_link_info(tree, '//a[1]'),
+            self.parse_alt_link_info(tree, '//a[2]'),
+            self.parse_alt_link_info(tree, '//a[3]'),
+            self.parse_alt_link_info(tree, '//a[4]'),
+            self.parse_alt_link_info(tree, '//a[5]')
+        ]
 
-        href1_info = self.parse_alt_link_info(tree, '//a[1]')
-        href2_info = self.parse_alt_link_info(tree, '//a[2]')
-        href3_info = self.parse_alt_link_info(tree, '//a[3]')
-        href4_info = self.parse_alt_link_info(tree, '//a[4]')
-        href5_info = self.parse_alt_link_info(tree, '//a[5]')
-
-        elem_mapping[href1_info['alt_type']] = href1_info['alt_link']
-        elem_mapping[href2_info['alt_type']] = href2_info['alt_link']
-        elem_mapping[href3_info['alt_type']] = href3_info['alt_link']
-        elem_mapping[href4_info['alt_type']] = href4_info['alt_link']
-        elem_mapping[href5_info['alt_type']] = href5_info['alt_link']
-
-        self.links = elem_mapping
+        for info_obj in hrefs_infos:
+            self.links[info_obj['link_type']] = info_obj['alt_link']

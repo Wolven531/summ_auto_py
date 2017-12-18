@@ -7,6 +7,7 @@ import requests
 from MonsterPage import MonsterPage
 from PageParser import PageParser
 from Rating import Rating
+from LinkType import LinkType
 from MonsterType import MonsterType
 from lxml import html
 
@@ -77,7 +78,10 @@ class SummAutoTests(unittest.TestCase):
             f'Expected monster sleepy name to equal "Dark Amazon"')
         self.assertEqual(mon.awaken_name, 'Mara', 'Expected monster awakened name to equal "Mara"')
 
-        self.assertEqual(mon.element, 'Dark', 'Expected monster to be of type "Dark"')
+        self.assertEqual(
+            mon.element,
+            MonsterType.DARK,
+            f'Expected monster to be of type {MonsterType.DARK}')
 
         self.assertEqual(mon.grade, '★★★', 'Expect monster grade to be three stars')
         self.assertEqual(
@@ -111,24 +115,36 @@ class SummAutoTests(unittest.TestCase):
         self.assertAlmostEqual(mon.ratings[Rating.THE_BEST], 54, 3, 'Inaccurate THE_BEST rating')
         self.assertAlmostEqual(mon.ratings[Rating.MEH], 2, 3, 'Inaccurate MEH rating')
 
+        # self.assertEqual(
+        #     mon.links[LinkType.IMAGE_SLEEPY],
+        #     'https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Amazon_Dark_Icon.png',
+        #     'Inaccurate link for image sleepy'
+        # )
+
+        # self.assertEqual(
+        #     mon.links[LinkType.IMAGE_AWAKE],
+        #     'https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Mara_Icon.png',
+        #     'Inaccurate link for image awakened'
+        # )
+
         self.assertEqual(
-            mon.links[MonsterType.DARK],
+            mon.links[LinkType.DARK],
             '//summonerswar.co/dark-amazon-mara/',
             'Inaccurate link for dark')
         self.assertEqual(
-            mon.links[MonsterType.FIRE],
+            mon.links[LinkType.FIRE],
             '//summonerswar.co/fire-amazon-ceres/',
             'Inaccurate link for fire')
         self.assertEqual(
-            mon.links[MonsterType.WATER],
+            mon.links[LinkType.WATER],
             '//summonerswar.co/water-amazon-ellin/',
             'Inaccurate link for water')
         self.assertEqual(
-            mon.links[MonsterType.WIND],
+            mon.links[LinkType.WIND],
             '//summonerswar.co/wind-amazon-hina/',
             'Inaccurate link for wind')
         self.assertEqual(
-            mon.links[MonsterType.LIGHT],
+            mon.links[LinkType.LIGHT],
             '//summonerswar.co/light-amazon-lyn/',
             'Inaccurate link for light')
 
