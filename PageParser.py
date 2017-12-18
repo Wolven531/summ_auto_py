@@ -5,6 +5,10 @@
 import json
 import os
 import requests
+
+from lxml import html
+from LinkType import LinkType
+from MonsterPage import MonsterPage
 from SearchPageResult import SearchPageResult
 
 class PageParser():
@@ -42,6 +46,33 @@ class PageParser():
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) ' +
                       'AppleWebKit/605.1.12 (KHTML, like Gecko) Version/11.1 Safari/605.1.12'
     }
+
+    @staticmethod
+    def ensure_mon_load(path, max_attempts=3):
+        """
+            This method attempts to ensure a monster page, provided
+            by URL, is successfully loaded by retrying up to a max
+            number of times (default=3)
+        """
+        parsed_mon = None
+        for attempt in range(1, max_attempts):
+            if parsed_mon != None:
+                continue
+            page = requests.get(path, headers=PageParser.HEADERS)
+            if not page.ok:
+                print(f'~~~Attempt {attempt} No page load, retrying...')
+                continue
+            tree = html.fromstring(page.content)
+            potential = MonsterPage(tree)
+            if potential.links[LinkType.DARK] == '':
+                print(f'~~~Attempt {attempt} No dark link, retrying...')
+                continue
+            if potential.links[LinkType.IMAGE_AWAKE] == '':
+                print(f'~~~Attempt {attempt} No image, retrying...')
+                continue
+            parsed_mon = potential
+
+        return parsed_mon
 
     @staticmethod
     def parse_search_pages(write_to_disk=True):
