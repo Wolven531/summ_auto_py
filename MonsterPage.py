@@ -67,6 +67,7 @@ class MonsterPage():
         self.parse_alt_links(tree)
         self.parse_scores(tree)
         self.parse_ratings(tree)
+        self.parse_image_links(tree)
         self.print_mon_info()
 
     def print_mon_info(self):
@@ -211,9 +212,12 @@ class MonsterPage():
             This method parses the URLs of the images of a monster for
             both sleepy and awakened from a tree
         """
-        self.links[LinkType.IMAGE_SLEEPY] = ''
-        self.links[LinkType.IMAGE_AWAKE] = ''
+        img_base = '//*[contains(@class, "image-container")]'
+        sleepy_xpath = '//img[contains(@class, "wp-post-image")]/@data-lazy-src'
+        awake_xpath = '//img[contains(@class, "featured2")]/@src'
 
+        self.links[LinkType.IMAGE_SLEEPY] = tree.xpath(img_base + sleepy_xpath)[0]
+        self.links[LinkType.IMAGE_AWAKE] = tree.xpath(img_base + awake_xpath)[0]
 
     def parse_alt_links(self, tree):
         """

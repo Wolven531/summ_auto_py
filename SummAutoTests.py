@@ -118,16 +118,16 @@ class SummAutoTests(unittest.TestCase):
         self.assertAlmostEqual(mon.ratings[Rating.THE_BEST], 54, 3, 'Inaccurate THE_BEST rating')
         self.assertAlmostEqual(mon.ratings[Rating.MEH], 2, 3, 'Inaccurate MEH rating')
 
-        # self.assertEqual(
-        #     mon.links[LinkType.IMAGE_SLEEPY],
-        #     'https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Amazon_Dark_Icon.png',
-        #     f'Inaccurate link for {LinkType.IMAGE_SLEEPY}'
-        # )
-        # self.assertEqual(
-        #     mon.links[LinkType.IMAGE_AWAKE],
-        #     'https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Mara_Icon.png',
-        #     f'Inaccurate link for {LinkType.IMAGE_AWAKE}'
-        # )
+        self.assertEqual(
+            mon.links[LinkType.IMAGE_SLEEPY],
+            'https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Amazon_Dark_Icon.png',
+            f'Inaccurate link for {LinkType.IMAGE_SLEEPY}'
+        )
+        self.assertEqual(
+            mon.links[LinkType.IMAGE_AWAKE],
+            'https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Mara_Icon.png',
+            f'Inaccurate link for {LinkType.IMAGE_AWAKE}'
+        )
 
         self.assertEqual(
             mon.links[LinkType.FIRE],
