@@ -9,7 +9,7 @@ class Rating(Enum):
         This is the enumeration for the four possible monster
         ratings
     """
-    KEEP_IT = 1
-    FOOD = 2
-    THE_BEST = 3
-    MEH = 4
+    KEEP_IT = 'KEEP_IT'
+    FOOD = 'FOOD'
+    THE_BEST = 'THE_BEST'
+    MEH = 'MEH'

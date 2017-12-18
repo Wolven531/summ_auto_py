@@ -106,30 +106,48 @@ class MonsterPage():
 
         return f'{cwd}/data/{lowered}.json'
 
-    def serialize(self, filepath):
+    def serialize(self, filepath=''):
         """
             This method will attempt to write this instance of MonsterPage
-            to a file, determined by the filepath param
+            to a file, determined by the filepath param which defaults to
+            using MonsterPage.get_filepath()
         """
+        if filepath == '':
+            filepath = self.get_filepath()
+
+        serialized_links = []
+        serialized_ratings = []
+
+        for link_key in self.links:
+            serialized_links.append(
+                {link_key.value: self.links[link_key]}
+            )
+
+        for rating_key in self.ratings:
+            serialized_ratings.append(
+                {rating_key.value: self.ratings[rating_key]}
+            )
+
         data = {
-            'full_name': self.full_name,
-            'sleepy_name': self.sleepy_name,
-            'awaken_name': self.awaken_name,
             'element': self.element.value,
+            'get_from': self.get_from,
+            'good_for': self.good_for,
             'grade': self.grade,
             'grade_num': self.grade_num,
+            'links': serialized_links,
             'mon_type': self.mon_type,
-            'get_from': self.get_from,
-            'when_awakened': self.when_awakened,
-            'good_for': self.good_for,
-            'skillup_info': self.skillup_info,
+            'name_awaken': self.awaken_name,
+            'name_full': self.full_name,
+            'name_sleepy': self.sleepy_name,
+            'ratings': serialized_ratings,
             'score_total': self.score_total,
             'score_user': self.score_user,
-            'ratings': self.ratings,
-            'links': self.links
+            'skillup_info': self.skillup_info,
+            'when_awaken': self.when_awakened
         }
-        with open(filepath + '.json', 'w') as outfile:
-            json.dump(data, outfile)
+
+        with open(filepath, 'w') as outfile:
+            json.dump(data, outfile, sort_keys=True, indent=2)
 
     def parse_element(self, tree):
         """

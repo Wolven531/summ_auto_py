@@ -75,6 +75,17 @@ class SummAutoTests(unittest.TestCase):
             actual.endswith('dark_amazon_mara.json'),
             f'Incorrect filepath. Got "{actual}"')
 
+    def test_serialization(self):
+        """
+            Make sure we can write to disk so we do not need
+            to scrape every time
+        """
+        page = requests.get('https://summonerswar.co/dark-amazon-mara/', headers=PageParser.HEADERS)
+        self.assertTrue(page.ok, f'Non-proper page load. Got status code={page.status_code}')
+        tree = html.fromstring(page.content)
+        mon = MonsterPage(tree)
+        mon.serialize()
+
     def test_parse_single_mon_page(self):
         """
             Make sure we can load and parse information from
