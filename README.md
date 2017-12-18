@@ -8,6 +8,5 @@ From the root directory, run `python3 SummAutoTests.py`
 
 ## TODO / Coming Soon
 
-* Parse images from monster page
-* Use elemental links to multiply data collection
-* Export collected information to JSON files
+1. Export collected information to JSON files
+1. Use elemental links to multiply data collection
