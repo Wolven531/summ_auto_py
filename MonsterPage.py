@@ -74,9 +74,12 @@ class MonsterPage():
             This method prints out the basic information parsed from a MonsterPage
         """
         print('')
-        print(f'Name: {self.full_name}')
+        print(f'Full Name: {self.full_name}')
+        print(f'Sleepy Name: {self.sleepy_name}')
+        print(f'Awakened Name: {self.awaken_name}')
         print(f'Element: {self.element}')
         print(f'Grade: {self.grade}')
+        print(f'Grade Num: {self.grade_num}')
         print(f'Type: {self.mon_type}')
         print(f'Get From: {self.get_from}')
         print(f'Awakened: {self.when_awakened}')
@@ -108,9 +111,11 @@ class MonsterPage():
             This method parses a name (and sleepy and awakened) from a tree
         """
         raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text
-        self.full_name = raw_mon_name.strip()
+        raw_mon_name = raw_mon_name.strip()
+        self.full_name = raw_mon_name
+        first_space_ind = raw_mon_name.find(' ')
         paren_ind = self.full_name.find('(')
-        self.sleepy_name = self.full_name[0 : paren_ind - 1] # -1 for the space
+        self.sleepy_name = self.full_name[first_space_ind + 1 : paren_ind - 1] # -1 for the space
         self.awaken_name = self.full_name[paren_ind + 1 : -1]
 
     def parse_grade(self, tree):

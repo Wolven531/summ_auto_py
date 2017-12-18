@@ -74,9 +74,12 @@ class SummAutoTests(unittest.TestCase):
 
         self.assertEqual(
             mon.sleepy_name,
-            'Dark Amazon',
-            f'Expected monster sleepy name to equal "Dark Amazon"')
-        self.assertEqual(mon.awaken_name, 'Mara', 'Expected monster awakened name to equal "Mara"')
+            'Amazon',
+            f'Expected monster sleepy name to equal "Amazon"')
+        self.assertEqual(
+            mon.awaken_name,
+            'Mara',
+            'Expected monster awakened name to equal "Mara"')
 
         self.assertEqual(
             mon.element,
@@ -118,35 +121,34 @@ class SummAutoTests(unittest.TestCase):
         # self.assertEqual(
         #     mon.links[LinkType.IMAGE_SLEEPY],
         #     'https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Amazon_Dark_Icon.png',
-        #     'Inaccurate link for image sleepy'
+        #     f'Inaccurate link for {LinkType.IMAGE_SLEEPY}'
         # )
-
         # self.assertEqual(
         #     mon.links[LinkType.IMAGE_AWAKE],
         #     'https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Mara_Icon.png',
-        #     'Inaccurate link for image awakened'
+        #     f'Inaccurate link for {LinkType.IMAGE_AWAKE}'
         # )
 
         self.assertEqual(
-            mon.links[LinkType.DARK],
-            '//summonerswar.co/dark-amazon-mara/',
-            'Inaccurate link for dark')
-        self.assertEqual(
             mon.links[LinkType.FIRE],
             '//summonerswar.co/fire-amazon-ceres/',
-            'Inaccurate link for fire')
+            f'Inaccurate link for {LinkType.FIRE}')
         self.assertEqual(
             mon.links[LinkType.WATER],
             '//summonerswar.co/water-amazon-ellin/',
-            'Inaccurate link for water')
+            f'Inaccurate link for {LinkType.WATER}')
         self.assertEqual(
             mon.links[LinkType.WIND],
             '//summonerswar.co/wind-amazon-hina/',
-            'Inaccurate link for wind')
+            f'Inaccurate link for {LinkType.WIND}')
         self.assertEqual(
             mon.links[LinkType.LIGHT],
             '//summonerswar.co/light-amazon-lyn/',
-            'Inaccurate link for light')
+            f'Inaccurate link for {LinkType.LIGHT}')
+        self.assertEqual(
+            mon.links[LinkType.DARK],
+            '//summonerswar.co/dark-amazon-mara/',
+            f'Inaccurate link for {LinkType.DARK}')
 
 if __name__ == '__main__':
     unittest.main()
