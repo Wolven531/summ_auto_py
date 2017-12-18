@@ -8,5 +8,5 @@ From the root directory, run `python3 SummAutoTests.py`
 
 ## TODO / Coming Soon
 
-1. Export collected information to JSON files
+1. Import collected information from JSON files
 1. Use elemental links to multiply data collection
