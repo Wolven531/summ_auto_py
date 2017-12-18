@@ -137,9 +137,8 @@ class MonsterPage():
 
         self.links = LinkType.generate_link_dict()
 
-        for link_obj in data['links']:
-            for link_key in link_obj:
-                self.links[LinkType[link_key]] = link_obj[link_key]
+        for link_key in data['links']:
+            self.links[LinkType[link_key]] = data['links'][link_key]
 
         self.mon_type = data['mon_type']
         self.awaken_name = data['name_awaken']
@@ -148,9 +147,8 @@ class MonsterPage():
 
         self.ratings = Rating.generate_rating_dict()
 
-        for rating_obj in data['ratings']:
-            for rating_key in rating_obj:
-                self.ratings[Rating[rating_key]] = rating_obj[rating_key]
+        for rating_key in data['ratings']:
+            self.ratings[Rating[rating_key]] = data['ratings'][rating_key]
 
         self.score_total = data['score_total']
         self.score_user = data['score_user']
@@ -166,18 +164,14 @@ class MonsterPage():
         if filepath == '':
             filepath = self.get_filepath()
 
-        serialized_links = []
-        serialized_ratings = []
+        mapped_links = {}
+        mapped_ratings = {}
 
         for link_key in self.links:
-            serialized_links.append(
-                {link_key.value: self.links[link_key]}
-            )
+            mapped_links[link_key.value] = self.links[link_key]
 
         for rating_key in self.ratings:
-            serialized_ratings.append(
-                {rating_key.value: self.ratings[rating_key]}
-            )
+            mapped_ratings[rating_key.value] = self.ratings[rating_key]
 
         data = {
             'element': self.element.value,
@@ -185,12 +179,12 @@ class MonsterPage():
             'good_for': self.good_for,
             'grade': self.grade,
             'grade_num': self.grade_num,
-            'links': serialized_links,
+            'links': mapped_links,
             'mon_type': self.mon_type,
             'name_awaken': self.awaken_name,
             'name_full': self.full_name,
             'name_sleepy': self.sleepy_name,
-            'ratings': serialized_ratings,
+            'ratings': mapped_ratings,
             'score_total': self.score_total,
             'score_user': self.score_user,
             'skillup_info': self.skillup_info,
