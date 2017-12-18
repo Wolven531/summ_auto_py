@@ -55,21 +55,40 @@ class MonsterPage():
             'link_type': MonsterPage.convert_element_to_link_type(alt_type)
         }
 
+    @staticmethod
+    def load_from_disk(filepath):
+        """
+            This method attempts to parse and load a MonsterPage
+            object from the disk according to the filepath passed in
+        """
+        data = {}
+        new_mon = None
+        with open(filepath, 'r') as in_file:
+            data = json.load(in_file)
+            new_mon = MonsterPage(tree=None, data=data)
+        return new_mon
 
-    def __init__(self, tree):
+    def __init__(self, tree=None, data=None):
+        self.element = MonsterPage.DEFAULT_ELEMENT
+        self.get_from = ''
+        self.good_for = ''
+        self.grade = ''
+        self.grade_num = 0
         self.links = LinkType.generate_link_dict()
-        self.parse_name(tree)
-        self.parse_element(tree)
-        self.parse_grade(tree)
-        self.parse_type(tree)
-        self.parse_get_from(tree)
-        self.parse_when_awakened(tree)
-        self.parse_good_for(tree)
-        self.parse_skillup_info(tree)
-        self.parse_alt_links(tree)
-        self.parse_scores(tree)
-        self.parse_ratings(tree)
-        self.parse_image_links(tree)
+        self.mon_type = ''
+        self.awaken_name = ''
+        self.full_name = ''
+        self.sleepy_name = ''
+        self.ratings = Rating.generate_rating_dict()
+        self.score_total = 0
+        self.score_user = 0
+        self.skillup_info = ''
+        self.when_awakened = ''
+
+        if data != None:
+            self.deserialize(data)
+        elif tree != None:
+            self.parse_tree(tree)
 
     def print_mon_info(self):
         """
@@ -104,6 +123,39 @@ class MonsterPage():
         lowered = no_spaces.lower()
 
         return f'{cwd}/data/mons/{lowered}.json'
+
+    def deserialize(self, data):
+        """
+            This method takes a dict of values to initialize a MonsterPage
+            object
+        """
+        self.element = MonsterType[data['element']]
+        self.get_from = data['get_from']
+        self.good_for = data['good_for']
+        self.grade = data['grade']
+        self.grade_num = data['grade_num']
+
+        self.links = LinkType.generate_link_dict()
+
+        for link_obj in data['links']:
+            for link_key in link_obj:
+                self.links[LinkType[link_key]] = link_obj[link_key]
+
+        self.mon_type = data['mon_type']
+        self.awaken_name = data['name_awaken']
+        self.full_name = data['name_full']
+        self.sleepy_name = data['name_sleepy']
+
+        self.ratings = Rating.generate_rating_dict()
+
+        for rating_obj in data['ratings']:
+            for rating_key in rating_obj:
+                self.ratings[Rating[rating_key]] = rating_obj[rating_key]
+
+        self.score_total = data['score_total']
+        self.score_user = data['score_user']
+        self.skillup_info = data['skillup_info']
+        self.when_awakened = data['when_awaken']
 
     def serialize(self, filepath=''):
         """
@@ -147,6 +199,23 @@ class MonsterPage():
 
         with open(filepath, 'w') as outfile:
             json.dump(data, outfile, sort_keys=True, indent=2)
+
+    def parse_tree(self, tree):
+        """
+            This method calls all of the other parsing methods
+        """
+        self.parse_name(tree)
+        self.parse_element(tree)
+        self.parse_grade(tree)
+        self.parse_type(tree)
+        self.parse_get_from(tree)
+        self.parse_when_awakened(tree)
+        self.parse_good_for(tree)
+        self.parse_skillup_info(tree)
+        self.parse_alt_links(tree)
+        self.parse_scores(tree)
+        self.parse_ratings(tree)
+        self.parse_image_links(tree)
 
     def parse_element(self, tree):
         """
