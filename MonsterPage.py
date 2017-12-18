@@ -2,6 +2,8 @@
     This is the MonsterPage module
 """
 
+import json
+import os
 from Rating import Rating
 from MonsterType import MonsterType
 from LinkType import LinkType
@@ -81,15 +83,53 @@ class MonsterPage():
         print(f'Element: {self.element}')
         print(f'Grade: {self.grade}')
         print(f'Grade Num: {self.grade_num}')
-        print(f'Type: {self.mon_type}')
+        print(f'Mon Type: {self.mon_type}')
         print(f'Get From: {self.get_from}')
-        print(f'Awakened: {self.when_awakened}')
+        print(f'When Awakened: {self.when_awakened}')
         print(f'Good For: {self.good_for}')
         print(f'Skill Up Info: {self.skillup_info}')
         print(f'Total Score: {self.score_total}')
         print(f'User Score: {self.score_user}')
         print(f'Ratings: {self.ratings}')
         print(f'Links: {self.links}')
+
+    def get_filepath(self):
+        """
+            This method will return a string filepath; this is used in
+            conjunction with serialize
+        """
+        cwd = os.getcwd()
+        no_left_parens = self.full_name.replace('(', '')
+        no_parens = no_left_parens.replace(')', '')
+        no_spaces = no_parens.replace(' ', '_').strip()
+        lowered = no_spaces.lower()
+
+        return f'{cwd}/data/{lowered}.json'
+
+    def serialize(self, filepath):
+        """
+            This method will attempt to write this instance of MonsterPage
+            to a file, determined by the filepath param
+        """
+        data = {
+            'full_name': self.full_name,
+            'sleepy_name': self.sleepy_name,
+            'awaken_name': self.awaken_name,
+            'element': self.element.value,
+            'grade': self.grade,
+            'grade_num': self.grade_num,
+            'mon_type': self.mon_type,
+            'get_from': self.get_from,
+            'when_awakened': self.when_awakened,
+            'good_for': self.good_for,
+            'skillup_info': self.skillup_info,
+            'score_total': self.score_total,
+            'score_user': self.score_user,
+            'ratings': self.ratings,
+            'links': self.links
+        }
+        with open(filepath + '.json', 'w') as outfile:
+            json.dump(data, outfile)
 
     def parse_element(self, tree):
         """

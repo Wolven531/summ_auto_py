@@ -62,6 +62,19 @@ class SummAutoTests(unittest.TestCase):
         hrefs = tree.xpath('//a[@class="layer-link"]/@href')
         self.assertGreater(len(hrefs), 0, 'Expected some hrefs...')
 
+    def test_get_filepath(self):
+        """
+            Make sure the filepath is safe and looks good
+        """
+        page = requests.get('https://summonerswar.co/dark-amazon-mara/', headers=PageParser.HEADERS)
+        self.assertTrue(page.ok, f'Non-proper page load. Got status code={page.status_code}')
+        tree = html.fromstring(page.content)
+        mon = MonsterPage(tree)
+        actual = mon.get_filepath()
+        self.assertTrue(
+            actual.endswith('dark_amazon_mara.json'),
+            f'Incorrect filepath. Got "{actual}"')
+
     def test_parse_single_mon_page(self):
         """
             Make sure we can load and parse information from
