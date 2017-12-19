@@ -48,7 +48,7 @@ class PageParser():
     }
 
     @staticmethod
-    def ensure_mon_load(path, max_attempts=3):
+    def ensure_mon_load(url, max_attempts=3):
         """
             This method attempts to ensure a monster page, provided
             by URL, is successfully loaded by retrying up to a max
@@ -58,17 +58,17 @@ class PageParser():
         for attempt in range(1, max_attempts):
             if parsed_mon != None:
                 continue
-            page = requests.get(path, headers=PageParser.HEADERS)
+            page = requests.get(url, headers=PageParser.HEADERS)
             if not page.ok:
-                print(f'~~~Attempt {attempt} No page load, retrying...')
+                print(f'~~~Attempt {attempt} No page load, retrying {url}')
                 continue
             tree = html.fromstring(page.content)
             potential = MonsterPage(tree)
             if potential.links[LinkType.DARK] == '':
-                print(f'~~~Attempt {attempt} No dark link, retrying...')
+                print(f'~~~Attempt {attempt} No dark link, retrying {url}')
                 continue
             if potential.links[LinkType.IMAGE_AWAKE] == '':
-                print(f'~~~Attempt {attempt} No image, retrying...')
+                print(f'~~~Attempt {attempt} No image, retrying {url}')
                 continue
             parsed_mon = potential
 

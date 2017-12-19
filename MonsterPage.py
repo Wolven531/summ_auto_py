@@ -42,8 +42,16 @@ class MonsterPage():
 
         if href_exists:
             href = href[0]
-            href_type = tree.xpath(elem_xpath + target_xpath + '/@title')[0]
-            href_type = href_type[0 : href_type.find(' ')].upper()
+            title_attribute = tree.xpath(elem_xpath + target_xpath + '/@title')
+            title_exists = len(title_attribute) > 0
+
+            if title_exists:
+                href_type = title_attribute[0]
+                href_type = href_type[0 : href_type.find(' ')].upper()
+            else:
+                start_ind = href.find('.co/') + 4
+                end_ind = href.find('-', start_ind)
+                href_type = href[start_ind : end_ind].upper()
 
             if MonsterType.has_value(href_type):
                 alt_type = MonsterType[href_type]
