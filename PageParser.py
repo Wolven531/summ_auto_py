@@ -64,12 +64,18 @@ class PageParser():
                 continue
             tree = html.fromstring(page.content)
             potential = MonsterPage(tree)
-
-            if potential.links[LinkType.FIRE] == '' and potential.links[LinkType.DARK] == '':
-                print(f'~~~Attempt {attempt} No fire AND no dark link, retrying {url}; had={potential.links}')
-                continue
-
             self_link_type = MonsterPage.convert_element_to_link_type(potential.element)
+
+            if (potential.links[LinkType.FIRE] == '' and
+                    potential.links[LinkType.WATER] == '' and
+                    potential.links[LinkType.WIND] == '' and
+                    potential.links[LinkType.LIGHT] == '' and
+                    potential.links[LinkType.DARK] == ''):
+                print('~~~Special case, all links were blank')
+            elif potential.links[LinkType.FIRE] == '' and potential.links[LinkType.DARK] == '':
+                print(f'~~~Attempt {attempt} Missing [fire,dark] link,'+
+                      f'retrying {url}; had={potential.links}')
+                continue
 
             if potential.links[self_link_type] == '':
                 fixed_url = url.replace('https:', '')
