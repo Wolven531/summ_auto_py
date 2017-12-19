@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Raids, Guild Wars",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-anubis-khmun/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Amarna_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Anubis_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-anubis-amarna/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Amarna",
+  "name_full": "Light Anubis (Amarna)",
+  "name_sleepy": "Anubis",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 14.0,
+    "MEH": 2.0,
+    "THE_BEST": 80.0
+  },
+  "score_total": 8.9,
+  "score_user": 8.6,
+  "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+  "when_awaken": "Strengthen Skill: [Pierce Soul]"
+}

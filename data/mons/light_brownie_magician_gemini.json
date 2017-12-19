@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes, November 2016 HoH",
+  "good_for": "Stripper in PvP",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-brownie-magician-korona/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Gemini_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Brownie_Magician_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-brownie-magician-gemini/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Gemini",
+  "name_full": "Light Brownie Magician (Gemini)",
+  "name_sleepy": "Brownie Magician",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 16.0,
+    "MEH": 11.0,
+    "THE_BEST": 70.0
+  },
+  "score_total": 8.2,
+  "score_user": 8.2,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Leader Skill: Increases the Attack Speed of ally monsters by 19%"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light and Darkness, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-bounty-hunter-jamie/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Walkers_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Bounty_Hunter_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-bounty-hunter-walkers/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Walkers",
+  "name_full": "Light Bounty Hunter (Walkers)",
+  "name_sleepy": "Bounty Hunter",
+  "ratings": {
+    "FOOD": 21.0,
+    "KEEP_IT": 65.0,
+    "MEH": 6.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 5.2,
+  "score_user": 7.3,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Randy (Fire Bounty Hunter), Wayne (Water Bounty Hunter) or Jamie (Dark Bounty Hunter) instead",
+  "when_awaken": "Increases Attack Speed by 15"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Temple of Wishes, Secret Dungeon",
+  "good_for": "Fusion, Guild War Offense",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-vagabond-jubelle/%20",
+    "FIRE": "//summonerswar.co/fire-vagabond-kaien/%20",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Kaien_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Vagabond_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-vagabond-darion/%20",
+    "WATER": "//summonerswar.co/water-vagabond-allen/%20",
+    "WIND": "//summonerswar.co/wind-vagabond-roid/%20"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Kaien",
+  "name_full": "Fire Vagabond (Kaien)",
+  "name_sleepy": "Vagabond",
+  "ratings": {
+    "FOOD": 38.0,
+    "KEEP_IT": 46.0,
+    "MEH": 8.0,
+    "THE_BEST": 5.0
+  },
+  "score_total": 7.1,
+  "score_user": 7.0,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Leader Skill: Increases the HP of ally monsters in the Dungeons by 18%"
+}

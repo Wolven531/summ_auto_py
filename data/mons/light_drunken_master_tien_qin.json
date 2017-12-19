@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-drunken-master-wei-shin/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Tien_Qin_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Drunken_Master_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-drunken-master-tien-qin/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Tien Qin",
+  "name_full": "Light Drunken Master (Tien Qin)",
+  "name_sleepy": "Drunken Master",
+  "ratings": {
+    "FOOD": 14.0,
+    "KEEP_IT": 66.0,
+    "MEH": 6.0,
+    "THE_BEST": 14.0
+  },
+  "score_total": 5.1,
+  "score_user": 7.6,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "Increase Critical Rate by 15%"
+}

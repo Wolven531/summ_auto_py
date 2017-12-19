@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Secret Dungeon, Temple of Wishes",
+  "good_for": "Niche use as Light Tank in ToA Ragdoll stage",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": " //summonerswar.co/dark-fairy-sorin/",
+    "FIRE": " //summonerswar.co/fire-fairy-iselia/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Neal_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Fairy_Light_Icon.png",
+    "LIGHT": " //summonerswar.co/light-fairy-neal/",
+    "WATER": " //summonerswar.co/water-fairy-elucia/",
+    "WIND": " //summonerswar.co/wind-fairy-aeilene/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Neal",
+  "name_full": "Light Fairy (Neal)",
+  "name_sleepy": "Fairy",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 69.0,
+    "MEH": 4.0,
+    "THE_BEST": 23.0
+  },
+  "score_total": 6.0,
+  "score_user": 7.8,
+  "skillup_info": "Skill up at least 3rd Skill using family skill ups",
+  "when_awaken": "New Skill: [Holy Shield]"
+}

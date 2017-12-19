@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605",
+  "grade_num": 2,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-yeti-kumae/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Tantra_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Yeti_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Tantra",
+  "name_full": "Fire Yeti (Tantra)",
+  "name_sleepy": "Yeti",
+  "ratings": {
+    "FOOD": 14.0,
+    "KEEP_IT": 69.0,
+    "MEH": 9.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 4.0,
+  "score_user": 7.0,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Rakaja (Wind Yeti) instead",
+  "when_awaken": "New Skill: [Ancestors' Blessing]"
+}

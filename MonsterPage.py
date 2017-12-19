@@ -306,8 +306,21 @@ class MonsterPage():
         raw_score_user = tree.xpath(
             xpath_rating + xpath_user + '/*[contains(@class, "number")]')[0].text
 
-        self.score_total = float(raw_score_total.strip())
-        self.score_user = float(raw_score_user.strip())
+        num_total = 0
+        num_user = 0
+
+        try:
+            num_total = float(raw_score_total.strip())
+        except ValueError:
+            pass
+
+        try:
+            num_user = float(raw_score_user.strip())
+        except ValueError:
+            pass
+
+        self.score_total = num_total
+        self.score_user = num_user
 
     def parse_ratings(self, tree):
         """

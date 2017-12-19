@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Hall of Water",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-battle-mammoth-basalt/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Marble_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Battle_Mammoth_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-battle-mammoth-marble/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Marble",
+  "name_full": "Light Battle Mammoth (Marble)",
+  "name_sleepy": "Battle Mammoth",
+  "ratings": {
+    "FOOD": 6.0,
+    "KEEP_IT": 15.0,
+    "MEH": 7.0,
+    "THE_BEST": 72.0
+  },
+  "score_total": 6.1,
+  "score_user": 8.1,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Talc (Water Battle Mammoth) or Basalt (Dark Battle Mammoth) instead",
+  "when_awaken": "Leader Skill: Increases the Defense of ally monsters with Light attribute by 30%"
+}

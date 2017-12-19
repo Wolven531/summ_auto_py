@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-dragon-knight-ragdoll/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Jager_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Dragon_Knight_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-dragon-knight-jager/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Jager",
+  "name_full": "Light Dragon Knight (Jager)",
+  "name_sleepy": "Dragon Knight",
+  "ratings": {
+    "FOOD": 10.0,
+    "KEEP_IT": 36.0,
+    "MEH": 4.0,
+    "THE_BEST": 50.0
+  },
+  "score_total": 8.1,
+  "score_user": 8.5,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

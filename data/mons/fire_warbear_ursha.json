@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "\u2605\u2605",
+  "good_for": "Unknown Scroll, Social Summon, Magic Shop, Telain Forest (Scenario Drop)",
+  "grade": "Fire Warbear (Ursha)",
+  "grade_num": 20,
+  "links": {
+    "DARK": "//summonerswar.co/dark-warbear-gorgo/",
+    "FIRE": "//summonerswar.co/fire-warbear-ursha/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Ursha_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/warbear2.png",
+    "LIGHT": "//summonerswar.co/light-warbear-lusha/",
+    "WATER": "//summonerswar.co/water-warbear-dagora/",
+    "WIND": "//summonerswar.co/wind-warbear-ramagos/"
+  },
+  "mon_type": null,
+  "name_awaken": "Ursha",
+  "name_full": "Fire Warbear (Ursha)",
+  "name_sleepy": "Warbear",
+  "ratings": {
+    "FOOD": 60.0,
+    "KEEP_IT": 26.0,
+    "MEH": 6.0,
+    "THE_BEST": 7.0
+  },
+  "score_total": 3.9,
+  "score_user": 6.6,
+  "skillup_info": "New Skill: [Counterblow]",
+  "when_awaken": "HP"
+}

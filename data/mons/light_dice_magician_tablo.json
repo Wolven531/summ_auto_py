@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Arena, World Arena",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-dice-magician-ludo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Tablo_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Dice_Magician_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-dice-magician-tablo/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Tablo",
+  "name_full": "Light Dice Magician (Tablo)",
+  "name_sleepy": "Dice Magician",
+  "ratings": {
+    "FOOD": 24.0,
+    "KEEP_IT": 31.0,
+    "MEH": 9.0,
+    "THE_BEST": 35.0
+  },
+  "score_total": 8.6,
+  "score_user": 7.1,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Leader Skill: Increases the Attack Speed of ally monsters in the Arena by 24%"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Secret Dungeon, Temple of Wishes",
+  "good_for": "Starting GB10, PvP Offense",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-bearman-kungen/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Ahman_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Bearman_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-bearman-ahman/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Ahman",
+  "name_full": "Light Bearman (Ahman)",
+  "name_sleepy": "Bearman",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 12.0,
+    "MEH": 2.0,
+    "THE_BEST": 82.0
+  },
+  "score_total": 6.8,
+  "score_user": 8.1,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "New Skill: [Crushing Power (Passive)]"
+}

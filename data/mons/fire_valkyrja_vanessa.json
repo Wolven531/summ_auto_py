@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
+  "good_for": "Arena",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-valkyrja-trinity/",
+    "IMAGE_AWAKE": "",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Valkyrja_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Vanessa",
+  "name_full": "Fire Valkyrja (Vanessa)",
+  "name_sleepy": "Valkyrja",
+  "ratings": {
+    "FOOD": 8.0,
+    "KEEP_IT": 8.0,
+    "MEH": 9.0,
+    "THE_BEST": 75.0
+  },
+  "score_total": 8.7,
+  "score_user": 7.4,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Resistance by 25%"
+}

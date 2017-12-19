@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Secret Dungeon, Temple of Wishes",
+  "good_for": "Fusion, Hall of Wind, DB10",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-viking-janssen/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Geoffrey_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Viking_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Geoffrey",
+  "name_full": "Fire Viking (Geoffrey)",
+  "name_sleepy": "Viking",
+  "ratings": {
+    "FOOD": 18.0,
+    "KEEP_IT": 67.0,
+    "MEH": 6.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 6.1,
+  "score_user": 7.1,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "New Skill: Acquire [Marauder (Passive)]"
+}

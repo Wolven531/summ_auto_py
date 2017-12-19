@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "DB10, PvP Defense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-vampire-cadiz/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Verdehile_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Vampire_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Verdehile",
+  "name_full": "Fire Vampire (Verdehile)",
+  "name_sleepy": "Vampire",
+  "ratings": {
+    "FOOD": 2.0,
+    "KEEP_IT": 4.0,
+    "MEH": 1.0,
+    "THE_BEST": 93.0
+  },
+  "score_total": 8.3,
+  "score_user": 8.6,
+  "skillup_info": "Worth skilling up but DO NOT MAX his 2nd Skill at all cost",
+  "when_awaken": "New Skill: [Boiling Blood (Passive)]"
+}
