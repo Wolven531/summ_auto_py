@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-inferno-drogan/",
+    "FIRE": "//summonerswar.co/fire-inferno-tagaros/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Drogan_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Inferno_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-inferno-eludian/",
+    "WATER": "//summonerswar.co/water-inferno-purian/",
+    "WIND": "//summonerswar.co/wind-inferno-anduril/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Drogan",
+  "name_full": "Dark Inferno (Drogan)",
+  "name_sleepy": "Inferno",
+  "ratings": {
+    "FOOD": 52.0,
+    "KEEP_IT": 31.0,
+    "MEH": 13.0,
+    "THE_BEST": 4.0
+  },
+  "score_total": 2.5,
+  "score_user": 5.2,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Purian (Water Inferno) instead",
+  "when_awaken": "New skill: [Last Curse (Passive)]"
+}

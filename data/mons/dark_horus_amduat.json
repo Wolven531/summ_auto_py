@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Arena Defense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-horus-amduat/",
+    "FIRE": "//summonerswar.co/fire-horus-duamutef/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Amduat_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Horus_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-horus-wedjat/",
+    "WATER": "//summonerswar.co/water-horus-qebehsenuef/",
+    "WIND": "//summonerswar.co/wind-horus-imesety/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Amduat",
+  "name_full": "Dark Horus (Amduat)",
+  "name_sleepy": "Horus",
+  "ratings": {
+    "FOOD": 8.0,
+    "KEEP_IT": 26.0,
+    "MEH": 10.0,
+    "THE_BEST": 57.0
+  },
+  "score_total": 8.4,
+  "score_user": 7.5,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Leader Skill: Increases the Attack Power of ally monsters in the Arena by 33%"
+}

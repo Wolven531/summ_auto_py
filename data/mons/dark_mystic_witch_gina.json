@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Light and Darkness Scroll, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-mystic-witch-gina/",
+    "FIRE": "//summonerswar.co/fire-mystic-witch-rebecca/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Gina_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Mystic_Witch_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-mystic-witch-linda/",
+    "WATER": "//summonerswar.co/water-mystic-witch-megan/",
+    "WIND": "//summonerswar.co/wind-mystic-witch-silia/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Gina",
+  "name_full": "Dark Mystic Witch (Gina)",
+  "name_sleepy": "Mystic Witch",
+  "ratings": {
+    "FOOD": 9.0,
+    "KEEP_IT": 66.0,
+    "MEH": 9.0,
+    "THE_BEST": 17.0
+  },
+  "score_total": 4.7,
+  "score_user": 7.9,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Megan (Water Mystic Witch) instead",
+  "when_awaken": "New Skill: [Thorny Bush Summoning]"
+}

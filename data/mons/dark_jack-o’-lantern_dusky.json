@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes, October 2017 HoH",
+  "good_for": "Skillups or Food (Keep at least one though)",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-jack-o-lantern-dusky/",
+    "FIRE": "//summonerswar.co/fire-jack-o-lantern-smokey/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Dusky_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Jack-o-lantern_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-jack-o-lantern-misty/",
+    "WATER": "//summonerswar.co/water-jack-o-lantern-chilling/",
+    "WIND": "//summonerswar.co/wind-jack-o-lantern-windy/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Dusky",
+  "name_full": "Dark Jack-o\u2019-lantern (Dusky)",
+  "name_sleepy": "Jack-o\u2019-lantern",
+  "ratings": {
+    "FOOD": 20.0,
+    "KEEP_IT": 48.0,
+    "MEH": 17.0,
+    "THE_BEST": 15.0
+  },
+  "score_total": 6.0,
+  "score_user": 7.2,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Leader Skill: Increases the Resistance of ally monsters in Dungeons by 40%"
+}

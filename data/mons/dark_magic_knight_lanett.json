@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "ToA, PvE in general, NB10",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-magic-knight-lanett/",
+    "FIRE": "//summonerswar.co/fire-magic-knight-astar/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Lanett_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/Magic_knight_Dark.png",
+    "LIGHT": "//summonerswar.co/light-magic-knight-iris/",
+    "WATER": "//summonerswar.co/water-magic-knight-lapis/",
+    "WIND": "//summonerswar.co/wind-magic-knight-lupinus/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Lanett",
+  "name_full": "Dark Magic Knight (Lanett)",
+  "name_sleepy": "Magic Knight",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 29.0,
+    "MEH": 3.0,
+    "THE_BEST": 63.0
+  },
+  "score_total": 8.3,
+  "score_user": 8.1,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Strengthen Skill: [Blade Surge]"
+}

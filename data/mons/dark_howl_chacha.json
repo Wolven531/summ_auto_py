@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Secret Dungeon",
+  "good_for": "Food",
+  "grade": "\u2605\u2605",
+  "grade_num": 2,
+  "links": {
+    "DARK": "//summonerswar.co/dark-howl-chacha/",
+    "FIRE": "//summonerswar.co/fire-howl-lala/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Chacha_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Howl_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-howl-shushu/",
+    "WATER": "//summonerswar.co/water-howl-lulu/",
+    "WIND": "//summonerswar.co/wind-howl-chichi/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Chacha",
+  "name_full": "Dark Howl (Chacha)",
+  "name_sleepy": "Howl",
+  "ratings": {
+    "FOOD": 20.0,
+    "KEEP_IT": 49.0,
+    "MEH": 5.0,
+    "THE_BEST": 26.0
+  },
+  "score_total": 3.1,
+  "score_user": 6.8,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Lulu (Water Howl) instead",
+  "when_awaken": "New skill: [Attack! Attack!]"
+}

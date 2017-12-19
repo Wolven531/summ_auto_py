@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Offense, Chiruka Farmer",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-joker-liebli/",
+    "FIRE": "//summonerswar.co/fire-joker-jojo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Liebli_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Joker_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-joker-figaro/",
+    "WATER": "//summonerswar.co/water-joker-sian/",
+    "WIND": "//summonerswar.co/wind-joker-lushen/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Liebli",
+  "name_full": "Dark Joker (Liebli)",
+  "name_sleepy": "Joker",
+  "ratings": {
+    "FOOD": 2.0,
+    "KEEP_IT": 8.0,
+    "MEH": 0.0,
+    "THE_BEST": 89.0
+  },
+  "score_total": 8.3,
+  "score_user": 8.6,
+  "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+  "when_awaken": "New Skill: [Shadow Revenge (Passive)]"
+}

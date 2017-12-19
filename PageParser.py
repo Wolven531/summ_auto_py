@@ -9,6 +9,7 @@ import requests
 from lxml import html
 from LinkType import LinkType
 from MonsterPage import MonsterPage
+from MonsterType import MonsterType
 from SearchPageResult import SearchPageResult
 
 class PageParser():
@@ -64,9 +65,13 @@ class PageParser():
                 continue
             tree = html.fromstring(page.content)
             potential = MonsterPage(tree)
+
             if potential.links[LinkType.DARK] == '':
-                print(f'~~~Attempt {attempt} No dark link, retrying {url}')
-                continue
+                if potential.element == MonsterType.DARK:
+                    potential.links[LinkType.DARK] = url
+                else:
+                    print(f'~~~Attempt {attempt} No dark link, retrying {url}')
+                    continue
             if potential.links[LinkType.IMAGE_SLEEPY] == '':
                 print(f'~~~Attempt {attempt} No image, retrying {url}')
                 continue

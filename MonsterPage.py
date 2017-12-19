@@ -345,7 +345,12 @@ class MonsterPage():
         awake_xpath = '//img[contains(@class, "featured2")]/@src'
 
         self.links[LinkType.IMAGE_SLEEPY] = tree.xpath(img_base + sleepy_xpath)[0]
-        self.links[LinkType.IMAGE_AWAKE] = tree.xpath(img_base + awake_xpath)[0]
+
+        awake_image = tree.xpath(img_base + awake_xpath)
+        awake_image_exists = len(awake_image) > 0
+
+        if awake_image_exists:
+            self.links[LinkType.IMAGE_AWAKE] = awake_image[0]
 
     def parse_alt_links(self, tree):
         """

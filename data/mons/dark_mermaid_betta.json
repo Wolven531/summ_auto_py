@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP in general",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-mermaid-betta/",
+    "FIRE": "//summonerswar.co/fire-mermaid-platy/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Betta_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Mermaid_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-mermaid-molly/",
+    "WATER": "//summonerswar.co/water-mermaid-tetra/",
+    "WIND": "//summonerswar.co/wind-mermaid-cichlid/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Betta",
+  "name_full": "Dark Mermaid (Betta)",
+  "name_sleepy": "Mermaid",
+  "ratings": {
+    "FOOD": 10.0,
+    "KEEP_IT": 8.0,
+    "MEH": 3.0,
+    "THE_BEST": 78.0
+  },
+  "score_total": 8.7,
+  "score_user": 8.6,
+  "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+  "when_awaken": "Increases Attack Speed by 15"
+}
