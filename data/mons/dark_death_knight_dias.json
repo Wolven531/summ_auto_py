@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes, April 2015 & April 2017 HoH",
+  "good_for": "Raids, PvP Defense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-death-knight-dias/",
+    "FIRE": "//summonerswar.co/fire-death-knight-arnold/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Dias_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Death_Knight_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-death-knight-conrad/",
+    "WATER": "//summonerswar.co/water-death-knight-fedora/",
+    "WIND": "//summonerswar.co/wind-death-knight-briand/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Dias",
+  "name_full": "Dark Death Knight (Dias)",
+  "name_sleepy": "Death Knight",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 62.0,
+    "MEH": 3.0,
+    "THE_BEST": 31.0
+  },
+  "score_total": 8.4,
+  "score_user": 8.1,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Resistance by 25%"
+}

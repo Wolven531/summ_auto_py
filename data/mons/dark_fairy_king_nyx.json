@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "World Arena",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-fairy-king-nyx/",
+    "FIRE": "//summonerswar.co/fire-fairy-king-daphnis/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Nyx_Icon-1.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Fairy_King_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-fairy-king-oberon/",
+    "WATER": "//summonerswar.co/water-fairy-king-psamathe/",
+    "WIND": "//summonerswar.co/wind-fairy-king-ganymede/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Nyx",
+  "name_full": "Dark Fairy King (Nyx)",
+  "name_sleepy": "Fairy King",
+  "ratings": {
+    "FOOD": 19.0,
+    "KEEP_IT": 9.0,
+    "MEH": 32.0,
+    "THE_BEST": 40.0
+  },
+  "score_total": 6.6,
+  "score_user": 6.5,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Increases Accuracy by 25%"
+}

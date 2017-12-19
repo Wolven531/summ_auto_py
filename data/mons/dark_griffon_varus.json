@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Light and Darkness Scroll, Temple of Wishes",
+  "good_for": "Niche Guild War Offense",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-griffon-varus/",
+    "FIRE": "//summonerswar.co/fire-griffon-spectra/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Varus_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Varus_Icon.png",
+    "LIGHT": "//summonerswar.co/light-griffon-shamann/",
+    "WATER": "//summonerswar.co/water-griffon-kahn/",
+    "WIND": "//summonerswar.co/wind-griffon-bernard/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Varus",
+  "name_full": "Dark Griffon (Varus)",
+  "name_sleepy": "Griffon",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 62.0,
+    "MEH": 3.0,
+    "THE_BEST": 29.0
+  },
+  "score_total": 6.4,
+  "score_user": 8.0,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Strengthen skill: [Snatch]"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-golem-maggi/",
+    "FIRE": "//summonerswar.co/fire-golem-kugo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/Maggi_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/Golem_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-golem-groggo/",
+    "WATER": "//summonerswar.co/water-golem-kuhn/",
+    "WIND": "//summonerswar.co/wind-golem-ragion/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Maggi",
+  "name_full": "Dark Golem (Maggi)",
+  "name_sleepy": "Golem",
+  "ratings": {
+    "FOOD": 32.0,
+    "KEEP_IT": 28.0,
+    "MEH": 33.0,
+    "THE_BEST": 7.0
+  },
+  "score_total": 4.0,
+  "score_user": 7.2,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Groggo (Light Golem) instead",
+  "when_awaken": "Increases Attack Speed by 15"
+}

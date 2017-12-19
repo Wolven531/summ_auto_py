@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "ToAH",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-grim-reaper-thrain/",
+    "FIRE": "//summonerswar.co/fire-grim-reaper-sath/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Thrain_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Grim_Reaper_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-grim-reaper-prom/",
+    "WATER": "//summonerswar.co/water-grim-reaper-hemos/",
+    "WIND": "//summonerswar.co/wind-grim-reaper-hiva/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Thrain",
+  "name_full": "Dark Grim Reaper (Thrain)",
+  "name_sleepy": "Grim Reaper",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 55.0,
+    "MEH": 4.0,
+    "THE_BEST": 37.0
+  },
+  "score_total": 8.7,
+  "score_user": 7.7,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Leader Skill: Increases the Attack Power of ally monsters with Dark attribute by 30%"
+}

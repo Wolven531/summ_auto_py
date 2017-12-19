@@ -20,7 +20,7 @@ class MonsterDownloader():
         """
         for url in urls:
             print(f'Starting URL={url}')
-            mon = PageParser.ensure_mon_load(url)
+            mon = PageParser.ensure_mon_load(url, 5)
             mon.serialize()
 
     @staticmethod

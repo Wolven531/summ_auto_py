@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-drunken-master-wei-shin/",
+    "FIRE": "//summonerswar.co/fire-drunken-master-xiao-chun/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Wei_Shin_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Drunken_Master_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-drunken-master-tien-qin/",
+    "WATER": "//summonerswar.co/water-drunken-master-mao/",
+    "WIND": "//summonerswar.co/wind-drunken-master-huan/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Wei Shin",
+  "name_full": "Dark Drunken Master (Wei Shin)",
+  "name_sleepy": "Drunken Master",
+  "ratings": {
+    "FOOD": 16.0,
+    "KEEP_IT": 5.0,
+    "MEH": 64.0,
+    "THE_BEST": 15.0
+  },
+  "score_total": 4.3,
+  "score_user": 7.0,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "Increase Critical Rate by 15%"
+}

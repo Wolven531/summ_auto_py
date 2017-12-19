@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "\u2605\u2605\u2605",
+  "good_for": "Scroll of Light & Darkness, Temple of Wishes",
+  "grade": "Dark Epikion Priest (Rasheed)",
+  "grade_num": 29,
+  "links": {
+    "DARK": "//summonerswar.co/dark-epikion-priest-rasheed/",
+    "FIRE": "//summonerswar.co/fire-epikion-priest-chloe/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Rasheed_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Epikion_Priest_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-epikion-priest-iona/",
+    "WATER": "//summonerswar.co/water-epikion-priest-rina/",
+    "WIND": "//summonerswar.co/wind-epikion-priest-michelle/"
+  },
+  "mon_type": null,
+  "name_awaken": "Rasheed",
+  "name_full": "Dark Epikion Priest (Rasheed)",
+  "name_sleepy": "Epikion Priest",
+  "ratings": {
+    "FOOD": 25.0,
+    "KEEP_IT": 58.0,
+    "MEH": 11.0,
+    "THE_BEST": 6.0
+  },
+  "score_total": 3.0,
+  "score_user": 6.8,
+  "skillup_info": "Increases Resistance by 25%",
+  "when_awaken": "HP"
+}

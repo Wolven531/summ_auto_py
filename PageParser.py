@@ -67,7 +67,7 @@ class PageParser():
             if potential.links[LinkType.DARK] == '':
                 print(f'~~~Attempt {attempt} No dark link, retrying {url}')
                 continue
-            if potential.links[LinkType.IMAGE_AWAKE] == '':
+            if potential.links[LinkType.IMAGE_SLEEPY] == '':
                 print(f'~~~Attempt {attempt} No image, retrying {url}')
                 continue
             parsed_mon = potential
