@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "Arena, World Arena, Guild War Offense and ToA",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-sea-emperor-manannan/",
+    "FIRE": "//summonerswar.co/fire-sea-emperor-okeanos/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Okeanos_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Sea_Emperor_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-sea-emperor-pontos/",
+    "WATER": "//summonerswar.co/water-sea-emperor-poseidon/",
+    "WIND": "//summonerswar.co/wind-sea-emperor-triton/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Okeanos",
+  "name_full": "Fire Sea Emperor (Okeanos)",
+  "name_sleepy": "Sea Emperor",
+  "ratings": {
+    "FOOD": 6.0,
+    "KEEP_IT": 10.0,
+    "MEH": 3.0,
+    "THE_BEST": 82.0
+  },
+  "score_total": 8.6,
+  "score_user": 8.1,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

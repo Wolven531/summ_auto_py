@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
+  "good_for": "Raids, ToA, GB10, DB10, PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-rakshasa-hwa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Hwa_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Rakshasa_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Hwa",
+  "name_full": "Fire Rakshasa (Hwa)",
+  "name_sleepy": "Rakshasa",
+  "ratings": {
+    "FOOD": 2.0,
+    "KEEP_IT": 5.0,
+    "MEH": 2.0,
+    "THE_BEST": 91.0
+  },
+  "score_total": 8.8,
+  "score_user": 8.6,
+  "skillup_info": "Worth skilling up, but depending on how you use her, maxing 2nd Skill may not be a good idea",
+  "when_awaken": "Increases Accuracy by 25%"
+}

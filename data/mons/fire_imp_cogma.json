@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-imp-garok/",
+    "FIRE": "//summonerswar.co/fire-imp-cogma/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Cogma_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Imp_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-imp-taru/",
+    "WATER": "//summonerswar.co/water-imp-fynn/",
+    "WIND": "//summonerswar.co/wind-imp-ralph/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Cogma",
+  "name_full": "Fire Imp (Cogma)",
+  "name_sleepy": "Imp",
+  "ratings": {
+    "FOOD": 34.0,
+    "KEEP_IT": 47.0,
+    "MEH": 16.0,
+    "THE_BEST": 3.0
+  },
+  "score_total": 3.8,
+  "score_user": 6.6,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Taru (Light Imp) instead",
+  "when_awaken": "New Skill: [Triple Attack]"
+}

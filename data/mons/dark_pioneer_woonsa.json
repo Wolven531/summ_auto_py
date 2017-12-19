@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP in general",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-pioneer-woonsa/",
+    "FIRE": "//summonerswar.co/fire-pioneer-chiwu/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Woonsa_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Pioneer_Dark_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Woonsa",
+  "name_full": "Dark Pioneer (Woonsa)",
+  "name_sleepy": "Pioneer",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 28.0,
+    "MEH": 26.0,
+    "THE_BEST": 40.0
+  },
+  "score_total": 8.4,
+  "score_user": 8.2,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Attack Speed by 15"
+}

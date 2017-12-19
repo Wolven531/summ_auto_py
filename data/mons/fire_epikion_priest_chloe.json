@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "\u2605\u2605\u2605\u2605",
+  "good_for": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
+  "grade": "Fire Epikion Priest (Chloe)",
+  "grade_num": 27,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-epikion-priest-chloe/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Chloe_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Epikion_Priest_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": null,
+  "name_awaken": "Chloe",
+  "name_full": "Fire Epikion Priest (Chloe)",
+  "name_sleepy": "Epikion Priest",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 6.0,
+    "MEH": 2.0,
+    "THE_BEST": 89.0
+  },
+  "score_total": 8.3,
+  "score_user": 8.7,
+  "skillup_info": "Increases Attack Speed by 15",
+  "when_awaken": "Support"
+}

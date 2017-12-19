@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Guild Shop",
+  "good_for": "NB10, Skillups",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-cow-girl-anne/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Anne_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/cowgirl.jpg",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Anne",
+  "name_full": "Fire Cow Girl (Anne)",
+  "name_sleepy": "Cow Girl",
+  "ratings": {
+    "FOOD": 11.0,
+    "KEEP_IT": 9.0,
+    "MEH": 10.0,
+    "THE_BEST": 69.0
+  },
+  "score_total": 5.7,
+  "score_user": 6.4,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Sera (Water Cow Girl) or Loren (Light Cow Girl) instead",
+  "when_awaken": "Increases Accuracy by 25%"
+}

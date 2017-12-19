@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-pirate-captain-frigate/",
+    "FIRE": "//summonerswar.co/fire-pirate-captain-carrack/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Carrack_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Pirate_Captain_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-pirate-captain-brig/",
+    "WATER": "//summonerswar.co/water-pirate-captain-galleon/",
+    "WIND": "//summonerswar.co/wind-pirate-captain-barque/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Carrack",
+  "name_full": "Fire Pirate Captain (Carrack)",
+  "name_sleepy": "Pirate Captain",
+  "ratings": {
+    "FOOD": 7.0,
+    "KEEP_IT": 16.0,
+    "MEH": 4.0,
+    "THE_BEST": 73.0
+  },
+  "score_total": 6.8,
+  "score_user": 7.9,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "New Skill: [Detonation Shot]"
+}

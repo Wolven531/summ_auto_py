@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Temple of Wishes, Vrofagus Ruins (Scenario Drop)",
+  "good_for": "Secret Dungeon clears, Early PvP Offense",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-inferno-drogan/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Tagaros_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Inferno_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Tagaros",
+  "name_full": "Fire Inferno (Tagaros)",
+  "name_sleepy": "Inferno",
+  "ratings": {
+    "FOOD": 8.0,
+    "KEEP_IT": 75.0,
+    "MEH": 6.0,
+    "THE_BEST": 11.0
+  },
+  "score_total": 6.1,
+  "score_user": 7.6,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "New Skill: [Meteor]"
+}

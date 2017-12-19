@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Unknown Scroll, Social Summon, Fire Scroll, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-minotauros-kamatau/",
+    "FIRE": "//summonerswar.co/fire-minotauros-burentau/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Burentau_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Minotauros_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-minotauros-grotau/",
+    "WATER": "//summonerswar.co/water-minotauros-urtau/",
+    "WIND": "//summonerswar.co/wind-minotauros-eintau/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Burentau",
+  "name_full": "Fire Minotauros (Burentau)",
+  "name_sleepy": "Minotauros",
+  "ratings": {
+    "FOOD": 67.0,
+    "KEEP_IT": 18.0,
+    "MEH": 7.0,
+    "THE_BEST": 7.0
+  },
+  "score_total": 3.0,
+  "score_user": 6.9,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "Leader Skill: Increases the HP of ally monsters with Fire attribute by 30%"
+}

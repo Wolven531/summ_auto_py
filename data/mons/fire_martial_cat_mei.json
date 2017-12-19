@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Temple of Wishes, Guild Shop",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-martial-cat-miho/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Mei_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Martial_Cat_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Mei",
+  "name_full": "Fire Martial Cat (Mei)",
+  "name_sleepy": "Martial Cat",
+  "ratings": {
+    "FOOD": 34.0,
+    "KEEP_IT": 53.0,
+    "MEH": 5.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 4.0,
+  "score_user": 7.4,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "Increases Resistance by 25%"
+}

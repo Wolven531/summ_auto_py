@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Fire Scroll, Temple of Wishes",
+  "good_for": "Arena Defense during rush hour",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-mummy-karakum/",
+    "FIRE": "//summonerswar.co/fire-mummy-sonora/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Sonora_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Mummy_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-mummy-sahara/",
+    "WATER": "//summonerswar.co/water-mummy-nubia/",
+    "WIND": "//summonerswar.co/wind-mummy-namib/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Sonora",
+  "name_full": "Fire Mummy (Sonora)",
+  "name_sleepy": "Mummy",
+  "ratings": {
+    "FOOD": 42.0,
+    "KEEP_IT": 36.0,
+    "MEH": 10.0,
+    "THE_BEST": 11.0
+  },
+  "score_total": 8.1,
+  "score_user": 6.7,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "New Skill: [Burning Body (Passive)]"
+}

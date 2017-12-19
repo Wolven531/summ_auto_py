@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Legendary Scroll, Fire Scroll, Temple of Wishes",
+  "good_for": "Skillups or Food",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-horus-amduat/",
+    "FIRE": "//summonerswar.co/fire-horus-duamutef/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Duamutef_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Horus_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-horus-wedjat/",
+    "WATER": "//summonerswar.co/water-horus-qebehsenuef/",
+    "WIND": "//summonerswar.co/wind-horus-imesety/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Duamutef",
+  "name_full": "Fire Horus (Duamutef)",
+  "name_sleepy": "Horus",
+  "ratings": {
+    "FOOD": 28.0,
+    "KEEP_IT": 53.0,
+    "MEH": 15.0,
+    "THE_BEST": 4.0
+  },
+  "score_total": 5.8,
+  "score_user": 7.3,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Leader Skill: Increases the HP of ally monsters in the Arena by 33%"
+}

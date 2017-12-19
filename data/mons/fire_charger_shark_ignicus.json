@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Fire Scroll, Temple of Wishes",
+  "good_for": "ToA, Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-charger-shark-calicus/",
+    "FIRE": "//summonerswar.co/fire-charger-shark-ignicus/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Ignicus_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Charger_Shark_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-charger-shark-rumicus/",
+    "WATER": "//summonerswar.co/water-charger-shark-aqcus/",
+    "WIND": "//summonerswar.co/wind-charger-shark-zephicus/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Ignicus",
+  "name_full": "Fire Charger Shark (Ignicus)",
+  "name_sleepy": "Charger Shark",
+  "ratings": {
+    "FOOD": 65.0,
+    "KEEP_IT": 21.0,
+    "MEH": 7.0,
+    "THE_BEST": 7.0
+  },
+  "score_total": 5.5,
+  "score_user": 6.7,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "Leader Skill: Increases the Attack Speed of all monsters with Fire attribute by 23%"
+}

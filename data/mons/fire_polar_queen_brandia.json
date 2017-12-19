@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "Raids, Arena Defense Tank (Leader Skill), Guild Wars Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-polar-queen-brandia/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Brandia_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Polar-Queen-Fire.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Brandia",
+  "name_full": "Fire Polar Queen (Brandia)",
+  "name_sleepy": "Polar Queen",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 11.0,
+    "MEH": 4.0,
+    "THE_BEST": 82.0
+  },
+  "score_total": 7.7,
+  "score_user": 8.2,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Attack Speed by 15"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Temple of Wishes, Secret Dungeon",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-bearman-haken/",
+    "FIRE": "//summonerswar.co/fire-bearman-kungen/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Kungen_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Bearman_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-bearman-ahman/",
+    "WATER": "//summonerswar.co/water-bearman-gruda/",
+    "WIND": "//summonerswar.co/wind-bearman-dagorr/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Kungen",
+  "name_full": "Fire Bearman (Kungen)",
+  "name_sleepy": "Bearman",
+  "ratings": {
+    "FOOD": 82.0,
+    "KEEP_IT": 5.0,
+    "MEH": 4.0,
+    "THE_BEST": 9.0
+  },
+  "score_total": 2.5,
+  "score_user": 5.6,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Ahman (Light Bearman) instead",
+  "when_awaken": "New Skill: [Triple Uppercut]"
+}

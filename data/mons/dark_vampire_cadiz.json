@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Raids, GB10, DB10, Guild Wars Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-vampire-cadiz/",
+    "FIRE": "//summonerswar.co/dark-vampire-cadiz/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Cadiz_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Vampire_Dark_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Cadiz",
+  "name_full": "Dark Vampire (Cadiz)",
+  "name_sleepy": "Vampire",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 3.0,
+    "MEH": 3.0,
+    "THE_BEST": 90.0
+  },
+  "score_total": 8.8,
+  "score_user": 8.5,
+  "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

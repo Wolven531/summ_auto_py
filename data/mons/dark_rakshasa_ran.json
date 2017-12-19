@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes, July HoH 2016",
+  "good_for": "NB10, Guild War Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-rakshasa-ran/",
+    "FIRE": "//summonerswar.co/fire-rakshasa-hwa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Ran_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Rakshasa_Dark_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Ran",
+  "name_full": "Dark Rakshasa (Ran)",
+  "name_sleepy": "Rakshasa",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 36.0,
+    "MEH": 4.0,
+    "THE_BEST": 56.0
+  },
+  "score_total": 7.0,
+  "score_user": 7.9,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

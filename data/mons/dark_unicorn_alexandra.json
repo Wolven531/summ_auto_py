@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP in general, especially defense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "https://summonerswar.co/dark-unicorn-alexandra/",
+    "FIRE": "https://summonerswar.co/fire-unicorn-helena/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Alexandra_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Unicorn_Dark_Icon.png",
+    "LIGHT": "https://summonerswar.co/light-unicorn-eleanor/",
+    "WATER": "https://summonerswar.co/water-unicorn-amelia/",
+    "WIND": "https://summonerswar.co/wind-unicorn-diana/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Alexandra",
+  "name_full": "Dark Unicorn (Alexandra)",
+  "name_sleepy": "Unicorn",
+  "ratings": {
+    "FOOD": 36.0,
+    "KEEP_IT": 13.0,
+    "MEH": 8.0,
+    "THE_BEST": 42.0
+  },
+  "score_total": 8.2,
+  "score_user": 7.4,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "New Skill: [Transformation: Human Form]"
+}

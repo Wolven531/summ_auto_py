@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-phoenix-jaara/",
+    "FIRE": "//summonerswar.co/dark-phoenix-jaara/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Jaara_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Phoenix_Dark_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Jaara",
+  "name_full": "Dark Phoenix (Jaara)",
+  "name_sleepy": "Phoenix",
+  "ratings": {
+    "FOOD": 16.0,
+    "KEEP_IT": 11.0,
+    "MEH": 8.0,
+    "THE_BEST": 64.0
+  },
+  "score_total": 8.1,
+  "score_user": 7.6,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Accuracy by 25%"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "ToA, PvP in general, Fodder Farmer, Secret Dungeon clears",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-occult-girl-nicki/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Rica_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Occult_Girl_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Rica",
+  "name_full": "Fire Occult Girl (Rica)",
+  "name_sleepy": "Occult Girl",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 7.0,
+    "MEH": 1.0,
+    "THE_BEST": 89.0
+  },
+  "score_total": 8.5,
+  "score_user": 8.9,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Accuracy by 25%"
+}

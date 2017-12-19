@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-hell-lady-craka/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Raki_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Hell_Lady_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Raki",
+  "name_full": "Fire Hell Lady (Raki)",
+  "name_sleepy": "Hell Lady",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 6.0,
+    "MEH": 2.0,
+    "THE_BEST": 88.0
+  },
+  "score_total": 8.4,
+  "score_user": 8.3,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "DB10, ToA, PvP Offense",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-serpent-mantura/",
+    "FIRE": "//summonerswar.co/fire-serpent-fao/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Mantura_Icon-1.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Serpent_Dark_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Mantura",
+  "name_full": "Dark Serpent (Mantura)",
+  "name_sleepy": "Serpent",
+  "ratings": {
+    "FOOD": 14.0,
+    "KEEP_IT": 43.0,
+    "MEH": 0.0,
+    "THE_BEST": 43.0
+  },
+  "score_total": 7.5,
+  "score_user": 9.0,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "New skill: [Poison Mist]"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
+  "good_for": "NB10",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-nine-tailed-fox-kamiya/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Shihwa_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Nine-tailed_Fox_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Shihwa",
+  "name_full": "Fire Nine-tailed Fox (Shihwa)",
+  "name_sleepy": "Nine-tailed Fox",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 62.0,
+    "MEH": 4.0,
+    "THE_BEST": 31.0
+  },
+  "score_total": 7.5,
+  "score_user": 8.1,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Strengthen Skill: [Will-o'-the-Wisp]"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-panda-warrior-mi-ying/",
+    "FIRE": "//summonerswar.co/fire-panda-warrior-xiong-fei/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Mi_Ying_Icon-1.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Panda_Warrior_Dark_Icon.png",
+    "LIGHT": "//summonerswar.co/light-panda-warrior-tian-lang/",
+    "WATER": "//summonerswar.co/water-panda-warrior-mo-long/",
+    "WIND": "//summonerswar.co/wind-panda-warrior-feng-yan/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Mi Ying",
+  "name_full": "Dark Panda Warrior (Mi Ying)",
+  "name_sleepy": "Panda Warrior",
+  "ratings": {
+    "FOOD": 18.0,
+    "KEEP_IT": 16.0,
+    "MEH": 8.0,
+    "THE_BEST": 57.0
+  },
+  "score_total": 8.6,
+  "score_user": 7.5,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Attack Speed by 15"
+}

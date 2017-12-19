@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Temple of Wishes, Ferun Castle (Scenario Drop)",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-living-armor-iron/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Iron_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Living_Armor_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Iron",
+  "name_full": "Fire Living Armor (Iron)",
+  "name_sleepy": "Living Armor",
+  "ratings": {
+    "FOOD": 56.0,
+    "KEEP_IT": 31.0,
+    "MEH": 4.0,
+    "THE_BEST": 9.0
+  },
+  "score_total": 3.0,
+  "score_user": 6.8,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Copper (Wind Living Armor), Silver (Light Living Armor) or Zinc (Dark Living Armor) instead",
+  "when_awaken": "Increases Accuracy by 25%"
+}

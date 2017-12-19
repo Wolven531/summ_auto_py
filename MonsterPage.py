@@ -28,35 +28,30 @@ class MonsterPage():
         return LinkType[MonsterPage.DEFAULT_ELEMENT.value]
 
     @staticmethod
-    def parse_alt_link_info(tree, target_xpath):
+    def parse_alt_link_info(anchor_node):
         """
             This method parses the URL and type of a particular element link
-            on a monster page using xpath on a tree
+            on a monster page using xpath on a node
         """
-        elem_xpath = '//*[@id="content-anchor-inner"]//p'
-
-        href = tree.xpath(elem_xpath + target_xpath + '/@href')
-        href_exists = len(href) > 0
-
         alt_type = MonsterPage.DEFAULT_ELEMENT
+        href = anchor_node.attrib['href']
+        title_exists = True
 
-        if href_exists:
-            href = href[0]
-            title_attribute = tree.xpath(elem_xpath + target_xpath + '/@title')
-            title_exists = len(title_attribute) > 0
+        try:
+            title_attribute = anchor_node.attrib['title']
+        except KeyError:
+            title_exists = False
 
-            if title_exists:
-                href_type = title_attribute[0]
-                href_type = href_type[0 : href_type.find(' ')].upper()
-            else:
-                start_ind = href.find('.co/') + 4
-                end_ind = href.find('-', start_ind)
-                href_type = href[start_ind : end_ind].upper()
-
-            if MonsterType.has_value(href_type):
-                alt_type = MonsterType[href_type]
+        if title_exists:
+            href_type = title_attribute[0]
+            href_type = href_type[0 : href_type.find(' ')].upper()
         else:
-            href = ''
+            start_ind = href.find('.co/') + 4
+            end_ind = href.find('-', start_ind)
+            href_type = href[start_ind : end_ind].upper()
+
+        if MonsterType.has_value(href_type):
+            alt_type = MonsterType[href_type]
 
         return {
             'alt_link': href,
@@ -225,6 +220,7 @@ class MonsterPage():
         """
         raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text
         raw_mon_name = raw_mon_name.strip()
+        raw_mon_name = raw_mon_name.replace('’', '')
         first_space_ind = raw_mon_name.find(' ')
         potential_element = raw_mon_name[0 : first_space_ind].upper()
 
@@ -241,6 +237,7 @@ class MonsterPage():
         """
         raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text
         raw_mon_name = raw_mon_name.strip()
+        raw_mon_name = raw_mon_name.replace('’', '')
         self.full_name = raw_mon_name
         first_space_ind = raw_mon_name.find(' ')
         paren_ind = self.full_name.find('(')
@@ -357,13 +354,7 @@ class MonsterPage():
             This method parses the URL of the fire version of a monster
             from a tree
         """
-        hrefs_infos = [
-            self.parse_alt_link_info(tree, '//a[1]'),
-            self.parse_alt_link_info(tree, '//a[2]'),
-            self.parse_alt_link_info(tree, '//a[3]'),
-            self.parse_alt_link_info(tree, '//a[4]'),
-            self.parse_alt_link_info(tree, '//a[5]')
-        ]
-
-        for info_obj in hrefs_infos:
+        elem_xpath = '//*[@id="content-anchor-inner"]//p'
+        for anchor in tree.xpath(elem_xpath + '//a'):
+            info_obj = self.parse_alt_link_info(anchor)
             self.links[info_obj['link_type']] = info_obj['alt_link']

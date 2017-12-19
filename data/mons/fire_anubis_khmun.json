@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Legendary Scroll, Fire Scroll, Temple of Wishes",
+  "good_for": "PvP in general",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-anubis-thebae/",
+    "FIRE": "//summonerswar.co/fire-anubis-khmun/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Khmun_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Anubis_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-anubis-amarna/",
+    "WATER": "//summonerswar.co/water-anubis-avaris/",
+    "WIND": "//summonerswar.co/wind-anubis-iunu/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Khmun",
+  "name_full": "Fire Anubis (Khmun)",
+  "name_sleepy": "Anubis",
+  "ratings": {
+    "FOOD": 7.0,
+    "KEEP_IT": 18.0,
+    "MEH": 6.0,
+    "THE_BEST": 69.0
+  },
+  "score_total": 9.2,
+  "score_user": 8.1,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Strengthen Skill: [Pierce Soul]"
+}

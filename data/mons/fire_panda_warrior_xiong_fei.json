@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Monster Fusion",
+  "good_for": "Raids, NB10",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-panda-warrior-mi-ying/",
+    "FIRE": "//summonerswar.co/fire-panda-warrior-xiong-fei/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Xiong_Fei_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Panda_Warrior_Fire_Icon.png",
+    "LIGHT": "//summonerswar.co/light-panda-warrior-tian-lang/",
+    "WATER": "//summonerswar.co/water-panda-warrior-mo-long/",
+    "WIND": "//summonerswar.co/wind-panda-warrior-feng-yan/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Xiong Fei",
+  "name_full": "Fire Panda Warrior (Xiong Fei)",
+  "name_sleepy": "Panda Warrior",
+  "ratings": {
+    "FOOD": 7.0,
+    "KEEP_IT": 17.0,
+    "MEH": 5.0,
+    "THE_BEST": 71.0
+  },
+  "score_total": 8.0,
+  "score_user": 8.2,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Resistance by 25%"
+}

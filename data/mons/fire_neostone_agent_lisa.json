@@ -1,0 +1,30 @@
+{
+  "element": "FIRE",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
+  "good_for": "Raids, DB10, NB10",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-neostone-agent-lisa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Lisa_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Neostone_Agent_Fire_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Lisa",
+  "name_full": "Fire Neostone Agent (Lisa)",
+  "name_sleepy": "Neostone Agent",
+  "ratings": {
+    "FOOD": 2.0,
+    "KEEP_IT": 18.0,
+    "MEH": 2.0,
+    "THE_BEST": 78.0
+  },
+  "score_total": 8.4,
+  "score_user": 8.1,
+  "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+  "when_awaken": "Leader Skill: The Critical Rate of ally monsters is increased by 24% in Guild Battles"
+}

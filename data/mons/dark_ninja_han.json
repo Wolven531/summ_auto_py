@@ -1,0 +1,30 @@
+{
+  "element": "DARK",
+  "get_from": "\u2605\u2605\u2605\u2605\u2605",
+  "good_for": "Light and Darkness Scroll, Temple of Wishes",
+  "grade": "Dark Ninja (Han)",
+  "grade_num": 16,
+  "links": {
+    "DARK": "//summonerswar.co/dark-ninja-han/",
+    "FIRE": "//summonerswar.co/dark-ninja-han/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Han_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Dark_Ninja.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": null,
+  "name_awaken": "Han",
+  "name_full": "Dark Ninja (Han)",
+  "name_sleepy": "Ninja",
+  "ratings": {
+    "FOOD": 7.0,
+    "KEEP_IT": 34.0,
+    "MEH": 8.0,
+    "THE_BEST": 51.0
+  },
+  "score_total": 8.3,
+  "score_user": 7.8,
+  "skillup_info": "Increase Critical Rate by 15%",
+  "when_awaken": "HP"
+}
