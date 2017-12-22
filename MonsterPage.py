@@ -34,7 +34,7 @@ class MonsterPage():
             on a monster page using xpath on a node
         """
         alt_type = MonsterPage.DEFAULT_ELEMENT
-        href = anchor_node.attrib['href']
+        href = anchor_node.attrib['href'].strip()
         title_exists = True
 
         try:
