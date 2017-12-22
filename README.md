@@ -8,7 +8,7 @@ From the root directory, run `python3 -m unittest discover -s test/ -p '*Tests.p
 
 ## Running the downloader
 
-From the root directory, run `python3 src/MonsterDownloader.py`
+From the root directory, run `python3 MonsterDownloader.py`
 
 This will load the `data/searched_links.json` and iterate through the `searched_links` property (an array of URLs, each of which belongs to a single monster page). For each URL, the downloader will attempt to parse a monster JSON file and serialize it to disk.
 
