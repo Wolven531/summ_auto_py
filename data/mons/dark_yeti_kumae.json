@@ -6,12 +6,12 @@
   "grade_num": 3,
   "links": {
     "DARK": "//summonerswar.co/dark-yeti-kumae/",
-    "FIRE": "//summonerswar.co/dark-yeti-kumae/",
+    "FIRE": "//summonerswar.co/fire-yeti-tantra/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Kumae_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Yeti_Dark_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-yeti-arkajan/",
+    "WATER": "//summonerswar.co/water-yeti-kunda/",
+    "WIND": "//summonerswar.co/wind-yeti-rakaja/"
   },
   "mon_type": "HP",
   "name_awaken": "Kumae",

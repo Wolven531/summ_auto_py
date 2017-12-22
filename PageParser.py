@@ -56,34 +56,43 @@ class PageParser():
         """
         parsed_mon = None
         for attempt in range(1, max_attempts):
+
             if parsed_mon != None:
                 continue
+
             page = requests.get(url, headers=PageParser.HEADERS)
+
             if not page.ok:
                 print(f'~~~Attempt {attempt} No page load, retrying {url}')
                 continue
+
             tree = html.fromstring(page.content)
             potential = MonsterPage(tree)
             self_link_type = MonsterPage.convert_element_to_link_type(potential.element)
 
-            if (potential.links[LinkType.FIRE] == '' and
-                    potential.links[LinkType.WATER] == '' and
-                    potential.links[LinkType.WIND] == '' and
-                    potential.links[LinkType.LIGHT] == '' and
-                    potential.links[LinkType.DARK] == ''):
+            if potential.links[LinkType.IMAGE_SLEEPY] == '':
+                print(f'~~~Attempt {attempt} No image, retrying {url}')
+                continue
+
+            num_missing_links = 0
+
+            for link in potential.links:
+                if potential.links[link] == '':
+                    num_missing_links += 1
+
+            if num_missing_links == 5:
                 print('~~~Special case, all links were blank')
-            elif potential.links[LinkType.FIRE] == '' and potential.links[LinkType.DARK] == '':
-                print(f'~~~Attempt {attempt} Missing [fire,dark] link,'+
+            elif num_missing_links > 2:
+                print(f'~~~Attempt {attempt} Missing at least two links, ' +
                       f'retrying {url}; had={potential.links}')
                 continue
 
+            # attempt a self type fix to minimize runs (if needed)
             if potential.links[self_link_type] == '':
                 fixed_url = url.replace('https:', '')
                 potential.links[self_link_type] = fixed_url
 
-            if potential.links[LinkType.IMAGE_SLEEPY] == '':
-                print(f'~~~Attempt {attempt} No image, retrying {url}')
-                continue
+            # print(f'~~~Attempt {attempt} Mon is valid, returning; url="{url}", links={potential.links}')
             parsed_mon = potential
 
         return parsed_mon

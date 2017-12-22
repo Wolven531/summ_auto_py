@@ -6,12 +6,12 @@
   "grade_num": 4,
   "links": {
     "DARK": "//summonerswar.co/dark-nine-tailed-fox-kamiya/",
-    "FIRE": "//summonerswar.co/dark-nine-tailed-fox-kamiya/",
+    "FIRE": "//summonerswar.co/fire-nine-tailed-fox-shihwa/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Kamiya_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Nine-tailed_Fox_Dark_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-nine-tailed-fox-chamie/",
+    "WATER": "//summonerswar.co/water-nine-tailed-fox-water/",
+    "WIND": "//summonerswar.co/wind-nine-tailed-fox-arang/"
   },
   "mon_type": "Attack",
   "name_awaken": "Kamiya",

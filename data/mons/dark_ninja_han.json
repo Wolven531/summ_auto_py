@@ -6,12 +6,12 @@
   "grade_num": 16,
   "links": {
     "DARK": "//summonerswar.co/dark-ninja-han/",
-    "FIRE": "//summonerswar.co/dark-ninja-han/",
+    "FIRE": "//summonerswar.co/fire-ninja-garo/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Han_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Dark_Ninja.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-ninja-gin/",
+    "WATER": "//summonerswar.co/water-ninja-susano/",
+    "WIND": "//summonerswar.co/wind-ninja-orochi/"
   },
   "mon_type": null,
   "name_awaken": "Han",
@@ -24,7 +24,7 @@
     "THE_BEST": 51.0
   },
   "score_total": 8.3,
-  "score_user": 7.8,
+  "score_user": 7.7,
   "skillup_info": "Increase Critical Rate by 15%",
   "when_awaken": "HP"
 }

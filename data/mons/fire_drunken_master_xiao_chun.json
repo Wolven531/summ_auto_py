@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-drunken-master-wei-shin/",
+    "DARK": "//summonerswar.co/dark-drunken-master-wei-shin/",
+    "FIRE": "//summonerswar.co/fire-drunken-master-xiao-chun/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Xiao_Chun_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Drunken_Master_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-drunken-master-tien-qin/",
+    "WATER": "//summonerswar.co/water-drunken-master-mao/",
+    "WIND": "//summonerswar.co/wind-drunken-master-huan/"
   },
   "mon_type": "Attack",
   "name_awaken": "Xiao Chun",

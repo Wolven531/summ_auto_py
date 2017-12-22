@@ -9,19 +9,19 @@
     "FIRE": "//summonerswar.co/fire-serpent-fao/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Mantura_Icon-1.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Serpent_Dark_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-serpent-elpuria/",
+    "WATER": "//summonerswar.co/water-serpent-shailoq/",
+    "WIND": "//summonerswar.co/wind-serpent-ermeda/"
   },
   "mon_type": "HP",
   "name_awaken": "Mantura",
   "name_full": "Dark Serpent (Mantura)",
   "name_sleepy": "Serpent",
   "ratings": {
-    "FOOD": 14.0,
-    "KEEP_IT": 43.0,
+    "FOOD": 11.0,
+    "KEEP_IT": 56.0,
     "MEH": 0.0,
-    "THE_BEST": 43.0
+    "THE_BEST": 33.0
   },
   "score_total": 7.5,
   "score_user": 9.0,

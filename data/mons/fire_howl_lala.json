@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605",
   "grade_num": 2,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-howl-chacha/",
+    "DARK": "//summonerswar.co/dark-howl-chacha/",
+    "FIRE": "//summonerswar.co/fire-howl-lala/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Lala_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Howl_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-howl-shushu/",
+    "WATER": "//summonerswar.co/water-howl-lulu/",
+    "WIND": "//summonerswar.co/wind-howl-chichi/"
   },
   "mon_type": "Support",
   "name_awaken": "Lala",

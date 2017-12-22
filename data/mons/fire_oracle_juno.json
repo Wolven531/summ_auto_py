@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-oracle-giana/",
+    "DARK": "//summonerswar.co/dark-oracle-giana/",
+    "FIRE": "//summonerswar.co/fire-oracle-juno/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Juno_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Oracle_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-oracle-laima/",
+    "WATER": "//summonerswar.co/water-oracle-praha/",
+    "WIND": "//summonerswar.co/wind-oracle-seara/"
   },
   "mon_type": "Support",
   "name_awaken": "Juno",
@@ -19,7 +19,7 @@
   "name_sleepy": "Oracle",
   "ratings": {
     "FOOD": 5.0,
-    "KEEP_IT": 14.0,
+    "KEEP_IT": 13.0,
     "MEH": 7.0,
     "THE_BEST": 74.0
   },

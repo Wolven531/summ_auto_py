@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-dragon-grogen/",
+    "DARK": "//summonerswar.co/dark-dragon-grogen/",
+    "FIRE": "//summonerswar.co/fire-dragon-zaiross/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Zaiross_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Dragon_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-dragon-zerath/",
+    "WATER": "//summonerswar.co/water-dragon-verad/",
+    "WIND": "//summonerswar.co/wind-dragon-jamire/"
   },
   "mon_type": "Attack",
   "name_awaken": "Zaiross",

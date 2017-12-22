@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-brownie-magician-korona/",
+    "DARK": "//summonerswar.co/dark-brownie-magician-korona/",
+    "FIRE": "//summonerswar.co/fire-brownie-magician-draco/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Draco_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Brownie_Magician_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-brownie-magician-gemini/",
+    "WATER": "//summonerswar.co/water-brownie-magician-orion/",
+    "WIND": "//summonerswar.co/wind-brownie-magician-aquila/"
   },
   "mon_type": "Support",
   "name_awaken": "Draco",

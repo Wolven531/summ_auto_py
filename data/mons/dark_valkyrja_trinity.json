@@ -9,9 +9,9 @@
     "FIRE": "//summonerswar.co/fire-valkyrja-vanessa/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Trinity_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Valkyrja_Dark_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-valkyrja-akroma/",
+    "WATER": "//summonerswar.co/water-valkyrja-camilla/",
+    "WIND": "//summonerswar.co/wind-valkyrja-katarina/"
   },
   "mon_type": "HP",
   "name_awaken": "Trinity",

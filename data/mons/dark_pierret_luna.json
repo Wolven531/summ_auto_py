@@ -6,12 +6,12 @@
   "grade_num": 4,
   "links": {
     "DARK": "//summonerswar.co/dark-pierret-luna/",
-    "FIRE": "//summonerswar.co/dark-pierret-luna/",
+    "FIRE": "//summonerswar.co/fire-pierret-clara/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Luna_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Pierret_Dark_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-pierret-eva/",
+    "WATER": "//summonerswar.co/water-pierret-julie/",
+    "WIND": "//summonerswar.co/wind-pierret-sophia/"
   },
   "mon_type": "Attack",
   "name_awaken": "Luna",

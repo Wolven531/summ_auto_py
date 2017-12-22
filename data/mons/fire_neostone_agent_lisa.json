@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-neostone-agent-sylvia/",
     "FIRE": "//summonerswar.co/fire-neostone-agent-lisa/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Lisa_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Neostone_Agent_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-neostone-agent-illianna/",
+    "WATER": "//summonerswar.co/water-neostone-agent-emma/",
+    "WIND": "//summonerswar.co/wind-neostone-agent-olivia/"
   },
   "mon_type": "Support",
   "name_awaken": "Lisa",

@@ -5,20 +5,20 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-harpy-hellea/",
     "FIRE": "//summonerswar.co/fire-harpy-lucasha/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Lucasha_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Harpy_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-harpy-kabilla/",
+    "WATER": "//summonerswar.co/water-harpy-ramira/",
+    "WIND": "//summonerswar.co/wind-harpy-prilea/"
   },
   "mon_type": "Attack",
   "name_awaken": "Lucasha",
   "name_full": "Fire Harpy (Lucasha)",
   "name_sleepy": "Harpy",
   "ratings": {
-    "FOOD": 41.0,
+    "FOOD": 40.0,
     "KEEP_IT": 33.0,
     "MEH": 5.0,
     "THE_BEST": 20.0

@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-mermaid-betta/",
     "FIRE": "//summonerswar.co/fire-mermaid-platy/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Platy_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Mermaid_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-mermaid-molly/",
+    "WATER": "//summonerswar.co/water-mermaid-tetra/",
+    "WIND": "//summonerswar.co/wind-mermaid-cichlid/"
   },
   "mon_type": "Support",
   "name_awaken": "Platy",

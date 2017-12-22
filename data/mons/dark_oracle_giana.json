@@ -6,12 +6,12 @@
   "grade_num": 5,
   "links": {
     "DARK": "//summonerswar.co/dark-oracle-giana/",
-    "FIRE": "//summonerswar.co/dark-oracle-giana/",
+    "FIRE": "//summonerswar.co/fire-oracle-juno/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Giana_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Oracle_Dark_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-oracle-laima/",
+    "WATER": "//summonerswar.co/water-oracle-praha/",
+    "WIND": "//summonerswar.co/wind-oracle-seara/"
   },
   "mon_type": "Attack",
   "name_awaken": "Giana",

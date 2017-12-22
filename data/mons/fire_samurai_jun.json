@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-samurai-sige/",
+    "DARK": "//summonerswar.co/dark-samurai-sige/",
+    "FIRE": "//summonerswar.co/fire-samurai-jun/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Jun_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Samurai_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-samurai-tosi/",
+    "WATER": "//summonerswar.co/water-samurai-kaz/",
+    "WIND": "//summonerswar.co/wind-samurai-kaito/"
   },
   "mon_type": "Attack",
   "name_awaken": "Jun",

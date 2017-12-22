@@ -6,12 +6,12 @@
   "grade_num": 5,
   "links": {
     "DARK": "//summonerswar.co/dark-polar-queen-lydia/",
-    "FIRE": "//summonerswar.co/dark-polar-queen-lydia/",
+    "FIRE": "//summonerswar.co/fire-polar-queen-brandia/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Lydia_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Polar-Queen-Dark.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-polar-queen-elenoa/",
+    "WATER": "//summonerswar.co/water-polar-queen-alicia/",
+    "WIND": "//summonerswar.co/wind-polar-queen-tiana/"
   },
   "mon_type": "Attack",
   "name_awaken": "Lydia",
@@ -19,9 +19,9 @@
   "name_sleepy": "Polar Queen",
   "ratings": {
     "FOOD": 11.0,
-    "KEEP_IT": 42.0,
+    "KEEP_IT": 41.0,
     "MEH": 9.0,
-    "THE_BEST": 38.0
+    "THE_BEST": 39.0
   },
   "score_total": 8.9,
   "score_user": 8.2,

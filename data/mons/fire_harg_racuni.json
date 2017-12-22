@@ -18,13 +18,13 @@
   "name_full": "Fire Harg (Racuni)",
   "name_sleepy": "Harg",
   "ratings": {
-    "FOOD": 19.0,
-    "KEEP_IT": 31.0,
+    "FOOD": 18.0,
+    "KEEP_IT": 30.0,
     "MEH": 14.0,
-    "THE_BEST": 36.0
+    "THE_BEST": 39.0
   },
   "score_total": 7.9,
-  "score_user": 6.2,
+  "score_user": 7.0,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Increases Resistance by 25%"
 }

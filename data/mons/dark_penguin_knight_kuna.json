@@ -6,22 +6,22 @@
   "grade_num": 3,
   "links": {
     "DARK": "//summonerswar.co/dark-penguin-knight-kuna/",
-    "FIRE": "//summonerswar.co/dark-penguin-knight-kuna/",
+    "FIRE": "//summonerswar.co/fire-penguin-knight-toma/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Kuna_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/jYuhFldb.jpg",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-penguin-knight-dona/",
+    "WATER": "//summonerswar.co/water-penguin-knight-toma/",
+    "WIND": "//summonerswar.co/wind-penguin-knight-mav/"
   },
   "mon_type": "HP",
   "name_awaken": "Kuna",
   "name_full": "Dark Penguin Knight (Kuna)",
   "name_sleepy": "Penguin Knight",
   "ratings": {
-    "FOOD": 16.0,
+    "FOOD": 15.0,
     "KEEP_IT": 18.0,
-    "MEH": 9.0,
-    "THE_BEST": 56.0
+    "MEH": 8.0,
+    "THE_BEST": 57.0
   },
   "score_total": 6.8,
   "score_user": 7.5,

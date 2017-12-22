@@ -5,20 +5,20 @@
   "grade": "Fire Ninja (Garo)",
   "grade_num": 17,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-ninja-han/",
     "FIRE": "//summonerswar.co/fire-ninja-garo/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Garo_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Ninja_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-ninja-gin/",
+    "WATER": "//summonerswar.co/water-ninja-susano/",
+    "WIND": "//summonerswar.co/wind-ninja-orochi/"
   },
   "mon_type": null,
   "name_awaken": "Garo",
   "name_full": "Fire Ninja (Garo)",
   "name_sleepy": "Ninja",
   "ratings": {
-    "FOOD": 22.0,
+    "FOOD": 21.0,
     "KEEP_IT": 56.0,
     "MEH": 9.0,
     "THE_BEST": 13.0
