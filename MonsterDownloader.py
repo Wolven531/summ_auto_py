@@ -5,6 +5,7 @@
 import json
 import os
 
+from ConsoleUtil import ConsoleUtil
 from PageParser import PageParser
 
 class MonsterDownloader():
@@ -19,7 +20,7 @@ class MonsterDownloader():
             of URLs and serialize each as a JSON file
         """
         for url in urls:
-            print(f'Starting URL={url}')
+            ConsoleUtil.norm(f'Starting URL={url}')
             mon = PageParser.ensure_mon_load(url, 5)
             mon.serialize()
 
@@ -36,6 +37,6 @@ class MonsterDownloader():
         MonsterDownloader.download_urls(data['searched_links'])
 
 if __name__ == '__main__':
-    print('Downloading searched links...')
+    ConsoleUtil.info('Downloading searched links...')
     MonsterDownloader.download_searched_links()
-    print('Download finished')
+    ConsoleUtil.success('Download finished')

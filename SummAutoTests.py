@@ -17,8 +17,8 @@ class SummAutoTests(unittest.TestCase):
         This class tests all of the functionality in the SummAuto application
     """
 
-    @staticmethod
-    def validate_mon(target, mon):
+    @classmethod
+    def __validate_mon(cls, target, mon):
         """
             This method asserts that a MonsterPage object has expected
             values
@@ -142,7 +142,7 @@ class SummAutoTests(unittest.TestCase):
         mon.serialize()
         filepath = mon.get_filepath()
         new_mon = MonsterPage.load_from_disk(filepath)
-        SummAutoTests.validate_mon(self, new_mon)
+        self.__validate_mon(self, new_mon)
 
     def test_parse_single_mon_page(self):
         """
@@ -151,7 +151,7 @@ class SummAutoTests(unittest.TestCase):
         """
         mon = PageParser.ensure_mon_load('https://summonerswar.co/dark-amazon-mara/')
         # mon.print_mon_info()
-        SummAutoTests.validate_mon(self, mon)
+        self.__validate_mon(self, mon)
 
 if __name__ == '__main__':
     unittest.main()

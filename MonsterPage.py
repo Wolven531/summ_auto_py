@@ -4,6 +4,7 @@
 
 import json
 import os
+from ConsoleUtil import ConsoleUtil
 from Rating import Rating
 from MonsterType import MonsterType
 from LinkType import LinkType
@@ -14,8 +15,8 @@ class MonsterPage():
         page
     """
 
-    OVERVIEW_XPATH = '//*[@id="overview-anchor"]/div[2]/div[2]'
     DEFAULT_ELEMENT = MonsterType.FIRE
+    __OVERVIEW_XPATH = '//*[@id="overview-anchor"]/div[2]/div[2]'
 
     @staticmethod
     def convert_element_to_link_type(element):
@@ -28,7 +29,48 @@ class MonsterPage():
         return LinkType[MonsterPage.DEFAULT_ELEMENT.value]
 
     @staticmethod
-    def parse_alt_link_info(anchor_node):
+    def load_from_disk(filepath):
+        """
+            This method attempts to parse and load a MonsterPage
+            object from the disk according to the filepath passed in
+        """
+        data = {}
+        new_mon = None
+        with open(filepath, 'r') as in_file:
+            data = json.load(in_file)
+            new_mon = MonsterPage(tree=None, data=data)
+        return new_mon
+
+    @classmethod
+    def __parse_single_score(cls, elem):
+        """
+            This method attempts to parse a score from an element
+            passed in
+        """
+        raw_score = elem
+        score_exists = len(elem) > 0
+        score_result = 0
+
+        if not score_exists:
+            return score_result
+
+        raw_score = raw_score[0] # store the target element
+        score_has_children = len(raw_score) > 0
+
+        if score_has_children:
+            raw_score = raw_score[0].text # use child instead
+        else:
+            raw_score = raw_score.text
+
+        try:
+            score_result = float(raw_score.strip())
+        except ValueError:
+            pass
+
+        return score_result
+
+    @classmethod
+    def __parse_alt_link_info(cls, anchor_node):
         """
             This method parses the URL and type of a particular element link
             on a monster page using xpath on a node
@@ -52,47 +94,12 @@ class MonsterPage():
         if MonsterType.has_value(href_type):
             alt_type = MonsterType[href_type]
         else:
-            print(f'Got unexpected href_type="{href_type}"')
+            ConsoleUtil.warn(f'Got unexpected href_type="{href_type}"')
 
         return {
             'alt_link': href,
             'link_type': MonsterPage.convert_element_to_link_type(alt_type)
         }
-
-    @staticmethod
-    def load_from_disk(filepath):
-        """
-            This method attempts to parse and load a MonsterPage
-            object from the disk according to the filepath passed in
-        """
-        data = {}
-        new_mon = None
-        with open(filepath, 'r') as in_file:
-            data = json.load(in_file)
-            new_mon = MonsterPage(tree=None, data=data)
-        return new_mon
-
-    def __init__(self, tree=None, data=None):
-        self.element = MonsterPage.DEFAULT_ELEMENT
-        self.get_from = ''
-        self.good_for = ''
-        self.grade = ''
-        self.grade_num = 0
-        self.links = LinkType.generate_link_dict()
-        self.mon_type = ''
-        self.awaken_name = ''
-        self.full_name = ''
-        self.sleepy_name = ''
-        self.ratings = Rating.generate_rating_dict()
-        self.score_total = 0
-        self.score_user = 0
-        self.skillup_info = ''
-        self.when_awakened = ''
-
-        if data != None:
-            self.deserialize(data)
-        elif tree != None:
-            self.parse_tree(tree)
 
     def print_mon_info(self):
         """
@@ -198,24 +205,46 @@ class MonsterPage():
         with open(filepath, 'w') as outfile:
             json.dump(data, outfile, sort_keys=True, indent=2)
 
-    def parse_tree(self, tree):
+    def __init__(self, tree=None, data=None):
+        self.element = MonsterPage.DEFAULT_ELEMENT
+        self.get_from = ''
+        self.good_for = ''
+        self.grade = ''
+        self.grade_num = 0
+        self.links = LinkType.generate_link_dict()
+        self.mon_type = ''
+        self.awaken_name = ''
+        self.full_name = ''
+        self.sleepy_name = ''
+        self.ratings = Rating.generate_rating_dict()
+        self.score_total = 0
+        self.score_user = 0
+        self.skillup_info = ''
+        self.when_awakened = ''
+
+        if data != None:
+            self.deserialize(data)
+        elif tree != None:
+            self.__parse_tree(tree)
+
+    def __parse_tree(self, tree):
         """
             This method calls all of the other parsing methods
         """
-        self.parse_name(tree)
-        self.parse_element(tree)
-        self.parse_grade(tree)
-        self.parse_type(tree)
-        self.parse_get_from(tree)
-        self.parse_when_awakened(tree)
-        self.parse_good_for(tree)
-        self.parse_skillup_info(tree)
-        self.parse_alt_links(tree)
-        self.parse_scores(tree)
-        self.parse_ratings(tree)
-        self.parse_image_links(tree)
+        self.__parse_name(tree)
+        self.__parse_element(tree)
+        self.__parse_grade(tree)
+        self.__parse_mon_type(tree)
+        self.__parse_get_from(tree)
+        self.__parse_when_awakened(tree)
+        self.__parse_good_for(tree)
+        self.__parse_skillup_info(tree)
+        self.__parse_alt_links(tree)
+        self.__parse_scores(tree)
+        self.__parse_ratings(tree)
+        self.__parse_image_links(tree)
 
-    def parse_element(self, tree):
+    def __parse_element(self, tree):
         """
             This method parses the element of the monster from a tree
         """
@@ -230,9 +259,9 @@ class MonsterPage():
         if MonsterType.has_value(potential_element):
             self.element = MonsterType[potential_element]
         else:
-            print(f'Error parsing element, got: "{potential_element}"')
+            ConsoleUtil.warn(f'Error parsing element, got: "{potential_element}"')
 
-    def parse_name(self, tree):
+    def __parse_name(self, tree):
         """
             This method parses a name (and sleepy and awakened) from a tree
         """
@@ -245,83 +274,56 @@ class MonsterPage():
         self.sleepy_name = self.full_name[first_space_ind + 1 : paren_ind - 1] # -1 for the space
         self.awaken_name = self.full_name[paren_ind + 1 : -1]
 
-    def parse_grade(self, tree):
+    def __parse_grade(self, tree):
         """
             This method parses a grade and grade_num from a tree
         """
-        xpath_selector = MonsterPage.OVERVIEW_XPATH + '/div[1]/span[2]/p'
+        xpath_selector = self.__OVERVIEW_XPATH + '/div[1]/span[2]/p'
         raw_grade = tree.xpath(xpath_selector)[0].text
         self.grade = raw_grade
         self.grade_num = len(self.grade)
 
-    def parse_type(self, tree):
+    def __parse_mon_type(self, tree):
         """
             This method parses the type of a monster from a tree
         """
-        xpath_selector = self.OVERVIEW_XPATH + '/div[2]/span[2]/p'
+        xpath_selector = self.__OVERVIEW_XPATH + '/div[2]/span[2]/p'
         raw_type = tree.xpath(xpath_selector)[0].text
         self.mon_type = raw_type
 
-    def parse_get_from(self, tree):
+    def __parse_get_from(self, tree):
         """
             This method parses the get from of a monster from a tree
         """
-        xpath_selector = self.OVERVIEW_XPATH + '/div[3]/span[2]/p'
+        xpath_selector = self.__OVERVIEW_XPATH + '/div[3]/span[2]/p'
         raw_get_from = tree.xpath(xpath_selector)[0].text
         self.get_from = raw_get_from
 
-    def parse_when_awakened(self, tree):
+    def __parse_when_awakened(self, tree):
         """
             This method parses the when awakened of a monster from a tree
         """
-        xpath_selector = self.OVERVIEW_XPATH + '/div[4]/span[2]/p'
+        xpath_selector = self.__OVERVIEW_XPATH + '/div[4]/span[2]/p'
         raw_when_awakened = tree.xpath(xpath_selector)[0].text
         self.when_awakened = raw_when_awakened
 
-    def parse_good_for(self, tree):
+    def __parse_good_for(self, tree):
         """
             This method parses the good for of a monster from a tree
         """
-        xpath_selector = self.OVERVIEW_XPATH + '/div[5]/span[2]/p'
+        xpath_selector = self.__OVERVIEW_XPATH + '/div[5]/span[2]/p'
         raw_good_for = tree.xpath(xpath_selector)[0].text
         self.good_for = raw_good_for
 
-    def parse_skillup_info(self, tree):
+    def __parse_skillup_info(self, tree):
         """
             This method parses the skillup info of a monster from a tree
         """
-        xpath_selector = self.OVERVIEW_XPATH + '/div[6]/span[2]/p'
+        xpath_selector = self.__OVERVIEW_XPATH + '/div[6]/span[2]/p'
         raw_skillup_info = tree.xpath(xpath_selector)[0].text
         self.skillup_info = raw_skillup_info
 
-    def parse_single_score(self, elem):
-        """
-            This method attempts to parse a score from an element
-            passed in
-        """
-        raw_score = elem
-        score_exists = len(elem) > 0
-        score_result = 0
-
-        if not score_exists:
-            return score_result
-
-        raw_score = raw_score[0] # store the target element
-        score_has_children = len(raw_score) > 0
-
-        if score_has_children:
-            raw_score = raw_score[0].text # use child instead
-        else:
-            raw_score = raw_score.text
-
-        try:
-            score_result = float(raw_score.strip())
-        except ValueError:
-            pass
-
-        return score_result
-
-    def parse_scores(self, tree):
+    def __parse_scores(self, tree):
         """
             This method parses a total and user score from a tree
         """
@@ -338,10 +340,10 @@ class MonsterPage():
             xpath_user +
             '/*[contains(@class, "number")]')
 
-        self.score_total = self.parse_single_score(raw_score_total)
-        self.score_user = self.parse_single_score(raw_score_user)
+        self.score_total = self.__parse_single_score(raw_score_total)
+        self.score_user = self.__parse_single_score(raw_score_user)
 
-    def parse_ratings(self, tree):
+    def __parse_ratings(self, tree):
         """
             This method parses the ratings for a given monster from a tree
         """
@@ -364,7 +366,7 @@ class MonsterPage():
             Rating.MEH: float(no_percent_meh),
         }
 
-    def parse_image_links(self, tree):
+    def __parse_image_links(self, tree):
         """
             This method parses the URLs of the images of a monster for
             both sleepy and awakened from a tree
@@ -381,12 +383,12 @@ class MonsterPage():
         if awake_image_exists:
             self.links[LinkType.IMAGE_AWAKE] = awake_image[0]
 
-    def parse_alt_links(self, tree):
+    def __parse_alt_links(self, tree):
         """
             This method parses the URL of the fire version of a monster
             from a tree
         """
         elem_xpath = '//*[@id="content-anchor-inner"]//p'
         for anchor in tree.xpath(elem_xpath + '//a'):
-            info_obj = MonsterPage.parse_alt_link_info(anchor)
+            info_obj = self.__parse_alt_link_info(anchor)
             self.links[info_obj['link_type']] = info_obj['alt_link']

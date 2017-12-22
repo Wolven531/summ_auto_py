@@ -7,6 +7,7 @@ import os
 import requests
 
 from lxml import html
+from ConsoleUtil import ConsoleUtil
 from LinkType import LinkType
 from MonsterPage import MonsterPage
 from SearchPageResult import SearchPageResult
@@ -63,7 +64,7 @@ class PageParser():
             page = requests.get(url, headers=PageParser.HEADERS)
 
             if not page.ok:
-                print(f'~~~Attempt {attempt} No page load, retrying {url}')
+                ConsoleUtil.warn(f'~~~Attempt {attempt} No page load, retrying {url}')
                 continue
 
             tree = html.fromstring(page.content)
@@ -71,7 +72,7 @@ class PageParser():
             self_link_type = MonsterPage.convert_element_to_link_type(potential.element)
 
             if potential.links[LinkType.IMAGE_SLEEPY] == '':
-                print(f'~~~Attempt {attempt} No image, retrying {url}')
+                ConsoleUtil.warn(f'~~~Attempt {attempt} No image, retrying {url}')
                 continue
 
             num_missing_links = 0
@@ -81,10 +82,10 @@ class PageParser():
                     num_missing_links += 1
 
             if num_missing_links == 5 and attempt == max_attempts - 1:
-                print('~~~Special case, all links were blank, retried max times')
+                ConsoleUtil.warn('~~~Special case, all links were blank, retried max times')
             elif num_missing_links > 2:
-                print(f'~~~Attempt {attempt} Missing at least two links, ' +
-                      f'retrying {url}; had={potential.links}')
+                ConsoleUtil.warn(f'~~~Attempt {attempt} Missing at least two links, ' +
+                                 f'retrying {url}; had={potential.links}')
                 continue
 
             # attempt a self type fix to minimize runs (if needed)
@@ -92,7 +93,6 @@ class PageParser():
                 fixed_url = url.replace('https:', '')
                 potential.links[self_link_type] = fixed_url
 
-            # print(f'~~~Attempt {attempt} Mon is valid, returning; url="{url}", links={potential.links}')
             parsed_mon = potential
 
         return parsed_mon
@@ -122,7 +122,7 @@ class PageParser():
                 requested_page += 1
 
         if PageParser.PRINT_DETAILS:
-            print(f'Done running. Total hrefs: {len(all_hrefs)}')
+            ConsoleUtil.success(f'Done running. Total hrefs: {len(all_hrefs)}')
 
         data = {
             'count': len(all_hrefs),
@@ -139,7 +139,7 @@ class PageParser():
         """
             This loads and parses a search page result
         """
-        print(f'Requesting page {requested_page}...')
+        ConsoleUtil.info(f'Requesting page {requested_page}...')
         response = requests.post(
             'https://summonerswar.co/wp-admin/admin-ajax.php',
             headers=PageParser.POST_HEADERS,
