@@ -80,7 +80,7 @@ class PageParser():
                 if potential.links[link] == '':
                     num_missing_links += 1
 
-            if num_missing_links == 5 and attempt == max_attempts:
+            if num_missing_links == 5 and attempt == max_attempts - 1:
                 print('~~~Special case, all links were blank, retried max times')
             elif num_missing_links > 2:
                 print(f'~~~Attempt {attempt} Missing at least two links, ' +
