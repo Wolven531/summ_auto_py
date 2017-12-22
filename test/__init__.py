@@ -1,4 +1,4 @@
 """
-    This module is used to initialize the path for the tests
+    This module is used to setup the test subpackage
 """
 from . import SummAutoTests

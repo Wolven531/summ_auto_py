@@ -1,5 +1,5 @@
 """
-    This module sets up the src package appropriately
+    This module is used to setup the src subpackage
 """
 from . import ConsoleUtil
 from . import LinkType
