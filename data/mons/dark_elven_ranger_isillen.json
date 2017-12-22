@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "https://summonerswar.co/dark-elven-ranger-isillen/",
-    "FIRE": "https://summonerswar.co/fire-elven-ranger-adrian/",
+    "DARK": "//summonerswar.co/dark-elven-ranger-isillen/",
+    "FIRE": "//summonerswar.co/fire-elven-ranger-adrian/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Isillen_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Elven_Ranger_Dark_Icon.png",
-    "LIGHT": "https://summonerswar.co/light-elven-ranger-lucien/",
-    "WATER": "https://summonerswar.co/water-elven-ranger-eluin/",
-    "WIND": "https://summonerswar.co/wind-elven-ranger-erwin/"
+    "LIGHT": "//summonerswar.co/light-elven-ranger-lucien/",
+    "WATER": "//summonerswar.co/water-elven-ranger-eluin/",
+    "WIND": "//summonerswar.co/wind-elven-ranger-erwin/"
   },
   "mon_type": "Attack",
   "name_awaken": "Isillen",

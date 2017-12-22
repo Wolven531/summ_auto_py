@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-dragon-knight-ragdoll/",
+    "DARK": "//summonerswar.co/dark-dragon-knight-ragdoll/",
+    "FIRE": "//summonerswar.co/fire-dragon-knight-laika/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Jager_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Dragon_Knight_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-dragon-knight-jager/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-dragon-knight-chow/",
+    "WIND": "//summonerswar.co/wind-dragon-knight-leo/"
   },
   "mon_type": "HP",
   "name_awaken": "Jager",

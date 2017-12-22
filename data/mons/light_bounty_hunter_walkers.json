@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-bounty-hunter-jamie/",
+    "DARK": "//summonerswar.co/dark-bounty-hunter-jamie/",
+    "FIRE": "//summonerswar.co/fire-bounty-hunter-randy/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Walkers_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Bounty_Hunter_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-bounty-hunter-walkers/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-bounty-hunter-wayne/",
+    "WIND": "//summonerswar.co/wind-bounty-hunter-roger/"
   },
   "mon_type": "Attack",
   "name_awaken": "Walkers",
@@ -24,7 +24,7 @@
     "THE_BEST": 8.0
   },
   "score_total": 5.2,
-  "score_user": 7.3,
+  "score_user": 7.2,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Randy (Fire Bounty Hunter), Wayne (Water Bounty Hunter) or Jamie (Dark Bounty Hunter) instead",
   "when_awaken": "Increases Attack Speed by 15"
 }

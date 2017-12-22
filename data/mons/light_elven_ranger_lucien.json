@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
-    "FIRE": "https://summonerswar.co/fire-elven-ranger-adrian/",
+    "DARK": "//summonerswar.co/dark-elven-ranger-isillen/",
+    "FIRE": "//summonerswar.co/fire-elven-ranger-adrian/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Lucien_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Elven_Ranger_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-elven-ranger-lucien/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-elven-ranger-eluin/",
+    "WIND": "//summonerswar.co/wind-elven-ranger-erwin/"
   },
   "mon_type": "Attack",
   "name_awaken": "Lucien",

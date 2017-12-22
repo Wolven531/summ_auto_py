@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-sylphn-aschubel/",
     "FIRE": "//summonerswar.co/fire-sylph-baretta/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Baretta_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/fire_slyph.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-sylph-eredas/",
+    "WATER": "//summonerswar.co/water-sylph-tyron/",
+    "WIND": "//summonerswar.co/wind-sylph-shimitae/"
   },
   "mon_type": "Attack",
   "name_awaken": "Baretta",

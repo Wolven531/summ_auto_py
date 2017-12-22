@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-inferno-drogan/",
     "FIRE": "//summonerswar.co/fire-inferno-tagaros/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Tagaros_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Inferno_Fire_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-inferno-eludian/",
+    "WATER": "//summonerswar.co/water-inferno-purian/",
+    "WIND": "//summonerswar.co/wind-inferno-anduril/"
   },
   "mon_type": "Attack",
   "name_awaken": "Tagaros",

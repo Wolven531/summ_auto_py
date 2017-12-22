@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "https://summonerswar.co/dark-unicorn-alexandra/",
-    "FIRE": "https://summonerswar.co/fire-unicorn-helena/",
+    "DARK": "//summonerswar.co/dark-unicorn-alexandra/",
+    "FIRE": "//summonerswar.co/fire-unicorn-helena/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Alexandra_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Unicorn_Dark_Icon.png",
-    "LIGHT": "https://summonerswar.co/light-unicorn-eleanor/",
-    "WATER": "https://summonerswar.co/water-unicorn-amelia/",
-    "WIND": "https://summonerswar.co/wind-unicorn-diana/"
+    "LIGHT": "//summonerswar.co/light-unicorn-eleanor/",
+    "WATER": "//summonerswar.co/water-unicorn-amelia/",
+    "WIND": "//summonerswar.co/wind-unicorn-diana/"
   },
   "mon_type": "HP",
   "name_awaken": "Alexandra",

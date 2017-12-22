@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "https://summonerswar.co/dark-paladin-leona/",
-    "FIRE": "https://summonerswar.co/fire-paladin-ophilia/",
+    "DARK": "//summonerswar.co/dark-paladin-leona/",
+    "FIRE": "//summonerswar.co/fire-paladin-ophilia/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Leona_Icon-150x150.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Dark_Paladin_Icon-180x180.png",
-    "LIGHT": "https://summonerswar.co/light-paladin-jeanne/",
-    "WATER": "https://summonerswar.co/water-paladin-josephine/",
-    "WIND": "https://summonerswar.co/wind-paladin-louise/"
+    "LIGHT": "//summonerswar.co/light-paladin-jeanne/",
+    "WATER": "//summonerswar.co/water-paladin-josephine/",
+    "WIND": "//summonerswar.co/wind-paladin-louise/"
   },
   "mon_type": "Defense",
   "name_awaken": "Leona",
