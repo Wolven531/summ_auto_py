@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
-    "FIRE": "https://summonerswar.co/fire-lich-antares/",
+    "DARK": "//summonerswar.co/dark-lich-grego/",
+    "FIRE": "//summonerswar.co/fire-lich-antares/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Halphas_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Lich_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-lich-halphas/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-lich-rigel/",
+    "WIND": "//summonerswar.co/wind-lich-fuco/"
   },
   "mon_type": "Defense",
   "name_awaken": "Halphas",

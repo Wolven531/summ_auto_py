@@ -5,12 +5,12 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
-    "FIRE": "https://summonerswar.co/fire-barbaric-king-surtr/",
+    "DARK": "//summonerswar.co/dark-barbaric-king-hrungnir/",
+    "FIRE": "//summonerswar.co/fire-barbaric-king-surtr/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Hraesvelg_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/Barbaric_King_Wind_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
+    "LIGHT": "//summonerswar.co/light-barbaric-king-mimirr/",
+    "WATER": "//summonerswar.co/water-barbaric-king-aegir/",
     "WIND": "//summonerswar.co/wind-barbaric-king-hraesvelg/"
   },
   "mon_type": "Attack",

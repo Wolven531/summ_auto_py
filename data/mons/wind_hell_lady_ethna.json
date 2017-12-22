@@ -5,12 +5,12 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-hell-lady-craka/",
+    "DARK": "//summonerswar.co/dark-hell-lady-craka/",
+    "FIRE": "//summonerswar.co/fire-hell-lady-raki/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Ethna_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Hell_Lady_Wind_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
+    "LIGHT": "//summonerswar.co/light-hell-lady-asima/",
+    "WATER": "//summonerswar.co/water-hell-lady-beth/",
     "WIND": "//summonerswar.co/wind-hell-lady-ethna/"
   },
   "mon_type": "Attack",

@@ -5,12 +5,12 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-harpy-hellea/",
+    "DARK": "//summonerswar.co/dark-harpy-hellea/",
+    "FIRE": "//summonerswar.co/fire-harpy-lucasha/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Prilea_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Harpy_Wind_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
+    "LIGHT": "//summonerswar.co/light-harpy-kabilla/",
+    "WATER": "//summonerswar.co/water-harpy-ramira/",
     "WIND": "//summonerswar.co/wind-harpy-prilea/"
   },
   "mon_type": "Attack",

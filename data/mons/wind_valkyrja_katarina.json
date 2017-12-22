@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Monster Fusion",
+  "good_for": "PvP Offense, Fodder Farmer, Speed Raids",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-valkyrja-trinity/",
+    "FIRE": "//summonerswar.co/fire-valkyrja-vanessa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Katarina_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Valkyrja_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-valkyrja-akroma/",
+    "WATER": "//summonerswar.co/water-valkyrja-camilla/",
+    "WIND": "//summonerswar.co/wind-valkyrja-katarina/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Katarina",
+  "name_full": "Wind Valkyrja (Katarina)",
+  "name_sleepy": "Valkyrja",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 10.0,
+    "MEH": 3.0,
+    "THE_BEST": 83.0
+  },
+  "score_total": 7.7,
+  "score_user": 8.4,
+  "skillup_info": "Skill up at least 3rd Skill using Devilmons",
+  "when_awaken": "Increases Attack Speed by 15"
+}

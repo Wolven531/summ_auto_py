@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "\u2605\u2605",
+  "good_for": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop, Chiruka Remains (Scenario Drop)",
+  "grade": "Wind Warbear (Ramagos)",
+  "grade_num": 22,
+  "links": {
+    "DARK": "//summonerswar.co/dark-warbear-gorgo/",
+    "FIRE": "//summonerswar.co/fire-warbear-ursha/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Ramagos_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Wind_warbear.png",
+    "LIGHT": "//summonerswar.co/light-warbear-lusha/",
+    "WATER": "//summonerswar.co/water-warbear-dagora/",
+    "WIND": "//summonerswar.co/wind-warbear-ramagos/"
+  },
+  "mon_type": null,
+  "name_awaken": "Ramagos",
+  "name_full": "Wind Warbear (Ramagos)",
+  "name_sleepy": "Warbear",
+  "ratings": {
+    "FOOD": 2.0,
+    "KEEP_IT": 10.0,
+    "MEH": 2.0,
+    "THE_BEST": 86.0
+  },
+  "score_total": 6.1,
+  "score_user": 8.3,
+  "skillup_info": "New Skill: [Clean Shot]",
+  "when_awaken": "HP"
+}

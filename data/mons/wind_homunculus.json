@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "https://summonerswar.co/dark-homunculus/",
-    "FIRE": "https://summonerswar.co/fire-homunculus/",
+    "DARK": "//summonerswar.co/dark-homunculus/",
+    "FIRE": "//summonerswar.co/fire-homunculus/",
     "IMAGE_AWAKE": "",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Homunculus_Wind_Icon.png",
-    "LIGHT": "https://summonerswar.co/light-homunculus/",
-    "WATER": "https://summonerswar.co/water-homunculus/",
-    "WIND": "https://summonerswar.co/wind-homunculus/"
+    "LIGHT": "//summonerswar.co/light-homunculus/",
+    "WATER": "//summonerswar.co/water-homunculus/",
+    "WIND": "//summonerswar.co/wind-homunculus/"
   },
   "mon_type": "Attack",
   "name_awaken": "Wind Homunculu",

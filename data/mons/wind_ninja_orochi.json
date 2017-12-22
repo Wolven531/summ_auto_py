@@ -5,12 +5,12 @@
   "grade": "Wind Ninja (Orochi)",
   "grade_num": 19,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-ninja-han/",
     "FIRE": "//summonerswar.co/fire-ninja-garo/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Orochi_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/ninja.png",
-    "LIGHT": "",
-    "WATER": "",
+    "LIGHT": "//summonerswar.co/light-ninja-gin/",
+    "WATER": "//summonerswar.co/water-ninja-susano/",
     "WIND": "//summonerswar.co/wind-ninja-orochi/"
   },
   "mon_type": null,

@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-kung-fu-girl-fei/",
+    "DARK": "//summonerswar.co/dark-kung-fu-girl-fei/",
+    "FIRE": "//summonerswar.co/fire-kung-fu-girl-hong-hua/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Liu_Mei_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Kung_Fu_Girl_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-kung-fu-girl-liu-mei/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-kung-fu-girl-xiao-lin/",
+    "WIND": "//summonerswar.co/wind-kung-fu-girl-ling-ling/"
   },
   "mon_type": "HP",
   "name_awaken": "Liu Mei",

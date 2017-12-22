@@ -5,12 +5,12 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
-    "FIRE": "https://summonerswar.co/dark-lich-grego/",
+    "DARK": "//summonerswar.co/dark-lich-grego/",
+    "FIRE": "//summonerswar.co/fire-lich-antares/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Fuco_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Lich_Wind_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
+    "LIGHT": "//summonerswar.co/light-lich-halphas/",
+    "WATER": "//summonerswar.co/water-lich-rigel/",
     "WIND": "//summonerswar.co/wind-lich-fuco/"
   },
   "mon_type": "HP",

@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-taoist-woonak/",
+    "DARK": "//summonerswar.co/dark-taoist-woonak/",
+    "FIRE": "//summonerswar.co/fire-taoist-gunpyeong/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Gildong_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Taoist_Water_Icon.png",
-    "LIGHT": "",
+    "LIGHT": "//summonerswar.co/light-taois-hwadam/",
     "WATER": "//summonerswar.co/water-taoist-gildong/",
-    "WIND": ""
+    "WIND": "//summonerswar.co/wind-taoist-woochi/"
   },
   "mon_type": "Attack",
   "name_awaken": "Gildong",

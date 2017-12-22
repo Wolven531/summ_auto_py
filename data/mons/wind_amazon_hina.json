@@ -5,12 +5,12 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-amazon-mara/",
+    "DARK": "//summonerswar.co/dark-amazon-mara/",
+    "FIRE": "//summonerswar.co/fire-amazon-ceres/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Hina_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Amazon_Wind_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
+    "LIGHT": "//summonerswar.co/light-amazon-lyn/",
+    "WATER": "//summonerswar.co/water-amazon-ellin/",
     "WIND": "//summonerswar.co/wind-amazon-hina/"
   },
   "mon_type": "Attack",

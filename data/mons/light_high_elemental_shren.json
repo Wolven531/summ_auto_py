@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-high-elemental-jumaline/",
+    "DARK": "//summonerswar.co/dark-high-elemental-jumaline/",
+    "FIRE": "//summonerswar.co/fire-high-elemental-kahli/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Shren_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/High_Elemental_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-high-elemental-shren/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-high-elemental-ellena/",
+    "WIND": "//summonerswar.co/wind-high-elemental-moria/"
   },
   "mon_type": "Support",
   "name_awaken": "Shren",

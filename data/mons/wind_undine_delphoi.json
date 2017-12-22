@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes, July 2014 HoH",
+  "good_for": "PvP Offense, Raids, GB10, RTA",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-undine-tilasha/",
+    "FIRE": "//summonerswar.co/fire-undine-atenai/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Delphoi_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Undine_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-undine-icasha/",
+    "WATER": "//summonerswar.co/water-undine-mikene/",
+    "WIND": "//summonerswar.co/wind-undine-delphoi/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Delphoi",
+  "name_full": "Wind Undine (Delphoi)",
+  "name_sleepy": "Undine",
+  "ratings": {
+    "FOOD": 2.0,
+    "KEEP_IT": 38.0,
+    "MEH": 4.0,
+    "THE_BEST": 56.0
+  },
+  "score_total": 8.0,
+  "score_user": 8.5,
+  "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+  "when_awaken": "Strengthened Skill: [Lightning Drop]"
+}

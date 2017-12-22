@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-phoenix-jaara/",
     "FIRE": "//summonerswar.co/fire-phoenix-perna/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Sigmarus_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Phoenix_Water_Icon.png",
-    "LIGHT": "",
+    "LIGHT": "//summonerswar.co/light-phoenix-eludia/",
     "WATER": "//summonerswar.co/water-phoenix-sigmarus/",
-    "WIND": ""
+    "WIND": "//summonerswar.co/wind-phoenix-teshar/"
   },
   "mon_type": "Attack",
   "name_awaken": "Sigmarus",

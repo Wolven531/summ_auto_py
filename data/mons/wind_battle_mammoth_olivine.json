@@ -5,12 +5,12 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-battle-mammoth-basalt/",
+    "DARK": "//summonerswar.co/dark-battle-mammoth-basalt/",
+    "FIRE": "//summonerswar.co/fire-battle-mammoth-granite/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Olivine_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Battle_Mammoth_Wind_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
+    "LIGHT": "//summonerswar.co/light-battle-mammoth-marble/",
+    "WATER": "//summonerswar.co/water-battle-mammoth-talc/",
     "WIND": "//summonerswar.co/wind-battle-mammoth-olivine/"
   },
   "mon_type": "Defense",

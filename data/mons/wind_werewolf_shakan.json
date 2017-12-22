@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Unknown Scroll, Social Summon, Wind Scroll, Temple of Wishes, Secret Dungeon",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-werewolf-jultan/",
+    "FIRE": "//summonerswar.co/fire-werewolf-garoche/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Shakan_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Werewolf_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-werewolf-eshir/",
+    "WATER": "//summonerswar.co/water-werewolf-vigor/",
+    "WIND": "//summonerswar.co/wind-werewolf-shakan/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Shakan",
+  "name_full": "Wind Werewolf (Shakan)",
+  "name_sleepy": "Werewolf",
+  "ratings": {
+    "FOOD": 17.0,
+    "KEEP_IT": 14.0,
+    "MEH": 65.0,
+    "THE_BEST": 4.0
+  },
+  "score_total": 3.0,
+  "score_user": 6.6,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Vigor (Water Werewolf), Eshir (Light Werewolf) or Jultan (Dark Werewolf) instead",
+  "when_awaken": "Increases Attack Speed by 15"
+}

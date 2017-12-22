@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-sylphid-icares/",
+    "DARK": "//summonerswar.co/dark-sylphid-icares/",
+    "FIRE": "//summonerswar.co/fire-sylphid-fria/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Mihael_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/latest.png",
     "LIGHT": "//summonerswar.co/light-sylphid-mihael/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-sylphid-lumirecia/",
+    "WIND": "//summonerswar.co/wind-sylphid-acasis/"
   },
   "mon_type": "Support",
   "name_awaken": "Mihael",

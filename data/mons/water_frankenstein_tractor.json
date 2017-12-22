@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-frankenstein-crawler/",
     "FIRE": "//summonerswar.co/fire-frankenstein-bulldozer/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Tractor_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Frankenstein_Water_Icon.png",
-    "LIGHT": "",
+    "LIGHT": "//summonerswar.co/light-frankenstein-driller/",
     "WATER": "//summonerswar.co/water-frankenstein-tractor/",
-    "WIND": ""
+    "WIND": "//summonerswar.co/wind-frankenstein-crane/"
   },
   "mon_type": "Defense",
   "name_awaken": "Tractor",

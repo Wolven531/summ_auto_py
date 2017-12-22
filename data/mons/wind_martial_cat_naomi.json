@@ -5,12 +5,12 @@
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-martial-cat-miho/",
+    "DARK": "//summonerswar.co/dark-martial-cat-miho/",
+    "FIRE": "//summonerswar.co/fire-martial-cat-mei/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Naomi_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Martial_Cat_Wind_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
+    "LIGHT": "//summonerswar.co/light-martial-cat-xiao-ling/",
+    "WATER": "//summonerswar.co/water-martial-cat-mina/",
     "WIND": "//summonerswar.co/wind-martial-cat-naomi/"
   },
   "mon_type": "Attack",

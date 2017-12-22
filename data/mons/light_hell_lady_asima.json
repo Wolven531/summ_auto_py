@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "",
-    "FIRE": "//summonerswar.co/dark-hell-lady-craka/",
+    "DARK": "//summonerswar.co/dark-hell-lady-craka/",
+    "FIRE": "//summonerswar.co/fire-hell-lady-raki/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Asima_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Hell_Lady_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-hell-lady-asima/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-hell-lady-beth/",
+    "WIND": "//summonerswar.co/wind-hell-lady-ethna/"
   },
   "mon_type": "Attack",
   "name_awaken": "Asima",
@@ -21,7 +21,7 @@
     "FOOD": 13.0,
     "KEEP_IT": 6.0,
     "MEH": 10.0,
-    "THE_BEST": 70.0
+    "THE_BEST": 71.0
   },
   "score_total": 7.6,
   "score_user": 8.2,

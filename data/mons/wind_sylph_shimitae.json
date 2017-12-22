@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Summon, Mystical Scroll, Wind Scroll, Legendary Scroll, Temple of Wishes, June 2017 HoH",
+  "good_for": "Arena, GB10",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-sylphn-aschubel/",
+    "FIRE": "//summonerswar.co/fire-sylph-baretta/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Shimitae_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Sylph_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-sylph-eredas/",
+    "WATER": "//summonerswar.co/water-sylph-tyron/",
+    "WIND": "//summonerswar.co/wind-sylph-shimitae/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Shimitae",
+  "name_full": "Wind Sylph (Shimitae)",
+  "name_sleepy": "Sylph",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 37.0,
+    "MEH": 2.0,
+    "THE_BEST": 55.0
+  },
+  "score_total": 7.5,
+  "score_user": 8.1,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Strengthen Skill: [Cyclone]"
+}

@@ -5,13 +5,13 @@
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
-    "DARK": "",
+    "DARK": "//summonerswar.co/dark-oracle-giana/",
     "FIRE": "//summonerswar.co/fire-oracle-juno/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Laima_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Oracle_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-oracle-laima/",
-    "WATER": "",
-    "WIND": ""
+    "WATER": "//summonerswar.co/water-oracle-praha/",
+    "WIND": "//summonerswar.co/wind-oracle-seara/"
   },
   "mon_type": "Support",
   "name_awaken": "Laima",
