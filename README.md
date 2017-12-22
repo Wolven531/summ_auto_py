@@ -19,3 +19,10 @@ This will load the `data/searched_links.json` and iterate through the `searched_
 ## TODO / Coming Soon
 
 1. Use elemental links to multiply data collection
+1. Parse the [3, 4, 5 Star Monster Guide page](https://summonerswar.co/monster-guide-3-4-5-mons/)
+1. Spin up Django server to provide data
+    * [Django Project](https://www.djangoproject.com)
+    * [Mozilla on Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
+1. Build frontend (ReactJS, likely)
+    * [Create React GitHub](https://github.com/facebookincubator/create-react-app)
+    * [ReactJS Getting Started](https://reactjs.org/docs/hello-world.html)
