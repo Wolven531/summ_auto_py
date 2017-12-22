@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Legendary Scroll, Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll",
+  "good_for": "Dungeons, PvE and Situational PvP",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "https://summonerswar.co/fire-paladin-ophilia/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Louise_Icon-150x150.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Wind_Paladin_Icon-180x180.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-paladin-louise/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Louise",
+  "name_full": "Wind Paladin (Louise)",
+  "name_sleepy": "Paladin",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 49.0,
+    "MEH": 22.0,
+    "THE_BEST": 25.0
+  },
+  "score_total": 7.2,
+  "score_user": 8.1,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Strengthen Skill: [Justice Strike]"
+}

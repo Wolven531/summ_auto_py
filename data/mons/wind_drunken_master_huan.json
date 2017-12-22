@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "\u2605\u2605\u2605",
+  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Wind Scroll, Temple of Wishes",
+  "grade": "Wind Drunken Master (Huan)",
+  "grade_num": 26,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-drunken-master-wei-shin/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Huan_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Drunken_Master_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-drunken-master-huan/"
+  },
+  "mon_type": null,
+  "name_awaken": "Huan",
+  "name_full": "Wind Drunken Master (Huan)",
+  "name_sleepy": "Drunken Master",
+  "ratings": {
+    "FOOD": 24.0,
+    "KEEP_IT": 62.0,
+    "MEH": 5.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 4.0,
+  "score_user": 7.6,
+  "skillup_info": "Increase Critical Rate by 15%",
+  "when_awaken": "Attack"
+}

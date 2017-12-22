@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-living-armor-zinc/",
+    "FIRE": "//summonerswar.co/fire-living-armor-iron/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Nickel_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Living_Armor_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-living-armor-silver/",
+    "WATER": "//summonerswar.co/water-living-armor-nickel/",
+    "WIND": "//summonerswar.co/wind-living-armor-copper/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Nickel",
+  "name_full": "Water Living Armor (Nickel)",
+  "name_sleepy": "Living Armor",
+  "ratings": {
+    "FOOD": 57.0,
+    "KEEP_IT": 32.0,
+    "MEH": 5.0,
+    "THE_BEST": 6.0
+  },
+  "score_total": 4.8,
+  "score_user": 7.0,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Copper (Wind Living Armor), Silver (Light Living Armor) or Zinc (Dark Living Armor) instead",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

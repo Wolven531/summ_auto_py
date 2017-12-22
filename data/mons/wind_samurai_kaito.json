@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll, Legendary Scroll",
+  "good_for": "PvP Offense, GB10",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-samurai-sige/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Kaito_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Samurai_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-samurai-kaito/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Kaito",
+  "name_full": "Wind Samurai (Kaito)",
+  "name_sleepy": "Samurai",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 37.0,
+    "MEH": 3.0,
+    "THE_BEST": 57.0
+  },
+  "score_total": 7.5,
+  "score_user": 8.1,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Increases Accuracy by 25%"
+}

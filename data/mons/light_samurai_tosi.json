@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-samurai-sige/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Tosi_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Samurai_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-samurai-tosi/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Tosi",
+  "name_full": "Light Samurai (Tosi)",
+  "name_sleepy": "Samurai",
+  "ratings": {
+    "FOOD": 2.0,
+    "KEEP_IT": 11.0,
+    "MEH": 3.0,
+    "THE_BEST": 85.0
+  },
+  "score_total": 8.4,
+  "score_user": 8.7,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Increases Resistance by 25%"
+}

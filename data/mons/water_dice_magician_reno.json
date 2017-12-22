@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": " Legendary Scroll, Mystical Scroll, Mystical Summon, Water Scroll, Temple of Wishes",
+  "good_for": "PvP Offense, Fodder Farmer",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-dice-magician-monte/",
+    "FIRE": "//summonerswar.co/fire-dice-magician-ludo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Reno_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Dice_Magician_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-dice-magician-tablo/",
+    "WATER": "//summonerswar.co/water-dice-magician-reno/",
+    "WIND": "//summonerswar.co/wind-dice-magician/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Reno",
+  "name_full": "Water Dice Magician (Reno)",
+  "name_sleepy": "Dice Magician",
+  "ratings": {
+    "FOOD": 11.0,
+    "KEEP_IT": 54.0,
+    "MEH": 7.0,
+    "THE_BEST": 28.0
+  },
+  "score_total": 7.1,
+  "score_user": 7.7,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Leader Skill: Increases the Critical Rate of ally monsters in the Arena by 24%"
+}

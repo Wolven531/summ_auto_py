@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll",
+  "good_for": "PvP in general, Early GB10 & DB10",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-archangel-fermion/",
+    "FIRE": "//summonerswar.co/fire-archangel-velajuel/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Ariel_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Archangel_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-archangel-artamiel/",
+    "WATER": "//summonerswar.co/water-archangel-ariel/",
+    "WIND": "//summonerswar.co/wind-archangel-eladriel/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Ariel",
+  "name_full": "Water Archangel (Ariel)",
+  "name_sleepy": "Archangel",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 3.0,
+    "MEH": 2.0,
+    "THE_BEST": 90.0
+  },
+  "score_total": 8.7,
+  "score_user": 8.8,
+  "skillup_info": "Worth fully skilling up with Devilmons apart from 1st Skill",
+  "when_awaken": "Increases the Resistance 25%"
+}

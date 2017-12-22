@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "\u2605\u2605\u2605\u2605",
+  "good_for": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes",
+  "grade": "Wind Phantom Thief (Julien)",
+  "grade_num": 27,
+  "links": {
+    "DARK": "//summonerswar.co/dark-phantom-thief-guillaume/",
+    "FIRE": "//summonerswar.co/fire-phantom-thief-jean/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Julien_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Phantom_Thief_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-phantom-thief-louis/",
+    "WATER": "//summonerswar.co/water-phantom-thief-luer/",
+    "WIND": "//summonerswar.co/wind-phantom-thief-julien/"
+  },
+  "mon_type": null,
+  "name_awaken": "Julien",
+  "name_full": "Wind Phantom Thief (Julien)",
+  "name_sleepy": "Phantom Thief",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 10.0,
+    "MEH": 2.0,
+    "THE_BEST": 85.0
+  },
+  "score_total": 7.6,
+  "score_user": 8.4,
+  "skillup_info": "Leader Skill: Increases the HP of ally monsters in the Arena by 33%",
+  "when_awaken": "Attack"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Secret Dungeon, Guild Shop, Temple of Wishes",
+  "good_for": "Fusion, ToAH",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-grim-reaper-thrain/",
+    "FIRE": "//summonerswar.co/fire-grim-reaper-sath/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Hemos_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Grim_Reaper_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-grim-reaper-prom/",
+    "WATER": "//summonerswar.co/water-grim-reaper-hemos/",
+    "WIND": "//summonerswar.co/wind-grim-reaper-hiva/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Hemos",
+  "name_full": "Water Grim Reaper (Hemos)",
+  "name_sleepy": "Grim Reaper",
+  "ratings": {
+    "FOOD": 11.0,
+    "KEEP_IT": 66.0,
+    "MEH": 10.0,
+    "THE_BEST": 13.0
+  },
+  "score_total": 8.1,
+  "score_user": 7.8,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Leader Skill: Increases the Attack Power of ally monsters with Water attribute by 30%"
+}

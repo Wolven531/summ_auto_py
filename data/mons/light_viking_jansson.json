@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Secret Dungeon",
+  "good_for": "Food",
+  "grade": "\u2605\u2605",
+  "grade_num": 2,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-viking-janssen/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Jansson_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Viking_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-viking-jansson/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Jansson",
+  "name_full": "Light Viking (Jansson)",
+  "name_sleepy": "Viking",
+  "ratings": {
+    "FOOD": 13.0,
+    "KEEP_IT": 63.0,
+    "MEH": 9.0,
+    "THE_BEST": 15.0
+  },
+  "score_total": 4.6,
+  "score_user": 8.5,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "New Skill: [Shout of Victory]"
+}

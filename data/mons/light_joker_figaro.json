@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Defense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-joker-liebli/",
+    "FIRE": "//summonerswar.co/fire-joker-jojo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Figaro_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Joker_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-joker-figaro/",
+    "WATER": "//summonerswar.co/water-joker-sian/",
+    "WIND": "//summonerswar.co/wind-joker-lushen/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Figaro",
+  "name_full": "Light Joker (Figaro)",
+  "name_sleepy": "Joker",
+  "ratings": {
+    "FOOD": 15.0,
+    "KEEP_IT": 60.0,
+    "MEH": 5.0,
+    "THE_BEST": 18.0
+  },
+  "score_total": 6.4,
+  "score_user": 7.6,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "New Skill: [Camouflage (Passive)]"
+}

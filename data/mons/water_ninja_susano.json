@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "\u2605\u2605\u2605\u2605",
+  "good_for": "Mystical Scroll, Mystical Summon, Monster Fusion, Water Scroll, Legendary Scroll, Temple of Wishes",
+  "grade": "Water Ninja (Susano)",
+  "grade_num": 20,
+  "links": {
+    "DARK": "//summonerswar.co/dark-ninja-han/",
+    "FIRE": "//summonerswar.co/fire-ninja-garo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Susano_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Ninja_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-ninja-gin/",
+    "WATER": "//summonerswar.co/water-ninja-susano/",
+    "WIND": "//summonerswar.co/wind-ninja-orochi/"
+  },
+  "mon_type": null,
+  "name_awaken": "Susano",
+  "name_full": "Water Ninja (Susano)",
+  "name_sleepy": "Ninja",
+  "ratings": {
+    "FOOD": 6.0,
+    "KEEP_IT": 61.0,
+    "MEH": 4.0,
+    "THE_BEST": 28.0
+  },
+  "score_total": 7.2,
+  "score_user": 8.5,
+  "skillup_info": "Leader Skill: Increases the Attack Speed of ally monsters with Water attribute by 30%",
+  "when_awaken": "Attack"
+}

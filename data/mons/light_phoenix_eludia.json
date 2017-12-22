@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-phoenix-jaara/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Eludia_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Phoenix_Light_Icon-1.png",
+    "LIGHT": "//summonerswar.co/light-phoenix-eludia/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Eludia",
+  "name_full": "Light Phoenix (Eludia)",
+  "name_sleepy": "Phoenix",
+  "ratings": {
+    "FOOD": 9.0,
+    "KEEP_IT": 12.0,
+    "MEH": 7.0,
+    "THE_BEST": 73.0
+  },
+  "score_total": 8.1,
+  "score_user": 7.9,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Increases Resistance by 25%"
+}

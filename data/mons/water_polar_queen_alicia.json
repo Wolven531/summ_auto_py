@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "PvP Offense, Fodder Farmer, DB10, ToA rush",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-polar-queen-lydia/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Alicia_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Polar-Queen-Water.png",
+    "LIGHT": "",
+    "WATER": "//summonerswar.co/water-polar-queen-alicia/",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Alicia",
+  "name_full": "Water Polar Queen (Alicia)",
+  "name_sleepy": "Polar Queen",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 6.0,
+    "MEH": 3.0,
+    "THE_BEST": 87.0
+  },
+  "score_total": 8.4,
+  "score_user": 8.6,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

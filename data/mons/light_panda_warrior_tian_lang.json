@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP in general",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-panda-warrior-mi-ying/",
+    "FIRE": "//summonerswar.co/fire-panda-warrior-xiong-fei/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Tian_Lang_Icon-1.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Panda_Warrior_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-panda-warrior-tian-lang/",
+    "WATER": "//summonerswar.co/water-panda-warrior-mo-long/",
+    "WIND": "//summonerswar.co/wind-panda-warrior-feng-yan/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Tian Lang",
+  "name_full": "Light Panda Warrior (Tian Lang)",
+  "name_sleepy": "Panda Warrior",
+  "ratings": {
+    "FOOD": 22.0,
+    "KEEP_IT": 11.0,
+    "MEH": 10.0,
+    "THE_BEST": 58.0
+  },
+  "score_total": 9.2,
+  "score_user": 7.8,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Accuracy by 25%"
+}

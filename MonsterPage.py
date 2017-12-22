@@ -43,8 +43,7 @@ class MonsterPage():
             title_exists = False
 
         if title_exists:
-            href_type = title_attribute[0]
-            href_type = href_type[0 : href_type.find(' ')].upper()
+            href_type = title_attribute[0 : title_attribute.find(' ')].upper()
         else:
             start_ind = href.find('.co/') + 4
             end_ind = href.find('-', start_ind)
@@ -52,6 +51,8 @@ class MonsterPage():
 
         if MonsterType.has_value(href_type):
             alt_type = MonsterType[href_type]
+        else:
+            print(f'Got unexpected href_type="{href_type}"')
 
         return {
             'alt_link': href,
@@ -293,6 +294,33 @@ class MonsterPage():
         raw_skillup_info = tree.xpath(xpath_selector)[0].text
         self.skillup_info = raw_skillup_info
 
+    def parse_single_score(self, elem):
+        """
+            This method attempts to parse a score from an element
+            passed in
+        """
+        raw_score = elem
+        score_exists = len(elem) > 0
+        score_result = 0
+
+        if not score_exists:
+            return score_result
+
+        raw_score = raw_score[0] # store the target element
+        score_has_children = len(raw_score) > 0
+
+        if score_has_children:
+            raw_score = raw_score[0].text # use child instead
+        else:
+            raw_score = raw_score.text
+
+        try:
+            score_result = float(raw_score.strip())
+        except ValueError:
+            pass
+
+        return score_result
+
     def parse_scores(self, tree):
         """
             This method parses a total and user score from a tree
@@ -302,25 +330,16 @@ class MonsterPage():
         xpath_user = '//*[contains(@class, "user_rating")]'
 
         raw_score_total = tree.xpath(
-            xpath_rating + xpath_editor + '/*[contains(@class, "number")]')[0].text
+            xpath_rating +
+            xpath_editor +
+            '/*[contains(@class, "number")]')
         raw_score_user = tree.xpath(
-            xpath_rating + xpath_user + '/*[contains(@class, "number")]')[0].text
+            xpath_rating +
+            xpath_user +
+            '/*[contains(@class, "number")]')
 
-        num_total = 0
-        num_user = 0
-
-        try:
-            num_total = float(raw_score_total.strip())
-        except ValueError:
-            pass
-
-        try:
-            num_user = float(raw_score_user.strip())
-        except ValueError:
-            pass
-
-        self.score_total = num_total
-        self.score_user = num_user
+        self.score_total = self.parse_single_score(raw_score_total)
+        self.score_user = self.parse_single_score(raw_score_user)
 
     def parse_ratings(self, tree):
         """
@@ -369,5 +388,5 @@ class MonsterPage():
         """
         elem_xpath = '//*[@id="content-anchor-inner"]//p'
         for anchor in tree.xpath(elem_xpath + '//a'):
-            info_obj = self.parse_alt_link_info(anchor)
+            info_obj = MonsterPage.parse_alt_link_info(anchor)
             self.links[info_obj['link_type']] = info_obj['alt_link']

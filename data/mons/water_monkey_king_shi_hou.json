@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Legendary Scroll, Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll",
+  "good_for": "PvP Offense, Fodder Farmer, DB10",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-monkey-king-son-zhang-lao/",
+    "FIRE": "//summonerswar.co/fire-monkey-king-mei-hou-wang/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Shi_Hou_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/Monkey_King_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-monkey-king-qitian-dasheng/",
+    "WATER": "//summonerswar.co/water-monkey-king-shi-hou/",
+    "WIND": "//summonerswar.co/wind-monkey-king-xing-zhe/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Shi Hou",
+  "name_full": "Water Monkey King (Shi Hou)",
+  "name_sleepy": "Monkey King",
+  "ratings": {
+    "FOOD": 25.0,
+    "KEEP_IT": 11.0,
+    "MEH": 24.0,
+    "THE_BEST": 40.0
+  },
+  "score_total": 7.4,
+  "score_user": 8.1,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Attack Speed by 15"
+}

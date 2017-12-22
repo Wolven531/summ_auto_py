@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Wind Scroll, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-imp-champion-loque/",
+    "FIRE": "//summonerswar.co/fire-imp-champion-fairo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Pigma_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Imp_Champion_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-imp-champion-shaffron/",
+    "WATER": "//summonerswar.co/water-imp-champion-yaku/",
+    "WIND": "//summonerswar.co/wind-imp-champion-pigma/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Pigma",
+  "name_full": "Wind Imp Champion (Pigma)",
+  "name_sleepy": "Imp Champion",
+  "ratings": {
+    "FOOD": 71.0,
+    "KEEP_IT": 13.0,
+    "MEH": 7.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 4.3,
+  "score_user": 6.5,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Fairo (Fire Imp Champion) or Yaku (Water Imp Champion) instead",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

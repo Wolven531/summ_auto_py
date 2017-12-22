@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "All PvP content, HoH",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-taoist-woonak/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Hwadam_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Taoist_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-taois-hwadam/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Hwadam",
+  "name_full": "Light Taoist (Hwadam)",
+  "name_sleepy": "Taoist",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 6.0,
+    "MEH": 5.0,
+    "THE_BEST": 85.0
+  },
+  "score_total": 9.5,
+  "score_user": 8.5,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Resistance by 25%"
+}

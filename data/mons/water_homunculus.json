@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Crafting",
+  "good_for": "ToA, Fodder Farmer, DB10, PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "https://summonerswar.co/dark-homunculus/",
+    "FIRE": "https://summonerswar.co/fire-homunculus/",
+    "IMAGE_AWAKE": "",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Homunculus_Water_Icon.png",
+    "LIGHT": "https://summonerswar.co/light-homunculus/",
+    "WATER": "https://summonerswar.co/water-homunculus/",
+    "WIND": "https://summonerswar.co/wind-homunculus/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Water Homunculu",
+  "name_full": "Water Homunculus",
+  "name_sleepy": "Homuncul",
+  "ratings": {
+    "FOOD": 9.0,
+    "KEEP_IT": 5.0,
+    "MEH": 2.0,
+    "THE_BEST": 85.0
+  },
+  "score_total": 8.8,
+  "score_user": 8.0,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "New Skill: [Magic Power Explosion (Passive)]"
+}

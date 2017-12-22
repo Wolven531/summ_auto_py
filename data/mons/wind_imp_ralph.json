@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop, Mt. Runar (Scenario Drop)",
+  "good_for": "Food",
+  "grade": "\u2605\u2605",
+  "grade_num": 2,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-imp-cogma/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Ralph_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Imp_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-imp-ralph/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Ralph",
+  "name_full": "Wind Imp (Ralph)",
+  "name_sleepy": "Imp",
+  "ratings": {
+    "FOOD": 45.0,
+    "KEEP_IT": 36.0,
+    "MEH": 17.0,
+    "THE_BEST": 2.0
+  },
+  "score_total": 3.0,
+  "score_user": 5.7,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Taru (Light Imp) instead",
+  "when_awaken": "New skill: [Hurricane Spear]"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Temple of Wishes, Secret Dungeon",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-magical-archer-bethony/",
+    "FIRE": "//summonerswar.co/fire-magical-archer-cassandra/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Sharron_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Magical_Archer_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-magical-archer-chris/",
+    "WATER": "//summonerswar.co/water-magical-archer-sharron/",
+    "WIND": "//summonerswar.co/wind-magical-archer-ardella/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Sharron",
+  "name_full": "Water Magical Archer (Sharron)",
+  "name_sleepy": "Magical Archer",
+  "ratings": {
+    "FOOD": 26.0,
+    "KEEP_IT": 58.0,
+    "MEH": 8.0,
+    "THE_BEST": 7.0
+  },
+  "score_total": 4.5,
+  "score_user": 7.1,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Ardella (Wind Magical Archer), Chris (Light Magical Archer) or Bethony (Dark Magical Archer) instead",
+  "when_awaken": "Leader Skill: Increases Attack Power of ally monsters with Water Attribute by 35%"
+}

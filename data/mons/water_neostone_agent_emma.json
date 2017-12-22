@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll",
+  "good_for": "DB10, Guild Wars Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-neostone-agent-sylvia/",
+    "FIRE": "//summonerswar.co/fire-neostone-agent-lisa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Emma_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Neostone_Agent_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-neostone-agent-illianna/",
+    "WATER": "//summonerswar.co/water-neostone-agent-emma/",
+    "WIND": "//summonerswar.co/wind-neostone-agent-olivia/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Emma",
+  "name_full": "Water Neostone Agent (Emma)",
+  "name_sleepy": "Neostone Agent",
+  "ratings": {
+    "FOOD": 2.0,
+    "KEEP_IT": 7.0,
+    "MEH": 1.0,
+    "THE_BEST": 89.0
+  },
+  "score_total": 7.9,
+  "score_user": 8.4,
+  "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+  "when_awaken": "Leader Skill: The Resistance of ally monsters is increased by 40% in Guild Battles"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Secret Dungeon, Temple of Wishes",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-griffon-varus/",
+    "FIRE": "//summonerswar.co/fire-griffon-spectra/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Kahn_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Griffon_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-griffon-shamann/",
+    "WATER": "//summonerswar.co/water-griffon-kahn/",
+    "WIND": "//summonerswar.co/wind-griffon-bernard/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Kahn",
+  "name_full": "Water Griffon (Kahn)",
+  "name_sleepy": "Griffon",
+  "ratings": {
+    "FOOD": 75.0,
+    "KEEP_IT": 14.0,
+    "MEH": 6.0,
+    "THE_BEST": 5.0
+  },
+  "score_total": 4.1,
+  "score_user": 5.8,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Spectra (Fire Griffon), Bernard (Wind Griffon) or Varus (Dark Griffon) instead",
+  "when_awaken": "New Skill: [Pursuit]"
+}

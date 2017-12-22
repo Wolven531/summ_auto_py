@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP in general",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-pioneer-woonsa/",
+    "FIRE": "//summonerswar.co/fire-pioneer-chiwu/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Nigong_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Pioneer_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-pioneer-nigong/",
+    "WATER": "//summonerswar.co/water-pioneer-woosa/",
+    "WIND": "//summonerswar.co/wind-pioneer-pungbaek/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Nigong",
+  "name_full": "Light Pioneer (Nigong)",
+  "name_sleepy": "Pioneer",
+  "ratings": {
+    "FOOD": 11.0,
+    "KEEP_IT": 9.0,
+    "MEH": 5.0,
+    "THE_BEST": 75.0
+  },
+  "score_total": 8.7,
+  "score_user": 8.2,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Resistance by 25%"
+}

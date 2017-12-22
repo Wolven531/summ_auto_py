@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-lizardman-devinodon/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Glinodon_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Lizardman_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-lizardman-gilnodon/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Gilnodon",
+  "name_full": "Light Lizardman (Gilnodon)",
+  "name_sleepy": "Lizardman",
+  "ratings": {
+    "FOOD": 8.0,
+    "KEEP_IT": 60.0,
+    "MEH": 12.0,
+    "THE_BEST": 20.0
+  },
+  "score_total": 5.3,
+  "score_user": 7.6,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

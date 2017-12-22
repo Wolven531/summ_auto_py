@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop, Tamor Desert (Scenario Drop)",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605",
+  "grade_num": 2,
+  "links": {
+    "DARK": "//summonerswar.co/dark-salamander-decamaron/",
+    "FIRE": "//summonerswar.co/fire-salamander-krakdon/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Lukan_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Salamander_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-salamander-sharman/",
+    "WATER": "//summonerswar.co/water-salamander-kaimann/",
+    "WIND": "//summonerswar.co/wind-salamander-lukan/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Lukan",
+  "name_full": "Wind Salamander (Lukan)",
+  "name_sleepy": "Salamander",
+  "ratings": {
+    "FOOD": 43.0,
+    "KEEP_IT": 38.0,
+    "MEH": 14.0,
+    "THE_BEST": 4.0
+  },
+  "score_total": 3.0,
+  "score_user": 6.0,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Sharman (Light Salamander) or Decamaron (Dark Salamander) instead",
+  "when_awaken": "New Skill: [Regenerate]"
+}

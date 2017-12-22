@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-imp-champion-loque/",
+    "FIRE": "//summonerswar.co/fire-imp-champion-fairo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Shaffron_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Imp_Champion_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-imp-champion-shaffron/",
+    "WATER": "//summonerswar.co/water-imp-champion-yaku/",
+    "WIND": "//summonerswar.co/wind-imp-champion-pigma/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Shaffron",
+  "name_full": "Light Imp Champion (Shaffron)",
+  "name_sleepy": "Imp Champion",
+  "ratings": {
+    "FOOD": 24.0,
+    "KEEP_IT": 15.0,
+    "MEH": 6.0,
+    "THE_BEST": 55.0
+  },
+  "score_total": 3.0,
+  "score_user": 7.8,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Fairo (Fire Imp Champion) or Yaku (Water Imp Champion) instead",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Wind Scroll, Temple of Wishes, Aiden Forest (Scenario Drop)",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-grim-reaper-sath/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Hiva_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Grim_Reaper_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-grim-reaper-hiva/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Hiva",
+  "name_full": "Wind Grim Reaper (Hiva)",
+  "name_sleepy": "Grim Reaper",
+  "ratings": {
+    "FOOD": 11.0,
+    "KEEP_IT": 68.0,
+    "MEH": 7.0,
+    "THE_BEST": 14.0
+  },
+  "score_total": 5.1,
+  "score_user": 7.5,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to anybody else in the Grim Reaper family instead",
+  "when_awaken": "Leader Skill: Increases the Attack Power of ally monsters with Wind attribute by 30%"
+}

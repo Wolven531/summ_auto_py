@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll, Legendary Scroll",
+  "good_for": "Fodder Farmer, GB10, PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-hell-lady-craka/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Ethna_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Hell_Lady_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-hell-lady-ethna/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Ethna",
+  "name_full": "Wind Hell Lady (Ethna)",
+  "name_sleepy": "Hell Lady",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 7.0,
+    "MEH": 3.0,
+    "THE_BEST": 86.0
+  },
+  "score_total": 7.8,
+  "score_user": 8.4,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Attack Speed by 15"
+}

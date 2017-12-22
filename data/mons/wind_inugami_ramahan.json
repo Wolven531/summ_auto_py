@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "\u2605\u2605\u2605",
+  "good_for": " Unknown Scroll, Mystical Scroll, Mystical Summon, Wind Scroll, Social Summon, Temple of Wishes, Telain Forest (Scenario Drop)",
+  "grade": "Wind Inugami (Ramahan)",
+  "grade_num": 22,
+  "links": {
+    "DARK": "//summonerswar.co/dark-inugami-kro/",
+    "FIRE": "//summonerswar.co/fire-inugami-raoq/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Ramahan_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Inugami_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-inugami-belladeon/",
+    "WATER": "//summonerswar.co/water-inugami-icaru/",
+    "WIND": "//summonerswar.co/wind-inugami-ramahan/"
+  },
+  "mon_type": null,
+  "name_awaken": "Ramahan",
+  "name_full": "Wind Inugami (Ramahan)",
+  "name_sleepy": "Inugami",
+  "ratings": {
+    "FOOD": 62.0,
+    "KEEP_IT": 28.0,
+    "MEH": 2.0,
+    "THE_BEST": 6.0
+  },
+  "score_total": 6.0,
+  "score_user": 6.5,
+  "skillup_info": "New Skill: [Smother]",
+  "when_awaken": "Defense"
+}

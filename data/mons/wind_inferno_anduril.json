@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Points, Temple of Wishes, Wind Scroll, Secret Dungeon",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-inferno-drogan/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Anduril_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Inferno_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-inferno-anduril/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Anduril",
+  "name_full": "Wind Inferno (Anduril)",
+  "name_sleepy": "Inferno",
+  "ratings": {
+    "FOOD": 33.0,
+    "KEEP_IT": 53.0,
+    "MEH": 6.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 5.2,
+  "score_user": 6.9,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Purian (Water Inferno) instead",
+  "when_awaken": "Leader Skill: Increases the Critical Rate of ally monsters with Wind attribute by 23%"
+}

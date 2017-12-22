@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Wind Scroll, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-mummy-karakum/",
+    "FIRE": "//summonerswar.co/fire-mummy-sonora/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Namib_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Mummy_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-mummy-sahara/",
+    "WATER": "//summonerswar.co/water-mummy-nubia/",
+    "WIND": "//summonerswar.co/wind-mummy-namib/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Namib",
+  "name_full": "Wind Mummy (Namib)",
+  "name_sleepy": "Mummy",
+  "ratings": {
+    "FOOD": 11.0,
+    "KEEP_IT": 21.0,
+    "MEH": 6.0,
+    "THE_BEST": 62.0
+  },
+  "score_total": 4.0,
+  "score_user": 7.3,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Sonora (Fire Mummy) instead",
+  "when_awaken": "New Skill: [Poisoned Body (Passive)]"
+}

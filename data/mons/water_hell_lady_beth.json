@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll",
+  "good_for": "Fodder Farmer, GB10, DB10, PvP Offense, Arena Defense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-hell-lady-craka/",
+    "FIRE": "//summonerswar.co/fire-hell-lady-raki/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Beth_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Hell_Lady_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-hell-lady-asima/",
+    "WATER": "//summonerswar.co/water-hell-lady-beth/",
+    "WIND": "//summonerswar.co/wind-hell-lady-ethna/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Beth",
+  "name_full": "Water Hell Lady (Beth)",
+  "name_sleepy": "Hell Lady",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 5.0,
+    "MEH": 3.0,
+    "THE_BEST": 87.0
+  },
+  "score_total": 8.2,
+  "score_user": 8.5,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Accuracy by 25%"
+}

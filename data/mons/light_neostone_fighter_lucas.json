@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-neostone-fighter-karl/",
+    "FIRE": "//summonerswar.co/fire-neostone-fighter-trevor/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/Lucas_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/Neostone_Fighter_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-neostone-fighter-lucas/",
+    "WATER": "//summonerswar.co/water-neostone-fighter-ryan/",
+    "WIND": "//summonerswar.co/wind-neostone-fighter-logan/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Lucas",
+  "name_full": "Light Neostone Fighter (Lucas)",
+  "name_sleepy": "Neostone Fighter",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 18.0,
+    "MEH": 7.0,
+    "THE_BEST": 71.0
+  },
+  "score_total": 7.0,
+  "score_user": 7.6,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Leader Skill: Increases the Attack Power of ally monsters by 25%"
+}

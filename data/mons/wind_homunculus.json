@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Crafting",
+  "good_for": "Raids, NB10",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "https://summonerswar.co/dark-homunculus/",
+    "FIRE": "https://summonerswar.co/fire-homunculus/",
+    "IMAGE_AWAKE": "",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Homunculus_Wind_Icon.png",
+    "LIGHT": "https://summonerswar.co/light-homunculus/",
+    "WATER": "https://summonerswar.co/water-homunculus/",
+    "WIND": "https://summonerswar.co/wind-homunculus/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Wind Homunculu",
+  "name_full": "Wind Homunculus",
+  "name_sleepy": "Homuncul",
+  "ratings": {
+    "FOOD": 13.0,
+    "KEEP_IT": 23.0,
+    "MEH": 7.0,
+    "THE_BEST": 57.0
+  },
+  "score_total": 8.9,
+  "score_user": 7.2,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "New Skill: [Magic Power Explosion (Passive)]"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Unknown Scroll, Mystical Summon, Wind Scroll, Social Summon, Temple of Wishes, Kabir Ruins (Scenario Drop)",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-harpy-hellea/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Prilea_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Harpy_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-harpy-prilea/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Prilea",
+  "name_full": "Wind Harpy (Prilea)",
+  "name_sleepy": "Harpy",
+  "ratings": {
+    "FOOD": 22.0,
+    "KEEP_IT": 65.0,
+    "MEH": 6.0,
+    "THE_BEST": 7.0
+  },
+  "score_total": 4.6,
+  "score_user": 7.1,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Lucasha (Fire Harpy), Kabilla (Light Harpy) or Hellea (Dark Harpy) instead",
+  "when_awaken": "Increases Accuracy by 25%"
+}

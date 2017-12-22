@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes, April 2017 HoH",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-undine-tilasha/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Icasha_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Undine_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-undine-icasha/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Icasha",
+  "name_full": "Light Undine (Icasha)",
+  "name_sleepy": "Undine",
+  "ratings": {
+    "FOOD": 9.0,
+    "KEEP_IT": 59.0,
+    "MEH": 15.0,
+    "THE_BEST": 18.0
+  },
+  "score_total": 6.4,
+  "score_user": 7.2,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Strengthened Skill: [Light Drop]"
+}

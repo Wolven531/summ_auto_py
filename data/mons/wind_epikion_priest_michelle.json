@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "\u2605\u2605\u2605",
+  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Wind Scroll, Temple of Wishes",
+  "grade": "Wind Epikion Priest (Michelle)",
+  "grade_num": 30,
+  "links": {
+    "DARK": "//summonerswar.co/dark-epikion-priest-rasheed/",
+    "FIRE": "//summonerswar.co/fire-epikion-priest-chloe/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Michelle_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Epikion_Priest_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-epikion-priest-iona/",
+    "WATER": "//summonerswar.co/water-epikion-priest-rina/",
+    "WIND": "//summonerswar.co/wind-epikion-priest-michelle/"
+  },
+  "mon_type": null,
+  "name_awaken": "Michelle",
+  "name_full": "Wind Epikion Priest (Michelle)",
+  "name_sleepy": "Epikion Priest",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 73.0,
+    "MEH": 3.0,
+    "THE_BEST": 19.0
+  },
+  "score_total": 6.0,
+  "score_user": 8.0,
+  "skillup_info": "Increases Resistance by 25%",
+  "when_awaken": "Support"
+}

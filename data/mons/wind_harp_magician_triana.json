@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Legendary Scroll, Mystical Scroll, Mystical Summon, Wind Scroll, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-harp-magician-vivachel/",
+    "FIRE": "//summonerswar.co/fire-harp-magician-harmonia/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Triana_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Harp_Magician_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-harp-magician-celia/",
+    "WATER": "//summonerswar.co/water-harp-magician-sonnet/",
+    "WIND": "//summonerswar.co/wind-harp-magician-triana/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Triana",
+  "name_full": "Wind Harp Magician (Triana)",
+  "name_sleepy": "Harp Magician",
+  "ratings": {
+    "FOOD": 18.0,
+    "KEEP_IT": 55.0,
+    "MEH": 17.0,
+    "THE_BEST": 10.0
+  },
+  "score_total": 6.5,
+  "score_user": 7.3,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Increases Attack Speed by 15"
+}

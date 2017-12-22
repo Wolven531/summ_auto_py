@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "\u2605\u2605\u2605",
+  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Temple of Wishes, Mt. White Ragon (Scenario Drop)",
+  "grade": "Water Warbear (Dagora)",
+  "grade_num": 22,
+  "links": {
+    "DARK": "//summonerswar.co/dark-warbear-gorgo/",
+    "FIRE": "//summonerswar.co/fire-warbear-ursha/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Dagora_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/warbear1.png",
+    "LIGHT": "//summonerswar.co/light-warbear-lusha/",
+    "WATER": "//summonerswar.co/water-warbear-dagora/",
+    "WIND": "//summonerswar.co/wind-warbear-ramagos/"
+  },
+  "mon_type": null,
+  "name_awaken": "Dagora",
+  "name_full": "Water Warbear (Dagora)",
+  "name_sleepy": "Warbear",
+  "ratings": {
+    "FOOD": 10.0,
+    "KEEP_IT": 69.0,
+    "MEH": 6.0,
+    "THE_BEST": 15.0
+  },
+  "score_total": 5.0,
+  "score_user": 7.6,
+  "skillup_info": "New Skill: [Spirit's Will (Passive)]",
+  "when_awaken": "HP"
+}

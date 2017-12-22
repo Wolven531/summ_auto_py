@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "NB10, ToA, Raids",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-rakshasa-hwa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Pang_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Rakshasa_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-rakshasa-pang/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Pang",
+  "name_full": "Light Rakshasa (Pang)",
+  "name_sleepy": "Rakshasa",
+  "ratings": {
+    "FOOD": 1.0,
+    "KEEP_IT": 6.0,
+    "MEH": 3.0,
+    "THE_BEST": 90.0
+  },
+  "score_total": 7.9,
+  "score_user": 8.3,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Accuracy by 25%"
+}

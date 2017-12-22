@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes, Monster Fusion, June 2015 & April 2017 HoH",
+  "good_for": "PvP Offense, Fodder Farmer",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-samurai-sige/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Kaz_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Samurai_Water_Icon.png",
+    "LIGHT": "",
+    "WATER": "//summonerswar.co/water-samurai-kaz/",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Kaz",
+  "name_full": "Water Samurai (Kaz)",
+  "name_sleepy": "Samurai",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 70.0,
+    "MEH": 4.0,
+    "THE_BEST": 20.0
+  },
+  "score_total": 7.1,
+  "score_user": 8.1,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Increases Accuracy by 25%"
+}

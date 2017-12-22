@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll",
+  "good_for": "Arena, Faimon Farmer",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-succubus-isael/",
+    "FIRE": "//summonerswar.co/fire-succubus-akia/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/Izaria_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/Succubus_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-succubus-aria/",
+    "WATER": "//summonerswar.co/water-succubus-izaria/",
+    "WIND": "//summonerswar.co/wind-succubus-selena/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Izaria",
+  "name_full": "Water Succubus (Izaria)",
+  "name_sleepy": "Succubus",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 23.0,
+    "MEH": 3.0,
+    "THE_BEST": 70.0
+  },
+  "score_total": 7.4,
+  "score_user": 8.3,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Leader Skill: Increases the Attack Speed of ally monsters in the Arena by 24%"
+}

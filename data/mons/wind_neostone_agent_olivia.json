@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll, Legendary Scroll",
+  "good_for": "Guild Wars, World Arena",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-neostone-agent-lisa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/Olivia_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/Neostone_Agent_Wind_Icon-1.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-neostone-agent-olivia/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Olivia",
+  "name_full": "Wind Neostone Agent (Olivia)",
+  "name_sleepy": "Neostone Agent",
+  "ratings": {
+    "FOOD": 8.0,
+    "KEEP_IT": 22.0,
+    "MEH": 9.0,
+    "THE_BEST": 59.0
+  },
+  "score_total": 8.1,
+  "score_user": 7.7,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Leader Skill: The Defense of ally monsters is increased by 33% in Guild Battles"
+}

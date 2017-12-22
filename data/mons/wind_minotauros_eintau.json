@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Unknown Scroll, Social Summon, Wind Scroll, Temple of Wishes, Chiruka Remains (Scenario Drop)",
+  "good_for": "Fusion or Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-minotauros-kamatau/",
+    "FIRE": "//summonerswar.co/fire-minotauros-burentau/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Eintau_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Minotauros_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-minotauros-grotau/",
+    "WATER": "//summonerswar.co/water-minotauros-urtau/",
+    "WIND": "//summonerswar.co/wind-minotauros-eintau/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Eintau",
+  "name_full": "Wind Minotauros (Eintau)",
+  "name_sleepy": "Minotauros",
+  "ratings": {
+    "FOOD": 65.0,
+    "KEEP_IT": 24.0,
+    "MEH": 4.0,
+    "THE_BEST": 7.0
+  },
+  "score_total": 4.7,
+  "score_user": 7.0,
+  "skillup_info": "Entire family isn\u2019t worth skilling up",
+  "when_awaken": "Leader Skill: Increases the HP of ally monsters with Wind attribute by 30%"
+}

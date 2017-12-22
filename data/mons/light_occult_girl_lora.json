@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-occult-girl-nicki/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Lora_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Occult_Girl_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-occult-girl-lora/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Lora",
+  "name_full": "Light Occult Girl (Lora)",
+  "name_sleepy": "Occult Girl",
+  "ratings": {
+    "FOOD": 11.0,
+    "KEEP_IT": 32.0,
+    "MEH": 7.0,
+    "THE_BEST": 51.0
+  },
+  "score_total": 7.9,
+  "score_user": 7.8,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Accuracy by 25%"
+}

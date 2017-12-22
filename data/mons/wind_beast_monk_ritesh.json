@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll, Legendary Scroll",
+  "good_for": "PvP in general",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-beast-monk-rahul/",
+    "FIRE": "//summonerswar.co/fire-beast-monk-kumar/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/Ritesh_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/Beast_Monk_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-beast-monk-shazam/",
+    "WATER": "//summonerswar.co/water-beast-monk-chandra/",
+    "WIND": "//summonerswar.co/wind-beast-monk-ritesh/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Ritesh",
+  "name_full": "Wind Beast Monk (Ritesh)",
+  "name_sleepy": "Beast Monk",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 4.0,
+    "MEH": 2.0,
+    "THE_BEST": 89.0
+  },
+  "score_total": 9.1,
+  "score_user": 8.8,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Strengthen Skill: [Crushing Blow]"
+}

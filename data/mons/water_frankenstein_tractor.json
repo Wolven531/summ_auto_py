@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Water Scroll, Temple of Wishes",
+  "good_for": "PvP Offense",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-frankenstein-bulldozer/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Tractor_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Frankenstein_Water_Icon.png",
+    "LIGHT": "",
+    "WATER": "//summonerswar.co/water-frankenstein-tractor/",
+    "WIND": ""
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Tractor",
+  "name_full": "Water Frankenstein (Tractor)",
+  "name_sleepy": "Frankenstein",
+  "ratings": {
+    "FOOD": 11.0,
+    "KEEP_IT": 12.0,
+    "MEH": 71.0,
+    "THE_BEST": 5.0
+  },
+  "score_total": 7.1,
+  "score_user": 7.1,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Increases Accuracy by 25%"
+}

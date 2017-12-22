@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll, Monster Fusion",
+  "good_for": "Fusion, Starting DB10",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-undine-atenai/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Mikene_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Undine_Water_Icon.png",
+    "LIGHT": "",
+    "WATER": "//summonerswar.co/water-undine-mikene/",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Mikene",
+  "name_full": "Water Undine (Mikene)",
+  "name_sleepy": "Undine",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 71.0,
+    "MEH": 5.0,
+    "THE_BEST": 18.0
+  },
+  "score_total": 6.0,
+  "score_user": 7.8,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Strengthened Skill: [Ice Drop]"
+}

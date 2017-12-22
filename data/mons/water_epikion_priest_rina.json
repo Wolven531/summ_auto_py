@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "\u2605\u2605\u2605",
+  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Temple of Wishes",
+  "grade": "Water Epikion Priest (Rina)",
+  "grade_num": 27,
+  "links": {
+    "DARK": "//summonerswar.co/dark-epikion-priest-rasheed/",
+    "FIRE": "//summonerswar.co/fire-epikion-priest-chloe/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Rina_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Epikion_Priest_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-epikion-priest-iona/",
+    "WATER": "//summonerswar.co/water-epikion-priest-rina/",
+    "WIND": "//summonerswar.co/wind-epikion-priest-michelle/"
+  },
+  "mon_type": null,
+  "name_awaken": "Rina",
+  "name_full": "Water Epikion Priest (Rina)",
+  "name_sleepy": "Epikion Priest",
+  "ratings": {
+    "FOOD": 6.0,
+    "KEEP_IT": 24.0,
+    "MEH": 4.0,
+    "THE_BEST": 65.0
+  },
+  "score_total": 7.7,
+  "score_user": 7.7,
+  "skillup_info": "Increases Resistance by 25%",
+  "when_awaken": "Support"
+}

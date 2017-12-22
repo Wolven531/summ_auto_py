@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Legendary Scroll, Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll",
+  "good_for": "PvP in general",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "https://summonerswar.co/fire-paladin-ophilia/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Josephine_Icon-150x150.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Water_Paladin_Icon-180x180.png",
+    "LIGHT": "",
+    "WATER": "//summonerswar.co/water-paladin-josephine/",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Josephine",
+  "name_full": "Water Paladin (Josephine)",
+  "name_sleepy": "Paladin",
+  "ratings": {
+    "FOOD": 7.0,
+    "KEEP_IT": 56.0,
+    "MEH": 26.0,
+    "THE_BEST": 11.0
+  },
+  "score_total": 7.8,
+  "score_user": 6.8,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Strengthen Skill: [Justice Strike]"
+}

@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Water Scroll, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-penguin-knight-kuna/",
+    "FIRE": "//summonerswar.co/fire-penguin-knight-toma/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Toma_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/SeYBuVA1.png",
+    "LIGHT": "//summonerswar.co/light-penguin-knight-dona/",
+    "WATER": "//summonerswar.co/water-penguin-knight-toma/",
+    "WIND": "//summonerswar.co/wind-penguin-knight-mav/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Toma",
+  "name_full": "Water Penguin Knight (Toma)",
+  "name_sleepy": "Penguin Knight",
+  "ratings": {
+    "FOOD": 55.0,
+    "KEEP_IT": 31.0,
+    "MEH": 6.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 5.2,
+  "score_user": 6.8,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Mav (Wind Penguin Knight), Dona (Light Penguin Knight) or Kuna (Dark Penguin Knight) instead",
+  "when_awaken": "New Skill: [Crush Iceberg]"
+}

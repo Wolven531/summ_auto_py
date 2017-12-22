@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll, Legendary Scroll",
+  "good_for": "PvP Offense, Fodder Farmer, GB10",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-chimera-zeratu/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Lagmaron_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Chimera_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-chimera-lagmaron/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Lagmaron",
+  "name_full": "Wind Chimera (Lagmaron)",
+  "name_sleepy": "Chimera",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 9.0,
+    "MEH": 2.0,
+    "THE_BEST": 86.0
+  },
+  "score_total": 8.4,
+  "score_user": 8.5,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Attack Speed by 15"
+}

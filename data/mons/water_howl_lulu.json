@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop, Hydeni Ruins (Scenario Drop)",
+  "good_for": "Early Game Healer",
+  "grade": "\u2605\u2605",
+  "grade_num": 2,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-howl-lala/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Lulu_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Howl_Water_Icon.png",
+    "LIGHT": "",
+    "WATER": "//summonerswar.co/water-howl-lulu/",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Lulu",
+  "name_full": "Water Howl (Lulu)",
+  "name_sleepy": "Howl",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 76.0,
+    "MEH": 3.0,
+    "THE_BEST": 16.0
+  },
+  "score_total": 5.5,
+  "score_user": 7.7,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "New Skill: [Remove! Heal!]"
+}

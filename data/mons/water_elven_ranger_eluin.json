@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Water Scroll, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "https://summonerswar.co/dark-elven-ranger-isillen/",
+    "FIRE": "https://summonerswar.co/fire-elven-ranger-adrian/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Eluin_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Elven_Ranger_Water_Icon.png",
+    "LIGHT": "https://summonerswar.co/light-elven-ranger-lucien/",
+    "WATER": "https://summonerswar.co/water-elven-ranger-eluin/",
+    "WIND": "https://summonerswar.co/wind-elven-ranger-erwin/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Eluin",
+  "name_full": "Water Elven Ranger (Eluin)",
+  "name_sleepy": "Elven Ranger",
+  "ratings": {
+    "FOOD": 14.0,
+    "KEEP_IT": 14.0,
+    "MEH": 7.0,
+    "THE_BEST": 63.0
+  },
+  "score_total": 5.3,
+  "score_user": 7.3,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Adrian (Fire Elven Ranger) or Isillen (Dark Elven Ranger) instead",
+  "when_awaken": "Strengthen Skill: [Strafe]"
+}

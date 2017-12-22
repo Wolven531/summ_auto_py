@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Guild Wars",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-sky-dancer-hwahee/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Yeonhong_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Sky_Dancer_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-sky-dancer-yeonhong/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Yeonhong",
+  "name_full": "Light Sky Dancer (Yeonhong)",
+  "name_sleepy": "Sky Dancer",
+  "ratings": {
+    "FOOD": 8.0,
+    "KEEP_IT": 10.0,
+    "MEH": 39.0,
+    "THE_BEST": 42.0
+  },
+  "score_total": 8.0,
+  "score_user": 6.9,
+  "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+  "when_awaken": "Increases Attack Speed by 15"
+}

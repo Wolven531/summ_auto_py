@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "PvP Defense",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-polar-queen-lydia/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Elenoa_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/Polar-Queen-Light.png",
+    "LIGHT": "//summonerswar.co/light-polar-queen-elenoa/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Support",
+  "name_awaken": "Elenoa",
+  "name_full": "Light Polar Queen (Elenoa)",
+  "name_sleepy": "Polar Queen",
+  "ratings": {
+    "FOOD": 18.0,
+    "KEEP_IT": 25.0,
+    "MEH": 38.0,
+    "THE_BEST": 19.0
+  },
+  "score_total": 6.9,
+  "score_user": 7.3,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Attack Speed by 15"
+}

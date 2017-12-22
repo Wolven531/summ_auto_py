@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll",
+  "good_for": "PvP in general, DB10",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-valkyrja-vanessa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Camilla_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Valkyrja_Water_Icon.png",
+    "LIGHT": "",
+    "WATER": "//summonerswar.co/water-valkyrja-camilla/",
+    "WIND": ""
+  },
+  "mon_type": "HP",
+  "name_awaken": "Camilla",
+  "name_full": "Water Valkyrja (Camilla)",
+  "name_sleepy": "Valkyrja",
+  "ratings": {
+    "FOOD": 3.0,
+    "KEEP_IT": 2.0,
+    "MEH": 1.0,
+    "THE_BEST": 94.0
+  },
+  "score_total": 9.3,
+  "score_user": 8.9,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

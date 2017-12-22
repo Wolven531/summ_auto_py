@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Novice Summoner Achievement, Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "Faimon Hell Farmer, Early Game PvP Offense, PvE in general",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-magic-knight-lanett/",
+    "FIRE": "//summonerswar.co/fire-magic-knight-astar/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/Lapis_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Magic_Knight_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-magic-knight-iris/",
+    "WATER": "//summonerswar.co/water-magic-knight-lapis/",
+    "WIND": "//summonerswar.co/wind-magic-knight-lupinus/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Lapis",
+  "name_full": "Water Magic Knight (Lapis)",
+  "name_sleepy": "Magic Knight",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 73.0,
+    "MEH": 6.0,
+    "THE_BEST": 15.0
+  },
+  "score_total": 7.9,
+  "score_user": 7.4,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Strengthen Skill: [Blade Surge]"
+}

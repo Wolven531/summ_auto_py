@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "TBC",
+  "good_for": "TBC",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-ifrit-veromos/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Elsharion_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/ifrit2.jpg",
+    "LIGHT": "//summonerswar.co/light-ifrit-elsharion/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "TBC",
+  "name_awaken": "Elsharion",
+  "name_full": "Light Ifrit (Elsharion)",
+  "name_sleepy": "Ifrit",
+  "ratings": {
+    "FOOD": 16.0,
+    "KEEP_IT": 13.0,
+    "MEH": 50.0,
+    "THE_BEST": 21.0
+  },
+  "score_total": 0.0,
+  "score_user": 0.0,
+  "skillup_info": "TBC",
+  "when_awaken": "TBC"
+}

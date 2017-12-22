@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "GB10, NB10, PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-rakshasa-ran/",
+    "FIRE": "//summonerswar.co/fire-rakshasa-hwa/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Yen_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/Rakshasa_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-rakshasa-pang/",
+    "WATER": "//summonerswar.co/water-rakshasa-su/",
+    "WIND": "//summonerswar.co/wind-rakshasa-yen/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Yen",
+  "name_full": "Wind Rakshasa (Yen)",
+  "name_sleepy": "Rakshasa",
+  "ratings": {
+    "FOOD": 5.0,
+    "KEEP_IT": 71.0,
+    "MEH": 3.0,
+    "THE_BEST": 21.0
+  },
+  "score_total": 7.1,
+  "score_user": 8.2,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

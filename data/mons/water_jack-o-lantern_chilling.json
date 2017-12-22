@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": "DB10, Guild Wars Offense, World Arena",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-jack-o-lantern-dusky/",
+    "FIRE": "//summonerswar.co/fire-jack-o-lantern-smokey/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Chilling_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/Jack-o-lantern_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-jack-o-lantern-misty/",
+    "WATER": "//summonerswar.co/water-jack-o-lantern-chilling/",
+    "WIND": "//summonerswar.co/wind-jack-o-lantern-windy/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Chilling",
+  "name_full": "Water Jack-o-lantern (Chilling)",
+  "name_sleepy": "Jack-o-lantern",
+  "ratings": {
+    "FOOD": 1.0,
+    "KEEP_IT": 13.0,
+    "MEH": 2.0,
+    "THE_BEST": 83.0
+  },
+  "score_total": 8.3,
+  "score_user": 7.9,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Leader Skill: Increases the Accuracy of ally monsters in Dungeons by 40%"
+}

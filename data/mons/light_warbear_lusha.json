@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "\u2605\u2605\u2605",
+  "good_for": "Scroll of Light & Darkness, Secret Dungeon, Temple of Wishes",
+  "grade": "Light Warbear (Lusha)",
+  "grade_num": 21,
+  "links": {
+    "DARK": "//summonerswar.co/dark-warbear-gorgo/",
+    "FIRE": "//summonerswar.co/fire-warbear-ursha/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Lusha_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/warbear4.png",
+    "LIGHT": "//summonerswar.co/light-warbear-lusha/",
+    "WATER": "//summonerswar.co/water-warbear-dagora/",
+    "WIND": "//summonerswar.co/wind-warbear-ramagos/"
+  },
+  "mon_type": null,
+  "name_awaken": "Lusha",
+  "name_full": "Light Warbear (Lusha)",
+  "name_sleepy": "Warbear",
+  "ratings": {
+    "FOOD": 61.0,
+    "KEEP_IT": 23.0,
+    "MEH": 8.0,
+    "THE_BEST": 8.0
+  },
+  "score_total": 3.3,
+  "score_user": 5.9,
+  "skillup_info": "New Skill: [Risky Dash]",
+  "when_awaken": "HP"
+}

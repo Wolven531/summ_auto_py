@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Wind Scroll, Social Summon, Temple of Wishes, Tamor Desert (Scenario Drop)",
+  "good_for": "PvP Offense, GB10",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-serpent-mantura/",
+    "FIRE": "//summonerswar.co/fire-serpent-fao/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Ermeda_Icon-1.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Serpent_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-serpent-elpuria/",
+    "WATER": "//summonerswar.co/water-serpent-shailoq/",
+    "WIND": "//summonerswar.co/wind-serpent-ermeda/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Ermeda",
+  "name_full": "Wind Serpent (Ermeda)",
+  "name_sleepy": "Serpent",
+  "ratings": {
+    "FOOD": 40.0,
+    "KEEP_IT": 20.0,
+    "MEH": 20.0,
+    "THE_BEST": 20.0
+  },
+  "score_total": 6.9,
+  "score_user": 5.4,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Strengthen skill: [Sonic Boom]"
+}

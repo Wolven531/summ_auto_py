@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes, December 2017 HoH",
+  "good_for": "ToA, World Arena",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "//summonerswar.co/dark-mermaid-betta/",
+    "FIRE": "//summonerswar.co/fire-mermaid-platy/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Tetra_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Mermaid_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-mermaid-molly/",
+    "WATER": "//summonerswar.co/water-mermaid-tetra/",
+    "WIND": "//summonerswar.co/wind-mermaid-cichlid/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Tetra",
+  "name_full": "Water Mermaid (Tetra)",
+  "name_sleepy": "Mermaid",
+  "ratings": {
+    "FOOD": 15.0,
+    "KEEP_IT": 61.0,
+    "MEH": 6.0,
+    "THE_BEST": 17.0
+  },
+  "score_total": 7.0,
+  "score_user": 7.8,
+  "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
+  "when_awaken": "Increases Attack Speed by 15"
+}

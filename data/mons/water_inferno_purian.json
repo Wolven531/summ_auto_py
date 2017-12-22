@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Secret Dungeon, Temple of Wishes",
+  "good_for": "Fusion, PvP Offense",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-inferno-drogan/",
+    "FIRE": "//summonerswar.co/fire-inferno-tagaros/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Purian_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Inferno_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-inferno-eludian/",
+    "WATER": "//summonerswar.co/water-inferno-purian/",
+    "WIND": "//summonerswar.co/wind-inferno-anduril/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Purian",
+  "name_full": "Water Inferno (Purian)",
+  "name_sleepy": "Inferno",
+  "ratings": {
+    "FOOD": 25.0,
+    "KEEP_IT": 57.0,
+    "MEH": 8.0,
+    "THE_BEST": 10.0
+  },
+  "score_total": 7.5,
+  "score_user": 7.0,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Leader Skill: Increases the Critical Rate of ally monsters with Water attribute by 23%"
+}

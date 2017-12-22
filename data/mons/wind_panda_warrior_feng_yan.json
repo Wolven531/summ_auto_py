@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll, Legendary Scroll",
+  "good_for": "Guild Wars, NB10",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-panda-warrior-mi-ying/",
+    "FIRE": "//summonerswar.co/fire-panda-warrior-xiong-fei/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Feng_Yan_Icon-1.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Panda_Warrior_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-panda-warrior-tian-lang/",
+    "WATER": "//summonerswar.co/water-panda-warrior-mo-long/",
+    "WIND": "//summonerswar.co/wind-panda-warrior-feng-yan/"
+  },
+  "mon_type": "Defense",
+  "name_awaken": "Feng Yan",
+  "name_full": "Wind Panda Warrior (Feng Yan)",
+  "name_sleepy": "Panda Warrior",
+  "ratings": {
+    "FOOD": 4.0,
+    "KEEP_IT": 3.0,
+    "MEH": 2.0,
+    "THE_BEST": 92.0
+  },
+  "score_total": 9.0,
+  "score_user": 8.7,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Critical Rate by 15%"
+}

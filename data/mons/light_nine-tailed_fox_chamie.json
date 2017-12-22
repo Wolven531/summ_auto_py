@@ -1,0 +1,30 @@
+{
+  "element": "LIGHT",
+  "get_from": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": "Early Raids",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-nine-tailed-fox-kamiya/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Chamie_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Nine-tailed_Fox_Light_Icon.png",
+    "LIGHT": "//summonerswar.co/light-nine-tailed-fox-chamie/",
+    "WATER": "",
+    "WIND": ""
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Chamie",
+  "name_full": "Light Nine-tailed Fox (Chamie)",
+  "name_sleepy": "Nine-tailed Fox",
+  "ratings": {
+    "FOOD": 1.0,
+    "KEEP_IT": 26.0,
+    "MEH": 8.0,
+    "THE_BEST": 63.0
+  },
+  "score_total": 6.0,
+  "score_user": 8.7,
+  "skillup_info": "Not worth skilling up",
+  "when_awaken": "Strengthen Skill: [Will-o'-the-Wisp]"
+}

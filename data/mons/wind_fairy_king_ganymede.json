@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Legendary Scroll, Temple of Wishes, Wind Scroll",
+  "good_for": "PvP in general, ToA, DB10, World Arena",
+  "grade": "\u2605\u2605\u2605\u2605\u2605",
+  "grade_num": 5,
+  "links": {
+    "DARK": "//summonerswar.co/dark-fairy-king-nyx/",
+    "FIRE": "//summonerswar.co/fire-fairy-king-daphnis/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Ganymede_Icon-1.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Fairy_King_Wind_Icon.png",
+    "LIGHT": "//summonerswar.co/light-fairy-king-oberon/",
+    "WATER": "//summonerswar.co/water-fairy-king-psamathe/",
+    "WIND": "//summonerswar.co/wind-fairy-king-ganymede/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Ganymede",
+  "name_full": "Wind Fairy King (Ganymede)",
+  "name_sleepy": "Fairy King",
+  "ratings": {
+    "FOOD": 6.0,
+    "KEEP_IT": 6.0,
+    "MEH": 5.0,
+    "THE_BEST": 83.0
+  },
+  "score_total": 9.3,
+  "score_user": 8.5,
+  "skillup_info": "Worth fully skilling up with Devilmons",
+  "when_awaken": "Increases Attack Speed by 15"
+}

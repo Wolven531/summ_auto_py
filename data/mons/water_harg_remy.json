@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Social Summon Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-harg-kroa/",
+    "FIRE": "//summonerswar.co/fire-harg-racuni/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Remy_Icon-1.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/Harg_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-harg-dova/",
+    "WATER": "//summonerswar.co/water-harg-remy/",
+    "WIND": "//summonerswar.co/wind-harg-raviti/"
+  },
+  "mon_type": "Support",
+  "name_awaken": "Remy",
+  "name_full": "Water Harg (Remy)",
+  "name_sleepy": "Harg",
+  "ratings": {
+    "FOOD": 40.0,
+    "KEEP_IT": 0.0,
+    "MEH": 20.0,
+    "THE_BEST": 40.0
+  },
+  "score_total": 5.1,
+  "score_user": 8.8,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Racuni (Fire Harg), Raviti (Wind Harg) or Dova (Light Harg) instead",
+  "when_awaken": "Increases Accuracy by 25%"
+}

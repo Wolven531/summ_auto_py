@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes, November 2017 HoH",
+  "good_for": "ToA, PvE in general, PvP Offense",
+  "grade": "\u2605\u2605\u2605\u2605",
+  "grade_num": 4,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/dark-magic-knight-lanett/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Lupinus_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Magic_Knight_Wind_Icon.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-magic-knight-lupinus/"
+  },
+  "mon_type": "HP",
+  "name_awaken": "Lupinus",
+  "name_full": "Wind Magic Knight (Lupinus)",
+  "name_sleepy": "Magic Knight",
+  "ratings": {
+    "FOOD": 24.0,
+    "KEEP_IT": 45.0,
+    "MEH": 8.0,
+    "THE_BEST": 22.0
+  },
+  "score_total": 8.2,
+  "score_user": 7.3,
+  "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
+  "when_awaken": "Strengthen Skill: [Blade Surge]"
+}

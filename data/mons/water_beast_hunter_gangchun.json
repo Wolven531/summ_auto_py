@@ -1,0 +1,30 @@
+{
+  "element": "WATER",
+  "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Water Scroll, Temple of Wishes",
+  "good_for": "Food",
+  "grade": "\u2605\u2605\u2605",
+  "grade_num": 3,
+  "links": {
+    "DARK": "//summonerswar.co/dark-beast-hunter-hannam/",
+    "FIRE": "//summonerswar.co/fire-beast-hunter-nangrim/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Gangchun_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Beast_Hunter_Water_Icon.png",
+    "LIGHT": "//summonerswar.co/light-beast-hunter-baekdu/",
+    "WATER": "//summonerswar.co/water-beast-hunter-gangchun/",
+    "WIND": "//summonerswar.co/wind-beast-hunter-suri/"
+  },
+  "mon_type": "Attack",
+  "name_awaken": "Gangchun",
+  "name_full": "Water Beast Hunter (Gangchun)",
+  "name_sleepy": "Beast Hunter",
+  "ratings": {
+    "FOOD": 83.0,
+    "KEEP_IT": 9.0,
+    "MEH": 5.0,
+    "THE_BEST": 3.0
+  },
+  "score_total": 3.5,
+  "score_user": 5.7,
+  "skillup_info": "Don\u2019t bother skilling up, feed it to Nangrim (Fire Beast Hunter) instead",
+  "when_awaken": "Leader Skill: Increase the HP of an ally monster in the Arena by 21%"
+}

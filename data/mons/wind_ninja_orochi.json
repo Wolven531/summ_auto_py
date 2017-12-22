@@ -1,0 +1,30 @@
+{
+  "element": "WIND",
+  "get_from": "\u2605\u2605\u2605\u2605",
+  "good_for": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes",
+  "grade": "Wind Ninja (Orochi)",
+  "grade_num": 19,
+  "links": {
+    "DARK": "",
+    "FIRE": "//summonerswar.co/fire-ninja-garo/",
+    "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/Orochi_Icon.png",
+    "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/ninja.png",
+    "LIGHT": "",
+    "WATER": "",
+    "WIND": "//summonerswar.co/wind-ninja-orochi/"
+  },
+  "mon_type": null,
+  "name_awaken": "Orochi",
+  "name_full": "Wind Ninja (Orochi)",
+  "name_sleepy": "Ninja",
+  "ratings": {
+    "FOOD": 1.0,
+    "KEEP_IT": 12.0,
+    "MEH": 1.0,
+    "THE_BEST": 85.0
+  },
+  "score_total": 7.3,
+  "score_user": 8.2,
+  "skillup_info": "Leader Skill: Increases the Attack Speed of ally monsters with Wind attribute by 30%",
+  "when_awaken": "HP"
+}
