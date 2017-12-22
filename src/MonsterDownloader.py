@@ -5,8 +5,8 @@
 import json
 import os
 
-from ConsoleUtil import ConsoleUtil
-from PageParser import PageParser
+from .PageParser import PageParser
+from .ConsoleUtil import ConsoleUtil
 
 class MonsterDownloader():
     """

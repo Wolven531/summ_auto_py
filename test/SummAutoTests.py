@@ -1,16 +1,14 @@
 """
     This module is used to test functionality of the app
 """
-
 import unittest
-
 import os
 
-from LinkType import LinkType
-from MonsterPage import MonsterPage
-from MonsterType import MonsterType
-from PageParser import PageParser
-from Rating import Rating
+from src.LinkType import LinkType
+from src.MonsterPage import MonsterPage
+from src.MonsterType import MonsterType
+from src.PageParser import PageParser
+from src.Rating import Rating
 
 class SummAutoTests(unittest.TestCase):
     """

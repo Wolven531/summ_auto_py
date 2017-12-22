@@ -4,7 +4,7 @@
 
 from lxml import html
 
-from ConsoleUtil import ConsoleUtil
+from .ConsoleUtil import ConsoleUtil
 
 class SearchPageResult():
     """

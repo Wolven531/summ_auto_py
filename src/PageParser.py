@@ -7,10 +7,10 @@ import os
 import requests
 
 from lxml import html
-from ConsoleUtil import ConsoleUtil
-from LinkType import LinkType
-from MonsterPage import MonsterPage
-from SearchPageResult import SearchPageResult
+from .ConsoleUtil import ConsoleUtil
+from .LinkType import LinkType
+from .MonsterPage import MonsterPage
+from .SearchPageResult import SearchPageResult
 
 class PageParser():
     """

@@ -4,10 +4,10 @@
 
 import json
 import os
-from ConsoleUtil import ConsoleUtil
-from Rating import Rating
-from MonsterType import MonsterType
-from LinkType import LinkType
+from .ConsoleUtil import ConsoleUtil
+from .Rating import Rating
+from .MonsterType import MonsterType
+from .LinkType import LinkType
 
 class MonsterPage():
     """
