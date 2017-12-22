@@ -8,5 +8,4 @@ From the root directory, run `python3 SummAutoTests.py`
 
 ## TODO / Coming Soon
 
-1. Use searched links to multiply data collection
 1. Use elemental links to multiply data collection
