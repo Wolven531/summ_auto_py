@@ -2,6 +2,42 @@
 
 This is a fully tested, python-based scraper for SW. It is built with python3.
 
+## Running the web server
+
+From the root directory:
+
+1. `cd website`
+1. `python3 manage.py runserver 9999` (`9999` is the port)
+
+### To create an admin for the admin site
+
+1. `cd website`
+1. `python3 manage.py createsuperuser` (and follow the prompts)
+
+### To run migrations for the web server
+
+From the root directory:
+
+1. `cd website`
+1. `python3 manage.py migrate`
+
+### When updating the Django models
+
+1. Update python file (the model)
+1. Run `python3 manage.py makemigrations`
+1. Run `python3 manage.py migrate
+
+### The CLI API
+
+From the root directory:
+
+1. `cd website`
+1. Run `python3 manage.py shell`
+
+#### NOTE: To view what SQL statements a migration will generate and run: `python3 manage.py sqlmigrate polls 0001`
+
+#### NOTE: To check for any issues in the project: `python3 manage.py check`
+
 ## Running tests
 
 From the root directory, run `python3 -m unittest discover -s test/ -p '*Tests.py'`
