@@ -33,6 +33,9 @@ class Question(models.Model):
         if now < self.pub_date:
             return False
         return self.pub_date >= earliest_recent
+    is_recent_publication.admin_order_field = 'pub_date'
+    is_recent_publication.boolean = True
+    is_recent_publication.short_description = 'Published recently?'
 
 
 class Choice(models.Model):

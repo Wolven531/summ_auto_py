@@ -44,6 +44,10 @@ From the root directory:
 1. `coverage run --source='polls' manage.py test polls` (run the analysis)
 1. `coverage report` (view the report)
 
+### When creating new templates for the admin
+
+The default admin template path is `/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/templates`
+
 ### When updating the Django models
 
 1. Update python file (the model)
