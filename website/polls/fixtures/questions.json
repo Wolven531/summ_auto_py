@@ -55,43 +55,6 @@
         "model": "question"
     }
 }, {
-    "model": "sessions.session",
-    "pk": "412xjoexhk8zyywtdz3zwmbufbsbz0hg",
-    "fields": {
-        "session_data": "MWYwM2ZjMjZiNzE2NjgxMDk0NjUxZDQwNjIzNDVlNDQxMjlmYjRmMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJjOWZlMzMzNzQxNzkzODU1NDFkM2JiMjIyOGNjYjEzNTc1N2VjYmM4In0=",
-        "expire_date": "2018-01-10T21:40:53.587Z"
-    }
-}, {
-    "model": "sessions.session",
-    "pk": "bhibk3czdawknl3rsc7dbjsh1qe1c61m",
-    "fields": {
-        "session_data": "MWYwM2ZjMjZiNzE2NjgxMDk0NjUxZDQwNjIzNDVlNDQxMjlmYjRmMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJjOWZlMzMzNzQxNzkzODU1NDFkM2JiMjIyOGNjYjEzNTc1N2VjYmM4In0=",
-        "expire_date": "2018-01-11T19:43:55.145Z"
-    }
-}, {
-    "model": "polls.question",
-    "pk": 1,
-    "fields": {
-        "question_text": "Question1",
-        "pub_date": "2017-12-28T21:17:16Z"
-    }
-}, {
-    "model": "polls.choice",
-    "pk": 1,
-    "fields": {
-        "question": 1,
-        "choice_text": "Choice1",
-        "votes": 1
-    }
-}, {
-    "model": "polls.choice",
-    "pk": 2,
-    "fields": {
-        "question": 1,
-        "choice_text": "Choice2",
-        "votes": 1
-    }
-}, {
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -301,99 +264,26 @@
         "user_permissions": []
     }
 }, {
-    "model": "admin.logentry",
+    "model": "polls.question",
     "pk": 1,
     "fields": {
-        "action_time": "2017-12-27T23:47:40.877Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "1",
-        "object_repr": "Question[What is up, homie?, 2017-12-27 16:47:37-07:00]",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "question_text": "Question1",
+        "pub_date": "2017-12-28T21:17:16Z"
     }
 }, {
-    "model": "admin.logentry",
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "choice_text": "Choice1",
+        "votes": 1
+    }
+}, {
+    "model": "polls.choice",
     "pk": 2,
     "fields": {
-        "action_time": "2017-12-27T23:47:55.400Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "1",
-        "object_repr": "Choice[Not much, 0]",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-}, {
-    "model": "admin.logentry",
-    "pk": 3,
-    "fields": {
-        "action_time": "2017-12-27T23:48:05.008Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "2",
-        "object_repr": "Choice[Eh..., 0]",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-}, {
-    "model": "admin.logentry",
-    "pk": 4,
-    "fields": {
-        "action_time": "2017-12-27T23:48:14.015Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "3",
-        "object_repr": "Choice[Amigo!!!, 0]",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-}, {
-    "model": "admin.logentry",
-    "pk": 5,
-    "fields": {
-        "action_time": "2017-12-28T19:44:02.335Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "1",
-        "object_repr": "Question[What is up, homie?, 2017-12-27 23:47:37+00:00]",
-        "action_flag": 3,
-        "change_message": ""
-    }
-}, {
-    "model": "admin.logentry",
-    "pk": 6,
-    "fields": {
-        "action_time": "2017-12-28T21:17:19.571Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "2",
-        "object_repr": "Question[Question1, 2017-12-28 14:17:16-07:00]",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-}, {
-    "model": "admin.logentry",
-    "pk": 7,
-    "fields": {
-        "action_time": "2017-12-28T21:17:30.353Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "4",
-        "object_repr": "Choice[Choice1, 0]",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-}, {
-    "model": "admin.logentry",
-    "pk": 8,
-    "fields": {
-        "action_time": "2017-12-28T21:17:34.730Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "5",
-        "object_repr": "Choice[Choice2, 0]",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "question": 1,
+        "choice_text": "Choice2",
+        "votes": 1
     }
 }]
