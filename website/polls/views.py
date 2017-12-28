@@ -5,34 +5,38 @@ from django.db.models import F
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
+from django.views import generic
 from .models import Choice, Question
 
 TEMPLATE_DIR = 'polls'
 
-def index(request):
+class IndexView(generic.ListView):
     """
-        This view is the index for the polls app
+        This generic view is the index for the polls app
     """
-    num_to_retrieve = 5
-    question_list = Question.objects.order_by('-pub_date')[:num_to_retrieve]
-    context = {'question_list': question_list}
-    return render(request, f'{TEMPLATE_DIR}/index.html', context)
+    template_name = f'{TEMPLATE_DIR}/index.html'
+    context_object_name = 'question_list'
+    NUM_TO_RETRIEVE = 5
 
-def detail(request, question_id):
-    """
-        This view is for viewing the details of a specific question
-        * question_id number
-    """
-    question = get_object_or_404(Question, pk=question_id)
-    return render(request, f'{TEMPLATE_DIR}/detail.html', {'question': question})
+    def get_queryset(self):
+        """
+            Return the last self.NUM_TO_RETRIEVE published questions
+        """
+        return Question.objects.order_by('-pub_date')[:self.NUM_TO_RETRIEVE]
 
-def results(request, question_id):
+class DetailView(generic.DetailView):
     """
-        This view is for viewing the results of a specific question
-        * question_id number
+        This generic view is the detail for a specific Question
     """
-    question = get_object_or_404(Question, pk=question_id)
-    return render(request, f'{TEMPLATE_DIR}/results.html', {'question': question})
+    model = Question
+    template_name = f'{TEMPLATE_DIR}/detail.html'
+
+class ResultsView(generic.DetailView):
+    """
+        This generic view is the results for a specific Question
+    """
+    model = Question
+    template_name = f'{TEMPLATE_DIR}/results.html'
 
 def vote(request, question_id):
     """
