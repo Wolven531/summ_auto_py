@@ -1,8 +1,9 @@
 """
     This is the views module
 """
-from django.shortcuts import get_object_or_404, render
+from django.db.models import F
 from django.http import HttpResponseRedirect
+from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from .models import Choice, Question
 
@@ -57,7 +58,9 @@ def vote(request, question_id):
                 'error_message': error_msg
             }
         )
-    selected_choice.votes += 1
+    # NOTE: The line below is inspired by
+    # https://docs.djangoproject.com/en/2.0/ref/models/expressions/#avoiding-race-conditions-using-f
+    selected_choice.votes = F('votes') + 1
     selected_choice.save()
     # NOTE: return an HttpResponseRedirect after POST data.
     # This prevents data from posting more than once
