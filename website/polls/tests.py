@@ -30,7 +30,90 @@ class TestUtil():# pylint: disable=R0903
         """
         return Choice.objects.create(question=question_ref, choice_text=display, votes=num_votes)
 
-class QuestionResultsViewTest(TestCase):
+class QuestionVoteViewTests(TestCase):
+    """
+        This class tests the functionality of the Questions vote view
+    """
+
+    def test_vote_should_show_error_when_no_selection(self):# pylint: disable=C0103
+        """
+            This test ensures an error message is provided when
+            no vote selection is made
+        """
+        # setup
+        past_question = TestUtil.create_question('Past question', -30)
+        url = reverse('polls:vote', args=[past_question.id])
+
+        # execute
+        response = self.client.post(url)
+
+        # verify
+        self.assertContains(response, 'You did not select a choice', status_code=200)
+
+    def test_vote_should_show_error_when_bad_choice_value_provided(self):# pylint: disable=C0103
+        """
+            This test ensures an error message is provided when
+            a bad value was provided for the choice
+        """
+        # setup
+        past_question = TestUtil.create_question('Past question', -30)
+        choice1 = TestUtil.create_choice(past_question, 'Choice 1', 0)
+        self.assertEqual(choice1.id, 1)
+        url = reverse('polls:vote', args=[past_question.id])
+
+        # execute
+        response = self.client.post(path=url, data={'choice': 'asdf'})
+
+        # verify
+        self.assertContains(response, 'Could not parse `post_val`', status_code=200)
+
+    def test_vote_should_show_error_when_missing_choice_value_provided(self):# pylint: disable=C0103
+        """
+            This test ensures an error message is provided when
+            a valid value was provided for the choice, but the value
+            did not match any choices during the lookup
+        """
+        # setup
+        past_question = TestUtil.create_question('Past question', -30)
+        choice1 = TestUtil.create_choice(past_question, 'Choice 1', 0)
+        self.assertEqual(choice1.id, 1)
+        url = reverse('polls:vote', args=[past_question.id])
+
+        # execute
+        response = self.client.post(path=url, data={'choice': 2})
+
+        # verify
+        self.assertContains(response, 'Choice did not exist `selected_val`', status_code=200)
+
+    def test_vote_should_display_when_successful(self):# pylint: disable=C0103
+        """
+            This test ensures that when a vote is successful, the user is
+            taken to the results page and it displays properly (with the
+            updated vote total)
+        """
+        # setup
+        past_question = TestUtil.create_question('Past question', -30)
+        choice1 = TestUtil.create_choice(past_question, 'Choice 1', 0)
+        self.assertEqual(choice1.id, 1)
+        url = reverse('polls:vote', args=[past_question.id])
+        expected_url = reverse('polls:results', args=[past_question.id])
+
+        # execute
+        response = self.client.post(path=url, data={'choice': 1})
+
+        # verify
+        updated_choice = Choice.objects.get(pk=choice1.id)
+        self.assertRedirects(
+            response=response,
+            expected_url=expected_url,
+            status_code=302,
+            target_status_code=200)
+        self.assertEqual(
+            updated_choice.votes,
+            1,
+            'Expected vote view to increase vote count on choice')
+
+class QuestionResultsViewTests(TestCase):
     """
         This class tests the functionality of the Question results view
     """
