@@ -49,5 +49,10 @@ class EndToEndTests(StaticLiveServerTestCase):
         self.assertEqual(len(question_links), 1)
 
         question_links[0].click()
+        curr_url = self.selenium.current_url
+        self.assertTrue(
+            curr_url.endswith('/polls/1/'),
+            f'Unexpected URL after clicking Question={curr_url}')
+
         choice_inputs = self.selenium.find_elements_by_css_selector('input[type="radio"]')
         self.assertEqual(len(choice_inputs), 2)
