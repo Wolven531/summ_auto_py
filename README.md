@@ -7,8 +7,13 @@ This is a fully tested, python-based scraper for SW. It is built with python3.
 * Python 3.x ([Python Download Archive](https://www.python.org/downloads/))
 * pip3 ([pip install guide](https://pip.pypa.io/en/stable/installing/))
 * Django 2.x ([Django install guide](https://docs.djangoproject.com/en/2.0/intro/install/))
+* chromedriver ([Install chromedriver for MacOS](http://www.kenst.com/2015/03/installing-chromedriver-on-mac-osx/)
 
 After pip3 and python3 are installed, the remaining requirements can be installed by running the following command from the root directory: `pip3 install -r requirements.txt`
+
+If you plan on running the end to end tests, make sure to update your PATH with the appropriate driver location. The default MacOS setup has the driver located at `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome`. If your driver is located elsewhere, be sure to update your PATH accordingly. See [here](https://coolestguidesontheplanet.com/add-shell-path-osx/)
+
+When adding new end to end tests, be sure to consult the [Selenium Python API](https://selenium-python.readthedocs.io/api.html)
 
 ## Running the web server
 
@@ -43,6 +48,13 @@ From the root directory:
 1. `cd website`
 1. `coverage run --source='polls' manage.py test polls` (run the analysis)
 1. `coverage report` (view the report)
+
+### To run the end to end tests
+
+From the root directory:
+
+1. `cd website`
+1. `python3 manage.py test summ_auto_website.tests.EndToEndTests`
 
 ### When creating new templates for the admin
 
