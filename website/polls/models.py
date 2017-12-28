@@ -16,7 +16,7 @@ class Question(models.Model):
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
 
-    def __str__(self):
+    def __str__(self):# pragma: no cover
         """
             This method provides a useful string representation
             of this model
@@ -47,9 +47,15 @@ class Choice(models.Model):
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
 
-    def __str__(self):
+    def __str__(self):# pragma: no cover
         """
             This method provides a useful string representation
             of this model
         """
         return f'Choice[{self.choice_text}, {self.votes}]'
+
+    def has_votes(self):
+        """
+            Returns True if this choice has any votes; False otherwise
+        """
+        return self.votes > 0

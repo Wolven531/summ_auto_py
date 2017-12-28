@@ -11,7 +11,7 @@ from .models import Choice, Question
 
 TEMPLATE_DIR = 'polls'
 
-class IndexView(generic.ListView):
+class IndexView(generic.ListView):# pylint: disable=R0901
     """
         This generic view is the index for the polls app
     """
@@ -22,23 +22,36 @@ class IndexView(generic.ListView):
     def get_queryset(self):
         """
             Return the last self.NUM_TO_RETRIEVE published questions
+            that were published anytime up to and including now
         """
         filtered = Question.objects.filter(pub_date__lte=timezone.now())
         return filtered.order_by('-pub_date')[:self.NUM_TO_RETRIEVE]
 
-class DetailView(generic.DetailView):
+class DetailView(generic.DetailView):# pylint: disable=R0901
     """
         This generic view is the detail for a specific Question
     """
     model = Question
     template_name = f'{TEMPLATE_DIR}/detail.html'
 
-class ResultsView(generic.DetailView):
+    def get_queryset(self):
+        """
+            Return any questions that have a pub_date before now
+        """
+        return Question.objects.filter(pub_date__lte=timezone.now())
+
+class ResultsView(generic.DetailView):# pylint: disable=R0901
     """
         This generic view is the results for a specific Question
     """
     model = Question
     template_name = f'{TEMPLATE_DIR}/results.html'
+
+    def get_queryset(self):
+        """
+            Return any questions that have a pub_date before now
+        """
+        return Question.objects.filter(pub_date__lte=timezone.now())
 
 def vote(request, question_id):
     """

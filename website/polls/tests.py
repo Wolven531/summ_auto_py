@@ -6,15 +6,15 @@ import datetime
 from django.test import TestCase
 from django.urls import reverse
 from django.utils import timezone
-from .models import Question
+from .models import Choice, Question
 
-class QuestionIndexViewTests(TestCase):
+class TestUtil():# pylint: disable=R0903
     """
-        This class tests the functionality of the Question index view
+        This method houses utility methods for the tests below
     """
 
-    @classmethod
-    def create_question(cls, question_text, days_offset):
+    @staticmethod
+    def create_question(question_text, days_offset):
         """
             Create a question with the given `question_text` and published the
             given number of `days` offset to now (negative for questions published
@@ -22,6 +22,107 @@ class QuestionIndexViewTests(TestCase):
         """
         published = timezone.now() + datetime.timedelta(days=days_offset)
         return Question.objects.create(question_text=question_text, pub_date=published)
+
+    @staticmethod
+    def create_choice(question_ref, display, num_votes):
+        """
+            Create a choice with the given `question`, `choice_text`, and `votes`
+        """
+        return Choice.objects.create(question=question_ref, choice_text=display, votes=num_votes)
+
+class QuestionResultsViewTest(TestCase):
+    """
+        This class tests the functionality of the Question results view
+    """
+
+    def test_results_should_be_empty_when_future_question(self):# pylint: disable=C0103
+        """
+            This test ensures the results view will return a 404
+            when a user attempts to view the results page for a question
+            that has a pub_date in the future
+        """
+        # setup
+        future_question = TestUtil.create_question('Future question', 30)
+        url = reverse('polls:results', args=[future_question.id])
+
+        # execute
+        response = self.client.get(url)
+
+        # verify
+        self.assertEqual(
+            response.status_code,
+            404,
+            'Expected future question results view to return 404')
+
+    def test_results_should_display_when_past_question(self):# pylint: disable=C0103
+        """
+            This test ensures the results view will display
+            when a user attempts to view the results page for a question
+            that has a pub_date in the past
+        """
+        # setup
+        past_question = TestUtil.create_question('Past question', -30)
+        choice1 = TestUtil.create_choice(past_question, 'Choice 1', 0)
+        choice2 = TestUtil.create_choice(past_question, 'Choice 2', 10)
+        choice3 = TestUtil.create_choice(past_question, 'Choice 3', 100)
+        url = reverse('polls:results', args=[past_question.id])
+
+        # execute
+        response = self.client.get(url)
+
+        # verify
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.context['question'], past_question)
+        self.assertListEqual(
+            list(response.context['question'].choice_set.all()),
+            [choice1, choice2, choice3]
+        )
+
+class QuestionDetailViewTests(TestCase):
+    """
+        This class tests the functionality of the Question detail view
+    """
+
+    def test_detail_should_be_empty_when_future_question(self):# pylint: disable=C0103
+        """
+            This test ensures the detail view will return a 404
+            when a user attempts to view the detail page for a question
+            that has a pub_date in the future
+        """
+        # setup
+        future_question = TestUtil.create_question('Future question', 30)
+        url = reverse('polls:detail', args=[future_question.id])
+
+        # execute
+        response = self.client.get(url)
+
+        # verify
+        self.assertEqual(
+            response.status_code,
+            404,
+            'Expected future question detail view to return 404')
+
+    def test_detail_should_display_when_past_question(self):# pylint: disable=C0103
+        """
+            This test ensures the detail view will display
+            when a user attempts to view the detail page for a question
+            that has a pub_date in the past
+        """
+        # setup
+        past_question = TestUtil.create_question('Past question', -30)
+        url = reverse('polls:detail', args=[past_question.id])
+
+        # execute
+        response = self.client.get(url)
+
+        # verify
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.context['question'], past_question)
+
+class QuestionIndexViewTests(TestCase):
+    """
+        This class tests the functionality of the Question index view
+    """
 
     def test_index_should_be_empty_when_no_questions(self):# pylint: disable=C0103
         """
@@ -43,7 +144,7 @@ class QuestionIndexViewTests(TestCase):
             does not display the future questions)
         """
         # setup
-        self.create_question('Future question', 30)
+        TestUtil.create_question('Future question', 30)
 
         # execute
         response = self.client.get(reverse('polls:index'))
@@ -58,7 +159,7 @@ class QuestionIndexViewTests(TestCase):
             when there is a question from the past
         """
         # setup
-        past_question = self.create_question('Past question', -30)
+        past_question = TestUtil.create_question('Past question', -30)
 
         # execute
         response = self.client.get(reverse('polls:index'))
@@ -76,8 +177,8 @@ class QuestionIndexViewTests(TestCase):
             that they are in order)
         """
         # setup
-        question_past = self.create_question('Past question', -30)
-        question_recent = self.create_question('Recent question', -1)
+        question_past = TestUtil.create_question('Past question', -30)
+        question_recent = TestUtil.create_question('Recent question', -1)
 
         # execute
         response = self.client.get(reverse('polls:index'))
@@ -99,8 +200,7 @@ class QuestionModelTests(TestCase):
             returns False when the pub_date is in the future
         """
         # setup
-        time = timezone.now() + datetime.timedelta(days=30)
-        future_question = Question(pub_date=time)
+        future_question = TestUtil.create_question('Past question', 30)
 
         # execute
         is_recent = future_question.is_recent_publication()
@@ -114,8 +214,7 @@ class QuestionModelTests(TestCase):
             returns False when the pub_date is too old
         """
         # setup
-        time = timezone.now() - datetime.timedelta(days=30)
-        old_question = Question(pub_date=time)
+        old_question = TestUtil.create_question('Past question', -30)
 
         # execute
         is_recent = old_question.is_recent_publication()
@@ -137,3 +236,38 @@ class QuestionModelTests(TestCase):
 
         # verify
         self.assertTrue(is_recent, 'Expected recent question to be recent')
+
+class ChoiceModelTests(TestCase):
+    """
+        This class tests the functionality of the Choice model
+    """
+
+    def test_has_votes_should_return_false_when_no_votes(self):# pylint: disable=C0103
+        """
+            This test ensures that the has_votes() method
+            returns False when the choice has no votes
+        """
+        # setup
+        future_question = TestUtil.create_question('Future question', 30)
+        choice = TestUtil.create_choice(future_question, 'Choice 1', 0)
+
+        # execute
+        has_votes = choice.has_votes()
+
+        # verify
+        self.assertFalse(has_votes, 'Expected choice to not have votes')
+
+    def test_has_votes_should_return_true_when_some_votes(self):# pylint: disable=C0103
+        """
+            This test ensures that the has_votes() method
+            returns True when the choice has some votes
+        """
+        # setup
+        future_question = TestUtil.create_question('Future question', 30)
+        choice = TestUtil.create_choice(future_question, 'Choice 1', 100)
+
+        # execute
+        has_votes = choice.has_votes()
+
+        # verify
+        self.assertTrue(has_votes, 'Expected choice to have votes')

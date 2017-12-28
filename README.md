@@ -29,12 +29,20 @@ From the root directory:
 1. `cd website`
 1. `python3 manage.py migrate`
 
-### To run tests for the web server
+### To run tests for the web server (no analysis)
 
 From the root directory:
 
 1. `cd website`
 1. `python3 manage.py test polls` (`polls` is the name of the application to test)
+
+### To run tests for the web server (with coverage analysis)
+
+From the root directory:
+
+1. `cd website`
+1. `coverage run --source='polls' manage.py test polls` (run the analysis)
+1. `coverage report` (view the report)
 
 ### When updating the Django models
 
