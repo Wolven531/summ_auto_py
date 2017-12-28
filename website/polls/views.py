@@ -5,6 +5,7 @@ from django.db.models import F
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
+from django.utils import timezone
 from django.views import generic
 from .models import Choice, Question
 
@@ -22,7 +23,8 @@ class IndexView(generic.ListView):
         """
             Return the last self.NUM_TO_RETRIEVE published questions
         """
-        return Question.objects.order_by('-pub_date')[:self.NUM_TO_RETRIEVE]
+        filtered = Question.objects.filter(pub_date__lte=timezone.now())
+        return filtered.order_by('-pub_date')[:self.NUM_TO_RETRIEVE]
 
 class DetailView(generic.DetailView):
     """
