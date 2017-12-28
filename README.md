@@ -2,6 +2,14 @@
 
 This is a fully tested, python-based scraper for SW. It is built with python3.
 
+## Requirements
+
+* Python 3.x ([Python Download Archive](https://www.python.org/downloads/))
+* pip3 ([pip install guide](https://pip.pypa.io/en/stable/installing/))
+* Django 2.x ([Django install guide](https://docs.djangoproject.com/en/2.0/intro/install/))
+
+After pip3 and python3 are installed, the remaining requirements can be installed by running the following command from the root directory: `pip3 install -r requirements.txt`
+
 ## Running the web server
 
 From the root directory:
@@ -56,9 +64,6 @@ This will load the `data/searched_links.json` and iterate through the `searched_
 
 1. Use elemental links to multiply data collection
 1. Parse the [3, 4, 5 Star Monster Guide page](https://summonerswar.co/monster-guide-3-4-5-mons/)
-1. Spin up Django server to provide data
-    * [Django Project](https://www.djangoproject.com)
-    * [Mozilla on Django](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
 1. Build frontend (ReactJS, likely)
     * [Create React GitHub](https://github.com/facebookincubator/create-react-app)
     * [ReactJS Getting Started](https://reactjs.org/docs/hello-world.html)
