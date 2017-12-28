@@ -28,7 +28,11 @@ class Question(models.Model):
             Returns True if this question was published
             within the past day; False otherwise
         """
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        now = timezone.now()
+        earliest_recent = now - datetime.timedelta(days=1)
+        if now < self.pub_date:
+            return False
+        return self.pub_date >= earliest_recent
 
 
 class Choice(models.Model):

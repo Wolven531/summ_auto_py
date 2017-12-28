@@ -29,6 +29,13 @@ From the root directory:
 1. `cd website`
 1. `python3 manage.py migrate`
 
+### To run tests for the web server
+
+From the root directory:
+
+1. `cd website`
+1. `python3 manage.py test polls` (`polls` is the name of the application to test)
+
 ### When updating the Django models
 
 1. Update python file (the model)
