@@ -1,7 +1,7 @@
 body {
     background: white url("images/logo.png") no-repeat;
     background-size: 10em 10em;
-    background-position: 99% 98%;
+    background-position: top right;
 }
 
 a {
