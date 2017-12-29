@@ -38,7 +38,6 @@ class Monster(models.Model):
         unique=True,
         verbose_name='Awakened Name')
     element = models.CharField(
-        default='Fire',
         choices=[
             ('Dark', 'Dark'),
             ('Fire', 'Fire'),
@@ -46,6 +45,7 @@ class Monster(models.Model):
             ('Water', 'Water'),
             ('Wind', 'Wind')
         ],
+        default='Fire',
         max_length=50,
         verbose_name='Element')
     full_name = models.CharField(
@@ -97,7 +97,13 @@ class Monster(models.Model):
         max_length=100,
         verbose_name='Wind Link')
     mon_type = models.CharField(
-        default='',
+        choices=[
+            ('Attack', 'Attack'),
+            ('Defense', 'Defense'),
+            ('HP', 'HP'),
+            ('Support', 'Support')
+        ],
+        default='Support',
         max_length=25,
         verbose_name='Monster Type')
     rating_keep = models.FloatField(
