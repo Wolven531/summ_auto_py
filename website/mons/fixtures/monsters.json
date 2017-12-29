@@ -2,12 +2,36 @@
     "model": "mons.monster",
     "pk": 1,
     "fields": {
-        "awaken_name": "Hwa"
+        "awaken_name": "Hwa",
+        "element": "Fire",
+        "full_name": "Fire Rakshasa (Hwa)",
+        "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
+        "good_for": "Raids, ToA, GB10, DB10, PvP Offense",
+        "grade": "\u2605\u2605\u2605\u2605",
+        "grade_num": 4,
+        "mon_type": "Attack",
+        "score_total": 8.8,
+        "score_user": 8.6,
+        "skillup_info": "Worth skilling up, but depending on how you use her, maxing 2nd Skill may not be a good idea",
+        "sleepy_name": "Rakshasa",
+        "when_awakened": "Increases Accuracy by 25%"
     }
 }, {
     "model": "mons.monster",
     "pk": 2,
     "fields": {
-        "awaken_name": "Chasun"
+        "awaken_name": "Chasun",
+        "element": "Wind",
+        "full_name": "Wind Sky Dancer (Chasun)",
+        "get_from": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes",
+        "good_for": "Everywhere",
+        "grade": "\u2605\u2605\u2605\u2605",
+        "grade_num": 4,
+        "mon_type": "Support",
+        "score_total": 8.5,
+        "score_user": 8.9,
+        "skillup_info": "Worth fully skilling up with Devilmons or family monsters",
+        "sleepy_name": "Sky Dancer",
+        "when_awakened": "Increases Resistance by 25%"
     }
 }]

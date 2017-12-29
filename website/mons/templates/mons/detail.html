@@ -1,6 +1,73 @@
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'mons/style.css' %}" />
 
-<h1>{{ monster.awaken_name }}</h1>
+<h1>{{ monster.full_name }}</h1>
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<table>
+    <thead>
+        <tr>
+            <th>Stat</th>
+            <th>Detail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Awakened Name</td>
+            <td>{{ monster.awaken_name }}</td>
+        </tr>
+        <tr>
+            <td>Element</td>
+            <td>{{ monster.element }}</td>
+        </tr>
+        <tr>
+            <td>Get From</td>
+            <td>{{ monster.get_from }}</td>
+        </tr>
+        <tr>
+            <td>Good For</td>
+            <td>{{ monster.good_for }}</td>
+        </tr>
+        <tr>
+            <td>Grade</td>
+            <td>{{ monster.grade }}</td>
+        </tr>
+        <tr>
+            <td>Grade Number</td>
+            <td>{{ monster.grade_num }}</td>
+        </tr>
+        <tr>
+            <td>Links</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Monster Type</td>
+            <td>{{ monster.mon_type }}</td>
+        </tr>
+        <tr>
+            <td>Ratings</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Score Total</td>
+            <td>{{ monster.score_total }}</td>
+        </tr>
+        <tr>
+            <td>Score User</td>
+            <td>{{ monster.score_user }}</td>
+        </tr>
+        <tr>
+            <td>Skillup Info</td>
+            <td>{{ monster.skillup_info }}</td>
+        </tr>
+        <tr>
+            <td>Sleepy Name</td>
+            <td>{{ monster.sleepy_name }}</td>
+        </tr>
+        <tr>
+            <td>When Awakened</td>
+            <td>{{ monster.when_awakened }}</td>
+        </tr>
+    </tbody>
+</table>

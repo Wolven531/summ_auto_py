@@ -19,7 +19,10 @@ class TestUtil():# pylint: disable=R0903
             Create a monster with the given:
             * awaken_name
         """
-        return Monster.objects.create(awaken_name=awaken_name)
+        return Monster.objects.create(
+            awaken_name=awaken_name,
+            full_name=awaken_name,
+            sleepy_name=awaken_name)
 
 class MonsterIndexViewTests(TestCase):
     """
