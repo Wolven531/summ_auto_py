@@ -7,7 +7,7 @@ This is a fully tested, python-based scraper for SW. It is built with python3.
 * Python 3.x ([Python Download Archive](https://www.python.org/downloads/))
 * pip3 ([pip install guide](https://pip.pypa.io/en/stable/installing/))
 * Django 2.x ([Django install guide](https://docs.djangoproject.com/en/2.0/intro/install/))
-* chromedriver ([Install chromedriver for MacOS](http://www.kenst.com/2015/03/installing-chromedriver-on-mac-osx/)
+* chromedriver ([Install chromedriver for MacOS](http://www.kenst.com/2015/03/installing-chromedriver-on-mac-osx/))
 
 After pip3 and python3 are installed, the remaining requirements can be installed by running the following command from the root directory: `pip3 install -r requirements.txt`
 
