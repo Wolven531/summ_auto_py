@@ -38,8 +38,16 @@ class Monster(models.Model):
         unique=True,
         verbose_name='Awakened Name')
     element = models.CharField(
-        default='',
-        max_length=50)
+        default='Fire',
+        choices=[
+            ('Dark', 'Dark'),
+            ('Fire', 'Fire'),
+            ('Light', 'Light'),
+            ('Water', 'Water'),
+            ('Wind', 'Wind')
+        ],
+        max_length=50,
+        verbose_name='Element')
     full_name = models.CharField(
         default='',
         max_length=200,
