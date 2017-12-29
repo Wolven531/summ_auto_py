@@ -91,6 +91,10 @@ This will load the `data/searched_links.json` and iterate through the `searched_
 
 ### NOTE: The downloader takes some time to run completely (~20 mins for ~500 URLs)
 
+## Screenshots of the application
+
+When end to end tests are run, the tests make use of selenium's ability to take screenshots for posterity. These screenshots are saved at [./website/summ_auto_website/screenshots/](website/summ_auto_website/screenshots)
+
 ## TODO / Coming Soon
 
 1. Use elemental links to multiply data collection
