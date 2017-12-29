@@ -7,3 +7,89 @@ body {
 a {
     color: #0a0;
 }
+
+.monster-detail {
+    background-color: #fff;
+    border: 1px solid #333;
+    max-width: 800px;
+    margin: 2em auto;
+    opacity: 0.85;
+    padding: 2em;
+}
+
+.monster-detail.fire,
+.monster-list-item.fire {
+    background-color: #faa;
+}
+
+.monster-detail.dark,
+.monster-list-item.dark {
+    background-color: #a6a;
+}
+
+.monster-detail.light,
+.monster-list-item.light {
+    background-color: #ddd;
+}
+
+.monster-detail.water,
+.monster-list-item.water {
+    background-color: #66e;
+}
+
+.monster-detail.wind,
+.monster-list-item.wind {
+    background-color: #cc6;
+}
+
+.monster-detail td {
+    background-color: #eee;
+    border: 0;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 1em;
+}
+
+.monster-detail td:nth-of-type(1) {
+    font-weight: bold;
+    background-color: inherit;
+}
+
+.img-container {
+    display: inline-block;
+}
+
+.monster-img {
+    max-height: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.monster-img.img-mini {
+    max-height: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.monster-list-item {
+    background-color: #fff;
+    display: block;
+    list-style-type: none;
+    margin: 1em auto;
+    max-width: 10em;
+}
+
+.monster-list-item a {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.monster-list-item a * {
+    flex: 'flex-grow';
+    margin: 0.5em 0;
+}

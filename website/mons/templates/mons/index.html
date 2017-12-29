@@ -4,7 +4,20 @@
 {% if monster_list %}
     <ul>
     {% for monster in monster_list %}
-    <li><a href="{% url 'mons:detail' monster.id %}">{{ monster.awaken_name }}</a></li>
+    <li class="monster-list-item {{ monster.element|lower }}">
+        <a href="{% url 'mons:detail' monster.id %}">
+            <span>
+                {{ monster.awaken_name }}
+            </span>
+            <div class="monster-list-image-container">
+                <img src="{{ monster.image_sleepy }}" alt="{{ monster.sleepy_name }} Sleepy Image" class="monster-img img-mini" />
+            </div>
+            <div class="monster-list-image-container">
+                <img src="{{ monster.image_awake }}" alt="{{ monster.awaken_name }} Awakened Image" class="monster-img img-mini" />
+            </div>
+            
+        </a>
+    </li>
     {% endfor %}
     </ul>
 {% else %}

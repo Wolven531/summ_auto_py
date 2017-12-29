@@ -5,69 +5,146 @@
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
-<table>
-    <thead>
-        <tr>
-            <th>Stat</th>
-            <th>Detail</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Awakened Name</td>
-            <td>{{ monster.awaken_name }}</td>
-        </tr>
-        <tr>
-            <td>Element</td>
-            <td>{{ monster.element }}</td>
-        </tr>
-        <tr>
-            <td>Get From</td>
-            <td>{{ monster.get_from }}</td>
-        </tr>
-        <tr>
-            <td>Good For</td>
-            <td>{{ monster.good_for }}</td>
-        </tr>
-        <tr>
-            <td>Grade</td>
-            <td>{{ monster.grade }}</td>
-        </tr>
-        <tr>
-            <td>Grade Number</td>
-            <td>{{ monster.grade_num }}</td>
-        </tr>
-        <tr>
-            <td>Links</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Monster Type</td>
-            <td>{{ monster.mon_type }}</td>
-        </tr>
-        <tr>
-            <td>Ratings</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Score Total</td>
-            <td>{{ monster.score_total }}</td>
-        </tr>
-        <tr>
-            <td>Score User</td>
-            <td>{{ monster.score_user }}</td>
-        </tr>
-        <tr>
-            <td>Skillup Info</td>
-            <td>{{ monster.skillup_info }}</td>
-        </tr>
-        <tr>
-            <td>Sleepy Name</td>
-            <td>{{ monster.sleepy_name }}</td>
-        </tr>
-        <tr>
-            <td>When Awakened</td>
-            <td>{{ monster.when_awakened }}</td>
-        </tr>
-    </tbody>
-</table>
+<div class="monster-detail {{ monster.element|lower }}">
+    <table>
+        <thead>
+            <tr>
+                <th>Stat</th>
+                <th>Detail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Awakened Name</td>
+                <td>{{ monster.awaken_name }}</td>
+            </tr>
+            <tr>
+                <td>Element</td>
+                <td>{{ monster.element }}</td>
+            </tr>
+            <tr>
+                <td>Get From</td>
+                <td>{{ monster.get_from }}</td>
+            </tr>
+            <tr>
+                <td>Good For</td>
+                <td>{{ monster.good_for }}</td>
+            </tr>
+            <tr>
+                <td>Grade</td>
+                <td>{{ monster.grade }}</td>
+            </tr>
+            <tr>
+                <td>Grade Number</td>
+                <td>{{ monster.grade_num }}</td>
+            </tr>
+            <tr>
+                <td>Images</td>
+                <td>
+                    <div class="img-container">
+                        <p>Sleepy</p>
+                        <a href="{{monster.image_sleepy }}" target="_blank">
+                            <img src="{{ monster.image_sleepy }}" alt="{{ monster.sleepy_name }} Sleepy Image" class="monster-img" />
+                        </a>
+                    </div>
+                    <div class="img-container">
+                        <p>Awake</p>
+                        <a href="{{monster.image_awake }}" target="_blank">
+                            <img src="{{ monster.image_awake }}" alt="{{ monster.awaken_name }} Awakened Image" class="monster-img" />
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Links</td>
+                <td>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Link Type</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dark Link</td>
+                                <td><a href="{{ monster.link_dark }}" target="_blank">{{ monster.link_dark }}</a></td>
+                            </tr>
+                            <tr>
+                                <td>Fire Link</td>
+                                <td><a href="{{ monster.link_fire }}" target="_blank">{{ monster.link_fire }}</a></td>
+                            </tr>
+                            <tr>
+                                <td>Light Link</td>
+                                <td><a href="{{ monster.link_light }}" target="_blank">{{ monster.link_light }}</a></td>
+                            </tr>
+                            <tr>
+                                <td>Water Link</td>
+                                <td><a href="{{ monster.link_water }}" target="_blank">{{ monster.link_water }}</a></td>
+                            </tr>
+                            <tr>
+                                <td>Wind Link</td>
+                                <td><a href="{{ monster.link_wind }}" target="_blank">{{ monster.link_wind }}</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Monster Type</td>
+                <td>{{ monster.mon_type }}</td>
+            </tr>
+            <tr>
+                <td>Ratings</td>
+                <td>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Rating Type</th>
+                                <th>Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Keep It</td>
+                                <td>{{ monster.rating_keep }}</td>
+                            </tr>
+                            <tr>
+                                <td>Food</td>
+                                <td>{{ monster.rating_food }}</td>
+                            </tr>
+                            <tr>
+                                <td>The Best</td>
+                                <td>{{ monster.rating_best }}</td>
+                            </tr>
+                            <tr>
+                                <td>Meh</td>
+                                <td>{{ monster.rating_meh }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Score Total</td>
+                <td>{{ monster.score_total }}</td>
+            </tr>
+            <tr>
+                <td>Score User</td>
+                <td>{{ monster.score_user }}</td>
+            </tr>
+            <tr>
+                <td>Skillup Info</td>
+                <td>{{ monster.skillup_info }}</td>
+            </tr>
+            <tr>
+                <td>Sleepy Name</td>
+                <td>{{ monster.sleepy_name }}</td>
+            </tr>
+            <tr>
+                <td>When Awakened</td>
+                <td>{{ monster.when_awakened }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

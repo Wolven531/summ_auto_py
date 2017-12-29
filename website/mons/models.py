@@ -70,11 +70,11 @@ class Monster(models.Model):
         verbose_name='Grade Number')
     image_sleepy = models.CharField(
         default='',
-        max_length=100,
+        max_length=150,
         verbose_name='Sleepy Image')
     image_awake = models.CharField(
         default='',
-        max_length=100,
+        max_length=150,
         verbose_name='Awake Image')
     link_dark = models.CharField(
         default='',
