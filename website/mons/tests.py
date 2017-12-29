@@ -45,7 +45,7 @@ class MonsterIndexViewTests(TestCase):
             when there is a monster
         """
         # setup
-        mon = TestUtil.create_monster('Blarger')
+        mon = TestUtil.create_monster('Alpha')
 
         # execute
         response = self.client.get(reverse('mons:index'))
@@ -63,14 +63,15 @@ class MonsterIndexViewTests(TestCase):
         # NOTE: we create Zeta first because if the view does not order the
         # results, Zeta would default to the first in the list
         mon1 = TestUtil.create_monster('Zeta')
-        mon2 = TestUtil.create_monster('Alpha')
+        mon2 = TestUtil.create_monster('Omega')
+        mon3 = TestUtil.create_monster('Alpha')
 
         # execute
         response = self.client.get(reverse('mons:index'))
 
         # verify
         self.assertEqual(response.status_code, 200)
-        self.assertListEqual(list(response.context['monster_list']), [mon2, mon1])
+        self.assertListEqual(list(response.context['monster_list']), [mon3, mon2, mon1])
 
 class MonsterDetailViewTests(TestCase):
     """

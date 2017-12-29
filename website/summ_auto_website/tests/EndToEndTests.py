@@ -10,7 +10,23 @@ class EndToEndTests(StaticLiveServerTestCase):
     """
         This class tests the user facing behavior of the application
     """
-    fixtures = ['questions.json']
+    fixtures = [
+        'admin.json',
+        'questions.json',
+        'monsters.json'
+    ]
+    # NOTE: `serialized_rollback` is required in order to import all of
+    # the fixtures with no unique constraint issues (a.k.a. no data integrity issues)
+    serialized_rollback = True
+
+    @staticmethod
+    def get_screenshot_filepath(app, parent_dir, filename):
+        """
+            This method returns the full path of where a given
+            screenshot should be saved
+        """
+        screenshot_dir = os.path.join(parent_dir, 'screenshots', app)
+        return os.path.join(screenshot_dir, filename)
 
     @classmethod
     def setUpClass(cls):
@@ -35,20 +51,25 @@ class EndToEndTests(StaticLiveServerTestCase):
     #         This method is run before the entire class
     #     """
 
-    # def setUp(self):
-    #     """
-    #         This method is run before each test
-    #     """
+    def setUp(self):
+        """
+            This method is run before each test
+        """
+        curr_dir = os.path.dirname(os.path.abspath(__file__))
+        self.parent_dir = os.path.dirname(curr_dir)
 
     def test_when_question_clicked_should_navigate_to_detail(self):
         """
             This test ensures the polls index page can be loaded via browser
         """
-        curr_dir = os.path.dirname(os.path.abspath(__file__))
-        parent_dir = os.path.dirname(curr_dir)
-        screenshot_dir = os.path.join(parent_dir, 'screenshots')
-        index_screenshot_filepath = os.path.join(screenshot_dir, 'index.png')
-        detail_screenshot_filepath = os.path.join(screenshot_dir, 'detail.png')
+        index_screenshot_filepath = EndToEndTests.get_screenshot_filepath(
+            'polls',
+            self.parent_dir,
+            'index.png')
+        detail_screenshot_filepath = EndToEndTests.get_screenshot_filepath(
+            'polls',
+            self.parent_dir,
+            'detail.png')
 
         self.selenium.get(f'{self.live_server_url}/polls/')
 
@@ -69,3 +90,34 @@ class EndToEndTests(StaticLiveServerTestCase):
 
         choice_inputs = self.selenium.find_elements_by_css_selector('input[type="radio"]')
         self.assertEqual(len(choice_inputs), 2)
+
+    def test_when_monster_clicked_should_navigate_to_detail(self):
+        """
+            This test ensures the mons index page can be loaded via browser
+        """
+        index_screenshot_filepath = EndToEndTests.get_screenshot_filepath(
+            'mons',
+            self.parent_dir,
+            'index.png')
+        detail_screenshot_filepath = EndToEndTests.get_screenshot_filepath(
+            'mons',
+            self.parent_dir,
+            'detail.png')
+
+        self.selenium.get(f'{self.live_server_url}/monsters/')
+
+        # NOTE: save screenshot of index
+        self.selenium.save_screenshot(index_screenshot_filepath)
+
+        mon_links = self.selenium.find_elements_by_css_selector('li a')
+        self.assertEqual(len(mon_links), 2)
+
+        mon_links[0].click()
+        curr_url = self.selenium.current_url
+        # NOTE: we expect mon 2 because of the ordering of the mon links
+        self.assertTrue(
+            curr_url.endswith('/monsters/2/'),
+            f'Unexpected URL after clicking Monster={curr_url}')
+
+        # NOTE: save screenshot of detail
+        self.selenium.save_screenshot(detail_screenshot_filepath)

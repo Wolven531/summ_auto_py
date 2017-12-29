@@ -44,6 +44,20 @@
     "model": "contenttypes.contenttype",
     "pk": 7,
     "fields": {
+        "app_label": "polls",
+        "model": "choice"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "polls",
+        "model": "question"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
         "app_label": "mons",
         "model": "monster"
     }
@@ -238,6 +252,30 @@
         "name": "Can delete question",
         "content_type": 8,
         "codename": "delete_question"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add monster",
+        "content_type": 9,
+        "codename": "add_monster"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change monster",
+        "content_type": 9,
+        "codename": "change_monster"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete monster",
+        "content_type": 9,
+        "codename": "delete_monster"
     }
 }, {
     "model": "auth.user",

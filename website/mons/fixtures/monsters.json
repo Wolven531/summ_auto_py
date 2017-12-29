@@ -1,0 +1,13 @@
+[{
+    "model": "mons.monster",
+    "pk": 1,
+    "fields": {
+        "awaken_name": "Hwa"
+    }
+}, {
+    "model": "mons.monster",
+    "pk": 2,
+    "fields": {
+        "awaken_name": "Chasun"
+    }
+}]
