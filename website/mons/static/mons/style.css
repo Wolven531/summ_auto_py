@@ -1,0 +1,9 @@
+body {
+    background: white url("images/logo.png") no-repeat;
+    background-size: 10em 10em;
+    background-position: 99% 98%;
+}
+
+a {
+    color: #0a0;
+}

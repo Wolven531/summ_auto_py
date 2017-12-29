@@ -39,14 +39,14 @@ From the root directory:
 From the root directory:
 
 1. `cd website`
-1. `python3 manage.py test polls` (`polls` is the name of the application to test)
+1. `python3 manage.py test mons` (`mons` is the name of the application to test)
 
 ### To run tests for the web server (with coverage analysis)
 
 From the root directory:
 
 1. `cd website`
-1. `coverage run --source='polls' manage.py test polls` (run the analysis)
+1. `coverage run --source='mons' manage.py test mons` (run the analysis)
 1. `coverage report` (view the report)
 
 ### To run the end to end tests
@@ -64,7 +64,7 @@ The default admin template path is `/Library/Frameworks/Python.framework/Version
 
 1. Update python file (the model)
 1. Run `python3 manage.py makemigrations`
-1. Run `python3 manage.py migrate
+1. Run `python3 manage.py migrate`
 
 ### The CLI API
 
@@ -73,7 +73,7 @@ From the root directory:
 1. `cd website`
 1. Run `python3 manage.py shell`
 
-#### NOTE: To view what SQL statements a migration will generate and run: `python3 manage.py sqlmigrate polls 0001`
+#### NOTE: To view what SQL statements a migration will generate and run: `python3 manage.py sqlmigrate mons 0001`
 
 #### NOTE: To check for any issues in the project: `python3 manage.py check`
 

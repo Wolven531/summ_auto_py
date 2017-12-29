@@ -1,0 +1,12 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'mons/style.css' %}" />
+
+{% if monster_list %}
+    <ul>
+    {% for monster in monster_list %}
+    <li><a href="{% url 'mons:detail' monster.id %}">{{ monster.awaken_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No monsters are available</p>
+{% endif %}

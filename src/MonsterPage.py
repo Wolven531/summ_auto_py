@@ -140,22 +140,19 @@ class MonsterPage():
             This method takes a dict of values to initialize a MonsterPage
             object
         """
+        self.awaken_name = data['name_awaken']
         self.element = MonsterType[data['element']]
+        self.full_name = data['name_full']
         self.get_from = data['get_from']
         self.good_for = data['good_for']
         self.grade = data['grade']
         self.grade_num = data['grade_num']
-
         self.links = LinkType.generate_link_dict()
 
         for link_key in data['links']:
             self.links[LinkType[link_key]] = data['links'][link_key]
 
         self.mon_type = data['mon_type']
-        self.awaken_name = data['name_awaken']
-        self.full_name = data['name_full']
-        self.sleepy_name = data['name_sleepy']
-
         self.ratings = Rating.generate_rating_dict()
 
         for rating_key in data['ratings']:
@@ -164,6 +161,7 @@ class MonsterPage():
         self.score_total = data['score_total']
         self.score_user = data['score_user']
         self.skillup_info = data['skillup_info']
+        self.sleepy_name = data['name_sleepy']
         self.when_awakened = data['when_awaken']
 
     def serialize(self, filepath=''):
