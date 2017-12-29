@@ -2,6 +2,7 @@
     This is the EndToEndTests module
 """
 
+import os
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 
@@ -43,7 +44,16 @@ class EndToEndTests(StaticLiveServerTestCase):
         """
             This test ensures the polls index page can be loaded via browser
         """
+        curr_dir = os.path.dirname(os.path.abspath(__file__))
+        parent_dir = os.path.dirname(curr_dir)
+        screenshot_dir = os.path.join(parent_dir, 'screenshots')
+        index_screenshot_filepath = os.path.join(screenshot_dir, 'index.png')
+        detail_screenshot_filepath = os.path.join(screenshot_dir, 'detail.png')
+
         self.selenium.get(f'{self.live_server_url}/polls/')
+
+        # NOTE: save screenshot of index
+        self.selenium.save_screenshot(index_screenshot_filepath)
 
         question_links = self.selenium.find_elements_by_css_selector('li a')
         self.assertEqual(len(question_links), 1)
@@ -53,6 +63,9 @@ class EndToEndTests(StaticLiveServerTestCase):
         self.assertTrue(
             curr_url.endswith('/polls/1/'),
             f'Unexpected URL after clicking Question={curr_url}')
+
+        # NOTE: save screenshot of detail
+        self.selenium.save_screenshot(detail_screenshot_filepath)
 
         choice_inputs = self.selenium.find_elements_by_css_selector('input[type="radio"]')
         self.assertEqual(len(choice_inputs), 2)
