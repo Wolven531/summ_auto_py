@@ -17,7 +17,13 @@ class Monster(models.Model):
         * good_for
         * grade
         * grade_num
-        * links
+        * image_sleepy
+        * image_awake
+        * link_dark
+        * link_fire
+        * link_light
+        * link_water
+        * link_wind
         * mon_type
         * ratings
         * score_total
@@ -32,8 +38,16 @@ class Monster(models.Model):
         unique=True,
         verbose_name='Awakened Name')
     element = models.CharField(
-        default='',
-        max_length=50)
+        default='Fire',
+        choices=[
+            ('Dark', 'Dark'),
+            ('Fire', 'Fire'),
+            ('Light', 'Light'),
+            ('Water', 'Water'),
+            ('Wind', 'Wind')
+        ],
+        max_length=50,
+        verbose_name='Element')
     full_name = models.CharField(
         default='',
         max_length=200,
@@ -54,12 +68,50 @@ class Monster(models.Model):
         choices=[(1, 1), (2, 2), (3, 3), (4, 4), (5, 5)],
         default=1,
         verbose_name='Grade Number')
-    # TODO: links
+    image_sleepy = models.CharField(
+        default='',
+        max_length=100,
+        verbose_name='Sleepy Image')
+    image_awake = models.CharField(
+        default='',
+        max_length=100,
+        verbose_name='Awake Image')
+    link_dark = models.CharField(
+        default='',
+        max_length=100,
+        verbose_name='Dark Link')
+    link_fire = models.CharField(
+        default='',
+        max_length=100,
+        verbose_name='Fire Link')
+    link_light = models.CharField(
+        default='',
+        max_length=100,
+        verbose_name='Light Link')
+    link_water = models.CharField(
+        default='',
+        max_length=100,
+        verbose_name='Water Link')
+    link_wind = models.CharField(
+        default='',
+        max_length=100,
+        verbose_name='Wind Link')
     mon_type = models.CharField(
         default='',
         max_length=25,
         verbose_name='Monster Type')
-    # TODO: ratings
+    rating_keep = models.FloatField(
+        default=0,
+        verbose_name='Rating: Keep')
+    rating_food = models.FloatField(
+        default=0,
+        verbose_name='Rating: Food')
+    rating_best = models.FloatField(
+        default=0,
+        verbose_name='Rating: The Best')
+    rating_meh = models.FloatField(
+        default=0,
+        verbose_name='Rating: Meh')
     score_total = models.FloatField(
         default=0,
         verbose_name='Total Score')

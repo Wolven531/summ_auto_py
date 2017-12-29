@@ -22,16 +22,61 @@ class MonsterAdmin(admin.ModelAdmin):
         admin pages related to the Monster model
     """
     # date_hierarchy = 'pub_date'
-    # list_display = ('question_text', 'pub_date', 'is_recent_publication')
-    # list_filter = ['pub_date']
-    # list_per_page = 50
+    list_display = (
+        'awaken_name',
+        'element',
+        'sleepy_name',
+        'grade_num',
+        'score_total',
+        'score_user',
+        'rating_keep',
+        'rating_food',
+        'rating_best',
+        'rating_meh')
+    list_filter = ['element', 'mon_type', 'grade_num', 'good_for']
+    list_per_page = 50
     # # fields = ['question_text', 'pub_date']
-    # fieldsets = [
-    #     (None, {'fields': ['question_text']}),
-    #     ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']})
-    # ]
+    fieldsets = [
+        (
+            'Name Information',
+            {
+                'fields': ['full_name', 'sleepy_name', 'awaken_name'],
+                'classes': []
+            }
+        ),
+        (
+            'Miscellaneous Information',
+            {
+                'fields': [
+                    'element',
+                    'get_from',
+                    'good_for',
+                    'mon_type',
+                    'skillup_info',
+                    'when_awakened'
+                ]
+            }
+        ),
+        ('Grade Information', {'fields': ['grade', 'grade_num'], 'classes': ['collapse']}),
+        ('Image Information', {'fields': ['image_sleepy', 'image_awake'], 'classes': ['collapse']}),
+        (
+            'Link Information',
+            {
+                'fields': ['link_dark', 'link_fire', 'link_light', 'link_water', 'link_wind'],
+                'classes': ['collapse']
+            }
+        ),
+        (
+            'Rating Information',
+            {
+                'fields': ['rating_keep', 'rating_food', 'rating_best', 'rating_meh'],
+                'classes': ['collapse']
+            }
+        ),
+        ('Score Information', {'fields': ['score_total', 'score_user'], 'classes': ['collapse']})
+    ]
     # inlines = [ChoiceInline]
-    # search_fields = ['question_text']
+    search_fields = ['sleepy_name', 'awaken_name', 'element', 'mon_type', 'good_for']
 
 admin.site.register(Monster, MonsterAdmin)
 # admin.site.register(Choice)
