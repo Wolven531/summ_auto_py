@@ -25,7 +25,10 @@ class Monster(models.Model):
         * link_water
         * link_wind
         * mon_type
-        * ratings
+        * rating_keep
+        * rating_food
+        * rating_best
+        * rating_meh
         * score_total
         * score_user
         * skillup_info
@@ -131,7 +134,6 @@ class Monster(models.Model):
     sleepy_name = models.CharField(
         default='',
         max_length=50,
-        unique=True,
         verbose_name='Sleepy Name')
     when_awakened = models.CharField(
         default='',

@@ -18,13 +18,13 @@
   "name_full": "Light Unicorn (Eleanor)",
   "name_sleepy": "Unicorn",
   "ratings": {
-    "FOOD": 13.0,
+    "FOOD": 12.0,
     "KEEP_IT": 8.0,
     "MEH": 10.0,
     "THE_BEST": 70.0
   },
   "score_total": 8.4,
-  "score_user": 6.3,
+  "score_user": 6.1,
   "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
   "when_awaken": "New Skill: [Transformation: Human Form]"
 }

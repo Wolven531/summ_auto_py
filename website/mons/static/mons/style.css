@@ -1,17 +1,56 @@
 body {
-    background: white url("images/logo.png") no-repeat;
+    background: #222 url("images/logo.png") no-repeat;
     background-size: 10em 10em;
     background-position: top right;
+    padding-top: 1em;
+}
+
+.content {
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: .5em auto;
 }
 
 a {
-    color: #0a0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.light a {
+    color: #333;
+}
+
+ul {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+nav {
+    max-width: 33%;
+    margin: 0 auto;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+nav a {
+    flex: 'flex-grow';
+    padding: 0.5em 1em;
 }
 
 .monster-detail {
-    background-color: #fff;
-    border: 1px solid #333;
-    max-width: 800px;
+    border: 1px solid #000;
     margin: 2em auto;
     opacity: 0.85;
     padding: 2em;
@@ -19,7 +58,7 @@ a {
 
 .monster-detail.fire,
 .monster-list-item.fire {
-    background-color: #faa;
+    background-color: #f55;
 }
 
 .monster-detail.dark,
@@ -42,6 +81,10 @@ a {
     background-color: #cc6;
 }
 
+.monster-detail > table > thead th {
+    padding: 0 0 1em 0;
+}
+
 .monster-detail td {
     background-color: #eee;
     border: 0;
@@ -55,8 +98,18 @@ a {
     background-color: inherit;
 }
 
+.monster-detail td a,
+nav a {
+    background-color: #000;
+    color: #fff;
+}
+
 .img-container {
     display: inline-block;
+}
+
+.img-container p {
+    margin-top: 0;
 }
 
 .monster-img {
@@ -74,7 +127,6 @@ a {
 }
 
 .monster-list-item {
-    background-color: #fff;
     display: block;
     list-style-type: none;
     margin: 1em auto;
@@ -89,7 +141,23 @@ a {
     justify-content: space-evenly;
 }
 
+.monster-list-item.dark a:hover,
+.monster-list-item.fire a:hover,
+.monster-list-item.light a:hover,
+.monster-list-item.water a:hover,
+.monster-list-item.wind a:hover,
+.monster-detail td a:hover,
+nav a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 .monster-list-item a * {
     flex: 'flex-grow';
     margin: 0.5em 0;
+}
+
+.load-form {
+    width: 5em;
+    margin: 0 auto;
 }

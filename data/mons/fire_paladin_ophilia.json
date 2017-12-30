@@ -18,13 +18,13 @@
   "name_full": "Fire Paladin (Ophilia)",
   "name_sleepy": "Paladin",
   "ratings": {
-    "FOOD": 23.0,
-    "KEEP_IT": 22.0,
-    "MEH": 24.0,
-    "THE_BEST": 31.0
+    "FOOD": 21.0,
+    "KEEP_IT": 20.0,
+    "MEH": 22.0,
+    "THE_BEST": 36.0
   },
   "score_total": 8.1,
-  "score_user": 6.5,
+  "score_user": 6.9,
   "skillup_info": "Worth fully skilling up with Devilmons",
   "when_awaken": "Strengthen Skill: [Justice Strike]"
 }

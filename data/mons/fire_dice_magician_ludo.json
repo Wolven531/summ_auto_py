@@ -1,6 +1,6 @@
 {
   "element": "FIRE",
-  "get_from": " Mystical Scroll, Mystical Summon, Legendary Scroll, Fire Scroll, Temple of Wishes",
+  "get_from": "Mystical Scroll, Mystical Summon, Legendary Scroll, Fire Scroll, Temple of Wishes",
   "good_for": "PvP Offense, Fodder Farmer",
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
@@ -19,7 +19,7 @@
   "name_sleepy": "Dice Magician",
   "ratings": {
     "FOOD": 10.0,
-    "KEEP_IT": 54.0,
+    "KEEP_IT": 55.0,
     "MEH": 7.0,
     "THE_BEST": 29.0
   },

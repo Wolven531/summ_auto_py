@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-inugami-icaru/",
     "WIND": "//summonerswar.co/wind-inugami-ramahan/"
   },
-  "mon_type": null,
+  "mon_type": "Defense",
   "name_awaken": "Belladeon",
   "name_full": "Light Inugami (Belladeon)",
   "name_sleepy": "Inugami",
@@ -21,7 +21,7 @@
     "FOOD": 2.0,
     "KEEP_IT": 4.0,
     "MEH": 2.0,
-    "THE_BEST": 92.0
+    "THE_BEST": 91.0
   },
   "score_total": 8.2,
   "score_user": 8.7,

@@ -13,18 +13,18 @@
     "WATER": "//summonerswar.co/water-ninja-susano/",
     "WIND": "//summonerswar.co/wind-ninja-orochi/"
   },
-  "mon_type": null,
+  "mon_type": "Attack",
   "name_awaken": "Garo",
   "name_full": "Fire Ninja (Garo)",
   "name_sleepy": "Ninja",
   "ratings": {
     "FOOD": 21.0,
-    "KEEP_IT": 56.0,
+    "KEEP_IT": 57.0,
     "MEH": 9.0,
     "THE_BEST": 13.0
   },
   "score_total": 7.8,
-  "score_user": 7.6,
+  "score_user": 7.8,
   "skillup_info": "Leader Skill: Increases the Attack Speed of ally monsters with Fire attribute by 30%",
   "when_awaken": "Attack"
 }

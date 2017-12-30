@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-warbear-dagora/",
     "WIND": "//summonerswar.co/wind-warbear-ramagos/"
   },
-  "mon_type": null,
+  "mon_type": "HP",
   "name_awaken": "Ursha",
   "name_full": "Fire Warbear (Ursha)",
   "name_sleepy": "Warbear",

@@ -18,13 +18,13 @@
   "name_full": "Fire Valkyrja (Vanessa)",
   "name_sleepy": "Valkyrja",
   "ratings": {
-    "FOOD": 8.0,
+    "FOOD": 9.0,
     "KEEP_IT": 8.0,
     "MEH": 9.0,
-    "THE_BEST": 75.0
+    "THE_BEST": 74.0
   },
   "score_total": 8.7,
-  "score_user": 7.4,
+  "score_user": 7.3,
   "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
   "when_awaken": "Increases Resistance by 25%"
 }

@@ -20,11 +20,11 @@
   "ratings": {
     "FOOD": 5.0,
     "KEEP_IT": 9.0,
-    "MEH": 3.0,
-    "THE_BEST": 83.0
+    "MEH": 4.0,
+    "THE_BEST": 82.0
   },
   "score_total": 8.8,
-  "score_user": 8.2,
+  "score_user": 8.1,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Increases Attack Speed by 15"
 }

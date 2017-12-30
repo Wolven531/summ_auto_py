@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-ninja-susano/",
     "WIND": "//summonerswar.co/wind-ninja-orochi/"
   },
-  "mon_type": null,
+  "mon_type": "HP",
   "name_awaken": "Han",
   "name_full": "Dark Ninja (Han)",
   "name_sleepy": "Ninja",

@@ -18,13 +18,13 @@
   "name_full": "Light Lich (Halphas)",
   "name_sleepy": "Lich",
   "ratings": {
-    "FOOD": 41.0,
+    "FOOD": 38.0,
     "KEEP_IT": 25.0,
-    "MEH": 15.0,
-    "THE_BEST": 19.0
+    "MEH": 13.0,
+    "THE_BEST": 23.0
   },
   "score_total": 8.3,
-  "score_user": 6.7,
+  "score_user": 6.9,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Leader Skill: Increases the Attack Speed of ally monsters in the Arena by 24%"
 }

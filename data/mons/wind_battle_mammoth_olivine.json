@@ -18,13 +18,13 @@
   "name_full": "Wind Battle Mammoth (Olivine)",
   "name_sleepy": "Battle Mammoth",
   "ratings": {
-    "FOOD": 25.0,
+    "FOOD": 26.0,
     "KEEP_IT": 58.0,
     "MEH": 9.0,
-    "THE_BEST": 7.0
+    "THE_BEST": 8.0
   },
   "score_total": 4.9,
-  "score_user": 7.1,
+  "score_user": 7.0,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Talc (Water Battle Mammoth) or Basalt (Dark Battle Mammoth) instead",
   "when_awaken": "Leader Skill: Increases the Defense of ally monsters with Wind attribute by 30%"
 }

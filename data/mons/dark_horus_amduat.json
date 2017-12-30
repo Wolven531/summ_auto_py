@@ -18,13 +18,13 @@
   "name_full": "Dark Horus (Amduat)",
   "name_sleepy": "Horus",
   "ratings": {
-    "FOOD": 8.0,
-    "KEEP_IT": 26.0,
-    "MEH": 10.0,
-    "THE_BEST": 57.0
+    "FOOD": 7.0,
+    "KEEP_IT": 25.0,
+    "MEH": 9.0,
+    "THE_BEST": 59.0
   },
   "score_total": 8.4,
-  "score_user": 7.5,
+  "score_user": 7.6,
   "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
   "when_awaken": "Leader Skill: Increases the Attack Power of ally monsters in the Arena by 33%"
 }

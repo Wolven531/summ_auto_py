@@ -64,7 +64,7 @@ class SummAutoTests(unittest.TestCase):
 
         target.assertAlmostEqual(mon.ratings[Rating.KEEP_IT], 39, 3, 'Inaccurate KEEP_IT rating')
         target.assertAlmostEqual(mon.ratings[Rating.FOOD], 4, 3, 'Inaccurate FOOD rating')
-        target.assertAlmostEqual(mon.ratings[Rating.THE_BEST], 54, 3, 'Inaccurate THE_BEST rating')
+        target.assertAlmostEqual(mon.ratings[Rating.THE_BEST], 53, 3, 'Inaccurate THE_BEST rating')
         target.assertAlmostEqual(mon.ratings[Rating.MEH], 3, 3, 'Inaccurate MEH rating')
 
         target.assertTrue(

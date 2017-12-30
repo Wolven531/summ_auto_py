@@ -87,6 +87,15 @@ From the root directory, run `python3 MonsterDownloader.py`
 
 This will load the `data/searched_links.json` and iterate through the `searched_links` property (an array of URLs, each of which belongs to a single monster page). For each URL, the downloader will attempt to parse a monster JSON file and serialize it to disk.
 
+Optionally, you can filter through which searched links you wish to download. Simply pass any number of terms as additional args to the python script.
+
+### Examples
+
+* To download only URLs that contain `fire` **OR** `water`: `python3 MonsterDownloader.py fire water`
+* To download only URLs that contain `amazon` **OR** `bear`: `python3 MonsterDownloader.py amazon bear`
+
+### NOTE: This is a union operation, not an intersection. In other words, **ANY** term appearing in the URL will cause that URL to be attempted
+
 ### NOTE: The downloader **WILL** overwrite the local copy of each monster JSON file
 
 ### NOTE: The downloader takes some time to run completely (~20 mins for ~500 URLs)

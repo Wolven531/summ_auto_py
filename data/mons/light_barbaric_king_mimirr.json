@@ -6,7 +6,7 @@
   "grade_num": 4,
   "links": {
     "DARK": "//summonerswar.co/dark-barbaric-king-hrungnir/",
-    "FIRE": "//43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/fire.png",
+    "FIRE": "//summonerswar.co/fire-barbaric-king-surtr/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/Mimirr_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/Barbaric_King_Light_Icon.png",
     "LIGHT": "//summonerswar.co/light-barbaric-king-mimirr/",
@@ -18,10 +18,10 @@
   "name_full": "Light Barbaric King (Mimirr)",
   "name_sleepy": "Barbaric King",
   "ratings": {
-    "FOOD": 7.0,
-    "KEEP_IT": 50.0,
+    "FOOD": 6.0,
+    "KEEP_IT": 49.0,
     "MEH": 2.0,
-    "THE_BEST": 42.0
+    "THE_BEST": 43.0
   },
   "score_total": 7.8,
   "score_user": 8.1,

@@ -18,13 +18,13 @@
   "name_full": "Water Serpent (Shailoq)",
   "name_sleepy": "Serpent",
   "ratings": {
-    "FOOD": 6.0,
-    "KEEP_IT": 41.0,
+    "FOOD": 5.0,
+    "KEEP_IT": 42.0,
     "MEH": 0.0,
     "THE_BEST": 53.0
   },
   "score_total": 6.7,
-  "score_user": 5.5,
+  "score_user": 6.8,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Increased Attack Speed by 15"
 }

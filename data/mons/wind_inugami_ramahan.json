@@ -1,7 +1,7 @@
 {
   "element": "WIND",
   "get_from": "\u2605\u2605\u2605",
-  "good_for": " Unknown Scroll, Mystical Scroll, Mystical Summon, Wind Scroll, Social Summon, Temple of Wishes, Telain Forest (Scenario Drop)",
+  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Wind Scroll, Social Summon, Temple of Wishes, Telain Forest (Scenario Drop)",
   "grade": "Wind Inugami (Ramahan)",
   "grade_num": 22,
   "links": {
@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-inugami-icaru/",
     "WIND": "//summonerswar.co/wind-inugami-ramahan/"
   },
-  "mon_type": null,
+  "mon_type": "Defense",
   "name_awaken": "Ramahan",
   "name_full": "Wind Inugami (Ramahan)",
   "name_sleepy": "Inugami",

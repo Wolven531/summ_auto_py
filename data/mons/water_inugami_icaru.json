@@ -1,6 +1,6 @@
 {
   "element": "WATER",
-  "get_from": " Unknown Scroll, Mystical Scroll, Mystical Summon, Water Scroll, Social Summon, Temple of Wishes, Garen Forest (Scenario Drop)",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Water Scroll, Social Summon, Temple of Wishes, Garen Forest (Scenario Drop)",
   "good_for": "Fusion or Food",
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
@@ -18,7 +18,7 @@
   "name_full": "Water Inugami (Icaru)",
   "name_sleepy": "Inugami",
   "ratings": {
-    "FOOD": 36.0,
+    "FOOD": 37.0,
     "KEEP_IT": 52.0,
     "MEH": 5.0,
     "THE_BEST": 5.0

@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-inugami-icaru/",
     "WIND": "//summonerswar.co/wind-inugami-ramahan/"
   },
-  "mon_type": null,
+  "mon_type": "Attack",
   "name_awaken": "Kro",
   "name_full": "Dark Inugami (Kro)",
   "name_sleepy": "Inugami",

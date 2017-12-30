@@ -1,0 +1,11 @@
+{% extends 'mons/base.html' %}
+{% block title %}Load Monster From JSON{% endblock %}
+
+{% block content %}
+    <h1>Click or tap the button below to load monsters from parsed JSON files in the repository</h1>
+
+    <form action="{% url 'mons:load' %}" method="post" class="load-form">
+        {% csrf_token %}
+        <input type="submit" value="Load JSON" />
+    </form>
+{% endblock %}

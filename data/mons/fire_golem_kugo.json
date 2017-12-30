@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-golem-kuhn/",
     "WIND": "//summonerswar.co/wind-golem-ragion/"
   },
-  "mon_type": null,
+  "mon_type": "Defense",
   "name_awaken": "Kugo",
   "name_full": "Fire Golem (Kugo)",
   "name_sleepy": "Golem",

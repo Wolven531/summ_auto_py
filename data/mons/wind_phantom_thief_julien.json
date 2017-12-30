@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-phantom-thief-luer/",
     "WIND": "//summonerswar.co/wind-phantom-thief-julien/"
   },
-  "mon_type": null,
+  "mon_type": "Attack",
   "name_awaken": "Julien",
   "name_full": "Wind Phantom Thief (Julien)",
   "name_sleepy": "Phantom Thief",

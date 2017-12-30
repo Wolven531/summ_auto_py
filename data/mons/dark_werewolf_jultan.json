@@ -19,12 +19,12 @@
   "name_sleepy": "Werewolf",
   "ratings": {
     "FOOD": 3.0,
-    "KEEP_IT": 46.0,
+    "KEEP_IT": 47.0,
     "MEH": 3.0,
     "THE_BEST": 47.0
   },
   "score_total": 7.6,
-  "score_user": 8.1,
+  "score_user": 8.0,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Increases Attack Speed by 15"
 }

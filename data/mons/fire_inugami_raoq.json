@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-inugami-icaru/",
     "WIND": "//summonerswar.co/wind-inugami-ramahan/"
   },
-  "mon_type": null,
+  "mon_type": "Attack",
   "name_awaken": "Raoq",
   "name_full": "Fire Inugami (Raoq)",
   "name_sleepy": "Inugami",

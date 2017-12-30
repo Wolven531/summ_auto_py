@@ -20,11 +20,11 @@
   "ratings": {
     "FOOD": 5.0,
     "KEEP_IT": 3.0,
-    "MEH": 2.0,
-    "THE_BEST": 91.0
+    "MEH": 3.0,
+    "THE_BEST": 88.0
   },
   "score_total": 8.7,
-  "score_user": 8.1,
+  "score_user": 8.0,
   "skillup_info": "Worth fully skilling up with Devilmons",
   "when_awaken": "New Skill: [Transformation: Human Form]"
 }

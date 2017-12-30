@@ -13,14 +13,14 @@
     "WATER": "//summonerswar.co/water-drunken-master-mao/",
     "WIND": "//summonerswar.co/wind-drunken-master-huan/"
   },
-  "mon_type": null,
+  "mon_type": "Attack",
   "name_awaken": "Huan",
   "name_full": "Wind Drunken Master (Huan)",
   "name_sleepy": "Drunken Master",
   "ratings": {
     "FOOD": 24.0,
     "KEEP_IT": 62.0,
-    "MEH": 5.0,
+    "MEH": 6.0,
     "THE_BEST": 8.0
   },
   "score_total": 4.0,

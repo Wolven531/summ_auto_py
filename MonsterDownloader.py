@@ -5,6 +5,7 @@
 import json
 import os
 import requests
+import sys
 
 from lxml import html
 from src.ConsoleUtil import ConsoleUtil
@@ -40,15 +41,24 @@ class MonsterDownloader():
             mon.serialize()
 
     @staticmethod
-    def download_searched_links():
+    def download_searched_links(list_of_terms):
         """
             This method will attempt to load the searched link
             JSON file and use it to download and serialize all
-            of the monsters on the links within it
+            of the monsters on the links within it. Optionally,
+            given a list of terms, this will only attempt those
+            URLs that contain ANY of the terms
         """
+        num_terms = len(list_of_terms)
         data = {'searched_links': []}
+
         with open(os.getcwd() + '/data/searched_links.json', 'r') as in_file:
             data = json.load(in_file)
+
+        # NOTE: here we filter the list down if we have any list_of_terms
+        if num_terms > 0:
+            data['searched_links'] = [link for link in data['searched_links'] if any(term in link for term in list_of_terms)]
+
         MonsterDownloader.download_urls(data['searched_links'])
 
     @staticmethod
@@ -101,6 +111,10 @@ class MonsterDownloader():
         return parsed_mon
 
 if __name__ == '__main__':
-    ConsoleUtil.info('Downloading searched links...')
-    MonsterDownloader.download_searched_links()
+    num_args = len(sys.argv)
+    list_of_terms = []
+    if num_args > 1:
+        list_of_terms = sys.argv[1:]
+    ConsoleUtil.info(f'Downloading searched links (terms={str(list_of_terms)})...')
+    MonsterDownloader.download_searched_links(list_of_terms)
     ConsoleUtil.success('Download finished')

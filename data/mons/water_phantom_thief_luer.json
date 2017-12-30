@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-phantom-thief-luer/",
     "WIND": "//summonerswar.co/wind-phantom-thief-julien/"
   },
-  "mon_type": null,
+  "mon_type": "Support",
   "name_awaken": "Luer",
   "name_full": "Water Phantom Thief (Luer)",
   "name_sleepy": "Phantom Thief",

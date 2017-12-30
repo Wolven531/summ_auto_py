@@ -19,12 +19,12 @@
   "name_sleepy": "Paladin",
   "ratings": {
     "FOOD": 4.0,
-    "KEEP_IT": 49.0,
-    "MEH": 22.0,
+    "KEEP_IT": 48.0,
+    "MEH": 24.0,
     "THE_BEST": 25.0
   },
   "score_total": 7.2,
-  "score_user": 8.1,
+  "score_user": 7.7,
   "skillup_info": "Not worth skilling up",
   "when_awaken": "Strengthen Skill: [Justice Strike]"
 }

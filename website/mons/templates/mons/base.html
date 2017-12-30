@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'mons/style.css' %}" />
+    </head>
+    <body>
+        <nav>
+            <a href="/monsters/">Monster List</a>
+            <a href="/monsters/load">Load From JSON</a>
+        </nav>
+        <section class="content">
+            {% block content %}
+            {% endblock %}
+        </section>
+    </body>
+</html>

@@ -20,11 +20,11 @@
   "ratings": {
     "FOOD": 5.0,
     "KEEP_IT": 13.0,
-    "MEH": 7.0,
+    "MEH": 8.0,
     "THE_BEST": 74.0
   },
   "score_total": 8.8,
-  "score_user": 8.1,
+  "score_user": 8.0,
   "skillup_info": "Worth fully skilling up with Devilmons",
   "when_awaken": "Increases Accuracy by 25%"
 }

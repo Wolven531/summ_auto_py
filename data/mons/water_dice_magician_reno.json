@@ -1,6 +1,6 @@
 {
   "element": "WATER",
-  "get_from": " Legendary Scroll, Mystical Scroll, Mystical Summon, Water Scroll, Temple of Wishes",
+  "get_from": "Legendary Scroll, Mystical Scroll, Mystical Summon, Water Scroll, Temple of Wishes",
   "good_for": "PvP Offense, Fodder Farmer",
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
@@ -24,7 +24,7 @@
     "THE_BEST": 28.0
   },
   "score_total": 7.1,
-  "score_user": 7.7,
+  "score_user": 7.6,
   "skillup_info": "Not worth skilling up",
   "when_awaken": "Leader Skill: Increases the Critical Rate of ally monsters in the Arena by 24%"
 }

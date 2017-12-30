@@ -19,12 +19,12 @@
   "name_sleepy": "Harg",
   "ratings": {
     "FOOD": 0.0,
-    "KEEP_IT": 80.0,
-    "MEH": 20.0,
+    "KEEP_IT": 88.0,
+    "MEH": 13.0,
     "THE_BEST": 0.0
   },
   "score_total": 5.0,
-  "score_user": 9.0,
+  "score_user": 8.9,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Racuni (Fire Harg), Raviti (Wind Harg) or Dova (Light Harg) instead",
   "when_awaken": "Increases Attack Speed by 15"
 }

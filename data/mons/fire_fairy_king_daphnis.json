@@ -18,13 +18,13 @@
   "name_full": "Fire Fairy King (Daphnis)",
   "name_sleepy": "Fairy King",
   "ratings": {
-    "FOOD": 12.0,
-    "KEEP_IT": 15.0,
+    "FOOD": 13.0,
+    "KEEP_IT": 14.0,
     "MEH": 16.0,
     "THE_BEST": 57.0
   },
   "score_total": 7.2,
-  "score_user": 7.4,
+  "score_user": 7.5,
   "skillup_info": "Worth skilling up but isn\u2019t necessary to fulfill its role",
   "when_awaken": "Increases Accuracy by 25%"
 }

@@ -55,12 +55,7 @@ class MonsterPage():
             return score_result
 
         raw_score = raw_score[0] # store the target element
-        score_has_children = len(raw_score) > 0
-
-        if score_has_children:
-            raw_score = raw_score[0].text # use child instead
-        else:
-            raw_score = raw_score.text
+        raw_score = raw_score.text_content()
 
         try:
             score_result = float(raw_score.strip())
@@ -246,7 +241,7 @@ class MonsterPage():
         """
             This method parses the element of the monster from a tree
         """
-        raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text
+        raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text_content()
         raw_mon_name = raw_mon_name.strip()
         raw_mon_name = raw_mon_name.replace('’', '')
         first_space_ind = raw_mon_name.find(' ')
@@ -263,7 +258,7 @@ class MonsterPage():
         """
             This method parses a name (and sleepy and awakened) from a tree
         """
-        raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text
+        raw_mon_name = tree.xpath('//h1[@class="main-title"]')[0].text_content()
         raw_mon_name = raw_mon_name.strip()
         raw_mon_name = raw_mon_name.replace('’', '')
         self.full_name = raw_mon_name
@@ -277,49 +272,50 @@ class MonsterPage():
             This method parses a grade and grade_num from a tree
         """
         xpath_selector = self.__OVERVIEW_XPATH + '/div[1]/span[2]/p'
-        raw_grade = tree.xpath(xpath_selector)[0].text
-        self.grade = raw_grade
+        raw_grade = tree.xpath(xpath_selector)[0].text_content()
+        self.grade = raw_grade.strip()
         self.grade_num = len(self.grade)
 
     def __parse_mon_type(self, tree):
         """
             This method parses the type of a monster from a tree
         """
-        xpath_selector = self.__OVERVIEW_XPATH + '/div[2]/span[2]/p'
-        raw_type = tree.xpath(xpath_selector)[0].text
-        self.mon_type = raw_type
+        xpath_selector = self.__OVERVIEW_XPATH + '//*[contains(text(), "Type")]'
+        type_label_node = tree.xpath(xpath_selector)[0]
+        raw_type = type_label_node.getnext().text_content()
+        self.mon_type = raw_type.strip()
 
     def __parse_get_from(self, tree):
         """
             This method parses the get from of a monster from a tree
         """
         xpath_selector = self.__OVERVIEW_XPATH + '/div[3]/span[2]/p'
-        raw_get_from = tree.xpath(xpath_selector)[0].text
-        self.get_from = raw_get_from
+        raw_get_from = tree.xpath(xpath_selector)[0].text_content()
+        self.get_from = raw_get_from.strip()
 
     def __parse_when_awakened(self, tree):
         """
             This method parses the when awakened of a monster from a tree
         """
         xpath_selector = self.__OVERVIEW_XPATH + '/div[4]/span[2]/p'
-        raw_when_awakened = tree.xpath(xpath_selector)[0].text
-        self.when_awakened = raw_when_awakened
+        raw_when_awakened = tree.xpath(xpath_selector)[0].text_content()
+        self.when_awakened = raw_when_awakened.strip()
 
     def __parse_good_for(self, tree):
         """
             This method parses the good for of a monster from a tree
         """
         xpath_selector = self.__OVERVIEW_XPATH + '/div[5]/span[2]/p'
-        raw_good_for = tree.xpath(xpath_selector)[0].text
-        self.good_for = raw_good_for
+        raw_good_for = tree.xpath(xpath_selector)[0].text_content()
+        self.good_for = raw_good_for.strip()
 
     def __parse_skillup_info(self, tree):
         """
             This method parses the skillup info of a monster from a tree
         """
         xpath_selector = self.__OVERVIEW_XPATH + '/div[6]/span[2]/p'
-        raw_skillup_info = tree.xpath(xpath_selector)[0].text
-        self.skillup_info = raw_skillup_info
+        raw_skillup_info = tree.xpath(xpath_selector)[0].text_content()
+        self.skillup_info = raw_skillup_info.strip()
 
     def __parse_scores(self, tree):
         """
@@ -347,15 +343,15 @@ class MonsterPage():
         """
         reaction_xpath = '//div[contains(@class,"reaction-percentage")]'
 
-        raw_rating_keep = tree.xpath(reaction_xpath + "[contains(@class,'keep')]")[0].text
-        raw_rating_food = tree.xpath(reaction_xpath + "[contains(@class,'food')]")[0].text
-        raw_rating_best = tree.xpath(reaction_xpath + "[contains(@class,'best')]")[0].text
-        raw_rating_meh = tree.xpath(reaction_xpath + "[contains(@class,'meh')]")[0].text
+        raw_rating_keep = tree.xpath(reaction_xpath + "[contains(@class,'keep')]")[0].text_content()
+        raw_rating_food = tree.xpath(reaction_xpath + "[contains(@class,'food')]")[0].text_content()
+        raw_rating_best = tree.xpath(reaction_xpath + "[contains(@class,'best')]")[0].text_content()
+        raw_rating_meh = tree.xpath(reaction_xpath + "[contains(@class,'meh')]")[0].text_content()
 
-        no_percent_keep = raw_rating_keep.replace('%', '') # remove the '%' char
-        no_percent_food = raw_rating_food.replace('%', '')
-        no_percent_best = raw_rating_best.replace('%', '')
-        no_percent_meh = raw_rating_meh.replace('%', '')
+        no_percent_keep = raw_rating_keep.strip().replace('%', '') # remove the '%' char
+        no_percent_food = raw_rating_food.strip().replace('%', '')
+        no_percent_best = raw_rating_best.strip().replace('%', '')
+        no_percent_meh = raw_rating_meh.strip().replace('%', '')
 
         self.ratings = {
             Rating.KEEP_IT: float(no_percent_keep),

@@ -13,7 +13,7 @@
     "WATER": "//summonerswar.co/water-warbear-dagora/",
     "WIND": "//summonerswar.co/wind-warbear-ramagos/"
   },
-  "mon_type": null,
+  "mon_type": "HP",
   "name_awaken": "Dagora",
   "name_full": "Water Warbear (Dagora)",
   "name_sleepy": "Warbear",
