@@ -9,9 +9,9 @@ This is a fully tested, python-based scraper for SW. It is built with python3.
 * Django 2.x ([Django install guide](https://docs.djangoproject.com/en/2.0/intro/install/))
 * chromedriver ([Install chromedriver for MacOS](http://www.kenst.com/2015/03/installing-chromedriver-on-mac-osx/))
 
-After pip3 and python3 are installed, the remaining requirements can be installed by running the following command from the root directory: `pip3 install -r requirements.txt`
+After pip3 and python3 are installed, the remaining requirements can be installed by executing the following command from the root directory: `pip install -r requirements.txt`
 
-If you plan on running the end to end tests:
+If you plan on executing the end to end tests:
 
 * Download chromedriver for your platform [here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 * I place the default windows driver at `C:\Program Files\chromedriver`
@@ -21,45 +21,29 @@ If you plan on running the end to end tests:
 
 When adding new end to end tests, be sure to consult the [Selenium Python API](https://selenium-python.readthedocs.io/api.html)
 
-## Running the web server
+## Running the web server (from `website`)
 
-From the root directory:
-
-1. `cd website`
 1. `python manage.py runserver 9999` (`9999` is the port)
 
-### To create an admin for the admin site
+### To create an admin for the admin site (from `website`)
 
-1. `cd website`
 1. `python manage.py createsuperuser` (and follow the prompts)
 
-### To run migrations for the web server
+### Migrations for the web server (from `website`)
 
-From the root directory:
-
-1. `cd website`
 1. `python manage.py migrate`
 
-### To run tests for the web server (no analysis)
+### Tests for the web server (no analysis, from `website`)
 
-From the root directory:
-
-1. `cd website`
 1. `python manage.py test mons` (`mons` is the name of the application to test)
 
-### To run tests for the web server (with coverage analysis)
+### Tests for the web server (with coverage analysis, from `website`)
 
-From the root directory:
+1. `coverage run --source='mons' manage.py test mons` (execute analysis)
+1. `coverage report` (view report)
 
-1. `cd website`
-1. `coverage run --source='mons' manage.py test mons` (run the analysis)
-1. `coverage report` (view the report)
+### End to end tests (from `website`)
 
-### To run the end to end tests
-
-From the root directory:
-
-1. `cd website`
 1. `python manage.py test summ_auto_website.tests.EndToEndTests`
 
 ### When creating new templates for the admin
@@ -69,27 +53,24 @@ The default admin template path is `/Library/Frameworks/Python.framework/Version
 ### When updating the Django models
 
 1. Update python file (the model)
-1. Run `python manage.py makemigrations`
-1. Run `python manage.py migrate`
+1. `python manage.py makemigrations`
+1. `python manage.py migrate`
 
-### The CLI API
+### The CLI API (from `website`)
 
-From the root directory:
+1. `python manage.py shell`
 
-1. `cd website`
-1. Run `python manage.py shell`
-
-#### NOTE: To view what SQL statements a migration will generate and run: `python manage.py sqlmigrate mons 0001`
+#### NOTE: To view what SQL statements a migration will generate: `python manage.py sqlmigrate mons 0001`
 
 #### NOTE: To check for any issues in the project: `python manage.py check`
 
-## Running tests
+## Tests (from root)
 
-From the root directory, run `python -m unittest discover -s test/ -p '*Tests.py'`
+`python -m unittest discover -s test/ -p '*Tests.py'`
 
-## Running the downloader
+## Running the downloader (from root)
 
-From the root directory, run `python MonsterDownloader.py`
+`python MonsterDownloader.py`
 
 On Windows, this can be parallelized with the batch script executed from the root directory: `.\UpdateAllMons.bat`
 
@@ -99,18 +80,18 @@ Optionally, you can filter through which searched links you wish to download. Si
 
 ### Examples
 
-* To download only URLs that contain `fire` **OR** `water`: `python MonsterDownloader.py fire water`
-* To download only URLs that contain `amazon` **OR** `bear`: `python MonsterDownloader.py amazon bear`
+* Download URLs that contain `fire` **OR** `water`: `python MonsterDownloader.py fire water`
+* Download URLs that contain `amazon` **OR** `bear`: `python MonsterDownloader.py amazon bear`
 
 ### NOTE: This is a union operation, not an intersection. In other words, **ANY** term appearing in the URL will cause that URL to be attempted
 
 ### NOTE: The downloader **WILL** overwrite the local copy of each monster JSON file
 
-### NOTE: The downloader takes some time to run completely (~20 mins for ~500 URLs)
+### NOTE: The downloader takes a while to complete (~20 mins for ~500 URLs)
 
 ## Screenshots of the application
 
-When end to end tests are run, the tests make use of selenium's ability to take screenshots for posterity. These screenshots are saved at [./website/summ_auto_website/screenshots/](website/summ_auto_website/screenshots)
+When end to end tests are executed, the tests make use of selenium's ability to take screenshots for posterity. These screenshots are saved at [./website/summ_auto_website/screenshots/](website/summ_auto_website/screenshots)
 
 ## TODO / Coming Soon
 
