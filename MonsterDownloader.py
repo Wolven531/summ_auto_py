@@ -40,7 +40,7 @@ class MonsterDownloader():
 		additional_urls_to_check = []
 		for url in urls:
 			ConsoleUtil.norm(f'Starting URL={url}')
-			mon = MonsterDownloader.ensure_mon_load(url, 5)
+			mon = MonsterDownloader.ensure_mon_load(f'https:{url}', 5)
 			mon_link_type = MonsterPage.convert_element_to_link_type(mon.element)
 			for link in mon.links:
 				if (link != mon_link_type and
@@ -73,20 +73,26 @@ class MonsterDownloader():
 			filtered_searched_links = [link for link in original_searched_links if any(term in link for term in list_of_terms)]
 
 		additional_urls = MonsterDownloader.download_urls(filtered_searched_links)
-		print(f'additional_urls = {str(additional_urls)}')
 
 		in_first = set(original_searched_links)
 		in_second = set(additional_urls)
-		in_second_not_first = in_second - in_first
-		unique_urls = original_searched_links + list(in_second_not_first)
+		in_second_not_first = list(in_second - in_first)
+		unique_urls = original_searched_links + in_second_not_first
 
 		data = {
 			'count': len(unique_urls),
 			'searched_links': unique_urls
 		}
 
-		with open(os.getcwd() + '/data/searched_links.json', 'w') as outfile:
-			json.dump(data, outfile, sort_keys=True, indent=2)
+		number_of_new = len(in_second_not_first)
+
+		print(f'Original unique links = {len(original_searched_links)}')
+		print(f'New unique links = {number_of_new}')
+
+		if number_of_new > 0:
+			input('Press Enter/Return to update searched links file')
+			with open(os.getcwd() + '/data/searched_links.json', 'w') as outfile:
+				json.dump(data, outfile, sort_keys=True, indent=2)
 
 	@staticmethod
 	def ensure_mon_load(url, max_attempts=3):
@@ -144,4 +150,4 @@ if __name__ == '__main__':
 	ConsoleUtil.info(f'Downloading searched links (terms={str(SEARCH_TERMS)})...')
 	MonsterDownloader.download_searched_links(SEARCH_TERMS)
 	ConsoleUtil.success('Download finished')
-	input('Press Enter to continue')
+	input('Press Enter/Return to exit')

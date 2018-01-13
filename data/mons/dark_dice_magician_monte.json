@@ -8,12 +8,12 @@
   "grade_num": 4,
   "links": {
     "DARK": "//summonerswar.co/dark-dice-magician-monte/",
-    "FIRE": "",
+    "FIRE": "//summonerswar.co/fire-dice-magician-ludo/",
     "IMAGE_AWAKE": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Monte_Icon.png",
     "IMAGE_SLEEPY": "https://43ch47qsavx2jcvnr30057vk-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Dice_Magician_Dark_Icon.png",
-    "LIGHT": "",
-    "WATER": "",
-    "WIND": ""
+    "LIGHT": "//summonerswar.co/light-dice-magician-tablo/",
+    "WATER": "//summonerswar.co/water-dice-magician-reno/",
+    "WIND": "//summonerswar.co/wind-dice-magician/"
   },
   "mon_type": "Support",
   "name_awaken": "Monte",
