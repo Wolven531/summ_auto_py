@@ -35,12 +35,15 @@ When adding new end to end tests, be sure to consult the [Selenium Python API](h
 
 ### Tests for the web server (no analysis, from `website`)
 
-1. `python manage.py test mons` (`mons` is the name of the application to test)
+1. `python manage.py test` (`mons` can be appended, name of application to test)
 
 ### Tests for the web server (with coverage analysis, from `website`)
 
-1. `coverage run --source='mons' manage.py test mons` (execute analysis)
-1. `coverage report` (view report)
+1. Execute analysis, choose **one**:
+    * `coverage run manage.py test`
+    * `coverage run --source='mons' manage.py test`
+1. View Repoty:
+    * `coverage report`
 
 ### End to end tests (from `website`)
 
