@@ -87,12 +87,16 @@ class MonsterDownloader():
 		number_of_new = len(in_second_not_first)
 
 		print(f'Original unique links = {len(original_searched_links)}')
-		print(f'New unique links = {number_of_new}')
+		print(f'New unique links = {number_of_new}\n\n\t{str(in_second_not_first)}\n')
 
 		if number_of_new > 0:
-			input('Press Enter/Return to update searched links file')
-			with open(os.getcwd() + '/data/searched_links.json', 'w') as outfile:
-				json.dump(data, outfile, sort_keys=True, indent=2)
+			choice = input('Press `u` to Update file, `q` to Quit\n\n').lower()
+			if choice == 'u':
+				with open(os.getcwd() + '/data/searched_links.json', 'w') as outfile:
+					json.dump(data, outfile, sort_keys=True, indent=2)
+					print('File updated.')
+			else:
+				print('NOT saving, continuing...')
 
 	@staticmethod
 	def ensure_mon_load(url, max_attempts=3):
