@@ -1,7 +1,15 @@
 {
   "element": "WIND",
   "get_from": "\u2605\u2605\u2605",
-  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Wind Scroll, Social Summon, Temple of Wishes, Telain Forest (Scenario Drop)",
+  "good_for": [
+    "unknown scroll",
+    "mystical scroll",
+    "mystical summon",
+    "wind scroll",
+    "social summon",
+    "temple of wishes",
+    "telain forest (scenario drop)"
+  ],
   "grade": "Wind Inugami (Ramahan)",
   "grade_num": 22,
   "links": {

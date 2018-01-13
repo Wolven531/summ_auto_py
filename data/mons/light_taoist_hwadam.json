@@ -1,7 +1,10 @@
 {
   "element": "LIGHT",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes",
-  "good_for": "All PvP content, HoH",
+  "good_for": [
+    "all pvp content",
+    "hoh"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

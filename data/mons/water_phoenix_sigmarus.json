@@ -1,7 +1,12 @@
 {
   "element": "WATER",
   "get_from": "Monster Fusion",
-  "good_for": "DB10, HoH, ToA, PvP Offense",
+  "good_for": [
+    "db10",
+    "hoh",
+    "toa",
+    "pvp offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

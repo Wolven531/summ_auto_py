@@ -1,7 +1,10 @@
 {
   "element": "WIND",
   "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Wind Scroll, Temple of Wishes",
-  "good_for": "ToA, Beasts",
+  "good_for": [
+    "toa",
+    "beasts"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

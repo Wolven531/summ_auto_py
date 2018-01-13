@@ -1,7 +1,10 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "Elemental Beasts, NB10",
+  "good_for": [
+    "elemental beasts",
+    "nb10"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

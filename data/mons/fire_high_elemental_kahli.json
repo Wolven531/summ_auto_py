@@ -1,7 +1,11 @@
 {
   "element": "FIRE",
   "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Temple of Wishes, Vrofagus Ruins (Scenario Drop)",
-  "good_for": "Fusion, PvP Offense, Speed DB10",
+  "good_for": [
+    "fusion",
+    "pvp offense",
+    "speed db10"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

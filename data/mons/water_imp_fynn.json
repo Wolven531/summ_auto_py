@@ -1,7 +1,9 @@
 {
   "element": "WATER",
   "get_from": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop",
-  "good_for": "Fusion or Food",
+  "good_for": [
+    "fusion or food"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

@@ -1,7 +1,11 @@
 {
   "element": "WIND",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll, Legendary Scroll",
-  "good_for": "Fodder Farmer, GB10, PvP Offense",
+  "good_for": [
+    "fodder farmer",
+    "gb10",
+    "pvp offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

@@ -1,7 +1,12 @@
 {
   "element": "DARK",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes",
-  "good_for": "Raids, GB10, DB10, Guild Wars Offense",
+  "good_for": [
+    "raids",
+    "gb10",
+    "db10",
+    "guild wars offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

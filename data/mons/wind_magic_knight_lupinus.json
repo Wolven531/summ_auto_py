@@ -1,7 +1,11 @@
 {
   "element": "WIND",
   "get_from": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes, November 2017 HoH",
-  "good_for": "ToA, PvE in general, PvP Offense",
+  "good_for": [
+    "toa",
+    "pve in general",
+    "pvp offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

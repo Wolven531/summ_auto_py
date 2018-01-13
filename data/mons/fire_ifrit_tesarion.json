@@ -1,7 +1,11 @@
 {
   "element": "FIRE",
   "get_from": "Guild Shop",
-  "good_for": "PvP Offense, World Arena, Raids (Leader Skill)",
+  "good_for": [
+    "pvp offense",
+    "world arena",
+    "raids (leader skill)"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

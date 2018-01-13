@@ -1,7 +1,10 @@
 {
   "element": "DARK",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes, July HoH 2016",
-  "good_for": "NB10, Guild War Offense",
+  "good_for": [
+    "nb10",
+    "guild war offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

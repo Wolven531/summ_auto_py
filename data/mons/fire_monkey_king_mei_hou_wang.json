@@ -1,7 +1,11 @@
 {
   "element": "FIRE",
   "get_from": "Legendary Scroll, Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll",
-  "good_for": "Raids, Guild Wars, Fodder Farmer",
+  "good_for": [
+    "raids",
+    "guild wars",
+    "fodder farmer"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

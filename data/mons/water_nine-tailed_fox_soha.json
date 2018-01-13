@@ -1,7 +1,10 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "Faimon Hell Farmer, Arena Offense",
+  "good_for": [
+    "faimon hell farmer",
+    "arena offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

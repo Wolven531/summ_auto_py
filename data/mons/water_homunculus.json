@@ -1,7 +1,12 @@
 {
   "element": "WATER",
   "get_from": "Crafting",
-  "good_for": "ToA, Fodder Farmer, DB10, PvP Offense",
+  "good_for": [
+    "toa",
+    "fodder farmer",
+    "db10",
+    "pvp offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

@@ -1,7 +1,10 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll, Monster Fusion",
-  "good_for": "Fusion, Starting DB10",
+  "good_for": [
+    "fusion",
+    "starting db10"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

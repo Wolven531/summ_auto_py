@@ -1,7 +1,10 @@
 {
   "element": "LIGHT",
   "get_from": "\u2605\u2605\u2605\u2605",
-  "good_for": "Scroll of Light & Darkness, Temple of Wishes",
+  "good_for": [
+    "scroll of light & darkness",
+    "temple of wishes"
+  ],
   "grade": "Light Phantom Thief (Louis)",
   "grade_num": 27,
   "links": {

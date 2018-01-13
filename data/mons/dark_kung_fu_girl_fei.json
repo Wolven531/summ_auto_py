@@ -1,7 +1,10 @@
 {
   "element": "DARK",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes",
-  "good_for": "PvP in general, speed NB10 and DB10",
+  "good_for": [
+    "pvp in general",
+    "speed nb10 and db10"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

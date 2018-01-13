@@ -1,7 +1,11 @@
 {
   "element": "WIND",
   "get_from": "Guild Shop",
-  "good_for": "Aiden Farmer, Arena Offense, GB10",
+  "good_for": [
+    "aiden farmer",
+    "arena offense",
+    "gb10"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

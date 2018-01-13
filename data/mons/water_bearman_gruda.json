@@ -1,7 +1,11 @@
 {
   "element": "WATER",
   "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Temple of Wishes, Secret Dungeon",
-  "good_for": "Fusion, Food, Water tank for early players",
+  "good_for": [
+    "fusion",
+    "food",
+    "water tank for early players"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

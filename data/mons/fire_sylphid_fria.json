@@ -1,7 +1,9 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll Mystical Summon,Temple of Wishes, Fire Scroll, Legendary Scroll",
-  "good_for": "Rush hour Arena Defense",
+  "good_for": [
+    "rush hour arena defense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

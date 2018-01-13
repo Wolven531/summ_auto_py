@@ -1,7 +1,14 @@
 {
   "element": "WATER",
   "get_from": "\u2605\u2605\u2605",
-  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Temple of Wishes",
+  "good_for": [
+    "unknown scroll",
+    "mystical scroll",
+    "mystical summon",
+    "social summon",
+    "water scroll",
+    "temple of wishes"
+  ],
   "grade": "Water Epikion Priest (Rina)",
   "grade_num": 27,
   "links": {

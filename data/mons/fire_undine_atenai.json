@@ -1,7 +1,9 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "Healer for newer players",
+  "good_for": [
+    "healer for newer players"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

@@ -1,7 +1,10 @@
 {
   "element": "LIGHT",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes",
-  "good_for": "Arena, World Arena",
+  "good_for": [
+    "arena",
+    "world arena"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

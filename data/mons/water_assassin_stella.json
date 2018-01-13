@@ -1,7 +1,11 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll",
-  "good_for": "DB10, Raids, Beasts",
+  "good_for": [
+    "db10",
+    "raids",
+    "beasts"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

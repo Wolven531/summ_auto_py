@@ -1,7 +1,11 @@
 {
   "element": "FIRE",
   "get_from": "Unknown Scroll, Social Summon, Magic Shop, Secret Dungeon, Temple of Wishes, Reward from Challenge Quest System (Mission IV)",
-  "good_for": "NB10, Hall of Wind, Raids",
+  "good_for": [
+    "nb10",
+    "hall of wind",
+    "raids"
+  ],
   "grade": "\u2605\u2605",
   "grade_num": 2,
   "links": {

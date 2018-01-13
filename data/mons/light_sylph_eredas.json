@@ -1,7 +1,9 @@
 {
   "element": "LIGHT",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes, March 2015 & April 2017 HoH",
-  "good_for": "Skillups (Don't feed if you only have one)",
+  "good_for": [
+    "skillups (don't feed if you only have one)"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

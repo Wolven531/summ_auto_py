@@ -1,7 +1,9 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Legendary Scroll, Water Scroll, Temple of Wishes",
-  "good_for": "PvP Offense against Revive-heavy Teams",
+  "good_for": [
+    "pvp offense against revive-heavy teams"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

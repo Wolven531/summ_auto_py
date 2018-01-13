@@ -1,7 +1,15 @@
 {
   "element": "WATER",
   "get_from": "\u2605\u2605\u2605",
-  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Temple of Wishes, Mt. White Ragon (Scenario Drop)",
+  "good_for": [
+    "unknown scroll",
+    "mystical scroll",
+    "mystical summon",
+    "social summon",
+    "water scroll",
+    "temple of wishes",
+    "mt. white ragon (scenario drop)"
+  ],
   "grade": "Water Warbear (Dagora)",
   "grade_num": 22,
   "links": {

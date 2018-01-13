@@ -1,7 +1,9 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll, February HoH 2017",
-  "good_for": "Skillups",
+  "good_for": [
+    "skillups"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

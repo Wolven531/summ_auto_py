@@ -1,7 +1,10 @@
 {
   "element": "LIGHT",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes",
-  "good_for": "PvP, especially Guild Wars",
+  "good_for": [
+    "pvp",
+    "especially guild wars"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

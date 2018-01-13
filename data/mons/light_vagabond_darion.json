@@ -1,7 +1,11 @@
 {
   "element": "LIGHT",
   "get_from": "Scroll of Light & Darkness, Secret Dungeon, Temple of Wishes",
-  "good_for": "Raids, Arena Defense, GB10",
+  "good_for": [
+    "raids",
+    "arena defense",
+    "gb10"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

@@ -1,7 +1,9 @@
 {
   "element": "LIGHT",
   "get_from": "Scroll of Light & Darkness, Secret Dungeon, Temple of Wishes",
-  "good_for": "Niche use as Light Tank in ToA Ragdoll stage",
+  "good_for": [
+    "niche use as light tank in toa ragdoll stage"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

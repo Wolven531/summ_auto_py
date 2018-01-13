@@ -1,7 +1,13 @@
 {
   "element": "WIND",
   "get_from": "\u2605\u2605\u2605\u2605",
-  "good_for": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": [
+    "mystical scroll",
+    "mystical summon",
+    "wind scroll",
+    "legendary scroll",
+    "temple of wishes"
+  ],
   "grade": "Wind Phantom Thief (Julien)",
   "grade_num": 27,
   "links": {

@@ -1,7 +1,13 @@
 {
   "element": "FIRE",
   "get_from": "\u2605\u2605\u2605\u2605",
-  "good_for": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
+  "good_for": [
+    "mystical scroll",
+    "mystical summon",
+    "temple of wishes",
+    "fire scroll",
+    "legendary scroll"
+  ],
   "grade": "Fire Phantom Thief (Jean)",
   "grade_num": 25,
   "links": {

@@ -1,7 +1,9 @@
 {
   "element": "DARK",
   "get_from": "Monster Fusion",
-  "good_for": "Everywhere but Raids and Beasts",
+  "good_for": [
+    "everywhere but raids and beasts"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

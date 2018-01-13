@@ -1,7 +1,9 @@
 {
   "element": "WATER",
   "get_from": "Guild Shop",
-  "good_for": "Almost everywhere",
+  "good_for": [
+    "almost everywhere"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

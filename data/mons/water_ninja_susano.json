@@ -1,7 +1,14 @@
 {
   "element": "WATER",
   "get_from": "\u2605\u2605\u2605\u2605",
-  "good_for": "Mystical Scroll, Mystical Summon, Monster Fusion, Water Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": [
+    "mystical scroll",
+    "mystical summon",
+    "monster fusion",
+    "water scroll",
+    "legendary scroll",
+    "temple of wishes"
+  ],
   "grade": "Water Ninja (Susano)",
   "grade_num": 20,
   "links": {

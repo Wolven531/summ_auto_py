@@ -1,7 +1,13 @@
 {
   "element": "WATER",
   "get_from": "\u2605\u2605\u2605\u2605",
-  "good_for": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": [
+    "mystical scroll",
+    "mystical summon",
+    "water scroll",
+    "legendary scroll",
+    "temple of wishes"
+  ],
   "grade": "Water Phantom Thief (Luer)",
   "grade_num": 26,
   "links": {

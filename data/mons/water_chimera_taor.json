@@ -1,7 +1,13 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Water Scroll, Legendary Scroll",
-  "good_for": "PvP Offense, DB10, GB10, Fodder Farmer, ToA rush",
+  "good_for": [
+    "pvp offense",
+    "db10",
+    "gb10",
+    "fodder farmer",
+    "toa rush"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

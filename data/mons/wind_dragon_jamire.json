@@ -1,7 +1,12 @@
 {
   "element": "WIND",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll. Legendary Scroll",
-  "good_for": "PvP in general, ToA, Raids, GB10",
+  "good_for": [
+    "pvp in general",
+    "toa",
+    "raids",
+    "gb10"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

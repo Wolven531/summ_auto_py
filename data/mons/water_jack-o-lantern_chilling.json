@@ -1,7 +1,11 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "DB10, Guild Wars Offense, World Arena",
+  "good_for": [
+    "db10",
+    "guild wars offense",
+    "world arena"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

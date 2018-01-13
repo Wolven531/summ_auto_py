@@ -1,7 +1,10 @@
 {
   "element": "LIGHT",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes",
-  "good_for": "Countering Perna/Theomars teams in Arena, ToA against passive-reliant stages",
+  "good_for": [
+    "countering perna/theomars teams in arena",
+    "toa against passive-reliant stages"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

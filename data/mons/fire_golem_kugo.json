@@ -1,7 +1,15 @@
 {
   "element": "FIRE",
   "get_from": "\u2605\u2605\u2605",
-  "good_for": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Fire Scroll, Temple of Wishes, Mt. Siz ((Scenario Drop)",
+  "good_for": [
+    "unknown scroll",
+    "social summon",
+    "mystical scroll",
+    "mystical summon",
+    "fire scroll",
+    "temple of wishes",
+    "mt. siz ((scenario drop)"
+  ],
   "grade": "Fire Golem (Kugo)",
   "grade_num": 17,
   "links": {

@@ -1,7 +1,13 @@
 {
   "element": "WIND",
   "get_from": "\u2605\u2605",
-  "good_for": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop, Chiruka Remains (Scenario Drop)",
+  "good_for": [
+    "unknown scroll",
+    "social summon",
+    "secret dungeon",
+    "magic shop",
+    "chiruka remains (scenario drop)"
+  ],
   "grade": "Wind Warbear (Ramagos)",
   "grade_num": 22,
   "links": {

@@ -1,7 +1,11 @@
 {
   "element": "DARK",
   "get_from": "Scroll of Light & Darkness, Temple of Wishes",
-  "good_for": "ToA, PvE in general, NB10",
+  "good_for": [
+    "toa",
+    "pve in general",
+    "nb10"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

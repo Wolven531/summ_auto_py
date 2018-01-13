@@ -1,7 +1,10 @@
 {
   "element": "WATER",
   "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Water Scroll, Secret Dungeon, Temple of Wishes",
-  "good_for": "Fusion, PvP Offense",
+  "good_for": [
+    "fusion",
+    "pvp offense"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

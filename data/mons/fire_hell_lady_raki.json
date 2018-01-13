@@ -1,7 +1,9 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
-  "good_for": "PvP Offense",
+  "good_for": [
+    "pvp offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

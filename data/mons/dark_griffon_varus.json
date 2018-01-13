@@ -1,7 +1,9 @@
 {
   "element": "DARK",
   "get_from": "Light and Darkness Scroll, Temple of Wishes",
-  "good_for": "Niche Guild War Offense",
+  "good_for": [
+    "niche guild war offense"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

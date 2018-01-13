@@ -1,7 +1,14 @@
 {
   "element": "FIRE",
   "get_from": "\u2605\u2605\u2605",
-  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Faimon Volcano (Scenario Drop)",
+  "good_for": [
+    "unknown scroll",
+    "mystical scroll",
+    "mystical summon",
+    "social summon",
+    "fire scroll",
+    "faimon volcano (scenario drop)"
+  ],
   "grade": "Fire Inugami (Raoq)",
   "grade_num": 19,
   "links": {

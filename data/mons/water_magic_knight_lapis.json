@@ -1,7 +1,11 @@
 {
   "element": "WATER",
   "get_from": "Novice Summoner Achievement, Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "Faimon Hell Farmer, Early Game PvP Offense, PvE in general",
+  "good_for": [
+    "faimon hell farmer",
+    "early game pvp offense",
+    "pve in general"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

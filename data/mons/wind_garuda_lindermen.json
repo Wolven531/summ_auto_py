@@ -1,7 +1,9 @@
 {
   "element": "WIND",
   "get_from": "Unknown Scroll, Social Summon, Magic Shop, Mt. White Ragon (Scenario Drop)",
-  "good_for": "Food",
+  "good_for": [
+    "food"
+  ],
   "grade": "\u2605\u2605",
   "grade_num": 2,
   "links": {

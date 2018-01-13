@@ -1,7 +1,13 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
-  "good_for": "Raids, ToA, GB10, DB10, PvP Offense",
+  "good_for": [
+    "raids",
+    "toa",
+    "gb10",
+    "db10",
+    "pvp offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

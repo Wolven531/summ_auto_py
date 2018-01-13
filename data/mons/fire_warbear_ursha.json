@@ -1,7 +1,12 @@
 {
   "element": "FIRE",
   "get_from": "\u2605\u2605",
-  "good_for": "Unknown Scroll, Social Summon, Magic Shop, Telain Forest (Scenario Drop)",
+  "good_for": [
+    "unknown scroll",
+    "social summon",
+    "magic shop",
+    "telain forest (scenario drop)"
+  ],
   "grade": "Fire Warbear (Ursha)",
   "grade_num": 20,
   "links": {

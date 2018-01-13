@@ -1,7 +1,10 @@
 {
   "element": "WIND",
   "get_from": "Legendary Scroll, Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll",
-  "good_for": "Dungeons, PvE and Situational PvP",
+  "good_for": [
+    "dungeons",
+    "pve and situational pvp"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

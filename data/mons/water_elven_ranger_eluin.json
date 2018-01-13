@@ -1,7 +1,9 @@
 {
   "element": "WATER",
   "get_from": "Unknown Scroll, Social Summon, Mystical Scroll, Mystical Summon, Water Scroll, Temple of Wishes",
-  "good_for": "Food",
+  "good_for": [
+    "food"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {
@@ -18,10 +20,10 @@
   "name_full": "Water Elven Ranger (Eluin)",
   "name_sleepy": "Elven Ranger",
   "ratings": {
-    "FOOD": 14.0,
+    "FOOD": 15.0,
     "KEEP_IT": 15.0,
     "MEH": 7.0,
-    "THE_BEST": 63.0
+    "THE_BEST": 62.0
   },
   "score_total": 5.3,
   "score_user": 7.3,

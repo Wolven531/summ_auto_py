@@ -1,7 +1,10 @@
 {
   "element": "LIGHT",
   "get_from": "Scroll of Light & Darkness, Secret Dungeon, Temple of Wishes",
-  "good_for": "Starting GB10, PvP Offense",
+  "good_for": [
+    "starting gb10",
+    "pvp offense"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

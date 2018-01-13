@@ -1,7 +1,13 @@
 {
   "element": "WATER",
   "get_from": "Unknown Scroll, Social Summon, Secret Dungeon, Magic Shop, Reward from Challenge Quest System (Mission IV)",
-  "good_for": "Fusion, Raids, Hall of Fire, Guild Wars, GB10",
+  "good_for": [
+    "fusion",
+    "raids",
+    "hall of fire",
+    "guild wars",
+    "gb10"
+  ],
   "grade": "\u2605\u2605",
   "grade_num": 2,
   "links": {

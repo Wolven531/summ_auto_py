@@ -1,7 +1,10 @@
 {
   "element": "WIND",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Wind Scroll, Legendary Scroll, January HoH 2017",
-  "good_for": "GB10, Raids",
+  "good_for": [
+    "gb10",
+    "raids"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

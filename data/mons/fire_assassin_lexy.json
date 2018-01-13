@@ -1,7 +1,9 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll, Mystical Summon, Temple of Wishes, Fire Scroll, Legendary Scroll",
-  "good_for": "Skillups or Food",
+  "good_for": [
+    "skillups or food"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

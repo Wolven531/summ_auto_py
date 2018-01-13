@@ -1,7 +1,9 @@
 {
   "element": "FIRE",
   "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Temple of Wishes",
-  "good_for": "Food",
+  "good_for": [
+    "food"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

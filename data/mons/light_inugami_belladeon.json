@@ -1,7 +1,11 @@
 {
   "element": "LIGHT",
   "get_from": "\u2605\u2605\u2605",
-  "good_for": "Scroll of Light and Darkness, Secret Dungeon, Temple of Wishes",
+  "good_for": [
+    "scroll of light and darkness",
+    "secret dungeon",
+    "temple of wishes"
+  ],
   "grade": "Light Inugami (Belladeon)",
   "grade_num": 25,
   "links": {

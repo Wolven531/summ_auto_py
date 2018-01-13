@@ -1,7 +1,10 @@
 {
   "element": "DARK",
   "get_from": "\u2605\u2605\u2605\u2605\u2605",
-  "good_for": "Light and Darkness Scroll, Temple of Wishes",
+  "good_for": [
+    "light and darkness scroll",
+    "temple of wishes"
+  ],
   "grade": "Dark Ninja (Han)",
   "grade_num": 16,
   "links": {

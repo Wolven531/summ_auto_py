@@ -1,7 +1,12 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "PvP in general, GB10, DB10, ToA",
+  "good_for": [
+    "pvp in general",
+    "gb10",
+    "db10",
+    "toa"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

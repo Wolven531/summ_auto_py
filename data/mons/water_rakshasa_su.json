@@ -1,7 +1,11 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes, July 2014 HoH",
-  "good_for": "DB10, Guild War Offense, Fodder Farmer",
+  "good_for": [
+    "db10",
+    "guild war offense",
+    "fodder farmer"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

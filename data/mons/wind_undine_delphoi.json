@@ -1,7 +1,12 @@
 {
   "element": "WIND",
   "get_from": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes, July 2014 HoH",
-  "good_for": "PvP Offense, Raids, GB10, RTA",
+  "good_for": [
+    "pvp offense",
+    "raids",
+    "gb10",
+    "rta"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

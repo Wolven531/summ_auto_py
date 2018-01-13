@@ -1,7 +1,10 @@
 {
   "element": "WIND",
   "get_from": "Mystical Scroll, Mystical Summon, Wind Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "PvP in general, specifically Arena Defense",
+  "good_for": [
+    "pvp in general",
+    "specifically arena defense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

@@ -1,7 +1,10 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll, Mystical Summon, Legendary Scroll, Fire Scroll, Temple of Wishes",
-  "good_for": "PvP Defense, Tiana-counter",
+  "good_for": [
+    "pvp defense",
+    "tiana-counter"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

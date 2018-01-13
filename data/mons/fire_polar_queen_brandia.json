@@ -1,7 +1,11 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "Raids, Arena Defense Tank (Leader Skill), Guild Wars Offense",
+  "good_for": [
+    "raids",
+    "arena defense tank (leader skill)",
+    "guild wars offense"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

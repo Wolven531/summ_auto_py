@@ -1,7 +1,9 @@
 {
   "element": "LIGHT",
   "get_from": "TBC",
-  "good_for": "TBC",
+  "good_for": [
+    "tbc"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {

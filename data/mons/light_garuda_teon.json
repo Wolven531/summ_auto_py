@@ -1,7 +1,10 @@
 {
   "element": "LIGHT",
   "get_from": "In-Game Story Reward, Scroll of Light & Darkness, Temple of Wishes",
-  "good_for": "World Arena, Guild Wars",
+  "good_for": [
+    "world arena",
+    "guild wars"
+  ],
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
   "links": {

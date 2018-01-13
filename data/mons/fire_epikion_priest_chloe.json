@@ -1,7 +1,13 @@
 {
   "element": "FIRE",
   "get_from": "\u2605\u2605\u2605\u2605",
-  "good_for": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
+  "good_for": [
+    "mystical scroll",
+    "mystical summon",
+    "fire scroll",
+    "legendary scroll",
+    "temple of wishes"
+  ],
   "grade": "Fire Epikion Priest (Chloe)",
   "grade_num": 27,
   "links": {

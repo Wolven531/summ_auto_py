@@ -1,7 +1,10 @@
 {
   "element": "WATER",
   "get_from": "Mystical Scroll, Mystical Summon, Water Scroll, Legendary Scroll, Temple of Wishes, December 2017 HoH",
-  "good_for": "ToA, World Arena",
+  "good_for": [
+    "toa",
+    "world arena"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

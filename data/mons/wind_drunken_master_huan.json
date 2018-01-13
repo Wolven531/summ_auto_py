@@ -1,7 +1,14 @@
 {
   "element": "WIND",
   "get_from": "\u2605\u2605\u2605",
-  "good_for": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Wind Scroll, Temple of Wishes",
+  "good_for": [
+    "unknown scroll",
+    "mystical scroll",
+    "mystical summon",
+    "social summon",
+    "wind scroll",
+    "temple of wishes"
+  ],
   "grade": "Wind Drunken Master (Huan)",
   "grade_num": 26,
   "links": {

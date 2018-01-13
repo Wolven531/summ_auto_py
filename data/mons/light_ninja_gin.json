@@ -1,7 +1,9 @@
 {
   "element": "LIGHT",
   "get_from": "Light and Darkness Scroll, Temple of Wishes, April 2015 HoH",
-  "good_for": "PvP due to leader skill",
+  "good_for": [
+    "pvp due to leader skill"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

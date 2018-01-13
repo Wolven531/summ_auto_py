@@ -1,7 +1,9 @@
 {
   "element": "WIND",
   "get_from": "Third Summon of Tutorial Main Quest, Unknown Scroll, Social Summon, Magic Shop, Secret Dungeon",
-  "good_for": "Food",
+  "good_for": [
+    "food"
+  ],
   "grade": "\u2605\u2605",
   "grade_num": 2,
   "links": {

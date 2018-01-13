@@ -1,7 +1,9 @@
 {
   "element": "WIND",
   "get_from": "Unknown Scroll, Social Summon, Magic Shop, Kabir Ruins (Scenario Drop)",
-  "good_for": "Extremely early game monster for scenario clearing and early Cairos Dungeon levels",
+  "good_for": [
+    "extremely early game monster for scenario clearing and early cairos dungeon levels"
+  ],
   "grade": "\u2605\u2605",
   "grade_num": 2,
   "links": {

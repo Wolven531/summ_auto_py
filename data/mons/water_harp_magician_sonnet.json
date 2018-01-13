@@ -1,7 +1,10 @@
 {
   "element": "WATER",
   "get_from": "Legendary Scroll, Mystical Scroll, Mystical Summons, Water Scroll, Temple of Wishes",
-  "good_for": "ToA, World Arena",
+  "good_for": [
+    "toa",
+    "world arena"
+  ],
   "grade": "\u2605\u2605\u2605\u2605",
   "grade_num": 4,
   "links": {

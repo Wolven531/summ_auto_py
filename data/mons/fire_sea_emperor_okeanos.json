@@ -1,7 +1,11 @@
 {
   "element": "FIRE",
   "get_from": "Mystical Scroll, Mystical Summon, Fire Scroll, Legendary Scroll, Temple of Wishes",
-  "good_for": "Arena, World Arena, Guild War Offense and ToA",
+  "good_for": [
+    "arena",
+    "world arena",
+    "guild war offense and toa"
+  ],
   "grade": "\u2605\u2605\u2605\u2605\u2605",
   "grade_num": 5,
   "links": {
