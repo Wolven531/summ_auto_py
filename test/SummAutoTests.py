@@ -50,10 +50,10 @@ class SummAutoTests(unittest.TestCase):
 			mon.when_awakened,
 			'Leader Skill: The Attack Power of ally Monsters is increased by 21% in Guild Battles.',
 			'Inaccurate when awakened message')
-		target.assertEqual(
+		target.assertListEqual(
 			mon.good_for,
-			'PvP Offense against reviver comps',
-			'Inaccurate good for message')
+			['pvp offense against reviver comps'],
+			'Inaccurate good for tags')
 		target.assertEqual(
 			mon.skillup_info,
 			'Worth fully skilling up, but use family skill ups instead of Devilmons',

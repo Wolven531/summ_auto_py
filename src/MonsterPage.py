@@ -110,7 +110,7 @@ class MonsterPage():
 		print(f'Mon Type: {self.mon_type}')
 		print(f'Get From: {self.get_from}')
 		print(f'When Awakened: {self.when_awakened}')
-		print(f'Good For: {self.good_for}')
+		print(f'Good For: {str(self.good_for)}')
 		print(f'Skill Up Info: {self.skillup_info}')
 		print(f'Total Score: {self.score_total}')
 		print(f'User Score: {self.score_user}')
@@ -201,7 +201,7 @@ class MonsterPage():
 	def __init__(self, tree=None, data=None):
 		self.element = MonsterPage.DEFAULT_ELEMENT
 		self.get_from = ''
-		self.good_for = ''
+		self.good_for = []
 		self.grade = ''
 		self.grade_num = 0
 		self.links = LinkType.generate_link_dict()
@@ -307,7 +307,9 @@ class MonsterPage():
 		"""
 		xpath_selector = self.__OVERVIEW_XPATH + '/div[5]/span[2]/p'
 		raw_good_for = tree.xpath(xpath_selector)[0].text_content()
-		self.good_for = raw_good_for.strip()
+		potential_goods = raw_good_for.strip().split(',')
+		for potential_good in potential_goods:
+			self.good_for.append(potential_good.strip().lower())
 
 	def __parse_skillup_info(self, tree):
 		"""
