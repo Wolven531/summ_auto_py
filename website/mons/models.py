@@ -6,6 +6,21 @@
 from django.db import models
 # from django.utils import timezone
 
+class GoodForTag(models.Model):
+	"""
+		This is the GoodForTag model
+	"""
+	tag = models.CharField(
+		default='',
+		max_length=100,
+		unique=False,
+		verbose_name='Tag')
+	display = models.CharField(
+		default='',
+		max_length=100,
+		unique=False,
+		verbose_name='Tag Display')
+
 class Monster(models.Model):
 	"""
 		This is the Monster model
@@ -60,10 +75,7 @@ class Monster(models.Model):
 		default='',
 		max_length=200,
 		verbose_name='Get From')
-	good_for = models.CharField(
-		default='',
-		max_length=200,
-		verbose_name='Good For')
+	good_for = models.ManyToManyField(GoodForTag)
 	grade = models.CharField(
 		default='',
 		max_length=50)

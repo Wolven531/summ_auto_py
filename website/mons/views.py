@@ -9,7 +9,7 @@ from django.shortcuts import render
 from django.urls import reverse
 # from django.utils import timezone
 from django.views import generic
-from .models import Monster
+from .models import GoodForTag, Monster
 
 TEMPLATE_DIR = 'mons'
 
@@ -49,13 +49,22 @@ def create_monster(json_data):
 		Create a monster with the given JSON
 		* json
 	"""
+	print(f'about to parse the good fors...')
+	good_fors = []
+	for tmp in json_data['good_for']:
+		good_fors.append(GoodForTag.objects.create(
+			display=tmp,
+			tag=tmp
+		))
+	print(f'parsed the good fors...')
+
 	# print(f'create_monster got this JSON={json_data}')
-	return Monster.objects.create(
+	new_mon =  Monster.objects.create(
 		awaken_name=json_data['name_awaken'],
 		element=json_data['element'].capitalize(),
 		full_name=json_data['name_full'],
 		get_from=json_data['get_from'],
-		good_for=json_data['good_for'],
+		good_for=[],
 		grade=json_data['grade'],
 		grade_num=json_data['grade_num'],
 		image_sleepy=json_data['links']['IMAGE_SLEEPY'],
@@ -75,6 +84,10 @@ def create_monster(json_data):
 		skillup_info=json_data['skillup_info'],
 		sleepy_name=json_data['name_sleepy'],
 		when_awakened=json_data['when_awaken'])
+	print(f'about to set the good fors...')
+	new_mon.good_for.set(good_fors)
+	print(f'returning...')
+	return new_mon
 
 def load_monsters(request):
 	"""
@@ -97,14 +110,21 @@ def load_monsters(request):
 
 		try:
 			# NOTE: we use awaken name because it is unique
+			print(f'About to get old_mon...')
 			old_mon = Monster.objects.get(awaken_name=awaken_name)
-			# print(f'Monster is old={filepath}')
+			print(f'Monster is old={filepath}')
+			good_fors = []
+			for good_for in json_mon['good_for']:
+				good_fors.append(GoodForTag.objects.create(
+					display=good_for,
+					tag=good_for
+				))
 
 			old_mon.awaken_name = json_mon['name_awaken']
 			old_mon.element = json_mon['element'].capitalize()
 			old_mon.full_name = json_mon['name_full']
 			old_mon.get_from = json_mon['get_from']
-			old_mon.good_for = json_mon['good_for']
+			old_mon.good_for.set(good_fors)
 			old_mon.grade = json_mon['grade']
 			old_mon.grade_num = json_mon['grade_num']
 			old_mon.image_sleepy = json_mon['links']['IMAGE_SLEEPY']
@@ -125,9 +145,9 @@ def load_monsters(request):
 			old_mon.sleepy_name = json_mon['name_sleepy']
 			old_mon.when_awakened = json_mon['when_awaken']
 		except Monster.DoesNotExist:
-			# print(f'Monster is new={filepath}')
+			print(f'Monster is new={filepath}')
 			old_mon = create_monster(json_mon)
-		# print(f'Attempting to save {awaken_name} with {vars(old_mon)}')
+		print(f'Attempting to save {awaken_name} with {vars(old_mon)}')
 		old_mon.save()
 
 	return HttpResponseRedirect(reverse('mons:index'))
