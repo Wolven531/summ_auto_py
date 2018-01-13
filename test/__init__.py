@@ -1,4 +1,4 @@
 """
-    This module is used to setup the test subpackage
+	This module is used to setup the test subpackage
 """
 from . import SummAutoTests

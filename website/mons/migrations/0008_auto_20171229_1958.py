@@ -5,14 +5,14 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('mons', '0007_auto_20171229_1533'),
-    ]
+	dependencies = [
+		('mons', '0007_auto_20171229_1533'),
+	]
 
-    operations = [
-        migrations.AlterField(
-            model_name='monster',
-            name='sleepy_name',
-            field=models.CharField(default='', max_length=50, verbose_name='Sleepy Name'),
-        ),
-    ]
+	operations = [
+		migrations.AlterField(
+			model_name='monster',
+			name='sleepy_name',
+			field=models.CharField(default='', max_length=50, verbose_name='Sleepy Name'),
+		),
+	]

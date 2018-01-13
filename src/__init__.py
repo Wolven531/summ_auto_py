@@ -1,5 +1,5 @@
 """
-    This module is used to setup the src subpackage
+	This module is used to setup the src subpackage
 """
 from . import ConsoleUtil
 from . import LinkType
@@ -10,11 +10,11 @@ from . import Rating
 from . import SearchPageResult
 
 __all__ = [
-    'ConsoleUtil',
-    'LinkType',
-    'MonsterPage',
-    'MonsterType',
-    'PageParser',
-    'Rating',
-    'SearchPageResult'
+	'ConsoleUtil',
+	'LinkType',
+	'MonsterPage',
+	'MonsterType',
+	'PageParser',
+	'Rating',
+	'SearchPageResult'
 ]

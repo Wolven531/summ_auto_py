@@ -20,11 +20,11 @@
   "ratings": {
     "FOOD": 6.0,
     "KEEP_IT": 9.0,
-    "MEH": 5.0,
-    "THE_BEST": 80.0
+    "MEH": 4.0,
+    "THE_BEST": 81.0
   },
   "score_total": 9.1,
-  "score_user": 9.5,
+  "score_user": 6.0,
   "skillup_info": "Worth fully skilling up with Devilmons",
   "when_awaken": "New Skill: [Magic Power Explosion II (Passive)]"
 }

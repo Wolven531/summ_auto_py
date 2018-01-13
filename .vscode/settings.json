@@ -1,21 +1,26 @@
 {
-    "jshint.options": {
-        "esversion": 7,
-        "globalstrict": true,
-        "globals": {
-            "console": false,
-            "module": false,
-            "require": false
-        }
-    },
-    "[yaml]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 4
-    },
-    "html.format.endWithNewline": true,
-    "files.insertFinalNewline": true,
-    "python.linting.pylintArgs": [
-        "--load-plugins",
-        "pylint_django"
-    ]
+	"jshint.options": {
+		"esversion": 7,
+		"globalstrict": true,
+		"globals": {
+			"console": false,
+			"module": false,
+			"require": false
+		}
+	},
+	"[yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4
+	},
+	"html.format.endWithNewline": true,
+	"files.insertFinalNewline": true,
+	"python.linting.pylintArgs": [
+		"--load-plugins",
+		"pylint_django",
+		"--disable=C0330",
+		"--disable=W0312",
+		"--disable=W0612",
+		"--disable=E1101",
+		"--rcfile=../.pylintrc"
+	]
 }

@@ -19,11 +19,11 @@
   "name_sleepy": "Brownie Magician",
   "ratings": {
     "FOOD": 17.0,
-    "KEEP_IT": 36.0,
+    "KEEP_IT": 37.0,
     "MEH": 8.0,
-    "THE_BEST": 39.0
+    "THE_BEST": 38.0
   },
-  "score_total": 6.0,
+  "score_total": 6.4,
   "score_user": 6.6,
   "skillup_info": "Not worth skilling up",
   "when_awaken": "Leader Skill: Increases the Critical Rate of ally monsters by 19%"

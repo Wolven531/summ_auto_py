@@ -18,13 +18,13 @@
   "name_full": "Water Paladin (Josephine)",
   "name_sleepy": "Paladin",
   "ratings": {
-    "FOOD": 7.0,
-    "KEEP_IT": 54.0,
-    "MEH": 26.0,
-    "THE_BEST": 12.0
+    "FOOD": 8.0,
+    "KEEP_IT": 52.0,
+    "MEH": 30.0,
+    "THE_BEST": 11.0
   },
   "score_total": 7.8,
-  "score_user": 6.8,
+  "score_user": 6.6,
   "skillup_info": "Worth fully skilling up with Devilmons",
   "when_awaken": "Strengthen Skill: [Justice Strike]"
 }

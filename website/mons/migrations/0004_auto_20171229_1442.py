@@ -5,29 +5,29 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('mons', '0003_auto_20171229_1408'),
-    ]
+	dependencies = [
+		('mons', '0003_auto_20171229_1408'),
+	]
 
-    operations = [
-        migrations.AddField(
-            model_name='monster',
-            name='rating_best',
-            field=models.FloatField(default=0, verbose_name='Rating: The Best'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='rating_food',
-            field=models.FloatField(default=0, verbose_name='Rating: Food'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='rating_keep',
-            field=models.FloatField(default=0, verbose_name='Rating: Keep'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='rating_meh',
-            field=models.FloatField(default=0, verbose_name='Rating: Meh'),
-        ),
-    ]
+	operations = [
+		migrations.AddField(
+			model_name='monster',
+			name='rating_best',
+			field=models.FloatField(default=0, verbose_name='Rating: The Best'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='rating_food',
+			field=models.FloatField(default=0, verbose_name='Rating: Food'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='rating_keep',
+			field=models.FloatField(default=0, verbose_name='Rating: Keep'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='rating_meh',
+			field=models.FloatField(default=0, verbose_name='Rating: Meh'),
+		),
+	]

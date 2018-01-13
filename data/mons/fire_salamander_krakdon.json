@@ -1,6 +1,6 @@
 {
   "element": "FIRE",
-  "get_from": "Secret Dungeon, Temple of Wishes, Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Faimon Volcano (Scenario Drop)",
+  "get_from": "Unknown Scroll, Mystical Scroll, Mystical Summon, Social Summon, Fire Scroll, Temple of Wishes, Faimon Volcano (Scenario Drop)",
   "good_for": "Fusion or Food",
   "grade": "\u2605\u2605\u2605",
   "grade_num": 3,
@@ -19,9 +19,9 @@
   "name_sleepy": "Salamander",
   "ratings": {
     "FOOD": 43.0,
-    "KEEP_IT": 40.0,
-    "MEH": 15.0,
-    "THE_BEST": 3.0
+    "KEEP_IT": 39.0,
+    "MEH": 14.0,
+    "THE_BEST": 4.0
   },
   "score_total": 4.2,
   "score_user": 6.1,

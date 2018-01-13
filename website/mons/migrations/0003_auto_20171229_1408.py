@@ -5,44 +5,44 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('mons', '0002_auto_20171229_1206'),
-    ]
+	dependencies = [
+		('mons', '0002_auto_20171229_1206'),
+	]
 
-    operations = [
-        migrations.AddField(
-            model_name='monster',
-            name='image_awake',
-            field=models.CharField(default='', max_length=100, verbose_name='Awake Image'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='image_sleepy',
-            field=models.CharField(default='', max_length=100, verbose_name='Sleepy Image'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='link_dark',
-            field=models.CharField(default='', max_length=100, verbose_name='Dark Link'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='link_fire',
-            field=models.CharField(default='', max_length=100, verbose_name='Fire Link'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='link_light',
-            field=models.CharField(default='', max_length=100, verbose_name='Light Link'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='link_water',
-            field=models.CharField(default='', max_length=100, verbose_name='Water Link'),
-        ),
-        migrations.AddField(
-            model_name='monster',
-            name='link_wind',
-            field=models.CharField(default='', max_length=100, verbose_name='Wind Link'),
-        ),
-    ]
+	operations = [
+		migrations.AddField(
+			model_name='monster',
+			name='image_awake',
+			field=models.CharField(default='', max_length=100, verbose_name='Awake Image'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='image_sleepy',
+			field=models.CharField(default='', max_length=100, verbose_name='Sleepy Image'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='link_dark',
+			field=models.CharField(default='', max_length=100, verbose_name='Dark Link'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='link_fire',
+			field=models.CharField(default='', max_length=100, verbose_name='Fire Link'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='link_light',
+			field=models.CharField(default='', max_length=100, verbose_name='Light Link'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='link_water',
+			field=models.CharField(default='', max_length=100, verbose_name='Water Link'),
+		),
+		migrations.AddField(
+			model_name='monster',
+			name='link_wind',
+			field=models.CharField(default='', max_length=100, verbose_name='Wind Link'),
+		),
+	]

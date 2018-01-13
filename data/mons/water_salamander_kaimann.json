@@ -18,13 +18,13 @@
   "name_full": "Water Salamander (Kaimann)",
   "name_sleepy": "Salamander",
   "ratings": {
-    "FOOD": 41.0,
+    "FOOD": 42.0,
     "KEEP_IT": 41.0,
     "MEH": 15.0,
     "THE_BEST": 2.0
   },
   "score_total": 5.2,
-  "score_user": 6.5,
+  "score_user": 6.6,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Sharman (Light Salamander) or Decamaron (Dark Salamander) instead",
   "when_awaken": "New Skill: [Glacial Crash]"
 }

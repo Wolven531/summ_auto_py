@@ -5,14 +5,14 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('mons', '0005_auto_20171229_1455'),
-    ]
+	dependencies = [
+		('mons', '0005_auto_20171229_1455'),
+	]
 
-    operations = [
-        migrations.AlterField(
-            model_name='monster',
-            name='mon_type',
-            field=models.CharField(choices=[('Attack', 'Attack'), ('Defense', 'Defense'), ('HP', 'HP'), ('Support', 'Support')], default='Support', max_length=25, verbose_name='Monster Type'),
-        ),
-    ]
+	operations = [
+		migrations.AlterField(
+			model_name='monster',
+			name='mon_type',
+			field=models.CharField(choices=[('Attack', 'Attack'), ('Defense', 'Defense'), ('HP', 'HP'), ('Support', 'Support')], default='Support', max_length=25, verbose_name='Monster Type'),
+		),
+	]

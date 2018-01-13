@@ -18,13 +18,13 @@
   "name_full": "Wind Grim Reaper (Hiva)",
   "name_sleepy": "Grim Reaper",
   "ratings": {
-    "FOOD": 11.0,
-    "KEEP_IT": 68.0,
+    "FOOD": 12.0,
+    "KEEP_IT": 67.0,
     "MEH": 7.0,
     "THE_BEST": 14.0
   },
   "score_total": 5.1,
-  "score_user": 7.5,
+  "score_user": 7.6,
   "skillup_info": "Don\u2019t bother skilling up, feed it to anybody else in the Grim Reaper family instead",
   "when_awaken": "Leader Skill: Increases the Attack Power of ally monsters with Wind attribute by 30%"
 }

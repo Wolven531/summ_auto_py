@@ -18,13 +18,13 @@
   "name_full": "Water Harg (Remy)",
   "name_sleepy": "Harg",
   "ratings": {
-    "FOOD": 57.0,
-    "KEEP_IT": 0.0,
-    "MEH": 14.0,
-    "THE_BEST": 29.0
+    "FOOD": 64.0,
+    "KEEP_IT": 9.0,
+    "MEH": 9.0,
+    "THE_BEST": 18.0
   },
   "score_total": 5.1,
-  "score_user": 7.7,
+  "score_user": 4.9,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Racuni (Fire Harg), Raviti (Wind Harg) or Dova (Light Harg) instead",
   "when_awaken": "Increases Accuracy by 25%"
 }

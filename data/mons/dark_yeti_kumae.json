@@ -19,12 +19,12 @@
   "name_sleepy": "Yeti",
   "ratings": {
     "FOOD": 57.0,
-    "KEEP_IT": 33.0,
+    "KEEP_IT": 32.0,
     "MEH": 4.0,
     "THE_BEST": 5.0
   },
   "score_total": 5.0,
-  "score_user": 6.0,
+  "score_user": 6.1,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Rakaja (Wind Yeti) instead",
   "when_awaken": "New Skill: [Hostility (Passive)]"
 }

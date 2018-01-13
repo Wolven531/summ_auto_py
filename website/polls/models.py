@@ -1,5 +1,5 @@
 """
-    This is the models module
+	This is the models module
 """
 import datetime
 
@@ -7,58 +7,58 @@ from django.db import models
 from django.utils import timezone
 
 class Question(models.Model):
-    """
-        This is the Question model
+	"""
+		This is the Question model
 
-        * question_text
-        * pub_date
-    """
-    question_text = models.CharField(max_length=200)
-    pub_date = models.DateTimeField('date published')
+		* question_text
+		* pub_date
+	"""
+	question_text = models.CharField(max_length=200)
+	pub_date = models.DateTimeField('date published')
 
-    def __str__(self):# pragma: no cover
-        """
-            This method provides a useful string representation
-            of this model
-        """
-        return f'Question[{self.question_text}, {self.pub_date}]'
+	def __str__(self):# pragma: no cover
+		"""
+			This method provides a useful string representation
+			of this model
+		"""
+		return f'Question[{self.question_text}, {self.pub_date}]'
 
-    def is_recent_publication(self):
-        """
-            Returns True if this question was published
-            within the past day; False otherwise
-        """
-        now = timezone.now()
-        earliest_recent = now - datetime.timedelta(days=1)
-        if now < self.pub_date:
-            return False
-        return self.pub_date >= earliest_recent
-    is_recent_publication.admin_order_field = 'pub_date'
-    is_recent_publication.boolean = True
-    is_recent_publication.short_description = 'Published recently?'
+	def is_recent_publication(self):
+		"""
+			Returns True if this question was published
+			within the past day; False otherwise
+		"""
+		now = timezone.now()
+		earliest_recent = now - datetime.timedelta(days=1)
+		if now < self.pub_date:
+			return False
+		return self.pub_date >= earliest_recent
+	is_recent_publication.admin_order_field = 'pub_date'
+	is_recent_publication.boolean = True
+	is_recent_publication.short_description = 'Published recently?'
 
 
 class Choice(models.Model):
-    """
-        This is the Choice model
+	"""
+		This is the Choice model
 
-        * question
-        * choice_text
-        * votes
-    """
-    question = models.ForeignKey(Question, on_delete=models.CASCADE)
-    choice_text = models.CharField(max_length=200)
-    votes = models.IntegerField(default=0)
+		* question
+		* choice_text
+		* votes
+	"""
+	question = models.ForeignKey(Question, on_delete=models.CASCADE)
+	choice_text = models.CharField(max_length=200)
+	votes = models.IntegerField(default=0)
 
-    def __str__(self):# pragma: no cover
-        """
-            This method provides a useful string representation
-            of this model
-        """
-        return f'Choice[{self.choice_text}, {self.votes}]'
+	def __str__(self):# pragma: no cover
+		"""
+			This method provides a useful string representation
+			of this model
+		"""
+		return f'Choice[{self.choice_text}, {self.votes}]'
 
-    def has_votes(self):
-        """
-            Returns True if this choice has any votes; False otherwise
-        """
-        return self.votes > 0
+	def has_votes(self):
+		"""
+			Returns True if this choice has any votes; False otherwise
+		"""
+		return self.votes > 0

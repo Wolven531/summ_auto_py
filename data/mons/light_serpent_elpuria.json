@@ -18,13 +18,13 @@
   "name_full": "Light Serpent (Elpuria)",
   "name_sleepy": "Serpent",
   "ratings": {
-    "FOOD": 75.0,
-    "KEEP_IT": 0.0,
-    "MEH": 0.0,
-    "THE_BEST": 25.0
+    "FOOD": 27.0,
+    "KEEP_IT": 20.0,
+    "MEH": 13.0,
+    "THE_BEST": 40.0
   },
   "score_total": 4.4,
-  "score_user": 3.0,
+  "score_user": 6.9,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Shailoq (Water Serpent), Ermeda (Wind Serpent) or Mantura (Dark Serpent) instead",
   "when_awaken": "Increases Critical Rate by 15%"
 }

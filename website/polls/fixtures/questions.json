@@ -1,24 +1,24 @@
 [{
-    "model": "polls.question",
-    "pk": 1,
-    "fields": {
-        "question_text": "Question1",
-        "pub_date": "2017-12-28T21:17:16Z"
-    }
+	"model": "polls.question",
+	"pk": 1,
+	"fields": {
+		"question_text": "Question1",
+		"pub_date": "2017-12-28T21:17:16Z"
+	}
 }, {
-    "model": "polls.choice",
-    "pk": 1,
-    "fields": {
-        "question": 1,
-        "choice_text": "Choice1",
-        "votes": 1
-    }
+	"model": "polls.choice",
+	"pk": 1,
+	"fields": {
+		"question": 1,
+		"choice_text": "Choice1",
+		"votes": 1
+	}
 }, {
-    "model": "polls.choice",
-    "pk": 2,
-    "fields": {
-        "question": 1,
-        "choice_text": "Choice2",
-        "votes": 1
-    }
+	"model": "polls.choice",
+	"pk": 2,
+	"fields": {
+		"question": 1,
+		"choice_text": "Choice2",
+		"votes": 1
+	}
 }]

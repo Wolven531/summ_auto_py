@@ -11,7 +11,13 @@ This is a fully tested, python-based scraper for SW. It is built with python3.
 
 After pip3 and python3 are installed, the remaining requirements can be installed by running the following command from the root directory: `pip3 install -r requirements.txt`
 
-If you plan on running the end to end tests, make sure to update your PATH with the appropriate driver location. The default MacOS setup has the driver located at `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome`. If your driver is located elsewhere, be sure to update your PATH accordingly. See [here](https://coolestguidesontheplanet.com/add-shell-path-osx/)
+If you plan on running the end to end tests:
+
+* Download chromedriver for your platform [here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+* I place the default windows driver at `C:\Program Files\chromedriver`
+* The default MacOS setup has the driver located at `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome`
+* If your driver is located elsewhere, be sure to update your PATH accordingly
+* [MacOS PATH Update instructions](https://coolestguidesontheplanet.com/add-shell-path-osx/)
 
 When adding new end to end tests, be sure to consult the [Selenium Python API](https://selenium-python.readthedocs.io/api.html)
 
@@ -20,26 +26,26 @@ When adding new end to end tests, be sure to consult the [Selenium Python API](h
 From the root directory:
 
 1. `cd website`
-1. `python3 manage.py runserver 9999` (`9999` is the port)
+1. `python manage.py runserver 9999` (`9999` is the port)
 
 ### To create an admin for the admin site
 
 1. `cd website`
-1. `python3 manage.py createsuperuser` (and follow the prompts)
+1. `python manage.py createsuperuser` (and follow the prompts)
 
 ### To run migrations for the web server
 
 From the root directory:
 
 1. `cd website`
-1. `python3 manage.py migrate`
+1. `python manage.py migrate`
 
 ### To run tests for the web server (no analysis)
 
 From the root directory:
 
 1. `cd website`
-1. `python3 manage.py test mons` (`mons` is the name of the application to test)
+1. `python manage.py test mons` (`mons` is the name of the application to test)
 
 ### To run tests for the web server (with coverage analysis)
 
@@ -54,7 +60,7 @@ From the root directory:
 From the root directory:
 
 1. `cd website`
-1. `python3 manage.py test summ_auto_website.tests.EndToEndTests`
+1. `python manage.py test summ_auto_website.tests.EndToEndTests`
 
 ### When creating new templates for the admin
 
@@ -63,27 +69,29 @@ The default admin template path is `/Library/Frameworks/Python.framework/Version
 ### When updating the Django models
 
 1. Update python file (the model)
-1. Run `python3 manage.py makemigrations`
-1. Run `python3 manage.py migrate`
+1. Run `python manage.py makemigrations`
+1. Run `python manage.py migrate`
 
 ### The CLI API
 
 From the root directory:
 
 1. `cd website`
-1. Run `python3 manage.py shell`
+1. Run `python manage.py shell`
 
-#### NOTE: To view what SQL statements a migration will generate and run: `python3 manage.py sqlmigrate mons 0001`
+#### NOTE: To view what SQL statements a migration will generate and run: `python manage.py sqlmigrate mons 0001`
 
-#### NOTE: To check for any issues in the project: `python3 manage.py check`
+#### NOTE: To check for any issues in the project: `python manage.py check`
 
 ## Running tests
 
-From the root directory, run `python3 -m unittest discover -s test/ -p '*Tests.py'`
+From the root directory, run `python -m unittest discover -s test/ -p '*Tests.py'`
 
 ## Running the downloader
 
-From the root directory, run `python3 MonsterDownloader.py`
+From the root directory, run `python MonsterDownloader.py`
+
+On Windows, this can be parallelized with the batch script executed from the root directory: `.\UpdateAllMons.bat`
 
 This will load the `data/searched_links.json` and iterate through the `searched_links` property (an array of URLs, each of which belongs to a single monster page). For each URL, the downloader will attempt to parse a monster JSON file and serialize it to disk.
 
@@ -91,8 +99,8 @@ Optionally, you can filter through which searched links you wish to download. Si
 
 ### Examples
 
-* To download only URLs that contain `fire` **OR** `water`: `python3 MonsterDownloader.py fire water`
-* To download only URLs that contain `amazon` **OR** `bear`: `python3 MonsterDownloader.py amazon bear`
+* To download only URLs that contain `fire` **OR** `water`: `python MonsterDownloader.py fire water`
+* To download only URLs that contain `amazon` **OR** `bear`: `python MonsterDownloader.py amazon bear`
 
 ### NOTE: This is a union operation, not an intersection. In other words, **ANY** term appearing in the URL will cause that URL to be attempted
 

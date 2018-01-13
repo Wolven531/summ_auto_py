@@ -18,13 +18,13 @@
   "name_full": "Dark Elven Ranger (Isillen)",
   "name_sleepy": "Elven Ranger",
   "ratings": {
-    "FOOD": 0.0,
-    "KEEP_IT": 67.0,
-    "MEH": 0.0,
-    "THE_BEST": 33.0
+    "FOOD": 33.0,
+    "KEEP_IT": 27.0,
+    "MEH": 20.0,
+    "THE_BEST": 20.0
   },
   "score_total": 7.3,
-  "score_user": 7.6,
+  "score_user": 7.0,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Strengthen Skill: [Strafe]"
 }

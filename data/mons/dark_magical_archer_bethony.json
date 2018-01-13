@@ -19,12 +19,12 @@
   "name_sleepy": "Magical Archer",
   "ratings": {
     "FOOD": 6.0,
-    "KEEP_IT": 37.0,
+    "KEEP_IT": 36.0,
     "MEH": 2.0,
     "THE_BEST": 54.0
   },
   "score_total": 8.4,
-  "score_user": 8.1,
+  "score_user": 7.9,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Increases Attack Speed by 15"
 }

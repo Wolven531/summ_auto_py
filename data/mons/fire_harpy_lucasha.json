@@ -18,13 +18,13 @@
   "name_full": "Fire Harpy (Lucasha)",
   "name_sleepy": "Harpy",
   "ratings": {
-    "FOOD": 41.0,
-    "KEEP_IT": 33.0,
+    "FOOD": 40.0,
+    "KEEP_IT": 34.0,
     "MEH": 5.0,
     "THE_BEST": 20.0
   },
   "score_total": 7.3,
-  "score_user": 6.4,
+  "score_user": 6.5,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "New Skill: [Wolf Hunt]"
 }

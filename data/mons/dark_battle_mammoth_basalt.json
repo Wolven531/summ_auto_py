@@ -18,12 +18,12 @@
   "name_full": "Dark Battle Mammoth (Basalt)",
   "name_sleepy": "Battle Mammoth",
   "ratings": {
-    "FOOD": 4.0,
+    "FOOD": 3.0,
     "KEEP_IT": 22.0,
     "MEH": 3.0,
     "THE_BEST": 72.0
   },
-  "score_total": 8.2,
+  "score_total": 7.5,
   "score_user": 8.5,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Leader Skill: Increases the Defense of ally monsters with Dark attribute by 30%"

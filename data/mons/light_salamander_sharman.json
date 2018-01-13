@@ -19,12 +19,12 @@
   "name_sleepy": "Salamander",
   "ratings": {
     "FOOD": 31.0,
-    "KEEP_IT": 47.0,
-    "MEH": 17.0,
-    "THE_BEST": 6.0
+    "KEEP_IT": 46.0,
+    "MEH": 16.0,
+    "THE_BEST": 8.0
   },
   "score_total": 6.6,
-  "score_user": 6.8,
+  "score_user": 6.7,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "New Skill: [Holy Armor (Passive)]"
 }

@@ -18,13 +18,13 @@
   "name_full": "Dark Salamander (Decamaron)",
   "name_sleepy": "Salamander",
   "ratings": {
-    "FOOD": 23.0,
+    "FOOD": 22.0,
     "KEEP_IT": 55.0,
     "MEH": 14.0,
-    "THE_BEST": 9.0
+    "THE_BEST": 10.0
   },
   "score_total": 6.6,
-  "score_user": 7.1,
+  "score_user": 7.2,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "New skill: [Corrupt Armor (Passive)]"
 }

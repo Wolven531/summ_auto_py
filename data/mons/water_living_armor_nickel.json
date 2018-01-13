@@ -19,12 +19,12 @@
   "name_sleepy": "Living Armor",
   "ratings": {
     "FOOD": 57.0,
-    "KEEP_IT": 32.0,
+    "KEEP_IT": 31.0,
     "MEH": 5.0,
-    "THE_BEST": 6.0
+    "THE_BEST": 7.0
   },
   "score_total": 4.8,
-  "score_user": 7.0,
+  "score_user": 6.9,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Copper (Wind Living Armor), Silver (Light Living Armor) or Zinc (Dark Living Armor) instead",
   "when_awaken": "Increases Critical Rate by 15%"
 }

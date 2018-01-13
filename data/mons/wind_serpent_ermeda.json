@@ -18,13 +18,13 @@
   "name_full": "Wind Serpent (Ermeda)",
   "name_sleepy": "Serpent",
   "ratings": {
-    "FOOD": 40.0,
-    "KEEP_IT": 20.0,
-    "MEH": 20.0,
-    "THE_BEST": 20.0
+    "FOOD": 39.0,
+    "KEEP_IT": 26.0,
+    "MEH": 17.0,
+    "THE_BEST": 17.0
   },
   "score_total": 6.9,
-  "score_user": 5.4,
+  "score_user": 5.5,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Strengthen skill: [Sonic Boom]"
 }

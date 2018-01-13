@@ -19,12 +19,12 @@
   "name_sleepy": "Unicorn",
   "ratings": {
     "FOOD": 6.0,
-    "KEEP_IT": 31.0,
-    "MEH": 9.0,
-    "THE_BEST": 54.0
+    "KEEP_IT": 29.0,
+    "MEH": 8.0,
+    "THE_BEST": 56.0
   },
   "score_total": 9.2,
-  "score_user": 7.9,
+  "score_user": 8.0,
   "skillup_info": "Worth fully skilling up with Devilmons",
   "when_awaken": "New Skill: [Transformation: Human Form]"
 }

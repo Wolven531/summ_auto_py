@@ -18,13 +18,13 @@
   "name_full": "Fire Desert Queen (Sekhmet)",
   "name_sleepy": "Desert Queen",
   "ratings": {
-    "FOOD": 14.0,
-    "KEEP_IT": 7.0,
-    "MEH": 16.0,
+    "FOOD": 13.0,
+    "KEEP_IT": 8.0,
+    "MEH": 15.0,
     "THE_BEST": 63.0
   },
   "score_total": 8.4,
-  "score_user": 8.6,
+  "score_user": 8.4,
   "skillup_info": "Worth fully skilling up with Devilmons",
   "when_awaken": "Increase Effect Accuracy by 25%"
 }

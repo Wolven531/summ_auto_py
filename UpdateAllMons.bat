@@ -1,0 +1,16 @@
+@echo off
+title MonsterDownloader - SummAutoPy
+echo Initiating download process for dark mons...
+start python MonsterDownloader.py dark
+
+echo Initiating download process for fire mons...
+start python MonsterDownloader.py fire
+
+echo Initiating download process for light mons...
+start python MonsterDownloader.py light
+
+echo Initiating download process for water mons...
+start python MonsterDownloader.py water
+
+echo Initiating download process for wind mons...
+start python MonsterDownloader.py wind

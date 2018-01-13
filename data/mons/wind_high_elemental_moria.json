@@ -18,13 +18,13 @@
   "name_full": "Wind High Elemental (Moria)",
   "name_sleepy": "High Elemental",
   "ratings": {
-    "FOOD": 44.0,
-    "KEEP_IT": 45.0,
+    "FOOD": 45.0,
+    "KEEP_IT": 44.0,
     "MEH": 8.0,
     "THE_BEST": 3.0
   },
   "score_total": 5.2,
-  "score_user": 6.5,
+  "score_user": 6.2,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Kahli (Fire High Elemental) instead",
   "when_awaken": "New Skill: [Concentrated Attack]"
 }

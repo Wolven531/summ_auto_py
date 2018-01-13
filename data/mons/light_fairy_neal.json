@@ -19,12 +19,12 @@
   "name_sleepy": "Fairy",
   "ratings": {
     "FOOD": 4.0,
-    "KEEP_IT": 69.0,
+    "KEEP_IT": 70.0,
     "MEH": 4.0,
     "THE_BEST": 23.0
   },
   "score_total": 6.0,
-  "score_user": 7.8,
+  "score_user": 7.9,
   "skillup_info": "Skill up at least 3rd Skill using family skill ups",
   "when_awaken": "New Skill: [Holy Shield]"
 }

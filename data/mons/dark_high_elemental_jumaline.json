@@ -20,11 +20,11 @@
   "ratings": {
     "FOOD": 6.0,
     "KEEP_IT": 23.0,
-    "MEH": 7.0,
-    "THE_BEST": 64.0
+    "MEH": 8.0,
+    "THE_BEST": 63.0
   },
   "score_total": 4.0,
-  "score_user": 7.3,
+  "score_user": 7.1,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Kahli (Fire High Elemental) instead",
   "when_awaken": "New Skill: [Bloodthirst (Passive)]"
 }

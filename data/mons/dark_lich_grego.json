@@ -19,12 +19,12 @@
   "name_sleepy": "Lich",
   "ratings": {
     "FOOD": 3.0,
-    "KEEP_IT": 46.0,
+    "KEEP_IT": 47.0,
     "MEH": 6.0,
     "THE_BEST": 44.0
   },
-  "score_total": 7.8,
-  "score_user": 7.9,
+  "score_total": 8.6,
+  "score_user": 7.8,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Leader Skill: Increases the Resistance of ally monsters in the Arena by 40%"
 }

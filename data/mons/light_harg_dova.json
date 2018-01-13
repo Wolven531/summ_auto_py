@@ -19,12 +19,12 @@
   "name_sleepy": "Harg",
   "ratings": {
     "FOOD": 0.0,
-    "KEEP_IT": 60.0,
+    "KEEP_IT": 43.0,
     "MEH": 0.0,
-    "THE_BEST": 40.0
+    "THE_BEST": 57.0
   },
   "score_total": 8.6,
-  "score_user": 8.1,
+  "score_user": 8.0,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "Increases Resistance by 25%"
 }

@@ -18,13 +18,13 @@
   "name_full": "Wind Drunken Master (Huan)",
   "name_sleepy": "Drunken Master",
   "ratings": {
-    "FOOD": 24.0,
+    "FOOD": 23.0,
     "KEEP_IT": 62.0,
     "MEH": 6.0,
     "THE_BEST": 8.0
   },
   "score_total": 4.0,
-  "score_user": 7.6,
+  "score_user": 7.5,
   "skillup_info": "Increase Critical Rate by 15%",
   "when_awaken": "Attack"
 }

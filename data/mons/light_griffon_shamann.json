@@ -18,13 +18,13 @@
   "name_full": "Light Griffon (Shamann)",
   "name_sleepy": "Griffon",
   "ratings": {
-    "FOOD": 69.0,
+    "FOOD": 70.0,
     "KEEP_IT": 15.0,
     "MEH": 7.0,
     "THE_BEST": 8.0
   },
   "score_total": 2.3,
-  "score_user": 5.4,
+  "score_user": 5.5,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Spectra (Fire Griffon), Bernard (Wind Griffon) or Varus (Dark Griffon) instead",
   "when_awaken": "Leader Skill: Increases the Attack Power of ally monsters with Light attribute by 30%"
 }

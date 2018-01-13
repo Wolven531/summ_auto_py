@@ -19,12 +19,12 @@
   "name_sleepy": "Mummy",
   "ratings": {
     "FOOD": 11.0,
-    "KEEP_IT": 21.0,
+    "KEEP_IT": 20.0,
     "MEH": 6.0,
-    "THE_BEST": 63.0
+    "THE_BEST": 62.0
   },
   "score_total": 4.0,
-  "score_user": 7.3,
+  "score_user": 7.2,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Sonora (Fire Mummy) instead",
   "when_awaken": "New Skill: [Poisoned Body (Passive)]"
 }

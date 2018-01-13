@@ -5,19 +5,19 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('mons', '0006_auto_20171229_1507'),
-    ]
+	dependencies = [
+		('mons', '0006_auto_20171229_1507'),
+	]
 
-    operations = [
-        migrations.AlterField(
-            model_name='monster',
-            name='image_awake',
-            field=models.CharField(default='', max_length=150, verbose_name='Awake Image'),
-        ),
-        migrations.AlterField(
-            model_name='monster',
-            name='image_sleepy',
-            field=models.CharField(default='', max_length=150, verbose_name='Sleepy Image'),
-        ),
-    ]
+	operations = [
+		migrations.AlterField(
+			model_name='monster',
+			name='image_awake',
+			field=models.CharField(default='', max_length=150, verbose_name='Awake Image'),
+		),
+		migrations.AlterField(
+			model_name='monster',
+			name='image_sleepy',
+			field=models.CharField(default='', max_length=150, verbose_name='Sleepy Image'),
+		),
+	]

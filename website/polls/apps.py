@@ -1,5 +1,11 @@
+"""
+	This is the apps module
+"""
 from django.apps import AppConfig
 
 
 class PollsConfig(AppConfig):
-    name = 'polls'
+	"""
+		This is the PollsConfig class
+	"""
+	name = 'polls'

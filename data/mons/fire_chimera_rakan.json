@@ -18,13 +18,13 @@
   "name_full": "Fire Chimera (Rakan)",
   "name_sleepy": "Chimera",
   "ratings": {
-    "FOOD": 6.0,
+    "FOOD": 7.0,
     "KEEP_IT": 10.0,
-    "MEH": 5.0,
+    "MEH": 4.0,
     "THE_BEST": 79.0
   },
   "score_total": 8.6,
-  "score_user": 8.3,
+  "score_user": 8.4,
   "skillup_info": "Worth fully skilling up with Devilmons. Although some players will opt to not max 3rd Skill if possible",
   "when_awaken": "Increases Accuracy by 25%"
 }

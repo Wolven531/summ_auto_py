@@ -5,17 +5,17 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    initial = True
+	initial = True
 
-    dependencies = [
-    ]
+	dependencies = [
+	]
 
-    operations = [
-        migrations.CreateModel(
-            name='Monster',
-            fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('awaken_name', models.CharField(max_length=200)),
-            ],
-        ),
-    ]
+	operations = [
+		migrations.CreateModel(
+			name='Monster',
+			fields=[
+				('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+				('awaken_name', models.CharField(max_length=200)),
+			],
+		),
+	]

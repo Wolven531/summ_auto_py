@@ -19,12 +19,12 @@
   "name_sleepy": "High Elemental",
   "ratings": {
     "FOOD": 6.0,
-    "KEEP_IT": 49.0,
+    "KEEP_IT": 48.0,
     "MEH": 9.0,
     "THE_BEST": 36.0
   },
-  "score_total": 8.4,
-  "score_user": 7.6,
+  "score_total": 8.5,
+  "score_user": 7.5,
   "skillup_info": "Worth fully skilling up, but use family skill ups instead of Devilmons",
   "when_awaken": "New Skill: [God of Fire]"
 }

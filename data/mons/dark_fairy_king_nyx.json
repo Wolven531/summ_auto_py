@@ -20,11 +20,11 @@
   "ratings": {
     "FOOD": 20.0,
     "KEEP_IT": 9.0,
-    "MEH": 30.0,
-    "THE_BEST": 41.0
+    "MEH": 31.0,
+    "THE_BEST": 39.0
   },
   "score_total": 6.6,
-  "score_user": 6.5,
+  "score_user": 6.3,
   "skillup_info": "Not worth skilling up",
   "when_awaken": "Increases Accuracy by 25%"
 }

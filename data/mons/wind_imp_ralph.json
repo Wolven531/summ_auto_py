@@ -18,13 +18,13 @@
   "name_full": "Wind Imp (Ralph)",
   "name_sleepy": "Imp",
   "ratings": {
-    "FOOD": 45.0,
-    "KEEP_IT": 36.0,
-    "MEH": 17.0,
+    "FOOD": 46.0,
+    "KEEP_IT": 35.0,
+    "MEH": 16.0,
     "THE_BEST": 2.0
   },
   "score_total": 3.0,
-  "score_user": 5.7,
+  "score_user": 5.6,
   "skillup_info": "Don\u2019t bother skilling up, feed it to Taru (Light Imp) instead",
   "when_awaken": "New skill: [Hurricane Spear]"
 }
