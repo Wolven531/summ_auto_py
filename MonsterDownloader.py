@@ -37,10 +37,18 @@ class MonsterDownloader():
 			This method will attempt to iterate through a list
 			of URLs and serialize each as a JSON file
 		"""
+		additional_urls_to_check = []
 		for url in urls:
 			ConsoleUtil.norm(f'Starting URL={url}')
 			mon = MonsterDownloader.ensure_mon_load(url, 5)
+			mon_link_type = MonsterPage.convert_element_to_link_type(mon.element)
+			for link in mon.links:
+				if (link != mon_link_type and
+					link != LinkType.IMAGE_AWAKE and
+					link != LinkType.IMAGE_SLEEPY):
+					additional_urls_to_check.append(mon.links[link])
 			mon.serialize()
+		return additional_urls_to_check
 
 	@staticmethod
 	def download_searched_links(list_of_terms):
@@ -57,11 +65,28 @@ class MonsterDownloader():
 		with open(os.getcwd() + '/data/searched_links.json', 'r') as in_file:
 			data = json.load(in_file)
 
+		original_searched_links = data['searched_links']
+		filtered_searched_links = original_searched_links
+
 		# NOTE: here we filter the list down if we have any list_of_terms
 		if num_terms > 0:
-			data['searched_links'] = [link for link in data['searched_links'] if any(term in link for term in list_of_terms)]
+			filtered_searched_links = [link for link in original_searched_links if any(term in link for term in list_of_terms)]
 
-		MonsterDownloader.download_urls(data['searched_links'])
+		additional_urls = MonsterDownloader.download_urls(filtered_searched_links)
+		print(f'additional_urls = {str(additional_urls)}')
+
+		in_first = set(original_searched_links)
+		in_second = set(additional_urls)
+		in_second_not_first = in_second - in_first
+		unique_urls = original_searched_links + list(in_second_not_first)
+
+		data = {
+			'count': len(unique_urls),
+			'searched_links': unique_urls
+		}
+
+		with open(os.getcwd() + '/data/searched_links.json', 'w') as outfile:
+			json.dump(data, outfile, sort_keys=True, indent=2)
 
 	@staticmethod
 	def ensure_mon_load(url, max_attempts=3):
@@ -119,3 +144,4 @@ if __name__ == '__main__':
 	ConsoleUtil.info(f'Downloading searched links (terms={str(SEARCH_TERMS)})...')
 	MonsterDownloader.download_searched_links(SEARCH_TERMS)
 	ConsoleUtil.success('Download finished')
+	input('Press Enter to continue')

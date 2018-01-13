@@ -1,5 +1,6 @@
 @echo off
 title MonsterDownloader - SummAutoPy
+
 echo %Time% Initiating download process for dark mons...
 start "Dark Mon Downloader (Startup=%Time%)" python MonsterDownloader.py dark
 
