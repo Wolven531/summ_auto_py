@@ -42,7 +42,7 @@ When adding new end to end tests, be sure to consult the [Selenium Python API](h
 1. Execute analysis, choose **one**:
     * `coverage run manage.py test`
     * `coverage run --source='mons' manage.py test`
-1. View Repoty:
+1. View Report:
     * `coverage report`
 
 ### End to end tests (from `website`)
